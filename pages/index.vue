@@ -1135,6 +1135,12 @@
 <script>
 export default {
   name: 'HomePage',
+
+  head() {
+    return {
+      title: 'Content management for content creators',
+    }
+  },
 }
 </script>
 
