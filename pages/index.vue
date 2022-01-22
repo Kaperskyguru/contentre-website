@@ -53,13 +53,12 @@
                       and more time focused on your writing and getting more
                       clients.
                     </p>
-                    <Button
-                      type="link"
-                      href="#"
+                    <a
+                      :href="`${APP_URL}/auth/register`"
                       class="form-btn text-white rounded shadow py-3 px-12"
                     >
-                      Get Started</Button
-                    >
+                      Get Started
+                    </a>
                   </div>
                   <div
                     class="
@@ -818,7 +817,7 @@
 
               <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
                 <div class="flex flex-wrap items-start justify-evenly -mb-3">
-                  <Button
+                  <a
                     class="
                       inline-flex
                       px-20
@@ -829,13 +828,13 @@
                       rounded-md
                       mb-3
                     "
-                    href="auth/register"
+                    :href="`${APP_URL}/auth/register`"
                   >
                     Get Started
-                  </Button>
-                  <Button
+                  </a>
+                  <a
                     appearance="primary"
-                    to="#"
+                    href="#"
                     class="
                       inline-flex
                       px-20
@@ -844,12 +843,12 @@
                       bg-transparent
                       border
                       rounded-md
-                      ml-6
+                      md:ml-6
                       mb-3
                     "
                   >
                     Contact Us
-                  </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -881,8 +880,8 @@
         >
           <div class="items-start md:w-1/2 mx-auto text-center md:text-left">
             <div class="md:w-3/4">
-              <Hyperlink
-                to="#"
+              <a
+                href="/"
                 class="
                   flex
                   title-font
@@ -901,7 +900,7 @@
                   width="60"
                 />
                 <span class="ml-3 text-xl text-white">Contentre</span>
-              </Hyperlink>
+              </a>
               <p class="pt-3 text-sm text-white">
                 Access your content, monitor your content analytics in
                 real-time, create and customize your writing portfolio across
@@ -936,28 +935,32 @@
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Login</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    :href="`${APP_URL}/auth/login`"
+                    >Login</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >About us</Hyperlink
+                  <a class="text-white hover:text-teal-300" href="/aboutus"
+                    >About us</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Content Agency</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    href="https://agency.contentre.io"
+                    >Content Agency</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Careers</Hyperlink
+                  <a class="text-white hover:text-teal-300" href="/careers"
+                    >Careers</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Contact us</Hyperlink
+                  <a class="text-white hover:text-teal-300" href="/contactus"
+                    >Contact us</a
                   >
                 </li>
               </nav>
@@ -978,33 +981,41 @@
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Blog</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    href="https://blog.contentre.io"
+                    >Blog</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >EBooks and Templates</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    href="https://blog.contentre.io/ebooks"
+                    >EBooks and Templates</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Privacy policy</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    href="/privacy-policy"
+                    >Privacy policy</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Terms of service</Hyperlink
+                  <a
+                    class="text-white hover:text-teal-300"
+                    href="/terms-and-conditions"
+                    >Terms of service</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Careers</Hyperlink
+                  <a class="text-white hover:text-teal-300" href="/disclaimer"
+                    >Disclaimer</a
                   >
                 </li>
                 <li>
-                  <Hyperlink class="text-white hover:text-teal-300" to="#"
-                    >Contact us</Hyperlink
+                  <a class="text-white hover:text-teal-300" href="/contactus"
+                    >Contact us</a
                   >
                 </li>
               </nav>
@@ -1044,7 +1055,10 @@
                       sm:justify-start
                     "
                   >
-                    <Hyperlink to="#" class="text-gray-200">
+                    <a
+                      href="https://facebook.com/contentre"
+                      class="text-gray-200"
+                    >
                       <svg
                         fill="currentColor"
                         stroke-linecap="round"
@@ -1057,8 +1071,11 @@
                           d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
                         ></path>
                       </svg>
-                    </Hyperlink>
-                    <Hyperlink to="#" class="ml-3 text-gray-200">
+                    </a>
+                    <a
+                      href="https://twitter.com/contentreio"
+                      class="ml-3 text-gray-200"
+                    >
                       <svg
                         fill="currentColor"
                         stroke-linecap="round"
@@ -1071,8 +1088,11 @@
                           d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
                         ></path>
                       </svg>
-                    </Hyperlink>
-                    <Hyperlink to="#" class="ml-3 text-gray-200">
+                    </a>
+                    <a
+                      href="https://instagram.com/contentre"
+                      class="ml-3 text-gray-200"
+                    >
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -1094,8 +1114,11 @@
                           d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
                         ></path>
                       </svg>
-                    </Hyperlink>
-                    <Hyperlink to="#" class="ml-3 text-gray-200">
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/contentre"
+                      class="ml-3 text-gray-200"
+                    >
                       <svg
                         fill="currentColor"
                         stroke="currentColor"
@@ -1111,7 +1134,7 @@
                         ></path>
                         <circle cx="4" cy="4" r="2" stroke="none"></circle>
                       </svg>
-                    </Hyperlink>
+                    </a>
                   </span>
                 </li>
               </nav>

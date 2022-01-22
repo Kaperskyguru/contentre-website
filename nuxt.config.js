@@ -1,3 +1,6 @@
+import dotenv from 'dotenv'
+
+dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -14,7 +17,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Access your contents, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
+          'Access your contents anywhere published, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
       },
       {
         hid: 'og:title',
@@ -25,7 +28,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Access your contents, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
+          'Access your contents anywhere published, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
       },
       {
         hid: 'og:site_name',
@@ -63,6 +66,12 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  target: 'static',
+
+  env: {
+    APP_URL: process.env.APP_URL || 'https://contentre.herokuapp.com',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -74,6 +83,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss

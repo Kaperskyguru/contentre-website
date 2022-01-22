@@ -14,7 +14,7 @@
           "
         >
           <div>
-            <a href="#">
+            <a href="/">
               <img
                 class="pl-3 icon"
                 src="~/assets/img/icon.png"
@@ -32,6 +32,7 @@
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
+            @click.prevent="toggleDropdown"
           >
             <path
               stroke-linecap="round"
@@ -41,7 +42,10 @@
             />
           </svg>
 
-          <div id="menu" class="w-full md:flex md:items-center md:w-auto">
+          <div
+            id="navDropdown"
+            class="w-full md:flex hidden md:items-center md:w-auto"
+          >
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
               <li>
                 <a class="md:p-4 py-2 block" href="#">
@@ -65,17 +69,45 @@
               </li>
             </ul>
           </div>
-          <div id="menu" class="w-full md:flex md:items-center md:w-auto">
+          <div
+            id="navDropdown1"
+            class="w-full hidden md:flex md:items-center md:w-auto"
+          >
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
               <li class="pr-5">
-                <Button type="link" href="auth/login">
-                  <span class="">Log In</span>
-                </Button>
+                <a
+                  :href="`${APP_URL}/auth/register`"
+                  class="
+                    inline-flex
+                    px-20
+                    py-3
+                    text-white
+                    form-btn
+                    border
+                    rounded-md
+                    mb-3
+                  "
+                >
+                  <span class="">Get Started</span>
+                </a>
               </li>
               <li class="items-center">
-                <Button type="link" class="" href="auth/login">
-                  <span class="">Get Started</span>
-                </Button>
+                <a
+                  class="
+                    inline-flex
+                    px-20
+                    py-3
+                    text-black
+                    bg-transparent
+                    border
+                    rounded-md
+                    md:ml-2
+                    mb-3
+                  "
+                  :href="`${APP_URL}/auth/login`"
+                >
+                  <span class="">Login</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -89,12 +121,30 @@
 <script>
 export default {
   name: 'HomeLayout',
+
+  computed: {
+    APP_URL() {
+      return process.env.APP_URL
+    },
+  },
+  methods: {
+    toggleDropdown() {
+      const dropdown = document.getElementById('navDropdown')
+      const dropdown1 = document.getElementById('navDropdown1')
+      dropdown.classList.toggle('hidden')
+      dropdown1.classList.toggle('hidden')
+    },
+  },
 }
 </script>
 
 <style>
 #hero {
   background: #dcf6f3;
+}
+
+.text-default {
+  color: #dcf6f3;
 }
 
 .absolute-imgtop {
@@ -124,5 +174,67 @@ export default {
 .absolute-circle {
   height: 17rem;
   left: -50px;
+}
+
+#auth-navbar {
+  /* background: linear-gradient(
+    112.83deg,
+    rgba(255, 255, 255, 0.82) 0%,
+    rgba(255, 255, 255, 0.8) 110.84%
+  ); */
+  border: 2px solid #ffffff;
+  box-shadow: 0 7px 23px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(21px);
+}
+
+@media screen and (max-width: 1024px) {
+  #navDropdown {
+    /* background: linear-gradient(
+      112.83deg,
+      rgba(255, 255, 255, 0.82) 0%,
+      rgba(255, 255, 255, 0.8) 110.84%
+    ); */
+  }
+}
+
+.nav-line {
+  background: linear-gradient(
+    112.83deg,
+    rgba(255, 255, 255, 0.82) 0%,
+    rgba(255, 255, 255, 0.8) 110.84%
+  );
+  border: 1.5px solid #ffffff;
+  box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.form-bg {
+  background: #286963;
+}
+
+.form-btn {
+  background: #4fd1c5;
+}
+
+.form-btn:hover {
+  background: #4fd1c5;
+}
+
+.form-footer {
+  color: #4fd1c5;
+}
+
+.logo-text {
+  font-size: 1.5rem;
 }
 </style>
