@@ -76,7 +76,7 @@
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
               <li class="pr-5">
                 <a
-                  :href="`${APP_URL}/auth/register`"
+                  href="#"
                   class="
                     inline-flex
                     px-20
@@ -88,7 +88,7 @@
                     mb-3
                   "
                 >
-                  <span class="">Get Started</span>
+                  <span class="">Notify me</span>
                 </a>
               </li>
               <li class="items-center">
@@ -100,6 +100,7 @@
                     text-black
                     bg-transparent
                     border
+                    hidden
                     rounded-md
                     md:ml-2
                     mb-3
@@ -227,7 +228,7 @@ export default {
 }
 
 .form-btn:hover {
-  background: #4fd1c5;
+  background: #286963;
 }
 
 .form-footer {

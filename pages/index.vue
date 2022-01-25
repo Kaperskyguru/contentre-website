@@ -53,12 +53,42 @@
                       and more time focused on your writing and getting more
                       clients.
                     </p>
-                    <a
-                      :href="`${APP_URL}/auth/register`"
-                      class="form-btn text-white rounded shadow py-3 px-12"
+
+                    <h1>Be the first to know when we launch.</h1>
+                    <form
+                      ref="form"
+                      class="mt-4 w-full"
+                      action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
+                      method="post"
+                      @submit.prevent="register"
                     >
-                      Get Started
-                    </a>
+                      <em>{{ errors.name }}</em>
+                      <input
+                        v-model="user.email"
+                        name="EMAIL"
+                        class="
+                          font-gilroy
+                          focus:border-body-text-color focus:outline-none
+                          border-solid border border-border-inner
+                          rounded
+                          py-4
+                          pl-5
+                          font-medium
+                          block
+                          mb-5
+                          w-full
+                        "
+                        placeholder="Enter your email"
+                        type="email"
+                      />
+                      <button
+                        :href="`${APP_URL}/auth/register`"
+                        class="form-btn text-white rounded shadow py-3 px-12"
+                        @click.prevent="onClick"
+                      >
+                        Notify me
+                      </button>
+                    </form>
                   </div>
                   <div
                     class="
@@ -815,42 +845,72 @@
                 </div>
               </div>
 
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
-                <div class="flex flex-wrap items-start justify-evenly -mb-3">
-                  <a
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      form-btn
-                      text-white
-                      border
-                      rounded-md
-                      mb-3
-                    "
-                    :href="`${APP_URL}/auth/register`"
-                  >
-                    Get Started
-                  </a>
-                  <a
-                    appearance="primary"
-                    href="#"
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      text-black
-                      bg-transparent
-                      border
-                      rounded-md
-                      md:ml-6
-                      mb-3
-                    "
-                  >
-                    Contact Us
-                  </a>
+              <form
+                ref="form"
+                class="mt-4 w-full"
+                action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
+                method="post"
+                @submit.prevent="register"
+              >
+                <div class="flex flex-wrap">
+                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-">
+                    <h1>Be the first to know when we launch.</h1>
+
+                    <em>{{ errors.name }}</em>
+                    <input
+                      v-model="user.email"
+                      name="EMAIL"
+                      class="
+                        font-gilroy
+                        focus:border-body-text-color focus:outline-none
+                        border-solid border border-border-inner
+                        rounded
+                        py-4
+                        pl-5
+                        font-medium
+                        block
+                        w-full
+                      "
+                      placeholder="Enter your email"
+                      type="email"
+                    />
+                  </div>
+                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
+                    <button
+                      class="
+                        inline-flex
+                        px-20
+                        py-5
+                        form-btn
+                        text-white
+                        border
+                        rounded-md
+                      "
+                      :href="`${APP_URL}/auth/register`"
+                    >
+                      Notify me
+                    </button>
+                    <a
+                      appearance="primary"
+                      href="#"
+                      class="
+                        inline-flex
+                        px-20
+                        py-3
+                        text-black
+                        bg-transparent
+                        border
+                        rounded-md
+                        md:ml-6
+                        mb-3
+                        hidden
+                      "
+                    >
+                      Contact Us
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </section>
@@ -1159,10 +1219,36 @@
 export default {
   name: 'HomePage',
 
+  data() {
+    return {
+      errors: {},
+      user: {},
+    }
+  },
+
   head() {
     return {
       title: 'Content management for content creators',
     }
+  },
+
+  methods: {
+    onClick() {
+      if (this.validateEmail(this.user.email)) {
+        this.suscribeNewsletter()
+      } else this.errors.email = 'Enter a valid email'
+    },
+
+    suscribeNewsletter() {
+      this.$refs.form.submit()
+    },
+    validateEmail(email) {
+      if (email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        return re.test(email)
+      }
+      return false
+    },
   },
 }
 </script>
