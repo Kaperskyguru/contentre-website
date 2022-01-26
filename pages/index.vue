@@ -672,7 +672,7 @@
           Data security and privacy are <br />our top priority
         </h3>
 
-        <section class="pt-20 bg-[#F3F4F6]">
+        <!-- <section class="pt-20 bg-[#F3F4F6]">
           <div class="container">
             <div class="flex flex-wrap -mx-4">
               <div class="w-full md:w-1/2 xl:w-1/2 px-4">
@@ -729,7 +729,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
     </div>
 
