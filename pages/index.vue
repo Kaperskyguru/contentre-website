@@ -667,14 +667,14 @@
       class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8"
       style="background: #dcf6f3"
     >
-      <div class="max-w-screen-xl mx-auto">
+      <!-- <div class="max-w-screen-xl mx-auto">
         <h3 class="font-black text-3xl text-center pt-8">
           Data security and privacy are <br />our top priority
         </h3>
 
         <section class="pt-20 bg-[#F3F4F6]">
           <div class="container">
-            <!-- <div class="flex flex-wrap -mx-4">
+            <div class="flex flex-wrap -mx-4">
               <div class="w-full md:w-1/2 xl:w-1/2 px-4">
                 <div
                   class="bg-white rounded-lg shadow-lg overflow-hidden mb-10"
@@ -727,10 +727,10 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </section>
-      </div>
+      </div> -->
     </div>
 
     <!-- end of fifth page -->
