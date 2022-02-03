@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen">
-    <div id="hero" class="bg-transpaent w-full px-8 pt-2 z-10">
+    <div id="hero" class="bg-transparent w-full px-8 pt-2 z-10">
       <header>
         <nav
           class="
@@ -21,7 +21,7 @@
                 width="60"
                 alt="logo"
               />
-              <span class="text logo-text">Contentre.io</span>
+              <span class="text logo-text">Contentre</span>
             </a>
           </div>
 
