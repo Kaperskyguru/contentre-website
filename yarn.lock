@@ -937,6 +937,18 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@dansmaculotte/nuxt-segment@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@dansmaculotte/nuxt-segment/-/nuxt-segment-0.2.11.tgz#d897bfad8f75b26acf9fedf8b72aad2ccc127591"
+  integrity sha512-cZMwFh0r7VmZijJPt2w0h4WhLDDJ6CLoZyrvv33RlgXjFR1/eSItBV6up2pNyeadPNVwc1GiZGssMicTaV5lPA==
+  dependencies:
+    "@dansmaculotte/vue-segment" "^0.2.9"
+
+"@dansmaculotte/vue-segment@^0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@dansmaculotte/vue-segment/-/vue-segment-0.2.9.tgz#a1c1cac858ba84f9655e6045cca9b055ffb5a257"
+  integrity sha512-EinGLB3IfjRpjLBPqgOg0fZOGlheSedAUi9qjajkUhxLQF632uClSNLX4+OgtQ5loAlOGx+ISArhwUML0RK0BA==
+
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"

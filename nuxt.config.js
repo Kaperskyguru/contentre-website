@@ -116,6 +116,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@dansmaculotte/nuxt-segment',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -123,6 +124,12 @@ export default {
     manifest: {
       lang: 'en',
     },
+  },
+
+  publicRuntimeConfig: {
+    SEGMENT_WRITE_KEY:
+      process.env.SEGMENT_WRITE_KEY || 'GC68y1Bqqa8Gz4VNkIuBtU8WIfPwrqFW',
+    SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
