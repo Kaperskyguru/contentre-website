@@ -81,6 +81,9 @@
                         placeholder="Enter your email"
                         type="email"
                       />
+                      <div hidden="true">
+                        <input type="hidden" name="tags" value="4051641" />
+                      </div>
                       <button
                         :href="`${APP_URL}/auth/register`"
                         class="form-btn text-white rounded shadow py-3 px-12"
@@ -874,6 +877,9 @@
                       placeholder="Enter your email"
                       type="email"
                     />
+                    <div hidden="true">
+                      <input type="hidden" name="tags" value="4051641" />
+                    </div>
                   </div>
                   <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
                     <button
@@ -886,6 +892,7 @@
                         border
                         rounded-md
                       "
+                      @click.prevent="onClick"
                       :href="`${APP_URL}/auth/register`"
                     >
                       Notify me
