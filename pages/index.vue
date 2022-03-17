@@ -54,7 +54,7 @@
                       clients.
                     </p>
                     <a
-                      :href="`${APP_URL}/auth/register`"
+                      :href="`${BASE_URL}/auth/register?source=home`"
                       class="form-btn text-white rounded shadow py-3 px-12"
                     >
                       Get Started
@@ -828,7 +828,7 @@
                       rounded-md
                       mb-3
                     "
-                    :href="`${APP_URL}/auth/register`"
+                    :href="`${BASE_URL}/auth/register?source=home`"
                   >
                     Get Started
                   </a>
@@ -937,7 +937,7 @@
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    :href="`${APP_URL}/auth/login`"
+                    :href="`${BASE_URL}/auth/login?source=home`"
                     >Login</a
                   >
                 </li>
@@ -1163,6 +1163,12 @@ export default {
     return {
       title: 'Content management for content creators',
     }
+  },
+
+  computed: {
+    BASE_URL() {
+      return process.env.BASE_URL ?? 'https://app.contentre.io'
+    },
   },
 }
 </script>
