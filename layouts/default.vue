@@ -76,7 +76,7 @@
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
               <li class="pr-5">
                 <a
-                  :href="`${APP_URL}/auth/register`"
+                  :href="`${APP_URL}/auth/register?source=home`"
                   class="
                     inline-flex
                     px-20
@@ -104,7 +104,7 @@
                     md:ml-2
                     mb-3
                   "
-                  :href="`${APP_URL}/auth/login`"
+                  :href="`${APP_URL}/auth/login?source=home`"
                 >
                   <span class="">Login</span>
                 </a>
