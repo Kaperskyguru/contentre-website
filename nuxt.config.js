@@ -66,8 +66,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  target: 'static',
-
   env: {
     APP_URL: process.env.APP_URL || 'https://contentre.herokuapp.com',
   },
