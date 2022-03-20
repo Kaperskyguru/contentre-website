@@ -67,7 +67,7 @@ export default {
   },
 
   env: {
-    APP_URL: process.env.APP_URL || 'https://contentre.herokuapp.com',
+    APP_URL: process.env.APP_URL || 'https://test.contentre.com/graphql',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
