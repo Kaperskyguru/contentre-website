@@ -10,6 +10,7 @@ const uidGenerator = (id) => {
 }
 
 export default (context) => {
+  console.log(context.env.API_URL)
   const headerLink = setContext((_, previousContext) => ({
     credentials: 'include',
     headers: {
@@ -28,7 +29,7 @@ export default (context) => {
     //     ...resolvers
     //   }
     // },
-    httpEndpoint: context.env.API_URL,
+    httpEndpoint: context.env.API_URL ?? 'https://test.contentre.io/graphql',
     link: headerLink.concat(headerLink),
     connectToDevTools: context.env.NODE_ENV === 'development',
     httpLinkOptions: {
