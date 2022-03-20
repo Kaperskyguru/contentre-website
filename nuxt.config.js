@@ -74,7 +74,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/toast'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -93,12 +93,19 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/apollo',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: 'en',
+    },
+  },
+
+  apollo: {
+    clientConfigs: {
+      default: '~/plugins/apollo.js',
     },
   },
 
