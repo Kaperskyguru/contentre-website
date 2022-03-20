@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center items-center my-6">
-    <IconFolderOpen class="h-8 text-gray-300 fill-current" />
+    <!-- <IconFolderOpen class="h-8 text-gray-300 fill-current" /> -->
     <p class="mt-4 text-lg text-gray-300">
       {{ message || 'No data to show' }}
     </p>
@@ -20,11 +20,12 @@
 </template>
 
 <script>
+// import IconFolderOpen from '~/assets/icons/folderOpen.svg'
 export default {
   name: 'NoData',
 
   components: {
-    IconFolderOpen: () => import('~/assets/icons/folder-open.svg?inline'),
+    // IconFolderOpen,
   },
 
   props: {

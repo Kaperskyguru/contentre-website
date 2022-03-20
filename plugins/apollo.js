@@ -10,7 +10,6 @@ const uidGenerator = (id) => {
 }
 
 export default (context) => {
-  console.log(context.env.API_URL, 'haha')
   const headerLink = setContext((_, previousContext) => ({
     credentials: 'include',
     headers: {

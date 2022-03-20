@@ -77,7 +77,9 @@ export default {
   plugins: ['~/plugins/toast'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: {
+    dirs: ['~/components'],
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -111,4 +113,18 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  hooks: {
+    render: {
+      errorMiddleware(app) {
+        // eslint-disable-next-line node/handle-callback-err
+        app.use((error, req, res, next) => {
+          res.writeHead(307, {
+            Location: '/errors/404',
+          })
+          res.end()
+        })
+      },
+    },
+  },
 }

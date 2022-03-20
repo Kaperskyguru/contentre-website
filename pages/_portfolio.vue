@@ -195,24 +195,22 @@ export default {
       },
 
       update(data) {
-        // console.log(data)
         return data.getPortfolioContent
       },
 
       skip() {
         return !this.username
       },
-      error(e) {
+      error() {
         this.error = true
-        console.log(e)
+        return this.$router.push('/errors/404')
       },
     },
   },
 
   computed: {
     noData() {
-      // console.log(this.portfolio)
-      return false //! this.portfolio?.portfolios?.length
+      return !this.portfolio?.portfolios?.length
     },
   },
 
