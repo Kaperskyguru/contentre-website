@@ -19,7 +19,6 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
     "apollo": "^2.33.9",
-    "apollo-link-http": "^1.5.17",
     "core-js": "^3.19.3",
     "graphql": "^16.3.0",
     "nuxt": "^2.15.8",
