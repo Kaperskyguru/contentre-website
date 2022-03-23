@@ -22,7 +22,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Content management for content creators | Contentre',
+        content: 'Content management platform for content creators | Contentre',
       },
       {
         hid: 'og:description',
