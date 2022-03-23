@@ -1004,7 +1004,7 @@
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    :href="`${APP_URL}/auth/login`"
+                    :href="`${BASE_URL}/auth/login?source=home`"
                     >Login</a
                   >
                 </li>

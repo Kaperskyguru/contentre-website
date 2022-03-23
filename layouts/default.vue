@@ -105,7 +105,7 @@
                     md:ml-2
                     mb-3
                   "
-                  :href="`${APP_URL}/auth/login`"
+                  :href="`${APP_URL}/auth/login?source=home`"
                 >
                   <span class="">Login</span>
                 </a>

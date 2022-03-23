@@ -22,7 +22,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Content management for content creators | Contentre',
+        content: 'Content management platform for content creators | Contentre',
       },
       {
         hid: 'og:description',
@@ -87,20 +87,20 @@ export default {
     ],
   },
 
-  target: 'static',
-
   env: {
-    APP_URL: process.env.APP_URL || 'https://contentre.herokuapp.com',
+    APP_URL: process.env.APP_URL || 'https://test.contentre.io/graphql',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/toast'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: {
+    dirs: ['~/components'],
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -117,6 +117,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@dansmaculotte/nuxt-segment',
+    '@nuxtjs/apollo',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -132,6 +133,26 @@ export default {
     SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
   },
 
+  apollo: {
+    clientConfigs: {
+      default: '~/plugins/apollo.js',
+    },
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  hooks: {
+    render: {
+      errorMiddleware(app) {
+        // eslint-disable-next-line node/handle-callback-err
+        app.use((error, req, res, next) => {
+          res.writeHead(307, {
+            Location: '/errors/404',
+          })
+          res.end()
+        })
+      },
+    },
+  },
 }
