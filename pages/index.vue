@@ -892,8 +892,8 @@
                         border
                         rounded-md
                       "
-                      @click.prevent="onClick"
                       :href="`${APP_URL}/auth/register`"
+                      @click.prevent="onClick"
                     >
                       Notify me
                     </button>
@@ -1002,12 +1002,9 @@
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    :href="`${BASE_URL}/auth/login?source=home`"
-                    >Login</a
-                  >
+                  <a class="text-white hover:text-teal-300" href="#">Login</a>
                 </li>
+                <!-- :href="`${BASE_URL}/auth/login?source=home`" -->
                 <li>
                   <a class="text-white hover:text-teal-300" href="/aboutus"
                     >About us</a
