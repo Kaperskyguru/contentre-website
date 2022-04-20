@@ -95,7 +95,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/toast'],
+  plugins: ['~/plugins/toast', '~/plugins/vuelidate', '~/plugins/utils'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -118,6 +118,7 @@ export default {
     '@nuxtjs/pwa',
     '@dansmaculotte/nuxt-segment',
     '@nuxtjs/apollo',
+    '@nuxtjs/svg',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
