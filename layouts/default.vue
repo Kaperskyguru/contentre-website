@@ -125,7 +125,7 @@ export default {
 
   computed: {
     APP_URL() {
-      return process.env.APP_URL
+      return process.env.APP_URL ?? 'https://contentre.herokuapp.com'
     },
   },
   methods: {
