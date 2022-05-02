@@ -1,6 +1,27 @@
 <template>
+  <Tooltip v-if="isProFeature" position="top" :label="message">
+    <button
+      :tabindex="isProFeature || (active && activeAutoDisables) ? -1 : 0"
+      :class="classNames"
+      class="bg-btn-green opacity-50"
+      :disabled="waiting"
+      :aria-label="waiting ? 'Please wait…' : undefined"
+    >
+      <div v-if="waiting" class="custom-icon" role="presentation">
+        <SvgLoader class="-my-px" />
+      </div>
+
+      <template v-else>
+        <slot />
+        <div v-if="$slots.icon" class="custom-icon" role="presentation">
+          <slot name="icon" />
+        </div>
+      </template>
+    </button>
+  </Tooltip>
+
   <a
-    v-if="type.includes('link') && !to"
+    v-else-if="type.includes('link') && !to && !isProFeature"
     v-bind="$attrs"
     :tabindex="disabled || (active && activeAutoDisables) ? -1 : 0"
     :class="classNames"
@@ -21,7 +42,7 @@
   </a>
 
   <Hyperlink
-    v-else-if="type.includes('link') && to"
+    v-else-if="type.includes('link') && to && !isProFeature"
     :to="to"
     v-bind="$attrs"
     :tabindex="disabled || (active && activeAutoDisables) ? -1 : 0"
@@ -106,8 +127,21 @@ export default {
     },
     appearance: {
       type: String,
-      validate: (value) => ['primary', 'secondary', 'tertiary'].includes(value),
+      validate: (value) =>
+        ['primary', 'secondary', 'tertiary', 'outline', 'outline-red'].includes(
+          value
+        ),
       default: 'primary',
+    },
+
+    isProFeature: {
+      type: Boolean,
+      default: false,
+    },
+
+    message: {
+      type: String,
+      default: '',
     },
 
     size: {
@@ -130,7 +164,6 @@ export default {
         'focus-visible:ring-2',
         'active:shadow-inner',
         'whitespace-nowrap',
-        //
         'disabled:cursor-not-allowed',
         'disabled:opacity-75',
         'font-gilroy',
@@ -138,14 +171,15 @@ export default {
         'font-bold',
         'text-white',
         'py-4',
-
         'px-24',
         'text-sm',
         'leading-5',
         'bg-teal-300',
         'rounded-md',
-        'form-btn',
         'text-center',
+        'duration-300',
+        'transition',
+        'ease-in',
       ]
 
       if (this.active) {
@@ -283,36 +317,28 @@ export default {
 </script>
 
 <style scoped>
-/* .button-primary {
-  @apply border rounded text-white border-black;
+.button-primary {
+  @apply bg-btn-green border rounded text-white border-btn-green hover:border-btn-green hover:bg-white hover:text-btn-green;
 }
 
 .button-primary .loader {
   @apply filter invert;
 }
 
-.button-primary:not(.active) {
-  @apply bg-black;
-}
-
-.button-primary.active {
-  @apply bg-opacity-90  border-opacity-90 hover:border-black hover:bg-opacity-95;
-}
-
 .button-secondary {
-  @apply border rounded;
+  @apply border bg-red-500 rounded  border-red-500 hover:border-red-500 hover:bg-white hover:text-red-500;
 }
 
-.button-secondary:not(.active) {
-  @apply border-solid bg-transparent  hover:bg-opacity-25;
-}
-
-.button-secondary.active {
-  @apply bg-none;
-}
- */
 .button-tertiary {
-  @apply rounded-full  hover:bg-opacity-25;
+  @apply border hover:bg-btn-green hover:text-white border-btn-green bg-white text-btn-green rounded-full;
+}
+
+.button-outline {
+  @apply border hover:bg-btn-green hover:text-white border-btn-green bg-white text-btn-green;
+}
+
+.button-outline-red {
+  @apply border hover:bg-red-500 hover:text-white border-red-500 bg-white text-red-500;
 }
 
 .custom-icon:not(:only-child) {

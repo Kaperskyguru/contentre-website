@@ -8,6 +8,7 @@ export const GET_PORTFOLIO_CONTENT = gql`
     getPortfolioContent(size: $size, skip: $skip, filters: $filters) {
       about
       coverImage
+      job
       profileImage
       name
       clients {
