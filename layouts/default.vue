@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen">
-    <div id="hero" class="bg-transpaent w-full px-8 pt-2 z-10">
+    <div id="hero" class="bg-transparent w-full px-8 pt-2 z-10">
       <header>
         <nav
           class="
@@ -21,7 +21,7 @@
                 width="60"
                 alt="logo"
               />
-              <span class="text logo-text">Contentre.io</span>
+              <span class="text logo-text">Contentre</span>
             </a>
           </div>
 
@@ -76,7 +76,7 @@
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
               <li class="pr-5">
                 <a
-                  :href="`${APP_URL}/auth/register?source=home`"
+                  href="#"
                   class="
                     inline-flex
                     px-20
@@ -88,7 +88,7 @@
                     mb-3
                   "
                 >
-                  <span class="">Get Started</span>
+                  <span class="">Notify me</span>
                 </a>
               </li>
               <li class="items-center">
@@ -100,6 +100,7 @@
                     text-black
                     bg-transparent
                     border
+                    hidden
                     rounded-md
                     md:ml-2
                     mb-3
@@ -124,7 +125,7 @@ export default {
 
   computed: {
     APP_URL() {
-      return process.env.APP_URL
+      return process.env.APP_URL ?? 'https://contentre.herokuapp.com'
     },
   },
   methods: {
@@ -227,7 +228,7 @@ export default {
 }
 
 .form-btn:hover {
-  background: #4fd1c5;
+  background: #286963;
 }
 
 .form-footer {

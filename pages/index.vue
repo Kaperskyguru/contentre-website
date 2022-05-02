@@ -53,12 +53,45 @@
                       and more time focused on your writing and getting more
                       clients.
                     </p>
-                    <a
-                      :href="`${BASE_URL}/auth/register?source=home`"
-                      class="form-btn text-white rounded shadow py-3 px-12"
+
+                    <h1>Be the first to know when we launch.</h1>
+                    <form
+                      ref="form"
+                      class="mt-4 w-full"
+                      action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
+                      method="post"
+                      @submit.prevent="register"
                     >
-                      Get Started
-                    </a>
+                      <em>{{ errors.name }}</em>
+                      <input
+                        v-model="user.email"
+                        name="EMAIL"
+                        class="
+                          font-gilroy
+                          focus:border-body-text-color focus:outline-none
+                          border-solid border border-border-inner
+                          rounded
+                          py-4
+                          pl-5
+                          font-medium
+                          block
+                          mb-5
+                          w-full
+                        "
+                        placeholder="Enter your email"
+                        type="email"
+                      />
+                      <div hidden="true">
+                        <input type="hidden" name="tags" value="4051641" />
+                      </div>
+                      <button
+                        :href="`${APP_URL}/auth/register`"
+                        class="form-btn text-white rounded shadow py-3 px-12"
+                        @click.prevent="onClick"
+                      >
+                        Notify me
+                      </button>
+                    </form>
                   </div>
                   <div
                     class="
@@ -637,7 +670,7 @@
       class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8"
       style="background: #dcf6f3"
     >
-      <div class="max-w-screen-xl mx-auto">
+      <!-- <div class="max-w-screen-xl mx-auto">
         <h3 class="font-black text-3xl text-center pt-8">
           Data security and privacy are <br />our top priority
         </h3>
@@ -700,7 +733,7 @@
             </div>
           </div>
         </section>
-      </div>
+      </div> -->
     </div>
 
     <!-- end of fifth page -->
@@ -815,42 +848,76 @@
                 </div>
               </div>
 
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
-                <div class="flex flex-wrap items-start justify-evenly -mb-3">
-                  <a
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      form-btn
-                      text-white
-                      border
-                      rounded-md
-                      mb-3
-                    "
-                    :href="`${BASE_URL}/auth/register?source=home`"
-                  >
-                    Get Started
-                  </a>
-                  <a
-                    appearance="primary"
-                    href="#"
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      text-black
-                      bg-transparent
-                      border
-                      rounded-md
-                      md:ml-6
-                      mb-3
-                    "
-                  >
-                    Contact Us
-                  </a>
+              <form
+                ref="form"
+                class="mt-4 w-full"
+                action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
+                method="post"
+                @submit.prevent="register"
+              >
+                <div class="flex flex-wrap">
+                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-">
+                    <h1>Be the first to know when we launch.</h1>
+
+                    <em>{{ errors.name }}</em>
+                    <input
+                      v-model="user.email"
+                      name="EMAIL"
+                      class="
+                        font-gilroy
+                        focus:border-body-text-color focus:outline-none
+                        border-solid border border-border-inner
+                        rounded
+                        py-4
+                        pl-5
+                        font-medium
+                        block
+                        w-full
+                      "
+                      placeholder="Enter your email"
+                      type="email"
+                    />
+                    <div hidden="true">
+                      <input type="hidden" name="tags" value="4051641" />
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
+                    <button
+                      class="
+                        inline-flex
+                        px-20
+                        py-5
+                        form-btn
+                        text-white
+                        border
+                        rounded-md
+                      "
+                      :href="`${APP_URL}/auth/register`"
+                      @click.prevent="onClick"
+                    >
+                      Notify me
+                    </button>
+                    <a
+                      appearance="primary"
+                      href="#"
+                      class="
+                        inline-flex
+                        px-20
+                        py-3
+                        text-black
+                        bg-transparent
+                        border
+                        rounded-md
+                        md:ml-6
+                        mb-3
+                        hidden
+                      "
+                    >
+                      Contact Us
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </section>
@@ -935,12 +1002,9 @@
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    :href="`${BASE_URL}/auth/login?source=home`"
-                    >Login</a
-                  >
+                  <a class="text-white hover:text-teal-300" href="#">Login</a>
                 </li>
+                <!-- :href="`${BASE_URL}/auth/login?source=home`" -->
                 <li>
                   <a class="text-white hover:text-teal-300" href="/aboutus"
                     >About us</a
@@ -1159,15 +1223,35 @@
 export default {
   name: 'HomePage',
 
+  data() {
+    return {
+      errors: {},
+      user: {},
+    }
+  },
+
   head() {
     return {
       title: 'Content management for content creators',
     }
   },
 
-  computed: {
-    BASE_URL() {
-      return process.env.BASE_URL ?? 'https://app.contentre.io'
+  methods: {
+    onClick() {
+      if (this.validateEmail(this.user.email)) {
+        this.suscribeNewsletter()
+      } else this.errors.email = 'Enter a valid email'
+    },
+
+    suscribeNewsletter() {
+      this.$refs.form.submit()
+    },
+    validateEmail(email) {
+      if (email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        return re.test(email)
+      }
+      return false
     },
   },
 }

@@ -63,7 +63,28 @@ export default {
 
       { name: 'theme-color', content: '#dcf6f3' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+    ],
   },
 
   env: {
@@ -74,7 +95,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/toast'],
+  plugins: ['~/plugins/toast', '~/plugins/vuelidate', '~/plugins/utils'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -95,7 +116,9 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@dansmaculotte/nuxt-segment',
     '@nuxtjs/apollo',
+    '@nuxtjs/svg',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -103,6 +126,12 @@ export default {
     manifest: {
       lang: 'en',
     },
+  },
+
+  publicRuntimeConfig: {
+    SEGMENT_WRITE_KEY:
+      process.env.SEGMENT_WRITE_KEY || 'GC68y1Bqqa8Gz4VNkIuBtU8WIfPwrqFW',
+    SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
   },
 
   apollo: {
