@@ -1155,6 +1155,13 @@
 <script>
 export default {
   name: 'HomePage',
+
+  head() {
+    return {
+      title: 'Manage all your freelance writing business from one place',
+    }
+  },
+
   computed: {
     BASE_URL() {
       return process.env.APP_URL ?? 'https://app.contentre.io'
