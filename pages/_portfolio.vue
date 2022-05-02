@@ -253,6 +253,62 @@ export default {
       },
     },
   },
+
+  head() {
+    if (!this.error) {
+      return {
+        title: `${this.portfolio.name}'s writing portfolio`,
+        meta: [
+          {
+            hid: 'keywords',
+            name: 'keywords',
+            content: `${this.splitTags(this.portfolio?.job)}`,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: `${this.stripTags(this.portfolio?.about)}`,
+          },
+
+          {
+            hid: 'og:title',
+            property: 'og:title',
+            content: `${this.portfolio.name} writing portfolio`,
+          },
+          {
+            hid: 'og:description',
+            property: 'og:description',
+            content: this.stripTags(this.portfolio?.about),
+          },
+          {
+            hid: 'og:image',
+            property: 'og:image',
+            content: this.portfolio?.profileImage,
+          },
+          {
+            hid: 'og:url',
+            property: 'og:url',
+            content: this.$route?.fullPath,
+          },
+          {
+            hid: 'og:image:width',
+            property: 'og:image:width',
+            content: '800',
+          },
+          {
+            hid: 'og:image:height',
+            property: 'og:image:height',
+            content: '800',
+          },
+          {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: 'summary_large_image',
+          },
+        ],
+      }
+    }
+  },
   computed: {
     getContents() {
       return this.portfolio?.contents ?? []

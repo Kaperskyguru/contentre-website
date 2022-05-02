@@ -1155,13 +1155,6 @@
 <script>
 export default {
   name: 'HomePage',
-
-  head() {
-    return {
-      title: 'Content management for content creators',
-    }
-  },
-
   computed: {
     BASE_URL() {
       return process.env.APP_URL ?? 'https://app.contentre.io'
