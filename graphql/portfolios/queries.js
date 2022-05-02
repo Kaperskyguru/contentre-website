@@ -10,10 +10,39 @@ export const GET_PORTFOLIO_CONTENT = gql`
       coverImage
       profileImage
       name
-      portfolios {
-        url
-        title
-        featuredImage
+      clients {
+        id
+        name
+      }
+      tags {
+        id
+        name
+      }
+      categories {
+        id
+        name
+        color
+      }
+      contents {
+        contents {
+          url
+          title
+          featuredImage
+          excerpt
+          tags
+          client {
+            name
+            profile
+            icon
+          }
+          category {
+            name
+            color
+          }
+        }
+        meta {
+          total
+        }
       }
     }
   }

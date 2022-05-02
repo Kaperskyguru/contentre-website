@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.10",
+    "@dansmaculotte/nuxt-segment": "^0.2.11",
     "@linusborg/vue-simple-portal": "^0.1.5",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/svg": "^0.4.0",
     "apollo": "^2.33.9",
     "core-js": "^3.19.3",
     "graphql": "^16.3.0",
@@ -26,6 +28,7 @@
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
+    "vuelidate": "^0.7.7",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
