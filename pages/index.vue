@@ -44,54 +44,20 @@
                         tracking-loose
                       "
                     >
-                      Manage all your contents from one place
+                      Manage all your freelance writing business from one place
                     </h1>
                     <p class="text-sm md:text-base text-black-50 mb-10">
-                      Access your contents, monitor your content analytics in
-                      real time, create and customize your writing portfolio
-                      across your clients. Spend less time using spreadsheets
-                      and more time focused on your writing and getting more
-                      clients.
+                      It helps freelance writers (content creators) organize
+                      their content, manage clients, create multiple portfolios,
+                      discover new opportunities, and lots more, all in one
+                      place.
                     </p>
-
-                    <h1>Be the first to know when we launch.</h1>
-                    <form
-                      ref="form"
-                      class="mt-4 w-full"
-                      action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
-                      method="post"
-                      @submit.prevent="register"
+                    <a
+                      :href="`${BASE_URL}/auth/register?source=home_banner`"
+                      class="form-btn text-white rounded shadow py-3 px-12"
                     >
-                      <em>{{ errors.name }}</em>
-                      <input
-                        v-model="user.email"
-                        name="EMAIL"
-                        class="
-                          font-gilroy
-                          focus:border-body-text-color focus:outline-none
-                          border-solid border border-border-inner
-                          rounded
-                          py-4
-                          pl-5
-                          font-medium
-                          block
-                          mb-5
-                          w-full
-                        "
-                        placeholder="Enter your email"
-                        type="email"
-                      />
-                      <div hidden="true">
-                        <input type="hidden" name="tags" value="4051641" />
-                      </div>
-                      <button
-                        :href="`${APP_URL}/auth/register`"
-                        class="form-btn text-white rounded shadow py-3 px-12"
-                        @click.prevent="onClick"
-                      >
-                        Notify me
-                      </button>
-                    </form>
+                      Get Started for free
+                    </a>
                   </div>
                   <div
                     class="
@@ -848,76 +814,43 @@
                 </div>
               </div>
 
-              <form
-                ref="form"
-                class="mt-4 w-full"
-                action="https://profaily.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
-                method="post"
-                @submit.prevent="register"
-              >
-                <div class="flex flex-wrap">
-                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-">
-                    <h1>Be the first to know when we launch.</h1>
-
-                    <em>{{ errors.name }}</em>
-                    <input
-                      v-model="user.email"
-                      name="EMAIL"
-                      class="
-                        font-gilroy
-                        focus:border-body-text-color focus:outline-none
-                        border-solid border border-border-inner
-                        rounded
-                        py-4
-                        pl-5
-                        font-medium
-                        block
-                        w-full
-                      "
-                      placeholder="Enter your email"
-                      type="email"
-                    />
-                    <div hidden="true">
-                      <input type="hidden" name="tags" value="4051641" />
-                    </div>
-                  </div>
-                  <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
-                    <button
-                      class="
-                        inline-flex
-                        px-20
-                        py-5
-                        form-btn
-                        text-white
-                        border
-                        rounded-md
-                      "
-                      :href="`${APP_URL}/auth/register`"
-                      @click.prevent="onClick"
-                    >
-                      Notify me
-                    </button>
-                    <a
-                      appearance="primary"
-                      href="#"
-                      class="
-                        inline-flex
-                        px-20
-                        py-3
-                        text-black
-                        bg-transparent
-                        border
-                        rounded-md
-                        md:ml-6
-                        mb-3
-                        hidden
-                      "
-                    >
-                      Contact Us
-                    </a>
-                  </div>
+              <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
+                <div class="flex flex-wrap items-start justify-evenly -mb-3">
+                  <a
+                    class="
+                      inline-flex
+                      px-20
+                      py-3
+                      form-btn
+                      text-white
+                      border
+                      rounded-md
+                      mb-3
+                    "
+                    :href="`${BASE_URL}/auth/register?source=home_spreadsheet`"
+                  >
+                    Get Started
+                  </a>
+                  <a
+                    appearance="primary"
+                    href="#"
+                    class="
+                      inline-flex
+                      px-20
+                      py-3
+                      text-black
+                      bg-transparent
+                      border
+                      btn-outline
+                      rounded-md
+                      md:ml-6
+                      mb-3
+                    "
+                  >
+                    Contact Us
+                  </a>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </section>
@@ -1002,9 +935,12 @@
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-white hover:text-teal-300" href="#">Login</a>
+                  <a
+                    class="text-white hover:text-teal-300"
+                    :href="`${BASE_URL}/auth/login?source=home_footer`"
+                    >Login</a
+                  >
                 </li>
-                <!-- :href="`${BASE_URL}/auth/login?source=home`" -->
                 <li>
                   <a class="text-white hover:text-teal-300" href="/aboutus"
                     >About us</a
@@ -1013,7 +949,7 @@
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    href="https://agency.contentre.io"
+                    href="https://agency.contentre.io?source=contentre"
                     >Content Agency</a
                   >
                 </li>
@@ -1047,14 +983,14 @@
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    href="https://blog.contentre.io"
+                    href="https://blog.contentre.io?source=home"
                     >Blog</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    href="https://blog.contentre.io/ebooks"
+                    href="https://blog.contentre.io/ebooks?source=home"
                     >EBooks and Templates</a
                   >
                 </li>
@@ -1099,12 +1035,9 @@
                 Contact Us
               </h2>
               <div class="list-none mb-10">
-                <p class="mt-2 text-sm text-white">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
+                <p class="mt-2 text-sm text-white">Lagos, Nigeria</p>
 
-                <p class="mt-2 text-sm text-white">+908 89097 890</p>
+                <p class="mt-2 text-sm text-white">+234(0)8145655380</p>
               </div>
             </div>
             <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-24">
@@ -1223,35 +1156,15 @@
 export default {
   name: 'HomePage',
 
-  data() {
-    return {
-      errors: {},
-      user: {},
-    }
-  },
-
   head() {
     return {
       title: 'Content management for content creators',
     }
   },
 
-  methods: {
-    onClick() {
-      if (this.validateEmail(this.user.email)) {
-        this.suscribeNewsletter()
-      } else this.errors.email = 'Enter a valid email'
-    },
-
-    suscribeNewsletter() {
-      this.$refs.form.submit()
-    },
-    validateEmail(email) {
-      if (email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-        return re.test(email)
-      }
-      return false
+  computed: {
+    BASE_URL() {
+      return process.env.APP_URL ?? 'https://app.contentre.io'
     },
   },
 }

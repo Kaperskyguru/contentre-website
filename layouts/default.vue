@@ -74,9 +74,9 @@
             class="w-full hidden md:flex md:items-center md:w-auto"
           >
             <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
-              <li class="pr-5">
+              <li class="pr-5 hidden">
                 <a
-                  href="#"
+                  :href="`${APP_URL}/auth/register?source=home_header`"
                   class="
                     inline-flex
                     px-20
@@ -88,7 +88,7 @@
                     mb-3
                   "
                 >
-                  <span class="">Notify me</span>
+                  <span class="">Get Started for free</span>
                 </a>
               </li>
               <li class="items-center">
@@ -99,13 +99,13 @@
                     py-3
                     text-black
                     bg-transparent
+                    btn-outline
                     border
-                    hidden
                     rounded-md
                     md:ml-2
                     mb-3
                   "
-                  :href="`${APP_URL}/auth/login?source=home`"
+                  :href="`${APP_URL}/auth/login?source=home_header`"
                 >
                   <span class="">Login</span>
                 </a>
@@ -125,7 +125,7 @@ export default {
 
   computed: {
     APP_URL() {
-      return process.env.APP_URL ?? 'https://contentre.herokuapp.com'
+      return process.env.APP_URL ?? 'https://app.contentre.io'
     },
   },
   methods: {
@@ -225,6 +225,10 @@ export default {
 
 .form-btn {
   background: #4fd1c5;
+}
+
+.btn-outline {
+  border: 1.5px solid #4fd1c5;
 }
 
 .form-btn:hover {
