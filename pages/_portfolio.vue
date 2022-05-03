@@ -154,20 +154,20 @@
                 </div>
                 <div class="p-5 pt-3">
                   <div class="py-4 leading-tight">
-                    <h2 class="text-lg font-bold text-gray-700">
-                      <a
-                        :href="content.url"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                    <a
+                      :href="content.url"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 class="text-lg font-bold text-gray-700">
                         {{ content.title }}
-                      </a>
-                    </h2>
+                      </h2>
+                    </a>
                   </div>
-                  <p class="text-md font-normal">
+                  <article class="text-md font-normal">
                     <!--  eslint-disable-next-line vue/no-v-html -->
                     <span v-html="content.excerpt"></span>
-                  </p>
+                  </article>
                 </div>
               </div>
             </div>
@@ -249,6 +249,7 @@ export default {
         return !this.username
       },
       error(e) {
+        console.log(e)
         this.error = true
       },
     },
@@ -262,12 +263,12 @@ export default {
           {
             hid: 'keywords',
             name: 'keywords',
-            content: `${this.splitTags(this.portfolio?.job)}`,
+            content: `${this.portfolio?.job}`,
           },
           {
             hid: 'description',
             name: 'description',
-            content: `${this.stripTags(this.portfolio?.about)}`,
+            content: `${this.portfolio?.about}`,
           },
 
           {
@@ -278,7 +279,7 @@ export default {
           {
             hid: 'og:description',
             property: 'og:description',
-            content: this.stripTags(this.portfolio?.about),
+            content: this.portfolio?.about,
           },
           {
             hid: 'og:image',
