@@ -210,6 +210,7 @@
 import ImageBG from 'assets/img/cover_image.png'
 import { GET_PORTFOLIO_CONTENT } from '~/graphql'
 export default {
+  name: 'IndexPage',
   layout: 'portfolio',
   data: () => ({
     image: ImageBG,
