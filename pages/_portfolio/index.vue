@@ -16,15 +16,15 @@
     </NoData>
   </div>
 
-  <main v-else class="bg-white container">
+  <main v-else class="container bg-white">
     <section
-      class="lg:mx-auto lg:container mb-8 lg:pt-6 container xl:flex items-start"
+      class="container items-start mb-8 lg:container lg:pt-6 lg:mx-auto xl:flex"
     >
       <section class="w-full">
         <div class="py-4">
           <div class="container m-auto text-gray-600">
             <div class="grid gap-12 lg:grid-cols-2">
-              <div class="pl-0 p-5">
+              <div class="p-5 pl-0">
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <p class="text-gray-900">
@@ -39,15 +39,15 @@
                       {{ portfolio.about }}
                     </p>
                   </div>
-                  <div class="py-6 flex flex-row">
-                    <div class="container m-auto flex">
+                  <div class="flex flex-row py-6">
+                    <div class="container flex m-auto">
                       <a
                         href="#"
-                        class="text-brand border-b-4 border-text-brand py-3"
+                        class="py-3 border-b-4 text-brand border-text-brand"
                       >
                         Connect with me →</a
                       >
-                      <div class="justify-center ml-5 py-4"></div>
+                      <div class="justify-center py-4 ml-5"></div>
                     </div>
                   </div>
                 </div>
@@ -62,14 +62,14 @@
                     width="1000"
                     height="667"
                     class="
-                      h-56
-                      sm:h-full
-                      w-full
                       object-cover object-top
+                      w-full
+                      h-56
                       rounded-lg
+                      group-hover:rounded-xl
                       transition
                       duration-500
-                      group-hover:rounded-xl
+                      sm:h-full
                     "
                   />
                 </div>
@@ -80,7 +80,7 @@
       </section>
     </section>
 
-    <section class="mb-4 container">
+    <section class="container mb-4">
       <div class="container mx-auto">
         <div class="flex justify-between items-center py-2">
           <h2 class="pt-4 text-3xl font-bold text-gray-900 uppercase">
@@ -142,7 +142,7 @@
               class="mb-2 max-w-md rounded-lg shadow-lg"
             >
               <div class="w-full">
-                <div class="block overflow-hidden h-full w-full">
+                <div class="block overflow-hidden w-full h-full">
                   <div class="w-full">
                     <img
                       :alt="content.title"
@@ -164,7 +164,7 @@
                       </h2>
                     </a>
                   </div>
-                  <article class="text-md font-normal">
+                  <article class="font-normal text-md">
                     <!--  eslint-disable-next-line vue/no-v-html -->
                     <span v-html="content.excerpt"></span>
                   </article>
@@ -179,7 +179,7 @@
       </div>
     </section>
 
-    <section class="pb-10 mb-10 container">
+    <section class="container pb-10 mb-10">
       <div
         class="
           flex flex-col
@@ -212,6 +212,43 @@ import { GET_PORTFOLIO_CONTENT } from '~/graphql'
 export default {
   name: 'IndexPage',
   layout: 'portfolio',
+
+  async asyncData(context) {
+    const client = context.app.apolloProvider.defaultClient
+
+    const url = process.server
+      ? 'https://contentre.io'
+      : `${window.location.protocol}//${window.location.host}`
+
+    try {
+      const {
+        data: { getPortfolioContent: portfolios },
+      } = await client.query({
+        query: GET_PORTFOLIO_CONTENT,
+        variables: {
+          size: 12,
+          skip: 0,
+          filters: {
+            username: context.params.portfolio,
+            code: context.params.code,
+            url: `${url}${context.route.fullPath}`,
+          },
+        },
+        skip: !context.params.portfolio && !context.params.code,
+      })
+      return {
+        portfolio: {
+          ...portfolios,
+          total: portfolios?.contents?.meta?.total ?? 0,
+          contents: portfolios.contents.contents,
+        },
+      }
+    } catch (e) {
+      return {
+        error: true,
+      }
+    }
+  },
   data: () => ({
     image: ImageBG,
     username: '',
@@ -224,37 +261,6 @@ export default {
     size: 12,
     skip: 0,
   }),
-  apollo: {
-    portfolio: {
-      query: GET_PORTFOLIO_CONTENT,
-      fetchPolicy: 'cache-and-network',
-      variables() {
-        return {
-          size: this.size,
-          skip: this.skip,
-          filters: {
-            username: this.username,
-            terms: this.filters?.terms,
-            ...this.filters,
-          },
-        }
-      },
-      update(data) {
-        return {
-          ...data.getPortfolioContent,
-          total: data.getPortfolioContent?.contents?.meta?.total ?? 0,
-          contents: data.getPortfolioContent.contents.contents,
-        }
-      },
-      skip() {
-        return !this.username
-      },
-      error(e) {
-        console.log(e)
-        this.error = true
-      },
-    },
-  },
 
   head() {
     if (!this.error) {
