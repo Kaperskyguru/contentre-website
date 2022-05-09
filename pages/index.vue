@@ -44,7 +44,7 @@
                         tracking-loose
                       "
                     >
-                      Manage all your freelance writing business from one place
+                      Manage your freelance writing business from one place
                     </h1>
                     <p class="text-sm md:text-base text-black-50 mb-10">
                       It helps freelance writers (content creators) organize
