@@ -198,7 +198,7 @@ export default {
   },
 
   gtm: {
-    id: 'G-Q2JRSLVRYZ',
+    id: 'GTM-KFL7V5T',
     pageTracking: true,
     // pageViewEventName: 'virtualPageview',
   },

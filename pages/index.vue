@@ -1158,7 +1158,7 @@ export default {
 
   head() {
     return {
-      title: 'Manage all your freelance writing business from one place',
+      title: 'Manage your freelance writing business from one place',
     }
   },
 
