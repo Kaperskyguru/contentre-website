@@ -216,7 +216,7 @@ export default {
   async asyncData(context) {
     const client = context.app.apolloProvider.defaultClient
 
-    const url = `${process.env.FE_URL}`
+    const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
 
     try {
       const {

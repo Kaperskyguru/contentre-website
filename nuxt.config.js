@@ -187,6 +187,7 @@ export default {
     '@dansmaculotte/nuxt-segment',
     '@nuxtjs/apollo',
     '@nuxtjs/svg',
+    '@nuxtjs/gtm',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -199,12 +200,11 @@ export default {
   gtm: {
     id: 'G-Q2JRSLVRYZ',
     pageTracking: true,
-    pageViewEventName: 'virtualPageview',
+    // pageViewEventName: 'virtualPageview',
   },
 
   publicRuntimeConfig: {
-    SEGMENT_WRITE_KEY:
-      process.env.SEGMENT_WRITE_KEY || 'GC68y1Bqqa8Gz4VNkIuBtU8WIfPwrqFW',
+    SEGMENT_WRITE_KEY: process.env.SEGMENT_WRITE_KEY,
     SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
   },
 
