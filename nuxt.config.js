@@ -20,16 +20,15 @@ export default {
               dateModified: new Date(),
               datePublished: '2022-05-02T10:10:00-07:00',
               description:
-                'Bulletproof workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
-              headline:
-                'Manage all your freelance writing business from one place',
+                'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+              headline: 'Manage your freelance writing business from one place',
               image: {
                 '@type': 'ImageObject',
                 url: '/logo.png',
               },
               inLanguage: 'en-us',
               mainEntityOfPage: 'https://contentre.io/',
-              name: 'Manage all your freelance writing business from one place',
+              name: 'Manage your freelance writing business from one place',
               publisher: { '@id': '#creator' },
               url: 'https://contentre.io',
             },
@@ -85,19 +84,19 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Bulletproof workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:title',
         property: 'og:title',
         content:
-          'Manage all your freelance writing business from one place | Contentre',
+          'Manage your freelance writing business from one place | Contentre',
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Bulletproof workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:site_name',
@@ -195,6 +194,12 @@ export default {
     manifest: {
       lang: 'en',
     },
+  },
+
+  gtm: {
+    id: 'G-Q2JRSLVRYZ',
+    pageTracking: true,
+    pageViewEventName: 'virtualPageview',
   },
 
   publicRuntimeConfig: {
