@@ -8,7 +8,6 @@
       justify-center
       items-center
       rounded-full
-      border border-gray-600 border-opacity-25
     "
     :class="[
       sizeAsClasses,
@@ -46,7 +45,8 @@ export default {
 
     size: {
       type: String,
-      validate: (value) => ['small', 'normal', 'auto'].includes(value),
+      validate: (value) =>
+        ['small', 'normal', 'auto', 'medium'].includes(value),
       default: 'normal',
     },
 
@@ -76,6 +76,8 @@ export default {
         ? 'w-6 h-6 text-2xs'
         : this.size === 'normal'
         ? 'w-12 h-12 text-base tracking-wider'
+        : this.size === 'medium'
+        ? 'md:w-80 md:h-80 w-full h-full text-base tracking-wider'
         : 'w-full h-full text-base tracking-wider'
     },
     colorAsClasses() {

@@ -48,3 +48,15 @@ export const GET_PORTFOLIO_CONTENT = gql`
     }
   }
 `
+
+export const GET_PORTFOLIO_DETAIL = gql`
+  query getPortfolioDetail($filters: PortfolioContentFilters!) {
+    getPortfolioDetail(filters: $filters) {
+      about
+      coverImage
+      job
+      profileImage
+      name
+    }
+  }
+`
