@@ -201,7 +201,7 @@ export default {
     const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
     try {
       const {
-        data: { getPortfolioDetail: portfolios },
+        data: { getPortfolioDetail: portfolioDetail },
       } = await client.query({
         query: GET_PORTFOLIO_DETAIL,
         variables: {
@@ -216,7 +216,7 @@ export default {
       })
       return {
         portfolio: {
-          ...portfolios,
+          ...portfolioDetail,
         },
       }
     } catch (e) {
