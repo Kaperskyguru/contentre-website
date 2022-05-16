@@ -190,7 +190,7 @@
 
 <script>
 import ImageBG from 'assets/img/cover_image.png'
-import { GET_PORTFOLIO_DETAIL } from '~/graphql'
+import { GET_PORTFOLIO_DETAIL, GET_PORTFOLIO_CONTENT } from '~/graphql'
 
 export default {
   name: 'CodePage',
@@ -293,35 +293,35 @@ export default {
       }
     }
   },
-  // apollo: {
-  //   portfolios: {
-  //     query: GET_PORTFOLIO_CONTENT,
-  //     fetchPolicy: 'cache-and-network',
-  //     variables() {
-  //       const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
-  //       return {
-  //         size: 9,
-  //         skip: 0,
-  //         filters: {
-  //           ...this.filters,
-  //           username: this.username,
-  //           code: this.code,
-  //           url: `${url}${this.$route.fullPath}`,
-  //         },
-  //       }
-  //     },
-  //     update(data) {
-  //       return {
-  //         ...data.getPortfolioContent,
-  //         total: data.getPortfolioContent?.contents?.meta?.total ?? 0,
-  //         contents: data.getPortfolioContent.contents.contents,
-  //       }
-  //     },
-  //     skip() {
-  //       return !this.username && !this.code
-  //     },
-  //   },
-  // },
+  apollo: {
+    portfolios: {
+      query: GET_PORTFOLIO_CONTENT,
+      fetchPolicy: 'cache-and-network',
+      variables() {
+        const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
+        return {
+          size: 9,
+          skip: 0,
+          filters: {
+            ...this.filters,
+            username: this.username,
+            code: this.code,
+            url: `${url}${this.$route.fullPath}`,
+          },
+        }
+      },
+      update(data) {
+        return {
+          ...data.getPortfolioContent,
+          total: data.getPortfolioContent?.contents?.meta?.total ?? 0,
+          contents: data.getPortfolioContent.contents.contents,
+        }
+      },
+      skip() {
+        return !this.username && !this.code
+      },
+    },
+  },
   computed: {
     getContents() {
       return this.portfolios?.contents ?? []

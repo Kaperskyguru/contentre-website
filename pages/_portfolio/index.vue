@@ -199,6 +199,8 @@ export default {
   async asyncData(context) {
     const client = context.app.apolloProvider.defaultClient
     const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
+
+    console.log(url, 'Calling in server')
     try {
       const {
         data: { getPortfolioDetail: portfolioDetail },
@@ -220,6 +222,7 @@ export default {
         },
       }
     } catch (e) {
+      console.log(e, 'Error in server')
       return {
         error: true,
       }
