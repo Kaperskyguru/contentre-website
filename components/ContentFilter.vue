@@ -1,9 +1,22 @@
 <template>
-  <div class="flex items-center">
+  <div class="flex flex-wrap items-center">
     <div class="flex sm:justify-center">
-      <Button @click="onClickOpenFilters">
+      <button
+        class="
+          flex
+          justify-between
+          items-center
+          px-3
+          h-9
+          text-darksilver
+          bg-primary-teal
+          rounded
+        "
+        @click="onClickOpenFilters"
+      >
         <IconFilter fill="#fff" width="20" height="15" class="mr-2" />
         <span class="text-sm text-white">Filter</span>
+        <!-- hasFilter -->
         <span
           v-if="hasFilter"
           aria-atomic="true"
@@ -25,7 +38,7 @@
           "
         >
         </span>
-      </Button>
+      </button>
     </div>
 
     <LazyContentsFilters

@@ -4,11 +4,78 @@ dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: (pageTitle) => {
-      return pageTitle && pageTitle !== 'Contentre'
-        ? `${pageTitle} | Contentre`
-        : 'Contentre'
-    },
+    titleTemplate: '%s | Contentre',
+    script: [
+      {
+        type: 'application/ld+json',
+        json: {
+          '@context': 'http://schema.org',
+          '@graph': [
+            {
+              '@type': 'WebPage',
+              author: { '@id': '#identity' },
+              copyrightHolder: { '@id': '#identity' },
+              copyrightYear: new Date(),
+              creator: { '@id': '#creator' },
+              dateModified: new Date(),
+              datePublished: '2022-05-02T10:10:00-07:00',
+              description:
+                'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+              headline: 'Manage your freelance writing business from one place',
+              image: {
+                '@type': 'ImageObject',
+                url: '/logo.png',
+              },
+              inLanguage: 'en-us',
+              mainEntityOfPage: 'https://contentre.io/',
+              name: 'Manage your freelance writing business from one place',
+              publisher: { '@id': '#creator' },
+              url: 'https://contentre.io',
+            },
+            {
+              '@id': '#identity',
+              '@type': 'LocalBusiness',
+              priceRange: '$0.00',
+            },
+            { '@id': '#creator', '@type': 'Organization' },
+            {
+              '@type': 'BreadcrumbList',
+              description: 'Breadcrumbs list',
+              itemListElement: [
+                {
+                  '@type': 'ListItem',
+                  item: 'https://contentre.io/auth/register',
+                  name: 'Get Started for free',
+                  position: 1,
+                },
+
+                {
+                  '@type': 'ListItem',
+                  item: 'https://contentre.io/pricing',
+                  name: 'Pricing',
+                  position: 2,
+                },
+
+                {
+                  '@type': 'ListItem',
+                  item: 'https://blog.contentre.io/',
+                  name: 'Become a better freelance writer',
+                  position: 4,
+                },
+
+                {
+                  '@type': 'ListItem',
+                  item: 'https://contentre.io/products',
+                  name: 'Products',
+                  position: 3,
+                },
+              ],
+              name: 'Breadcrumbs',
+            },
+          ],
+        },
+      },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,18 +84,19 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Access your contents anywhere published, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
+          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Content management platform for content creators | Contentre',
+        content:
+          'Manage your freelance writing business from one place | Contentre',
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Access your contents anywhere published, monitor your content analytics in real time, create and customize your writing portfolio across your clients.',
+          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:site_name',
@@ -43,18 +111,18 @@ export default {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@contentre',
+        content: '@contentreio',
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@contentre',
+        content: '@contentreio',
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance writing, content marketing, writing portfolio',
+          'content creators, freelance writing, content marketing, writing portfolio, freelance content marketers, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
@@ -119,6 +187,7 @@ export default {
     '@dansmaculotte/nuxt-segment',
     '@nuxtjs/apollo',
     '@nuxtjs/svg',
+    '@nuxtjs/gtm',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -128,9 +197,14 @@ export default {
     },
   },
 
+  gtm: {
+    id: 'GTM-KFL7V5T',
+    pageTracking: true,
+    // pageViewEventName: 'virtualPageview',
+  },
+
   publicRuntimeConfig: {
-    SEGMENT_WRITE_KEY:
-      process.env.SEGMENT_WRITE_KEY || 'GC68y1Bqqa8Gz4VNkIuBtU8WIfPwrqFW',
+    SEGMENT_WRITE_KEY: process.env.SEGMENT_WRITE_KEY,
     SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
   },
 

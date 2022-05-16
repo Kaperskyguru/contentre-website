@@ -44,7 +44,7 @@
                         tracking-loose
                       "
                     >
-                      Manage all your freelance writing business from one place
+                      Manage your freelance writing business from one place
                     </h1>
                     <p class="text-sm md:text-base text-black-50 mb-10">
                       It helps freelance writers (content creators) organize
@@ -565,7 +565,7 @@
               </h1>
               <p class="mb-4 leading-8">
                 Customizable auto-generated content portfolio. Customize your
-                porfolio to best suit your brand or choose from thousands of
+                portfolio to best suit your brand or choose from thousands of
                 templates.
               </p>
               <div class="flex justify-center">
@@ -577,7 +577,7 @@
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
                         <span class="inline-flex"
-                          >Track your porfolio with Google Analytics and gain
+                          >Track your portfolio with Google Analytics and gain
                           more insights.</span
                         >
                       </div>
@@ -742,7 +742,8 @@
               Automatic Generated
             </div>
             <div class="text-sm">
-              Automatic Generated and Customizable porfolio with no-code needed.
+              Automatic Generated and Customizable portfolio with no-code
+              needed.
             </div>
           </div>
 
@@ -784,7 +785,7 @@
               Customize/choose from thousands of templates
             </div>
             <div class="text-sm">
-              Don't like our sample template? Customize your porfolio to best
+              Don't like our sample template? Customize your portfolio to best
               suit your brand or choose from thousands of templates.
             </div>
           </div>
@@ -808,8 +809,8 @@
               <div class="w-full md:w-1/2 xl:w-1/2 px-4">
                 <div class="space-y-4">
                   <h3 class="font-semibold text-dark text-3xl mb-4 block">
-                    Ditch Spreadsheets. Manage your contents with Contentre in
-                    minutes.
+                    Ditch Spreadsheets. Manage your freelance writing business
+                    in minutes.
                   </h3>
                 </div>
               </div>
@@ -942,7 +943,7 @@
                   >
                 </li>
                 <li>
-                  <a class="text-white hover:text-teal-300" href="/aboutus"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >About us</a
                   >
                 </li>
@@ -954,12 +955,10 @@
                   >
                 </li>
                 <li>
-                  <a class="text-white hover:text-teal-300" href="/careers"
-                    >Careers</a
-                  >
+                  <a class="text-white hover:text-teal-300" href="#">Careers</a>
                 </li>
                 <li>
-                  <a class="text-white hover:text-teal-300" href="/contactus"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >Contact us</a
                   >
                 </li>
@@ -990,31 +989,27 @@
                 <li>
                   <a
                     class="text-white hover:text-teal-300"
-                    href="https://blog.contentre.io/ebooks?source=home"
+                    href="https://blog.contentre.io/?source=home"
                     >EBooks and Templates</a
                   >
                 </li>
                 <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    href="/privacy-policy"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >Privacy policy</a
                   >
                 </li>
                 <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    href="/terms-and-conditions"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >Terms of service</a
                   >
                 </li>
                 <li>
-                  <a class="text-white hover:text-teal-300" href="/disclaimer"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >Disclaimer</a
                   >
                 </li>
                 <li>
-                  <a class="text-white hover:text-teal-300" href="/contactus"
+                  <a class="text-white hover:text-teal-300" href="#"
                     >Contact us</a
                   >
                 </li>
@@ -1158,7 +1153,7 @@ export default {
 
   head() {
     return {
-      title: 'Content management for content creators',
+      title: 'Manage your freelance writing business from one place',
     }
   },
 
