@@ -47,6 +47,8 @@ export const GET_PORTFOLIO_CONTENT = gql`
 export const GET_PORTFOLIO_DETAIL = gql`
   query getPortfolioDetail($filters: PortfolioDetailsFilters!) {
     getPortfolioDetail(filters: $filters) {
+      templateType
+      templateSlug
       about
       coverImage
       job
