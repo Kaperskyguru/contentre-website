@@ -99,6 +99,16 @@
 <script>
 export default {
   name: 'PortfolioL',
+
+  data: () => ({
+    toggle: false,
+  }),
+
+  methods: {
+    toggleDropdown() {
+      this.toggle = !this.toggle
+    },
+  },
 }
 </script>
 
