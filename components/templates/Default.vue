@@ -140,7 +140,7 @@
 
                     <article class="overflow-auto mt-4 h-40 text-base">
                       <!--  eslint-disable-next-line vue/no-v-html -->
-                      <span v-html="content.excerpt"></span>
+                      <span v-html="getExcerpt(content.excerpt)"></span>
                     </article>
 
                     <!-- <div class="flex justify-end mb-4">
@@ -212,6 +212,9 @@ export default {
   },
 
   methods: {
+    getExcerpt(excerpt) {
+      return excerpt?.substring(0, 140) + '...' ?? ''
+    },
     getClientName(client) {
       return client?.name ?? 'Personal'
     },
