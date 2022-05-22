@@ -123,15 +123,12 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div class="h-[12rem]">
-                    <div class="w-full h-full">
-                      <img
-                        :alt="content.title"
-                        :src="computedImage(content.featuredImage)"
-                        class="w-full h-full"
-                        style="object-fit: cover; max-width: 100%; height: 100%"
-                      />
-                    </div>
+                  <div style="flex: calc(900 / 900)">
+                    <img
+                      :alt="content.title"
+                      :src="computedImage(content.featuredImage)"
+                      class="w-full h-full img_"
+                    />
                   </div>
                   <div class="my-4 border-b">
                     <p class="mx-3 mb-2 text-base font-medium">
@@ -280,31 +277,10 @@ export default {
 .border-text-brand {
   border-bottom: 4px solid rgba(255, 53, 101);
 }
-.nav-links {
-  color: #000;
-}
-
-.nav-links a:hover {
-  color: rgba(255, 53, 101);
-}
-
-.bg-800 {
-  background-color: rgba(31, 41, 55, 1);
-}
-
-.card-text {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
 
 #card {
   height: 500px;
   min-height: 300px;
-}
-
-.get-intouch {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -312,5 +288,12 @@ export default {
     height: 600px;
     min-height: 300px;
   }
+}
+
+.img_ {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
 }
 </style>
