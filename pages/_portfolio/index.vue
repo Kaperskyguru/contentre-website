@@ -67,7 +67,6 @@ export default {
         },
       }
     } catch (e) {
-      console.log(e)
       return {
         error: true,
       }
