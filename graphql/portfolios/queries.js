@@ -52,8 +52,15 @@ export const GET_PORTFOLIO_DETAIL = gql`
       about
       coverImage
       job
+      css
+      html
       profileImage
       name
+      contact {
+        email
+        phone
+        address
+      }
     }
   }
 `
