@@ -7,6 +7,9 @@ export default {
     titleTemplate: '%s | Contentre',
     script: [
       {
+        src: 'https://cdn.tailwindcss.com',
+      },
+      {
         type: 'application/ld+json',
         json: {
           '@context': 'http://schema.org',
