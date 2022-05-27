@@ -360,7 +360,7 @@
                 <ul>
                   <li>
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -374,7 +374,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -388,7 +388,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -466,7 +466,7 @@
                 <ul>
                   <li>
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -480,7 +480,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -494,7 +494,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -572,7 +572,7 @@
                 <ul>
                   <li>
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -586,7 +586,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
@@ -600,7 +600,7 @@
 
                   <li class="mt-3">
                     <span
-                      class="flex items-center text-black dark:text-gray-100"
+                      class="flex items-center text-black "
                     >
                       <i class="far fa-check-circle"></i>
                       <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
