@@ -3,6 +3,27 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: "gilroy";
+    src: url("./fonts/gilroy/gilroy-bold.otf");
+    src: url("./fonts/gilroy/gilroy-bold.otf") format("woff"),
+        url("./fonts/gilroy/gilroy-bold.otf") format("opentype"),
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* 
+    font-family: 'gilroy', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; */
+
+}
+
+
 /* ==============Hamburger menu==================== */
 
 .hamburger-box {
