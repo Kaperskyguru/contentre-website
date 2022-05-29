@@ -1,122 +1,280 @@
 <template>
-  <div class="min-h-screen">
-    <div id="hero" class="bg-transparent w-full px-8 pt-2 z-10">
-      <header>
-        <nav
-          class="
-            flex flex-wrap
-            items-center
-            justify-between
-            py-4
-            md:py-0
-            z-30
-            w-full
-          "
-        >
-          <div>
-            <a href="/">
-              <img
-                class="pl-3 icon"
-                src="~/assets/img/icon.png"
-                width="60"
-                alt="logo"
-              />
-              <span class="text logo-text">Contentre</span>
-            </a>
+  <main class="min-h-screen">
+    <!-- ================Header================================ -->
+    <header class="px-0 md:px-8 py-4">
+      <!-- ------------Navbar-------------------- -->
+      <nav class="flex justify-between relative mt-4">
+        <div class="flex items-center">
+          <div class="flex">
+            <img src="/imgs/Logo-contentre.png" alt="Logo-contentre" class="" />
+            <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
           </div>
-
-          <svg
-            id="menu-button"
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 cursor-pointer md:hidden block"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            @click.prevent="toggleDropdown"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-
-          <div
-            id="navDropdown"
-            class="w-full md:flex hidden md:items-center md:w-auto"
-          >
-            <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
-              <li>
-                <a class="md:p-4 py-2 block" href="#">
-                  <span class="">About</span>
-                </a>
+          <div class="text-text-base hidden lg:block nav-menu ml-8">
+            <ul class="flex text-[#888888]">
+              <li class="ml-12">
+                <a class="text-base" href="./index.html">Why Contentre?</a>
               </li>
-              <li>
-                <a class="md:p-4 py-2 block" href="#">
-                  <span class="">Products</span>
-                </a>
+              <li class="ml-12">
+                <a class="text-base" href="about.html">About</a>
               </li>
-              <li>
-                <a class="md:p-4 py-2 block" href="#">
-                  <span class="">Services</span>
-                </a>
+              <li class="ml-12">
+                <a class="text-base" href="./pricing.html">Pricing</a>
               </li>
-              <li>
-                <a class="md:p-4 py-2 block" href="#">
-                  <span class="">Contact</span>
-                </a>
+              <li class="ml-12">
+                <a class="text-base" href="product.html">Product</a>
+              </li>
+              <li class="ml-12">
+                <a class="text-base" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
-          <div
-            id="navDropdown1"
-            class="w-full hidden md:flex md:items-center md:w-auto"
+        </div>
+
+        <!-- ===========Hamburger Icon===================== -->
+        <div class="hamburger-box">
+          <button
+            id="menu-btn"
+            class="block hamburger lg:hidden focus:outline-none"
           >
-            <ul class="pt-4 text-gray-700 md:flex md:justify-between md:pt-0">
-              <li class="pr-5 hidden">
-                <a
-                  :href="`${APP_URL}/auth/register?source=home_header`"
-                  class="
-                    inline-flex
-                    px-20
-                    py-3
-                    text-white
-                    form-btn
-                    border
-                    rounded-md
-                    mb-3
-                  "
-                >
-                  <span class="">Get Started for free</span>
-                </a>
-              </li>
-              <li class="items-center">
-                <a
-                  class="
-                    inline-flex
-                    px-20
-                    py-3
-                    text-black
-                    bg-transparent
-                    btn-outline
-                    border
-                    rounded-md
-                    md:ml-2
-                    mb-3
-                  "
-                  :href="`${APP_URL}/auth/login?source=home_header`"
-                >
-                  <span class="">Login</span>
-                </a>
-              </li>
-            </ul>
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- ===========Hamburger Icon===================== -->
+
+        <!-- ===============Mobile Menu=================================== -->
+        <div class="lg:hidden">
+          <div
+            id="menu"
+            class="
+              absolute
+              flex-col
+              items-center
+              self-end
+              py-8
+              mt-10
+              space-y-6
+              font-bold
+              bg-white
+              sm:w-auto sm:self-center
+              left-6
+              right-6
+              drop-shadow-md
+              z-10
+              hidden
+            "
+          >
+            <a href="./index.html" class="text-base text-[#888888]"
+              >Why Contentre?</a
+            >
+            <a href="About" class="text-base text-[#888888]">About</a>
+            <a href="./pricing.html" class="text-base text-[#888888]"
+              >Pricing</a
+            >
+            <a href="Product" class="text-base text-[#888888]">Product</a>
+            <a href="Contact" class="text-base text-[#888888]">Contact</a>
+            <div class="text-sm lg:hidden">
+              <button
+                class="
+                  bg-[#286963]
+                  py-[12px]
+                  px-[32px]
+                  text-white
+                  rounded-md
+                  text-sm
+                  inline-block
+                "
+              >
+                Log In
+              </button>
+              <button
+                class="
+                  bg-[#286963]
+                  py-[12px]
+                  px-[32px]
+                  text-white
+                  rounded-md
+                  text-sm
+                "
+              >
+                Get Started For Free
+              </button>
+            </div>
           </div>
-        </nav>
-      </header>
-    </div>
+        </div>
+
+        <!-- ===============Mobile Menu=================================== -->
+        <div class="text-sm hidden lg:block">
+          <button class="text-[#286963] font-bold text-sm">Log In</button>
+          <button
+            class="
+              bg-[#286963]
+              py-[12px]
+              px-[32px]
+              text-white
+              ml-8
+              rounded-md
+              text-sm
+            "
+          >
+            Get Started For Free
+          </button>
+        </div>
+      </nav>
+      <!-- ------------Navbar-------------------- -->
+    </header>
     <Nuxt />
-  </div>
+
+    <footer class="bg-[#102A27] mt-32">
+      <div class="max-w-[80%] mx-auto pt-10 md:pt-16 pb-5">
+        <div class="grid lg:grid-cols-3 gap-10 md:gap-16 lg:gap-40">
+          <div class="lg:col-span-1">
+            <h5 class="text-white mb-5 text-md font-medium">Contentre</h5>
+            <p class="text-[#E6E7E9] text-xs font-light leading-relaxed">
+              Access your content, monitor your content analytics in real-time,
+              create and customize your writing portfolio across your clients.
+              Spend less time and more time focused on your writing and getting
+              more clients.
+            </p>
+
+            <ul class="flex mt-5">
+              <li>
+                <a href="#"
+                  ><img src="/imgs/LinkedIN_black.png" alt="" srcset=""
+                /></a>
+              </li>
+              <li class="ml-2">
+                <a href="#"
+                  ><img src="/imgs/Combined-Shape (1).png" alt="" srcset=""
+                /></a>
+              </li>
+              <li class="ml-2">
+                <a href="#"
+                  ><img src="/imgs/Combined-Shape (2).png" alt="" srcset=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:col-span-2">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-10">
+              <div>
+                <h5 class="text-white mb-5 text-md font-medium">Company</h5>
+                <ul>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >About</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Terms of service</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Privacy policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h5 class="text-white mb-5 text-md font-medium">Resources</h5>
+                <ul>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="Blog"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Ebooks</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Templates</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Webinars</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-sm font-light" href="About"
+                      >Who is a content creator?</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-sm font-light" href="About"
+                      >Who is a freelance writer?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h5 class="text-white mb-5 text-md font-medium">Product</h5>
+                <ul>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >All</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >For enterprise</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >For content creators</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >For freelance writers</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h5 class="text-white mb-5 text-md font-medium">Contact Us</h5>
+                <ul>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Book a Demo</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Schedule a call</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Chat with us</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Send an email</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 lg:mt-0">
+          <small class="text-[#E6E7E9] text-xs font-extralight"
+            >Copyright ® 2022 contentre All rights Rcerved</small
+          >
+        </div>
+      </div>
+    </footer>
+  </main>
 </template>
 
 <script>
