@@ -9,25 +9,25 @@
     <title>Home</title>
 </head>
 
-<body class="">
+<body class="font-normal">
+
+    <!-- ================Header================================ -->
     <header class=" px-0 md:px-8 py-4">
         <!-- ------------Navbar-------------------- -->
-        <nav class="flex justify-between relative mt-5">
+        <nav class="flex justify-between relative mt-4">
 
-            <div class="flex items-center justify-between lg:justify-none">
+            <div class="flex items-center">
                 <div class="flex">
                     <img src="/imgs/Logo-contentre.png" alt="Logo-contentre" class="">
-                    <h1 class="text-[#102A27] font-bold text-[2rem]">Contentre</h1>
+                    <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
                 </div>
-                <div class="hidden lg:block nav-menu ml-10">
-                    <ul class="flex text-[#888888] text-sm ">
-                        <li class="ml-16"><a class="text-[1.6rem]" href="./index.html">Why Contentre?</a></li>
-                        <li class="ml-16"><a
-                                class="text-[1.6rem] bg-[#F6FDFC] bg-[#F6FDFC] px-6 py-4 text-[#286963] font-bold rounded-md"
-                                href="about.html">About</a></li>
-                        <li class="ml-16"><a class="text-[1.6rem]" href="./pricing.html">Pricing</a></li>
-                        <li class="ml-16"><a class="text-[1.6rem]" href="product.html">Product</a></li>
-                        <li class="ml-16"><a class="text-[1.6rem]" href="contact.html">Contact</a></li>
+                <div class="text-text-base hidden lg:block nav-menu ml-8">
+                    <ul class="flex text-[#888888]">
+                        <li class="ml-12"><a class="text-base" href="./index.html">Why Contentre?</a></li>
+                        <li class="ml-12"><a class="text-base" href="about.html">About</a></li>
+                        <li class="ml-12"><a class="text-base" href="./pricing.html">Pricing</a></li>
+                        <li class="ml-12"><a class="text-base" href="product.html">Product</a></li>
+                        <li class="ml-12"><a class="text-base" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
 
@@ -49,19 +49,26 @@
             <div class="lg:hidden">
                 <div id="menu"
                     class="absolute flex-col items-center self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-10 hidden">
-                    <a href="./index.html" class="text-[1.6rem]">Why Contentre?</a>
-                    <a href="About" class="text-[1.6rem]">About</a>
-                    <a href="./pricing.html" class="text-[1.6rem]">Pricing</a>
-                    <a href="Product" class="text-[1.6rem]">Product</a>
-                    <a href="Contact" class="text-[1.6rem]">Contact</a>
+                    <a href="./index.html" class="text-base text-[#888888]">Why Contentre?</a>
+                    <a href="About" class="text-base text-[#888888]">About</a>
+                    <a href="./pricing.html" class="text-base text-[#888888]">Pricing</a>
+                    <a href="Product" class="text-base text-[#888888]">Product</a>
+                    <a href="Contact" class="text-base text-[#888888]">Contact</a>
+                    <div class="text-sm  lg:hidden">
+                        <button class="bg-[#286963] py-[12px] px-[32px] text-white rounded-md text-sm inline-block">Log
+                            In</button>
+                        <button class="bg-[#286963] py-[12px] px-[32px] text-white  rounded-md text-sm">Get
+                            Started For
+                            Free</button>
+                    </div>
                 </div>
 
             </div>
 
             <!-- ===============Mobile Menu=================================== -->
             <div class="text-sm hidden lg:block">
-                <button class="text-[#286963] font-bold text-[1.6rem] ">Log In</button>
-                <button class="bg-[#286963] py-[1.5rem] px-[3.2rem] text-white ml-8 rounded-md text-[1.6rem]">Get
+                <button class="text-[#286963] font-bold text-sm ">Log In</button>
+                <button class="bg-[#286963] py-[12px] px-[32px] text-white ml-8 rounded-md text-sm">Get
                     Started For
                     Free</button>
             </div>
@@ -70,18 +77,27 @@
 
         </nav>
         <!-- ------------Navbar-------------------- -->
+    </header>
+    <!-- ================END OF HEADER========================= -->
 
+    <!-- ----------------------HERO SECTION-------------------------- -->
+
+    <section class="px-8 md:px-8 py-4">
         <!-- ----------Hero----------- -->
-        <div class="bg-[#4FD1C50D] pl-10 pr-4 py-20 mt-9 rounded-md ">
+        <div class="bg-[#4FD1C50D] px-4 lg:pl-16 lg:pr-6 py-20 mt-9 rounded-md ">
             <div class="flex lg:flex-row  flex-col-reverse items-center lg:items-start">
-                <div class=" mt-14">
+                <div class=" mt-14 xl:w-[55%]">
                     <h1
-                        class="text-3xl md:text-[4rem] md:leading-[5rem] lg:text-[6rem] lg:leading-[8rem] text-[#102A27] font-xl text-center  lg:text-left">
+                        class="text-[20px] md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[80px] text-[#102A27] font-bold text-center  lg:text-left">
                         Manage your
-                        freelance <br> writing business
+                        freelance writing business
                         in one
                         place</h1>
-                    <p class=" text-xl md:text-[1.6rem] leading-relaxed lg:w-[70%] mt-5 text-center lg:text-left">It
+
+
+                    <p
+                        class=" text-[14px] text-[#54605F] md:text-base font-medium leading-relaxed lg:w-[75%] mt-5 text-center lg:text-left">
+                        It
                         helps freelance
                         writers
                         (content
@@ -91,23 +107,27 @@
                         clients, create
                         multiple portfolios, discover new opportunities, and lots more, all in one place.</p>
                     <div>
-                        <div class="mt-24 md:mt-8 md:flex md:justify-center lg:justify-start">
-                            <input type="email" placeholder="Enter your email Address"
-                                class="border border-[#286963] text-[#286963] py-[1.5rem] pl-[2rem] pr-[10rem]  rounded-md text-[1.6rem] bg-transparent placeholder:text-[#286963]">
-                            <button
-                                class="bg-[#286963] py-[1.5rem] px-[3.2rem] text-white md:ml-8 rounded-md text-[1.6rem] mt-8 md:mt-0">Get
-                                Started For
-                                Free</button>
+                        <div
+                            class="mt-16 md:mt-8 md:flex  md:justify-center lg:justify-start  w-[70%] mx-auto md:w-full ">
+                            <div> <input type="email" placeholder="Enter your email Address"
+                                    class="border border-[#286963] text-[#286963] py-[12px] px-[18px] md:py-[16px] md:px-[24px]  font-medium rounded-md text-[16px] bg-transparent placeholder:text-[#286963]">
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-[#286963]  mx-6 md:mx-0  py-[12px] px-[16px] md:py-[16px] md:px-[24px] text-white md:ml-[16px] lg:ml-[10px] font-medium rounded-md text-[16px] mt-4 md:mt-0 ">Get
+                                    Started For
+                                    Free</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="sm:w-[1000px] w-[300px] md:w-[500px] mr-16 md:mr-24 lg:mr-0 lg:mx-0 lg:w-[600px] relative">
+                <div class="md:w-[500px] mr-16 md:mr-24 lg:mr-0 lg:mx-0 lg:w-[45%] relative">
                     <img src="/imgs/hero-img.png" alt="hero-image" class="w-full">
-                    <div class="md:-left-0 absolute top-[200px] lg:-left-[50px]">
-                        <img src="/imgs/Default.png" alt="" class="w-[100px] md:w-[150px]">
+                    <div class=" top-[100px] md:-left-0 absolute md:top-[200px] lg:-left-[50px]">
+                        <img src="/imgs/Default.png" alt="" class="w-[100px] md:w-[246px]">
                     </div>
-                    <div class="absolute top-[100px] md:top-[270px] -right-[50px] md:-right-[20px] drop-shadow-2xl">
+                    <div class="absolute top-[100px] md:top-[320px] -right-[60px] md:-right-[20px] drop-shadow-2xl">
                         <img src="/imgs/Overall Performance.png" alt="" class="w-[150px] md:w-[200px] lg:w-[280px]">
                     </div>
 
@@ -119,64 +139,81 @@
         <div class="w-full md:w-[80%] md:mx-auto">
 
             <ul class="flex justify-between items-center mt-5 md:mt-10 ml-20">
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/eBay Logo.png" alt=""></a></li>
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/FedEx Logo.png" alt=""></a></li>
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/Google Logo.png" alt=""></a>
-                </li>
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/Hulu Logo.png" alt=""></a></li>
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/LinkedIn Logo.png" alt=""></a>
-                </li>
-                <li><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px]" src="/imgs/Quizlet Logo.png Logo.png"
+                <li class=""><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] " src="/imgs/eBay Logo.png"
                             alt=""></a></li>
+                <li class="ml-4"><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] " src="/imgs/FedEx Logo.png"
+                            alt=""></a></li>
+                <li class="ml-4"><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] " src="/imgs/Google Logo.png"
+                            alt=""></a>
+                </li>
+                <li class="ml-4"><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] " src="/imgs/Hulu Logo.png"
+                            alt=""></a></li>
+                <li class="ml-4"><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] " src="/imgs/LinkedIn Logo.png"
+                            alt=""></a>
+                </li>
+                <li class="ml-4"><a href=""><img class="w-[40px] md:w-[50px] lg:w-[60px] "
+                            src="/imgs/Quizlet Logo.png Logo.png" alt=""></a></li>
             </ul>
 
         </div>
+    </section>
+    <!-- --------------------END OF--HERO SECTION-------------------------- -->
 
-    </header>
+
+    <!-- =================================FEATURES SECTION======================================== -->
+
 
     <section class="mt-20">
 
         <div class="text-center">
-            <h3 class="font-medium text-2xl text-[#102A27]">Save time & gain control over your <br> writing
+            <h3
+                class="font-medium  text-2xl md:text-4xl md:leading-snug lg:text-5xl text-[#102A27] lg:leading-[62.4px]">
+                Save time &
+                gain control
+                over your <br>
+                writing
                 business.</h3>
-            <p class="text-lg text-[#859492]">Enjoy these features and more</p>
+            <p
+                class=" text-[20px] md:text-[28px] md:leading-loose  lg:text-[32px]  leading-[47px] text-[#859492] font-medium">
+                Enjoy
+                these features
+                and more</p>
         </div>
-        <div class="mt-10  w-[80%] md:w-[70%] lg:w-[50%] mx-auto">
+        <div class="mt-10  w-[80%] md:w-[90%] lg:w-[50%] mx-auto">
 
-            <div class="grid grid-cols-1 md:grid-cols-2 mt-2 gap-2 pt-">
-                <div class="text-center bg-[#EFF1F1] p-10 rounded-md">
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-2 gap-5 pt-">
+                <div class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md">
                     <div class="flex justify-center mb-4">
                         <img src="/imgs/document-text.png" alt="" class="">
                     </div>
-                    <p class="text-lg  mb-4 text-[#102A27]">Content Repurposing</p>
-                    <p class="text-[.75rem] text-[#859492]">Generate industry standard cover letter, that attracts
-                        hire.</p>
+                    <p class="text-2xl leading-[37px]  mb-4 text-[#102A27]">Content Repurposing</p>
+                    <p class="text-base text-[#859492]">Auto generate PDF, Docx, etc for your content.</p>
 
                 </div>
-                <div class="text-center bg-[#EFF1F1] p-10 rounded-md">
+                <div class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md">
                     <div class="flex justify-center mb-4">
-                        <img src="/imgs/document-text.png" alt="" class="">
+                        <img src="/imgs/send-2.png" alt="" class="">
                     </div>
-                    <p class="text-lg  mb-4 text-[#102A27]">Content Publishing</p>
-                    <p class="text-[.75rem] text-[#859492]">Using profaliy plugin, you can promote your content across
+                    <p class="text-2xl leading-[37px]  mb-4 text-[#102A27]">Content Publishing</p>
+                    <p class="text-base text-[#859492]">Using profaliy plugin, you can promote your content across
                         social media.</p>
 
                 </div>
-                <div class="text-center bg-[#EFF1F1] p-10 rounded-md">
+                <div class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md">
                     <div class="flex justify-center mb-4">
                         <img src="/imgs/document-text.png" alt="" class="">
                     </div>
-                    <p class="text-lg  mb-4 text-[#102A27]">Cover letter generator</p>
-                    <p class="text-[.75rem] text-[#859492]">Generate industry standard cover letter, that attracts hire.
+                    <p class="text-2xl leading-[37px]  mb-4 text-[#102A27]">Cover letter generator</p>
+                    <p class="text-base text-[#859492]">Generate industry standard cover letter, that attracts hire.
                     </p>
 
                 </div>
-                <div class="text-center bg-[#EFF1F1] p-10 rounded-md">
+                <div class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md">
                     <div class="flex justify-center mb-4">
                         <img src="/imgs/document-text.png" alt="" class="">
                     </div>
-                    <p class="text-lg  mb-4 text-[#102A27]">Portfolio Management</p>
-                    <p class="text-[.75rem] text-[#859492]">Create multiple portfolios to streamline their content for a
+                    <p class="text-2xl leading-[37px]  mb-4 text-[#102A27]">Portfolio Management</p>
+                    <p class="text-base text-[#859492]">Create multiple portfolios to streamline their content for a
                         particular client.</p>
 
                 </div>
@@ -185,8 +222,8 @@
             </div>
 
 
-            <div class="flex justify-center mt-10 mb-10">
-                <button class="bg-[#286963] px-8 py-2 text-white md:ml-4 mt-4 md:mt-0 rounded-md">View more
+            <div class="flex justify-center mt-12 mb-10">
+                <button class="bg-[#286963] py-[16px] px-[24px] text-white  rounded-md text- base">View more
                     features</button>
             </div>
 
@@ -195,53 +232,63 @@
 
 
     </section>
+    <!-- =================================FEATURES SECTION======================================== -->
 
 
     <!-- ------------------------------------------TESTIMONIAL------------------------ -->
     <section class="bg-[#FAFAFA] mt-20">
         <div class="py-20">
-            <h3 class="text-center text-2xl md:text-4xl text-[#102A27]">Awesome feedback from users</h3>
-            <div class=" md:w-[70%] lg:w-[50%] mx-auto mt-10">
+            <h3 class="text-center text-2xl lg:text-5xl text-[#102A27]">Awesome feedback from users</h3>
+            <div class=" md:w-[70%] lg:w-[60%] mx-auto mt-10">
                 <div class="flex items-center space-x-3 md:space-x-8 px-2 md:px-0">
 
                     <img src="/imgs/arrow-left.png" alt="">
-                    <div class="bg-white px-8 py-4 rounded-md shadow-md ">
-                        <div class="md:flex  md:justify-between items-center border-b-2 border-[#F2F4F4] pb-3">
+                    <div class="bg-white px-10 pt-6 pb-16 rounded-md border ">
+                        <div class="md:flex  md:justify-between lg:items-center border-b-[1px] border-[#F2F4F4] pb-3">
                             <div class="flex justify-center">
-                                <div class=" md:flex justify-center md:justify-start">
-                                    <div class="flex md:block justify-center md:justify-start">
-                                        <img src="/imgs/userimg.png" alt="">
+                                <div class=" md:flex justify-center  md:justify-start mb-6">
+                                    <div class=" w-[48px] h-[48px] rounded-full mx-9 md:mx-0">
+                                        <img src="/imgs/userimg.png" alt="" class="w-[100%] block object-cover">
                                     </div>
-                                    <div class="md:ml-4">
-                                        <h6 class="text-[#286963] text-md font-medium">Success Ibekwe</h6>
-                                        <p class="text-[#888888] text-xs ">Uk Content Writer</p>
+                                    <div class="md:ml-4 mt-5 md:mt-0">
+                                        <h6 class="text-[#286963] text-base leading-[20.8px] font-medium">Success Ibekwe
+                                        </h6>
+                                        <p class="text-[#888888] text-xs font-medium leading-[15.6px] ">UX writer @
+                                            Google</p>
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div class="flex justify-center md:justify-start mt-1 md:mt-0">
-                                <div>
-                                    <img src="/imgs/Star 2.png" alt="" class="w-[1.5rem]">
+                            <div class="flex justify-center md:justify-start  md:mt-2 lg:mt-0">
+                                <div class="w-[16px] h-[16px]">
+                                    <img src="/imgs/Star 2.png" alt="" class="w-[100%] block object-cover">
                                 </div>
-                                <div>
-                                    <img src="/imgs/Star 2.png" alt="" class="w-[1.5rem]">
+                                <div class="w-[16px] h-[16px]">
+                                    <img src="/imgs/Star 2.png" alt="" class="w-[100%] block object-cover">
                                 </div>
-                                <div>
-                                    <img src="/imgs/Star 2.png" alt="" class="w-[1.5rem]">
+                                <div class="w-[16px] h-[16px]">
+                                    <img src="/imgs/Star 2.png" alt="" class="w-[100%] block object-cover">
                                 </div>
-                                <div>
-                                    <img src="/imgs/Star 2.png" alt="" class="w-[1.5rem]">
+                                <div class="w-[16px] h-[16px]">
+                                    <img src="/imgs/Star 2.png" alt="" class="w-[100%] block object-cover">
                                 </div>
-                                <div>
-                                    <img src="/imgs/Star 2.png" alt="" class="w-[1.5rem]">
+                                <div class="w-[16px] h-[16px]">
+                                    <img src="/imgs/Star 2.png" alt="" class="w-[100%] block object-cover">
                                 </div>
+
 
                             </div>
 
                         </div>
 
-                        <p class="text-[#54605F] text-sm mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p
+                            class="text-[#54605F] text-[14px] text-center md:text-left md:text-[16px] font-medium mt-5 mb-3 leading-[24px]">
+                            Lorem
+                            ipsum dolor sit
+                            amet,
+                            consectetur
+                            adipiscing elit.
                             Urna,
                             dictum
                             nisi mollis arcu at
@@ -263,23 +310,29 @@
     <!-- -------------------------------------HOW IT WORKS---------------------------- -->
 
     <section class=" mt-20">
-        <div class="pb-10">
+        <div class="pb-10 lg:pt-20">
             <div class="lg:ml-36">
                 <div class="lg:flex lg:justify-around">
-                    <div class=" lg:w-[18%] text-center lg:text-left">
-                        <h2 class="text-[#102A27] text-4xl font-medium">How it works.</h2>
-                        <p class="text-[#859492] text-md md:text-xl mt-2 md:mt-5 text-">Manage your contents for free in
+                    <div class=" lg:w-[38%] text-center lg:text-left">
+                        <h2 class="text-[#102A27] text-[40px] lg:text-[64px] font-medium leading-[76.5px]">How it works.
+                        </h2>
+                        <p
+                            class="text-[#859492] text-[24px] md:text-[28px] lg:text-[32px] lg:leading-[46.24px] mt-2 lg:mt-5 ">
+                            Manage your contents for <br> free in
                             less
                             time</p>
                     </div>
-                    <div class="lg:w-[65%] px-16 md:px-28  lg:mx-0 mt-10 lg:mt-0">
+                    <div class="lg:w-[62%] px-16 md:px-28  lg:mx-0 mt-10 lg:mt-0">
                         <div class="flex justify-center">
                             <div>
-                                <img src="/imgs/Frame 1044.png" alt="" srcset="" class="w-[120px] md:w-[60px]">
+                                <img src="/imgs/Frame 1044.png" alt="" srcset="" class="w-[100px]">
                             </div>
                             <div class="ml-10">
-                                <p class="text-[#102A27] text-md font-medium">Add your writing clients</p>
-                                <p class="text-sm w-[90%] lg:w-[45%] text-[#888888] mt-3">Add as many clients you're
+                                <p class="text-[#102A27] text-xl md:text-2xl leading-[26px] font-medium">Add your
+                                    writing clients
+                                </p>
+                                <p class="text-[15px] lg:w-[50%] text-[#888888] mt-3 leading-[24px]">Add as many clients
+                                    you're
                                     writing for as
                                     possible. You can
                                     even add
@@ -289,11 +342,15 @@
                         </div>
                         <div class="flex mt-10">
                             <div>
-                                <img src="/imgs/Frame 1043.png" alt="" srcset="" class="w-[120px] md:w-[60px]">
+                                <img src="/imgs/Frame 1043.png" alt="" srcset="" class="w-[100px]">
                             </div>
                             <div class="ml-10">
-                                <p class="text-md text-[#888888]">Add/Paste link to your contents</p>
-                                <p class="text-sm w-[90%] lg:w-[45%] text-[#888888] mt-3">Copy and paste the link to
+                                <p class="text-[#888888] text-xl md:text-2xl leading-[26px] font-medium">Add/Paste link
+                                    to your
+                                    contents</p>
+                                <p class="text-[15px] lg:w-[50%] text-[#888888] mt-3 leading-[24px]">Copy and paste the
+                                    link
+                                    to
                                     your content
                                     anywhere published and let us do the magic.
                                     Also,
@@ -303,11 +360,16 @@
                         </div>
                         <div class="flex mt-10">
                             <div>
-                                <img src="/imgs/Frame 1045.png" alt="" srcset="" class="w-[120px] md:w-[60px]">
+                                <img src="/imgs/Frame 1045.png" alt="" srcset="" class="w-[100px]">
                             </div>
                             <div class="ml-10">
-                                <p class="text-md text-[#888888]">Enjoy real time analytics and portfolio</p>
-                                <p class="text-sm w-[90%] lg:w-[45%] text-[#888888] mt-3">Copy and paste the link to
+                                <p class="text-[#888888] text-xl md:text-[24px] leading-[26px] font-medium ">Enjoy real
+                                    time
+                                    analytics
+                                    and portfolio
+                                </p>
+                                <p class="text-[15px] lg:w-[50%] w-[90%]  text-[#888888] mt-3 leading-[24px]">Copy and
+                                    paste the link to
                                     your content
                                     anywhere published and let us do the magic.
                                     Also,
@@ -329,28 +391,35 @@
 
     <section class="mt-20">
         <div class=" max-w-[80%] mx-auto mb-10">
-            <div class="grid lg:grid-cols-2 gap-4">
-                <div class="bg-[#FEF8FD] px-6 pt-6 rounded-md">
-                    <h4 class="text-[#102A27] font-medium text-xl lg:text-3xl">All your contents across <br>
+            <div class="grid lg:grid-cols-2 gap-10 lg:gap-5">
+                <div class="bg-[#FEF8FD] px-5 lg:px-10 pt-10 rounded-md">
+                    <h4 class="text-[#102A27] lg:font-medium text-[20px] font-bold lg:text-[32px] lg:leading-[44.8px]">
+                        All
+                        your contents
+                        across <br>
                         different clients in one place</h4>
-                    <p class="text-sm mt-5">Copy and paste links to your content any published. Create your content
+                    <p class="text-[18px] leading-[28.44px] mt-5">Copy and paste links to your content
+                        any
+                        published.
+                        Create your content
                         directly
                         from contentree
                         and published directly to many CRMs such WordPress, Strapi, Hashnode, Medium, etc.</p>
-                    <div class="lg:max-w-[90%] mx-auto bg-white rounded-md mt-10">
-                        <div class="mx-4 mt-2 pt-2">
-                            <h6 class="mb-4">Christain Holmes</h6>
+                    <div class="lg:max-w-[90%] mx-auto bg-white rounded-md mt-8">
+                        <div class="mx-8 mt-2 pt-2">
+                            <h6 class="mb-6 text-[10.4px] font-extrabold">Christain Holmes</h6>
                             <div class="relative rounded-md">
                                 <img src="/imgs/Rectangle 1084 (1).png" alt="" srcset="" class="w-full">
-                                <div class="absolute top-5 md:top-12 px-2 w-[80%]">
-                                    <p class="text-white text-xs md:text-sm">Hi, I am Christian Holmes, a freelance
+                                <div class="absolute top-5 md:top-12 px-4 w-[80%]">
+                                    <p class="text-white text-[10.4px] md:text-sm">Hi, I am Christian Holmes, a
+                                        freelance
                                         writer who
                                         creates
                                         content that attracts,
                                         engages and converts customers.
                                     </p>
                                     <button
-                                        class="bg-[#00AEFF] px-2 py-1 md:px-4 md:py-2 text-white md:ml-4 mt-4 lg:mt-0 text-xs md:text-sm">Writing
+                                        class="bg-[#00AEFF] px-[24px] py-[4px] md:px-4 md:py-2 text-white md:ml-4 lg:ml-0 mt-4 lg:mt-0 text-xs md:text-sm">Writing
                                         Services
                                     </button>
 
@@ -359,27 +428,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-[#DCF6F3] px-6 pt-6 rounded-md">
-                    <h4 class="text-[#102A27] font-medium text-xl lg:text-3xl">Comprehensive Content <br>
-                        Analytics, Insights and Reporting</h4>
-                    <p class="text-sm mt-5">Customizable auto-generated content portfolio. Customize your porfolio to
+                <div class="bg-[#DCF6F3] px-5 lg:px-10 pt-10 rounded-md">
+                    <h4 class="text-[#102A27] lg:font-medium text-[20px] font-bold lg:text-[32px] lg:leading-[44.8px]">
+                        Comprehensive
+                        Content
+                        <br>
+                        Analytics, Insights and Reporting
+                    </h4>
+                    <p class="text-[18px] leading-[28.44px] mt-5">Customizable auto-generated content portfolio.
+                        Customize your porfolio to
                         best suit your brand or choose from thousands of templates.</p>
-                    <div class=" lg:max-w-[90%]  mx-auto bg-white rounded-md mt-10 lg:mt-20">
-                        <img src="/imgs/Dashboard 1 (1).png" alt="" srcset="" class="w-full">
+                    <div class=" rounded-md mt-10 lg:mt-16">
+                        <img src="/imgs/Dashboard 1 (1).png" alt="" srcset="" class="w-full block object-cover">
                     </div>
                 </div>
 
 
             </div>
             <div class="lg:flex bg-[#EAF9FE] mt-4 rounded-md">
-                <div class="lg:ml-8 mt-10 mx-4 pt-6">
-                    <h4 class="text-[#102A27] font-medium text-xl lg:text-3xl">Create and Customize <br>
-                        your portfolio easily.</h4>
-                    <p class="mt-5">Customizable auto-generated content portfolio. Customize your porfolio to best suit
+                <div class="lg:ml-10 mx-4 pt-6 lg:w-[60%]">
+                    <h4 class="text-[#102A27] lg:font-medium text-[20px] font-bold  lg:text-[32px] lg:leading-[44.8px]">
+                        Create
+                        and Customize
+                        <br>
+                        your portfolio easily.
+                    </h4>
+                    <p class="text-[18px] leading-[28.44px] mt-5">Customizable auto-generated content portfolio.
+                        Customize your porfolio to best suit
                         your brand or
                         choose from thousands of templates.</p>
                 </div>
-                <div class="lg:w-[75%] mt-10 lg:mt-28 w-[95%]">
+                <div class="lg:w-[75%] mt-10 lg:mt-28">
                     <img src="/imgs/Dashboard 1 (2).png" alt="" srcset="" class="w-full">
                 </div>
             </div>
@@ -395,9 +474,12 @@
             <div class="flex justify-center">
                 <div>
                     <div class="flex justify-center">
-                        <img src="/imgs/shield-security@2x.png" alt="" class="w-20">
+                        <img src="/imgs/shield-security@2x.png" alt="" class="w-[80px] lg:w-[110px]">
                     </div>
-                    <h3 class=" text-3xl text-[#102A27] text-center mt-4">Unlock the benefits of modern
+                    <h3 class=" text-3xl lg:text-5xl  lg:leading-[62.4px]  text-[#102A27] text-center mt-8 lg:mt-5">
+                        Unlock the
+                        benefits of
+                        modern
                         writing
                         <br> business.
                     </h3>
@@ -406,21 +488,22 @@
             </div>
 
             <!-- ---------------------------CARD GRID------------ -->
-            <div class="mt-10 grid lg:grid-cols-3 gap-4">
+            <div class="mt-16 lg:mt-24 grid lg:grid-cols-3 gap-4">
 
                 <!-- ==========TEAM=========== -->
                 <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
-                    <div class="border-b-2 border-[#FFFFFF33] pb-8">
+                    <div class="border-b border-[#FFFFFF33]/20 pb-8">
                         <div class="flex justify-between ">
                             <div>
-                                <small>Manage Your</small>
-                                <h4 class="text-white font-medium text-2xl">Team</h4>
+                                <small class="text-lg leading-[23.4px] text-white/70">Manage Your</small>
+                                <h4 class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1">Team
+                                </h4>
                             </div>
-                            <img src="/imgs/people.svg" alt="" class="w-14">
+                            <img src="/imgs/people.svg" alt="" class="w-[50px] lg:w-[60px]">
 
                         </div>
                     </div>
-                    <div class="mt-5">
+                    <div class=" leading-[28.44px] pt-8">
                         <p>Introducing the teams feature, Users can create different teams and invite writers to each
                             team.
 
@@ -437,31 +520,36 @@
                     <div class="border-b-2 border-[#FFFFFF33] pb-8">
                         <div class="flex justify-between ">
                             <div>
-                                <small>Manage Your</small>
-                                <h4 class="text-white font-medium text-2xl">Clients</h4>
+                                <small class="text-lg leading-[23.4px] text-white/70">Manage Your</small>
+                                <h4 class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1">Clients
+                                </h4>
                             </div>
-                            <img src="/imgs/user-octagon.svg" alt="" class="w-14">
+                            <img src="/imgs/user-octagon.svg" alt="" class="w-[50px] lg:w-[60px]">
 
                         </div>
                     </div>
                     <div class="mt-5">
 
-                        <p>The client feature manages all functionalities of a client including billings, proposals,
+                        <p class="leading-[28.44px]">The client feature manages all functionalities of a client
+                            including billings, proposals,
                             invoices, payments</p>
 
 
-                        <p class="mt-4 font-medium text-white">Billings</p>
-                        <p>This shows your transactional information, and all your paid, declined, and pending
+                        <p class="mt-4 font-medium text-white leading-[28.44px]">Billings</p>
+                        <p class="leading-[28.44px]">This shows your transactional information, and all your paid,
+                            declined, and pending
                             transactions.</p>
 
 
-                        <p class="mt-4 font-medium text-white">Proposals</p>
-                        <p>The proposal feature allows freelancers to create writing proposals for their clients and a
+                        <p class="mt-4 font-medium text-white leading-[28.44px]">Proposals</p>
+                        <p class="leading-[28.44px]">The proposal feature allows freelancers to create writing proposals
+                            for their clients and a
                             central place to manage all their writing proposals.</p>
 
 
-                        <p class="mt-4 font-medium text-white">Invoices</p>
-                        <p>The invoice feature allows writers to generate invoices using custom templates or create them
+                        <p class="mt-4 font-medium text-white leading-[28.44px]">Invoices</p>
+                        <p class="leading-[28.44px]">The invoice feature allows writers to generate invoices using
+                            custom templates or create them
                             manually using the drag and drop plugin.</p>
                     </div>
 
@@ -469,21 +557,23 @@
                 </div>
 
                 <!-- ============PORTFOLIO================ -->
-                <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
+                <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
                     <div>
-                        <div class="border-b-2 border-[#FFFFFF33] pb-8">
+                        <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
                             <div class="flex justify-between ">
                                 <div>
-                                    <small>Manage Your</small>
-                                    <h4 class="text-white font-medium text-2xl">porfolio</h4>
+                                    <small class="text-lg leading-[23.4px] text-white/70">Manage Your</small>
+                                    <h4 class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1">
+                                        porfolio</h4>
                                 </div>
-                                <img src="/imgs/briefcase.svg" alt="" class="w-14">
+                                <img src="/imgs/briefcase.svg" alt="" class="w-[50px] lg:w-[60px]">
 
                             </div>
                         </div>
                         <div class="h-[420px] overflow-y-scroll">
-                            <div class="mt-5">
-                                <p>The portfolio feature allows writers to create multiple portfolios to streamline
+                            <div class="mt-5 px-8">
+                                <p class="leading-[28.44px]">The portfolio feature allows writers to create multiple
+                                    portfolios to streamline
                                     their
                                     content for a particular client.
                                     Writers can create different portfolios depending on their skillset or different
@@ -493,26 +583,43 @@
 
                             </div>
 
-                            <div class="mt-5">
-                                <p class="mt-4 font-medium text-white">Features</p>
-                                <p>
-                                    <span><img src="/imgs/polygon.png" alt=""></span>
-                                    <span>Sample Portfolio: Users can choose from an array of customized templates to
+                            <div class="mt-5 px-2">
+                                <div class="px-5">
+                                    <p class="mt-4 font-medium text-white">Features</p>
+                                </div>
+                                <div class="flex mt-4">
+                                    <div class="mt-2">
+                                        <img src="/imgs/polygon.png" alt="" class="w-[25px] lg:w-[30px]">
+                                    </div>
+                                    <p class="leading-[28.44px] ml-2">Sample Portfolio: Users can choose from an array
+                                        of
+                                        customized templates to
                                         represent
-                                        their portfolios.</span>
-                                </p>
-                                <p>
-                                    <span><img src="/imgs/polygon.png" alt=""></span>
-                                    <span>User customized Portfolio: User can create their portfolio from template or
-                                        scratch by
-                                        customizing it fix the personal brand using drag and drop.</span>
-                                </p>
-                                <p>
-                                    <span><img src="/imgs/polygon.png" alt=""></span>
-                                    <span>User customized Portfolio: User can create their portfolio from template or
-                                        scratch by
-                                        customizing it fix the personal brand using drag and drop.</span>
-                                </p>
+                                        their portfolios.</p>
+                                </div>
+
+
+
+                                <div class="flex mt-5">
+                                    <div class="mt-2">
+                                        <img src="/imgs/polygon.png" alt="" class="w-[25px] lg:w-[30px]">
+                                    </div>
+                                    <p class="leading-[28.44px] ml-2">Sample Portfolio: Users can choose from an array
+                                        of
+                                        customized templates to
+                                        represent
+                                        their portfolios.</p>
+                                </div>
+                                <div class="flex mt-5">
+                                    <div class="mt-2">
+                                        <img src="/imgs/polygon.png" alt="" class="w-[25px] lg:w-[30px]">
+                                    </div>
+                                    <p class="leading-[28.44px] ml-2">Sample Portfolio: Users can choose from an array
+                                        of
+                                        customized templates to
+                                        represent
+                                        their portfolios.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -535,69 +642,78 @@
 
     <section class="mt-20 mb-10 bg-[#FDFDFD]">
         <div class="max-w-[80%] mx-auto pt-4 pb-10">
-            <div class="grid lg:grid-cols-2 gap-4">
+            <div class="grid lg:grid-cols-2 gap-5">
                 <div class="lg:pt-10">
-                    <h4 class="text-5xl font-normal text-[#102A27]">What’s new in <br> contentre?</h4>
+                    <h4 class="lg:text-5xl text-4xl font-medium lg:leading-[62.4px] text-[#102A27]">What’s new in <br>
+                        contentre?
+                    </h4>
 
-                    <div class="bg-white p-4 rounded-lg mt-14">
-                        <div class="bg-[#F1FCFC] p-2 rounded-mds">
+                    <div class="bg-white px-2 py-2 rounded-lg mt-14 border">
+                        <div class="bg-[#F1FCFC] px-3 py-4 rounded-md">
                             <p class="text-[#232C2B] font-medium">Resources</p>
                         </div>
-                        <div class="p-2 mb-5">
-                            <small class="text-[#888888] ml-8 md:ml-12 lg:ml-7">WEBINER</small>
+                        <div class="p-2 mb-1 mt-5">
+                            <small 3 2 2
+                                class=" text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7 ">WEBINER</small>
                             <div>
                                 <div class="flex">
                                     <div class="pt-2">
                                         <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Join our next webinar to learn our system and get
+                                    <p class="text-[15px] ml-3 text[#102A27]">Join our next webinar to learn our system
+                                        and get
                                         inspiration
                                         and ideas</p>
 
                                 </div>
-                                <div class="flex items-cente ml-3 md:ml-6 lg:ml-8">
-                                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                                <div class="flex items-cente ml-3 md:ml-6 ">
+                                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">Join Us</p>
                                     <div class="ml-4">
                                         <img src="/imgs/arrow-right-green1" alt="" class="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 mb-5">
-                            <small class="text-[#888888] ml-8 md:ml-12 lg:ml-7">HELP CENTER</small>
+                        <div class="p-2 mb-2">
+                            <small class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7 ">HELP
+                                CENTER</small>
                             <div>
                                 <div class="flex">
                                     <div class="pt-2">
                                         <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Get set up for success with all the writing businesss
+                                    <p class="text-[15px] ml-3 text[#102A27]">Get set up for success with all the
+                                        writing businesss
                                         and videos you need to set up your</p>
 
                                 </div>
-                                <div class="flex items-cente ml-3 md:ml-6 lg:ml-8">
-                                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                                <div class="flex items-cente ml-3 md:ml-6">
+                                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">Join Us</p>
                                     <div class="ml-4">
                                         <img src="/imgs/arrow-right-green1" alt="" class="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 mb-5">
-                            <small class="text-[#888888] ml-8 md:ml-12 lg:ml-7">HIRE A CERTIFIED DUBSADO
+                        <div class="p-2 mb-2">
+                            <small class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7 ">HIRE
+                                A
+                                CERTIFIED DUBSADO
                                 SPECIALIST</small>
                             <div>
                                 <div class="flex">
                                     <div class="pt-2">
                                         <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Hire a Certified Specialist to help you with your
+                                    <p class="text-[15px] ml-3 text[#102A27]">Hire a Certified Specialist to help you
+                                        with your
                                         Dubsado account</p>
 
                                 </div>
-                                <div class="flex items-cente ml-3 md:ml-6 lg:ml-8">
-                                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                                <div class="flex items-cente ml-3 md:ml-6">
+                                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">Join Us</p>
                                     <div class="ml-4">
-                                        <img src="/imgs/arrow-right-green1" alt="" class="">
+                                        <img src="/imgs/arrow-right-green1" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -609,17 +725,18 @@
                 <div>
                     <!-- ---======right-side=============== -->
 
-                    <div class="bg-white p-4 rounded-lg lg:mt-10">
-                        <div class="bg-[#F9FCF1] p-2 rounded-md">
-                            <p class="text-[#292C23] font-medium">The contentre Community</p>
+                    <div class="bg-white p-4 rounded-lg lg:mt-10 border">
+                        <div class="bg-[#F9FCF1] px-3 py-3 rounded-md">
+                            <p class="text-[#232C2B] font-medium text-[20px]">The contentre community</p>
                         </div>
-                        <div class="p-2 mb-5">
+                        <div class="p-2">
                             <div class="mt-5">
-                                <div class="flex">
+                                <div class="flex items-center">
                                     <div class="pt-2">
                                         <img src="/imgs/Facebook.png" alt="" class=" w-14 md:w-8">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Collaborate with others in your industry in our
+                                    <p class="ml-4 text[#102A27] text-[15px]">Collaborate with others in your industry
+                                        in our
                                         Facebook Community</p>
 
                                 </div>
@@ -631,14 +748,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 mb-5">
+                        <div class="p-2">
 
                             <div>
-                                <div class="flex">
+                                <div class="flex items-center">
                                     <div class="pt-2">
                                         <img src="/imgs/Instagram.png" alt="" class="w-8">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Get a behind the scenes look into what makes us.</p>
+                                    <p class="ml-4 text[#102A27] text-[15px]">Get a behind the scenes look into what
+                                        makes us.</p>
 
                                 </div>
                                 <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
@@ -652,11 +770,12 @@
                         <div class="p-2 mb-5">
 
                             <div>
-                                <div class="flex">
+                                <div class="flex items-center">
                                     <div class="pt-2">
                                         <img src="/imgs/LinkedIN.png" alt="" class="w-8">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">Explore content for small business owners</p>
+                                    <p class="ml-4 text[#102A27] text-[15px]">Explore content for small business owners
+                                    </p>
 
                                 </div>
                                 <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
@@ -670,17 +789,31 @@
 
                     </div>
 
-                    <div class="bg-white p-4 rounded-lg mt-5">
-                        <div class="bg-[#FCF1FC] p-2 rounded-md">
+                    <div class="bg-white p-4 rounded-lg mt-5 border">
+                        <div class="bg-[#FCF1FC] px-3 py-3 rounded-md">
                             <p class="text-[#232C2B] font-medium">New Features & Updates</p>
                         </div>
-                        <div class="p-2 mb-5">
+                        <div class="p-2 mt-4">
                             <div>
                                 <div class="flex">
                                     <div class="pt-2">
                                         <img src="/imgs/polygon2.png" alt="">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">New feature 1</p>
+                                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 1</p>
+
+                                </div>
+                                <small class="text-[#888888]  ml-7">April 24, 2022</small>
+
+
+                            </div>
+                        </div>
+                        <div class="p-2 ">
+                            <div>
+                                <div class="flex">
+                                    <div class="pt-2">
+                                        <img src="/imgs/polygon2.png" alt="">
+                                    </div>
+                                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 2</p>
 
                                 </div>
                                 <small class="text-[#888888]  ml-7">April 24, 2022</small>
@@ -694,7 +827,7 @@
                                     <div class="pt-2">
                                         <img src="/imgs/polygon2.png" alt="">
                                     </div>
-                                    <p class="ml-4 text[#102A27]">New feature 2</p>
+                                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 3</p>
 
                                 </div>
                                 <small class="text-[#888888]  ml-7">April 24, 2022</small>
@@ -702,19 +835,12 @@
 
                             </div>
                         </div>
-                        <div class="p-2 mb-5">
-                            <div>
-                                <div class="flex">
-                                    <div class="pt-2">
-                                        <img src="/imgs/polygon2.png" alt="">
-                                    </div>
-                                    <p class="ml-4 text[#102A27]">New feature 3</p>
+                        <div>
+                            <a href="" class="flex">
+                                <p class="text-[14px] text-[#286963]">Subscribe to all our new updates</p>
+                                <img src="/imgs/arrow-right-green1" alt="" class="ml-5">
 
-                                </div>
-                                <small class="text-[#888888]  ml-7">April 24, 2022</small>
-
-
-                            </div>
+                            </a>
                         </div>
 
                     </div>
@@ -729,9 +855,10 @@
 
     <section class="mt-20 mb-10 bg-white">
         <div class="max-w-[80%] mx-auto">
-            <div class="bg-[#F7FDFC] grid lg:grid-cols-2 rounded-lg overflow-hidden">
+            <div class="bg-[#F7FDFC] grid lg:grid-cols-2 rounded-lg overflow-hidden pt-5 md:pt-10 lg:pt-0">
                 <div class="md:p-5 lg:p-10">
-                    <h4 class="text-[#102A27] md:text-3xl lg:text-4xl lg:mt-4 text-center md:text-left mt-5 md:mt-0">
+                    <h4
+                        class=" font-medium text-[#102A27] md:text-3xl lg:text-[35px] lg:leading-[52px] lg:mt-4 text-center md:text-left mt-5 md:mt-0">
                         Ditch
                         spreadsheets. Manage your writing
                         businesss
@@ -740,17 +867,17 @@
                         in
                         minutes.</h4>
 
-                    <div class="md:mt-20 mx-7 md:mx-0 mb-5">
-                        <button class="bg-[#286963] text-sm px-8 py-2 text-white md:ml-4 mt-4 md:mt-0 rounded-md">Get
-                            Started</button>
+                    <div class="md:mt-10 mx-7 md:mx-0 mb-16 md:mb-10 lg:mb-0">
+                        <button class="bg-[#286963] py-[12px] px-[32px] text-white  lg:ml-0 rounded-md text-sm">Get
+                            Started </button>
                         <button
-                            class="border-[#286963] text-sm border px-8 py-2 text-[#286963] md:ml-4 mt-4 md:mt-0 rounded-md ml-2 md:ml-0">Contact
+                            class="border-[#286963] text-sm border py-[12px] px-[32px] text-[#286963] md:ml-3 mt-4 md:mt-0 rounded-md ml-2 ">Contact
                             Us</button>
                     </div>
                 </div>
-                <div class="p-5 lg:p-0">
+                <div class="md:p-0 w-[100%]">
                     <img src="/imgs/african-american-man-with-headphone-watching-movie-streaming-services-bright-living-room-computer-user-concentrated-office-job-home-entertainment-smiling 1.png"
-                        alt="" class="w-full lg:rounded-none md:rounded-xl">
+                        alt="" class="w-full h-auto lg:rounded-none md:rounded-xl">
                 </div>
 
             </div>
@@ -760,7 +887,7 @@
 
     <!-- ====================================================FOOTER SECTION====================================== -->
 
-    <footer class="bg-[#102A27]">
+    <footer class="bg-[#102A27] mt-32">
         <div class="max-w-[80%] mx-auto  pt-10 md:pt-16 pb-5">
             <div class="grid lg:grid-cols-3  gap-10  md:gap-16 lg:gap-40">
                 <div class="lg:col-span-1">
