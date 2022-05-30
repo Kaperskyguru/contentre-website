@@ -1,6 +1,6 @@
 <template>
   <span>
-    <section class="px-8 md:px-8 py-4">
+    <section class="px-8 md:px-8">
       <!-- ----------Hero----------- -->
       <div class="bg-[#4FD1C50D] px-4 lg:pl-16 lg:pr-6 py-20 mt-9 rounded-md">
         <div
@@ -11,7 +11,7 @@
               class="
                 text-[20px]
                 md:text-[40px] md:leading-[50px]
-                lg:text-[50px] lg:leading-[80px]
+                lg:text-[60px] lg:leading-[80px]
                 text-[#102A27]
                 font-bold
                 text-center
@@ -43,12 +43,12 @@
                   mt-16
                   md:mt-8 md:flex md:justify-center
                   lg:justify-start
-                  w-[70%]
+                  w-full
                   mx-auto
-                  md:w-full
+                  md:flex md:justify-between md:w-full
                 "
               >
-                <div>
+                <div class="w-full">
                   <input
                     type="email"
                     placeholder="Enter your email Address"
@@ -56,9 +56,11 @@
                       border border-[#286963]
                       text-[#286963]
                       py-[12px]
+                      w-full
                       px-[18px]
                       md:py-[16px] md:px-[24px]
                       font-medium
+                      w-full
                       rounded-md
                       text-[16px]
                       bg-transparent
@@ -66,11 +68,10 @@
                     "
                   />
                 </div>
-                <div>
+                <div class="w-full">
                   <button
                     class="
                       bg-[#286963]
-                      mx-6
                       md:mx-0
                       py-[12px]
                       px-[16px]
@@ -83,6 +84,8 @@
                       text-[16px]
                       mt-4
                       md:mt-0
+                      w-full
+                      md:w-fit
                     "
                   >
                     Get Started For Free
@@ -101,7 +104,11 @@
               relative
             "
           >
-            <img src="/imgs/hero-img.png" alt="hero-image" class="w-full" />
+            <img
+              src="~/assets/imgs/hero-img.png"
+              alt="hero-image"
+              class="w-full"
+            />
             <div
               class="
                 top-[100px]
@@ -112,7 +119,7 @@
               "
             >
               <img
-                src="/imgs/Default.png"
+                src="~/assets/imgs/Default.png"
                 alt=""
                 class="w-[100px] md:w-[246px]"
               />
@@ -128,7 +135,7 @@
               "
             >
               <img
-                src="/imgs/Overall Performance.png"
+                src="~/assets/imgs/Overall Performance.png"
                 alt=""
                 class="w-[150px] md:w-[200px] lg:w-[280px]"
               />
@@ -138,12 +145,12 @@
       </div>
       <!-- ----------END OF HERO----------------------- -->
       <div class="w-full md:w-[80%] md:mx-auto">
-        <ul class="flex justify-between items-center mt-5 md:mt-10 ml-20">
+        <ul class="flex justify-between items-center mt-5 md:mt-10">
           <li class="">
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/eBay Logo.png"
+                src="~/assets/imgs/eBay_Logo.png"
                 alt=""
             /></a>
           </li>
@@ -151,7 +158,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/FedEx Logo.png"
+                src="~/assets/imgs/FedEx_Logo.png"
                 alt=""
             /></a>
           </li>
@@ -159,7 +166,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/Google Logo.png"
+                src="~/assets/imgs/Google_Logo.png"
                 alt=""
             /></a>
           </li>
@@ -167,7 +174,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/Hulu Logo.png"
+                src="~/assets/imgs/Hulu_Logo.png"
                 alt=""
             /></a>
           </li>
@@ -175,7 +182,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/LinkedIn Logo.png"
+                src="~/assets/imgs/LinkedIn-Logo.png"
                 alt=""
             /></a>
           </li>
@@ -183,7 +190,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="/imgs/Quizlet Logo.png Logo.png"
+                src="~/assets/imgs/Quizlet_Logo.png"
                 alt=""
             /></a>
           </li>
@@ -194,7 +201,7 @@
 
     <!-- =================================FEATURES SECTION======================================== -->
 
-    <section class="mt-20">
+    <section class="mt-20 px-8">
       <div class="text-center">
         <h3
           class="
@@ -234,7 +241,7 @@
             "
           >
             <div class="flex justify-center mb-4">
-              <img src="/imgs/document-text.png" alt="" class="" />
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
               Content Repurposing
@@ -253,7 +260,7 @@
             "
           >
             <div class="flex justify-center mb-4">
-              <img src="/imgs/send-2.png" alt="" class="" />
+              <img src="~/assets/imgs/send-2.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
               Content Publishing
@@ -273,7 +280,7 @@
             "
           >
             <div class="flex justify-center mb-4">
-              <img src="/imgs/document-text.png" alt="" class="" />
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
               Cover letter generator
@@ -292,7 +299,7 @@
             "
           >
             <div class="flex justify-center mb-4">
-              <img src="/imgs/document-text.png" alt="" class="" />
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
               Portfolio Management
@@ -325,118 +332,7 @@
 
     <!-- ------------------------------------------TESTIMONIAL------------------------ -->
     <section class="bg-[#FAFAFA] mt-20">
-      <div class="py-20">
-        <h3 class="text-center text-2xl lg:text-5xl text-[#102A27]">
-          Awesome feedback from users
-        </h3>
-        <div class="md:w-[70%] lg:w-[60%] mx-auto mt-10">
-          <div class="flex items-center space-x-3 md:space-x-8 px-2 md:px-0">
-            <img src="/imgs/arrow-left.png" alt="" />
-            <div class="bg-white px-10 pt-6 pb-16 rounded-md border">
-              <div
-                class="
-                  md:flex md:justify-between
-                  lg:items-center
-                  border-b-[1px] border-[#F2F4F4]
-                  pb-3
-                "
-              >
-                <div class="flex justify-center">
-                  <div class="md:flex justify-center md:justify-start mb-6">
-                    <div class="w-[48px] h-[48px] rounded-full mx-9 md:mx-0">
-                      <img
-                        src="/imgs/userimg.png"
-                        alt=""
-                        class="w-[100%] block object-cover"
-                      />
-                    </div>
-                    <div class="md:ml-4 mt-5 md:mt-0">
-                      <h6
-                        class="
-                          text-[#286963] text-base
-                          leading-[20.8px]
-                          font-medium
-                        "
-                      >
-                        Success Ibekwe
-                      </h6>
-                      <p
-                        class="
-                          text-[#888888] text-xs
-                          font-medium
-                          leading-[15.6px]
-                        "
-                      >
-                        UX writer @ Google
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="flex justify-center md:justify-start md:mt-2 lg:mt-0"
-                >
-                  <div class="w-[16px] h-[16px]">
-                    <img
-                      src="/imgs/Star 2.png"
-                      alt=""
-                      class="w-[100%] block object-cover"
-                    />
-                  </div>
-                  <div class="w-[16px] h-[16px]">
-                    <img
-                      src="/imgs/Star 2.png"
-                      alt=""
-                      class="w-[100%] block object-cover"
-                    />
-                  </div>
-                  <div class="w-[16px] h-[16px]">
-                    <img
-                      src="/imgs/Star 2.png"
-                      alt=""
-                      class="w-[100%] block object-cover"
-                    />
-                  </div>
-                  <div class="w-[16px] h-[16px]">
-                    <img
-                      src="/imgs/Star 2.png"
-                      alt=""
-                      class="w-[100%] block object-cover"
-                    />
-                  </div>
-                  <div class="w-[16px] h-[16px]">
-                    <img
-                      src="/imgs/Star 2.png"
-                      alt=""
-                      class="w-[100%] block object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <p
-                class="
-                  text-[#54605F] text-[14px] text-center
-                  md:text-left md:text-[16px]
-                  font-medium
-                  mt-5
-                  mb-3
-                  leading-[24px]
-                "
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                vulputate auctor sed in sem et egestas ipsum. Turpis sagittis,
-                libero enim sed odio facilisis. Id ipsum nisi consequat
-                ullamcorper pretium, leo. Aliquam ultricies libero, velit auctor
-                urna urna quis. Vel commodo, diam nibh ut ultricies. Ut sed
-                consectetur quisque tortor.
-              </p>
-            </div>
-            <img src="/imgs/arrow-left (2).png" alt="" />
-          </div>
-        </div>
-      </div>
+      <Testimonial />
     </section>
     <!-- -------------------------------END---OF--------TESTIMONIAL------------------------ -->
 
@@ -474,7 +370,7 @@
               <div class="flex justify-center">
                 <div>
                   <img
-                    src="/imgs/Frame 1044.png"
+                    src="~/assets/imgs/Frame_1044.png"
                     alt=""
                     srcset=""
                     class="w-[100px]"
@@ -509,7 +405,7 @@
               <div class="flex mt-10">
                 <div>
                   <img
-                    src="/imgs/Frame 1043.png"
+                    src="~/assets/imgs/Frame_1043.png"
                     alt=""
                     srcset=""
                     class="w-[100px]"
@@ -537,14 +433,14 @@
                   >
                     Copy and paste the link to your content anywhere published
                     and let us do the magic. Also, you can create the content
-                    right from contentree.
+                    right from Contentre.
                   </p>
                 </div>
               </div>
               <div class="flex mt-10">
                 <div>
                   <img
-                    src="/imgs/Frame 1045.png"
+                    src="~/assets/imgs/Frame_1045.png"
                     alt=""
                     srcset=""
                     class="w-[100px]"
@@ -559,7 +455,7 @@
                       font-medium
                     "
                   >
-                    Enjoy real time analytics and portfolio
+                    Enjoy real time content mgt and multiple portfolios
                   </p>
                   <p
                     class="
@@ -573,7 +469,7 @@
                   >
                     Copy and paste the link to your content anywhere published
                     and let us do the magic. Also, you can create the content
-                    right from contentree..
+                    right from Contentre.
                   </p>
                 </div>
               </div>
@@ -605,7 +501,7 @@
             <p class="text-[18px] leading-[28.44px] mt-5">
               Copy and paste links to your content any published. Create your
               content directly from contentree and published directly to many
-              CRMs such WordPress, Strapi, Hashnode, Medium, etc.
+              CMSs such WordPress, Strapi, Hashnode, Medium, etc.
             </p>
             <div class="lg:max-w-[90%] mx-auto bg-white rounded-md mt-8">
               <div class="mx-8 mt-2 pt-2">
@@ -614,34 +510,11 @@
                 </h6>
                 <div class="relative rounded-md">
                   <img
-                    src="/imgs/Rectangle 1084 (1).png"
+                    src="~/assets/imgs/Rectangle_1084_(1).png"
                     alt=""
                     srcset=""
                     class="w-full"
                   />
-                  <div class="absolute top-5 md:top-12 px-4 w-[80%]">
-                    <p class="text-white text-[10.4px] md:text-sm">
-                      Hi, I am Christian Holmes, a freelance writer who creates
-                      content that attracts, engages and converts customers.
-                    </p>
-                    <button
-                      class="
-                        bg-[#00AEFF]
-                        px-[24px]
-                        py-[4px]
-                        md:px-4 md:py-2
-                        text-white
-                        md:ml-4
-                        lg:ml-0
-                        mt-4
-                        lg:mt-0
-                        text-xs
-                        md:text-sm
-                      "
-                    >
-                      Writing Services
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -667,7 +540,7 @@
             </p>
             <div class="rounded-md mt-10 lg:mt-16">
               <img
-                src="/imgs/Dashboard 1 (1).png"
+                src="~/assets/imgs/Dashboard_1_(1).png"
                 alt=""
                 srcset=""
                 class="w-full block object-cover"
@@ -698,7 +571,7 @@
           </div>
           <div class="lg:w-[75%] mt-10 lg:mt-28">
             <img
-              src="/imgs/Dashboard 1 (2).png"
+              src="~/assets/imgs/Dashboard_1_(2).png"
               alt=""
               srcset=""
               class="w-full"
@@ -716,7 +589,7 @@
           <div>
             <div class="flex justify-center">
               <img
-                src="/imgs/shield-security@2x.png"
+                src="~/assets/imgs/shield-security@2x.png"
                 alt=""
                 class="w-[80px] lg:w-[110px]"
               />
@@ -760,7 +633,7 @@
                   </h4>
                 </div>
                 <img
-                  src="/imgs/people.svg"
+                  src="~/assets/imgs/people.svg"
                   alt=""
                   class="w-[50px] lg:w-[60px]"
                 />
@@ -799,7 +672,7 @@
                   </h4>
                 </div>
                 <img
-                  src="/imgs/user-octagon.svg"
+                  src="~/assets/imgs/user-octagon.svg"
                   alt=""
                   class="w-[50px] lg:w-[60px]"
                 />
@@ -857,11 +730,11 @@
                         mt-1
                       "
                     >
-                      porfolio
+                      Porfolios
                     </h4>
                   </div>
                   <img
-                    src="/imgs/briefcase.svg"
+                    src="~/assets/imgs/briefcase.svg"
                     alt=""
                     class="w-[50px] lg:w-[60px]"
                   />
@@ -884,7 +757,7 @@
                   <div class="flex mt-4">
                     <div class="mt-2">
                       <img
-                        src="/imgs/polygon.png"
+                        src="~/assets/imgs/polygon.png"
                         alt=""
                         class="w-[25px] lg:w-[30px]"
                       />
@@ -898,7 +771,7 @@
                   <div class="flex mt-5">
                     <div class="mt-2">
                       <img
-                        src="/imgs/polygon.png"
+                        src="~/assets/imgs/polygon.png"
                         alt=""
                         class="w-[25px] lg:w-[30px]"
                       />
@@ -911,7 +784,7 @@
                   <div class="flex mt-5">
                     <div class="mt-2">
                       <img
-                        src="/imgs/polygon.png"
+                        src="~/assets/imgs/polygon.png"
                         alt=""
                         class="w-[25px] lg:w-[30px]"
                       />
@@ -971,7 +844,11 @@
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4" />
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
                       Join our next webinar to learn our system and get
@@ -983,7 +860,11 @@
                       Join Us
                     </p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" class="" />
+                      <img
+                        src="~/assets/imgs/arrow-right-green1.png"
+                        alt=""
+                        class=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -1003,7 +884,11 @@
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4" />
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
                       Get set up for success with all the writing businesss and
@@ -1015,7 +900,11 @@
                       Join Us
                     </p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" class="" />
+                      <img
+                        src="~/assets/imgs/arrow-right-green1.png"
+                        alt=""
+                        class=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -1030,16 +919,20 @@
                     md:ml-12
                     lg:ml-7
                   "
-                  >HIRE A CERTIFIED DUBSADO SPECIALIST</small
+                  >REQUEST A CERTIFIED CONTENTRE SPECIALIST</small
                 >
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" class="w-8 lg:w-4" />
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Hire a Certified Specialist to help you with your Dubsado
-                      account
+                      Hire a Certified Specialist to help you with your
+                      Contentre account
                     </p>
                   </div>
                   <div class="flex items-cente ml-3 md:ml-6">
@@ -1047,7 +940,7 @@
                       Join Us
                     </p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" />
+                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -1069,7 +962,7 @@
                   <div class="flex items-center">
                     <div class="pt-2">
                       <img
-                        src="/imgs/Facebook.png"
+                        src="~/assets/imgs/Facebook.png"
                         alt=""
                         class="w-14 md:w-8"
                       />
@@ -1082,7 +975,7 @@
                   <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
                     <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" />
+                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -1091,7 +984,11 @@
                 <div>
                   <div class="flex items-center">
                     <div class="pt-2">
-                      <img src="/imgs/Instagram.png" alt="" class="w-8" />
+                      <img
+                        src="~/assets/imgs/Instagram.png"
+                        alt=""
+                        class="w-8"
+                      />
                     </div>
                     <p class="ml-4 text[#102A27] text-[15px]">
                       Get a behind the scenes look into what makes us.
@@ -1100,7 +997,7 @@
                   <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
                     <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" />
+                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -1109,7 +1006,11 @@
                 <div>
                   <div class="flex items-center">
                     <div class="pt-2">
-                      <img src="/imgs/LinkedIN.png" alt="" class="w-8" />
+                      <img
+                        src="~/assets/imgs/LinkedIN.png"
+                        alt=""
+                        class="w-8"
+                      />
                     </div>
                     <p class="ml-4 text[#102A27] text-[15px]">
                       Explore content for small business owners
@@ -1118,7 +1019,7 @@
                   <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
                     <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
                     <div class="ml-4">
-                      <img src="/imgs/arrow-right-green1" alt="" />
+                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -1133,7 +1034,7 @@
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" />
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
                     <p class="ml-4 text-[15px] text-[#102A27]">New feature 1</p>
                   </div>
@@ -1144,7 +1045,7 @@
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" />
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
                     <p class="ml-4 text-[15px] text-[#102A27]">New feature 2</p>
                   </div>
@@ -1155,7 +1056,7 @@
                 <div>
                   <div class="flex">
                     <div class="pt-2">
-                      <img src="/imgs/polygon2.png" alt="" />
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
                     <p class="ml-4 text-[15px] text-[#102A27]">New feature 3</p>
                   </div>
@@ -1167,7 +1068,11 @@
                   <p class="text-[14px] text-[#286963]">
                     Subscribe to all our new updates
                   </p>
-                  <img src="/imgs/arrow-right-green1" alt="" class="ml-5" />
+                  <img
+                    src="~/assets/imgs/arrow-right-green1.png"
+                    alt=""
+                    class="ml-5"
+                  />
                 </a>
               </div>
             </div>
@@ -1179,80 +1084,7 @@
 
     <!-- ==============================FORM SECTION============================================================== -->
 
-    <section class="mt-20 mb-10 bg-white">
-      <div class="max-w-[80%] mx-auto">
-        <div
-          class="
-            bg-[#F7FDFC]
-            grid
-            lg:grid-cols-2
-            rounded-lg
-            overflow-hidden
-            pt-5
-            md:pt-10
-            lg:pt-0
-          "
-        >
-          <div class="md:p-5 lg:p-10">
-            <h4
-              class="
-                font-medium
-                text-[#102A27]
-                md:text-3xl
-                lg:text-[35px] lg:leading-[52px] lg:mt-4
-                text-center
-                md:text-left
-                mt-5
-                md:mt-0
-              "
-            >
-              Ditch spreadsheets. Manage your writing businesss with contentre
-              in minutes.
-            </h4>
-
-            <div class="md:mt-10 mx-7 md:mx-0 mb-16 md:mb-10 lg:mb-0">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[12px]
-                  px-[32px]
-                  text-white
-                  lg:ml-0
-                  rounded-md
-                  text-sm
-                "
-              >
-                Get Started
-              </button>
-              <button
-                class="
-                  border-[#286963]
-                  text-sm
-                  border
-                  py-[12px]
-                  px-[32px]
-                  text-[#286963]
-                  md:ml-3
-                  mt-4
-                  md:mt-0
-                  rounded-md
-                  ml-2
-                "
-              >
-                Contact Us
-              </button>
-            </div>
-          </div>
-          <div class="md:p-0 w-[100%]">
-            <img
-              src="/imgs/african-american-man-with-headphone-watching-movie-streaming-services-bright-living-room-computer-user-concentrated-office-job-home-entertainment-smiling 1.png"
-              alt=""
-              class="w-full h-auto lg:rounded-none md:rounded-xl"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+    <SpreadSheet />
     <!-- ==========================END OF====FORM SECTION============================================================== -->
   </span>
 </template>

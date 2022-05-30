@@ -1,24 +1,30 @@
 <template>
   <main class="min-h-screen">
     <!-- ================Header================================ -->
-    <header class="px-0 md:px-8 py-4">
+    <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
-      <nav class="flex justify-between relative mt-4">
+      <nav class="flex justify-between relative fixed mt-4">
         <div class="flex items-center">
-          <div class="flex">
-            <img src="/imgs/Logo-contentre.png" alt="Logo-contentre" class="" />
-            <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
-          </div>
+          <a href="/">
+            <div class="flex">
+              <img
+                src="~/assets/imgs/Logo-contentre.png"
+                alt="Logo-contentre"
+                class=""
+              />
+              <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
+            </div>
+          </a>
           <div class="text-text-base hidden lg:block nav-menu ml-8">
             <ul class="flex text-[#888888]">
               <li class="ml-12">
-                <a class="text-base" href="./index.html">Why Contentre?</a>
+                <a class="text-base">Why Contentre?</a>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="about.html">About</a>
+                <a class="text-base" href="/about">About</a>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="./pricing.html">Pricing</a>
+                <a class="text-base" href="/pricing">Pricing</a>
               </li>
               <li class="ml-12">
                 <a class="text-base" href="product.html">Product</a>
@@ -141,17 +147,23 @@
             <ul class="flex mt-5">
               <li>
                 <a href="#"
-                  ><img src="/imgs/LinkedIN_black.png" alt="" srcset=""
+                  ><img src="~/assets/imgs/LinkedIN_black.png" alt="" srcset=""
                 /></a>
               </li>
               <li class="ml-2">
                 <a href="#"
-                  ><img src="/imgs/Combined-Shape (1).png" alt="" srcset=""
+                  ><img
+                    src="~/assets/imgs/Combined-Shape_(1).png"
+                    alt=""
+                    srcset=""
                 /></a>
               </li>
               <li class="ml-2">
                 <a href="#"
-                  ><img src="/imgs/Combined-Shape (2).png" alt="" srcset=""
+                  ><img
+                    src="~/assets/imgs/Combined-Shape_(2).png"
+                    alt=""
+                    srcset=""
                 /></a>
               </li>
             </ul>
@@ -269,7 +281,7 @@
 
         <div class="mt-10 lg:mt-0">
           <small class="text-[#E6E7E9] text-xs font-extralight"
-            >Copyright ® 2022 contentre All rights Rcerved</small
+            >Copyright ® {{new Date().year}} Contentre All rights Reserved</small
           >
         </div>
       </div>
@@ -298,106 +310,67 @@ export default {
 </script>
 
 <style>
-#hero {
-  background: #dcf6f3;
+body {
+  font-family: 'gilroy', Arial, sans-serif;
 }
 
-.text-default {
-  color: #dcf6f3;
-}
+/* ==============Hamburger menu==================== */
 
-.absolute-imgtop {
-  margin-bottom: -30rem;
-}
-
-.absolute-star {
+.hamburger-box {
   position: absolute;
-  left: 40px;
-  top: -41px;
+  top: 0px;
+  right: 30px;
 }
 
-.absolute-dotbottom {
-  bottom: -30px;
-  left: -100px;
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
 }
 
-.absolute-dottop {
-  right: -80px;
-  top: -30px;
+.hamburger-middle {
+  transform: translateY(7px);
 }
 
-.absolute-dotbr {
-  right: -30px;
+.hamburger-bottom {
+  transform: translateY(14px);
 }
 
-.absolute-circle {
-  height: 17rem;
-  left: -50px;
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
 }
 
-#auth-navbar {
-  /* background: linear-gradient(
-    112.83deg,
-    rgba(255, 255, 255, 0.82) 0%,
-    rgba(255, 255, 255, 0.8) 110.84%
-  ); */
-  border: 2px solid #ffffff;
-  box-shadow: 0 7px 23px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(21px);
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
 }
 
-@media screen and (max-width: 1024px) {
-  #navDropdown {
-    /* background: linear-gradient(
-      112.83deg,
-      rgba(255, 255, 255, 0.82) 0%,
-      rgba(255, 255, 255, 0.8) 110.84%
-    ); */
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* ==============Hamburger menu==================== */
+
+@media screen and (max-width: 768px) {
+  .nav-menu ul li {
+    display: block;
   }
 }
 
-.nav-line {
-  background: linear-gradient(
-    112.83deg,
-    rgba(255, 255, 255, 0.82) 0%,
-    rgba(255, 255, 255, 0.8) 110.84%
-  );
-  border: 1.5px solid #ffffff;
-  box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
-  border-radius: 15px;
-}
-.icon {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.text {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 13px;
-}
-
-.form-bg {
-  background: #286963;
-}
-
-.form-btn {
-  background: #4fd1c5;
-}
-
-.btn-outline {
-  border: 1.5px solid #4fd1c5;
-}
-
-.form-btn:hover {
-  background: #286963;
-}
-
-.form-footer {
-  color: #4fd1c5;
-}
-
-.logo-text {
-  font-size: 1.5rem;
+@media screen and (max-width: 480px) {
+  .nav-menu ul li {
+    display: block;
+  }
 }
 </style>
