@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/output.css">
+    <title>Enterprise</title>
+</head>
+
+<body>
+    <!-- ================Header================================ -->
+    <header class=" px-0 md:px-8 py-4">
+        <!-- ------------Navbar-------------------- -->
+        <nav class="flex justify-between relative mt-4">
+
+            <div class="flex items-center">
+                <div class="flex">
+                    <img src="/imgs/Logo-contentre.png" alt="Logo-contentre" class="">
+                    <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
+                </div>
+                <div class="text-text-base hidden lg:block nav-menu ml-8">
+                    <ul class="flex text-[#888888]">
+                        <li class="ml-12"><a class="text-base" href="./index.html">Why Contentre?</a></li>
+                        <li class="ml-12"><a class="text-base" href="about.html">About</a></li>
+                        <li class="ml-12"><a class="text-base" href="./pricing.html">Pricing</a></li>
+                        <li class="ml-12"><a class="text-base" href="product.html">Product</a></li>
+                        <li class="ml-12"><a class="text-base" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- ===========Hamburger Icon===================== -->
+            <div class="hamburger-box">
+                <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+            <!-- ===========Hamburger Icon===================== -->
+
+
+
+            <!-- ===============Mobile Menu=================================== -->
+            <div class="lg:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-center self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-10 hidden">
+                    <a href="./index.html" class="text-base text-[#888888]">Why Contentre?</a>
+                    <a href="About" class="text-base text-[#888888]">About</a>
+                    <a href="./pricing.html" class="text-base text-[#888888]">Pricing</a>
+                    <a href="Product" class="text-base text-[#888888]">Product</a>
+                    <a href="Contact" class="text-base text-[#888888]">Contact</a>
+                    <div class="text-sm  lg:hidden">
+                        <button class="bg-[#286963] py-[12px] px-[32px] text-white rounded-md text-sm inline-block">Log
+                            In</button>
+                        <button class="bg-[#286963] py-[12px] px-[32px] text-white  rounded-md text-sm">Get
+                            Started For
+                            Free</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ===============Mobile Menu=================================== -->
+            <div class="text-sm hidden lg:block">
+                <button class="text-[#286963] font-bold text-sm ">Log In</button>
+                <button class="bg-[#286963] py-[12px] px-[32px] text-white ml-8 rounded-md text-sm">Get
+                    Started For
+                    Free</button>
+            </div>
+
+
+
+        </nav>
+        <!-- ------------Navbar-------------------- -->
+    </header>
+    <!-- ================END OF HEADER========================= -->
+
+    <!-- ----------------------HERO SECTION-------------------------- -->
+    <section>
+        <div class="max-w-[80%] mx-auto">
+            <div class="grid lg:grid-cols-2">
+                <div>
+                    <h1 class="text-6xl leading-[82px]">Contentre for Teams and Enterprises</h1>
+                    <p class="text-[#859492] text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Bibendum sed sed
+                        sit vitae at. Ante quam
+                        amet purus aliquam gravida quisque aliquet lobortis.</p>
+                    <div class="mt-10 hidden lg:block">
+                        <button
+                            class="bg-[#286963] py-[16px] px-[24px] text-white font-medium rounded-md text-sm md:text-base">Get
+                            Started for free now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- --------------------END OF--HERO SECTION-------------------------- -->
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
