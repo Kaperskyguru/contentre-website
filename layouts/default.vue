@@ -27,10 +27,10 @@
                 <a class="text-base" href="/pricing">Pricing</a>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="product.html">Product</a>
+                <a class="text-base" href="/product">Product</a>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="contact.html">Contact</a>
+                <a class="text-base" href="/contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -140,8 +140,8 @@
             <p class="text-[#E6E7E9] text-xs font-light leading-relaxed">
               Access your content, monitor your content analytics in real-time,
               create and customize your writing portfolio across your clients.
-              Spend less time and more time focused on your writing and getting
-              more clients.
+              Spend less time managing your business and more time focused on
+              your writing and getting more clients.
             </p>
 
             <ul class="flex mt-5">
@@ -186,6 +186,16 @@
                   <li class="mb-1 md:mb-2">
                     <a class="text-[#E6E7E9] text-xs font-light" href="About"
                       >Privacy policy</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Contentre Academy</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                      >Contentre Agency</a
                     >
                   </li>
                 </ul>
@@ -281,7 +291,8 @@
 
         <div class="mt-10 lg:mt-0">
           <small class="text-[#E6E7E9] text-xs font-extralight"
-            >Copyright ® {{new Date().year}} Contentre All rights Reserved</small
+            >Copyright ® {{ new Date().year }} Contentre All rights
+            Reserved</small
           >
         </div>
       </div>

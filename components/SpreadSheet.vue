@@ -57,7 +57,7 @@
                 text-sm
               "
             >
-              Get Started
+              Get Started. It's free
             </button>
             <button
               class="

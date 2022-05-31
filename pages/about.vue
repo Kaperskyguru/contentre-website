@@ -92,13 +92,11 @@
                 lg:text-left
               "
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-              dictum nisi mollis arcu at senectus scelerisque convallis. Id
-              vulputate auctor sed in sem et egestas ipsum. Turpis sagittis,
-              libero enim sed odio facilisis. Id ipsum nisi consequat
-              ullamcorper pretium, leo. Aliquam ultricies libero, velit auctor
-              urna urna quis. Vel commodo, diam nibh ut ultricies. Ut sed
-              consectetur quisque tortor.
+              We are here to redefine how freelance writers manage their
+              freelance writing business --- from Content Management and real
+              time content insights, Team Management, Portfolio Management to
+              Client Management with Invoicing, Billings, Contracts, Proposals,
+              and Payments in one place.
             </p>
           </div>
 
@@ -204,7 +202,7 @@
                   "
                 >
                   <img
-                    src="~/assets/imgs/team-img_(4).png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
                     alt=""
                     class="w-[100%] h-auto block"
                   />
@@ -219,34 +217,39 @@
                       hover:text-[#102A27]
                     "
                   >
-                    Alan Morounkola
+                    Solomon Eseme
                   </h4>
                   <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
+                    CEO/CTO/Founder
                   </p>
                   <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Facebook_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
+                    <a href="https://linkedin.com/in/solomoneseme"
+                      ><button>
+                        <img
+                          class="ease-in duration-300"
+                          src="~/assets/imgs/LinkedIN_black_(2).png"
+                          alt=""
+                          srcset=""
+                        />
+                      </button>
+                    </a>
+                    <a href="https://twitter.com/kaperskyguru"
+                      ><button>
+                        <img
+                          src="~/assets/imgs/Twitter_black_(1).png"
+                          alt=""
+                          srcset=""
+                        />
+                      </button>
+                    </a>
+                    <a href="https://facebook.com/solomon.eseme">
+                      <button>
+                        <img
+                          src="~/assets/imgs/Facebook_black_(1).png"
+                          alt=""
+                          srcset=""
+                        /></button
+                    ></a>
                   </div>
                 </div>
               </div>

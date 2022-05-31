@@ -18,7 +18,7 @@
                 lg:text-left
               "
             >
-              Manage your freelance writing business in one place
+              Manage your freelance writing business in one place.
             </h1>
 
             <p
@@ -33,9 +33,9 @@
                 lg:text-left
               "
             >
-              It helps freelance writers (content creators) organize their
-              content, manage clients, create multiple portfolios, discover new
-              opportunities, and lots more, all in one place.
+              Contentre helps freelance writers (content creators) organize
+              their content, manage clients, create multiple portfolios,
+              discover new opportunities, and lots more, all in one place.
             </p>
             <div>
               <div
@@ -88,7 +88,7 @@
                       md:w-fit
                     "
                   >
-                    Get Started For Free
+                    Get Started. It's Free
                   </button>
                 </div>
               </div>
@@ -214,7 +214,7 @@
           "
         >
           Save time & gain control over your <br />
-          writing business.
+          contents and writing business.
         </h3>
         <p
           class="
@@ -244,10 +244,11 @@
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
-              Content Repurposing
+              Content Management
             </p>
             <p class="text-base text-[#859492]">
-              Auto generate PDF, Docx, etc for your content.
+              You can organize all your contents and tracking progress with our
+              Content Planner and Content Calendar.
             </p>
           </div>
           <div
@@ -266,8 +267,9 @@
               Content Publishing
             </p>
             <p class="text-base text-[#859492]">
-              Using profaliy plugin, you can promote your content across social
-              media.
+              Using different plugins, you can promote your content across
+              social media and auto-cross publishing on different platforms such
+              as WordPress, HashNode, Medium, Strapi, etc
             </p>
           </div>
           <div
@@ -283,10 +285,11 @@
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
-              Cover letter generator
+              Writers' Resume and Cover letter generator
             </p>
             <p class="text-base text-[#859492]">
-              Generate industry standard cover letter, that attracts hire.
+              Generate industry standard writing resume and cover letter, that
+              attracts hire.
             </p>
           </div>
           <div
@@ -362,7 +365,7 @@
                   lg:mt-5
                 "
               >
-                Manage your contents for <br />
+                Manage your content business for <br />
                 free in less time
               </p>
             </div>
@@ -455,7 +458,7 @@
                       font-medium
                     "
                   >
-                    Enjoy real time content mgt and multiple portfolios
+                    Enjoy modern writing business
                   </p>
                   <p
                     class="
@@ -467,9 +470,9 @@
                       leading-[24px]
                     "
                   >
-                    Copy and paste the link to your content anywhere published
-                    and let us do the magic. Also, you can create the content
-                    right from Contentre.
+                    Contentre gives your freelance writing business a touch of
+                    excellence. Spend less time managing your business and more
+                    time focused on your writing and getting more clients.
                   </p>
                 </div>
               </div>
@@ -495,13 +498,12 @@
                 lg:text-[32px] lg:leading-[44.8px]
               "
             >
-              All your contents across <br />
-              different clients in one place
+              Organize all your contents <br />
+              in one place.
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
-              Copy and paste links to your content any published. Create your
-              content directly from contentree and published directly to many
-              CMSs such WordPress, Strapi, Hashnode, Medium, etc.
+              No matter where your content is published on your clients website,
+              you can easily keep track of your content published anywhere.
             </p>
             <div class="lg:max-w-[90%] mx-auto bg-white rounded-md mt-8">
               <div class="mx-8 mt-2 pt-2">
@@ -534,9 +536,9 @@
               Analytics, Insights and Reporting
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
-              Customizable auto-generated content portfolio. Customize your
-              porfolio to best suit your brand or choose from thousands of
-              templates.
+              Gain comprehensive and valuable insights of your contents
+              published anywhere. Take charge of your content analytics and
+              reporting across your clients.
             </p>
             <div class="rounded-md mt-10 lg:mt-16">
               <img
@@ -561,7 +563,7 @@
             >
               Create and Customize
               <br />
-              your portfolio easily.
+              your writing portfolio easily.
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
               Customizable auto-generated content portfolio. Customize your
@@ -613,41 +615,81 @@
         <!-- ---------------------------CARD GRID------------ -->
         <div class="mt-16 lg:mt-24 grid lg:grid-cols-3 gap-4">
           <!-- ==========TEAM=========== -->
-          <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
-            <div class="border-b border-[#FFFFFF33]/20 pb-8">
-              <div class="flex justify-between">
-                <div>
-                  <small class="text-lg leading-[23.4px] text-white/70"
-                    >Manage Your</small
-                  >
-                  <h4
-                    class="
-                      text-white
-                      font-medium
-                      text-3xl
-                      lg:text-5xl lg:leading-[62.4px]
-                      mt-1
-                    "
-                  >
-                    Team
-                  </h4>
+
+          <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
+            <div>
+              <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
+                <div class="flex justify-between">
+                  <div>
+                    <small class="text-lg leading-[23.4px] text-white/70"
+                      >Manage Your</small
+                    >
+                    <h4
+                      class="
+                        text-white
+                        font-medium
+                        text-3xl
+                        lg:text-5xl lg:leading-[62.4px]
+                        mt-1
+                      "
+                    >
+                      Team
+                    </h4>
+                  </div>
+                  <img
+                    src="~/assets/imgs/people.svg"
+                    alt=""
+                    class="w-[50px] lg:w-[60px]"
+                  />
                 </div>
-                <img
-                  src="~/assets/imgs/people.svg"
-                  alt=""
-                  class="w-[50px] lg:w-[60px]"
-                />
               </div>
-            </div>
-            <div class="leading-[28.44px] pt-8">
-              <p>
-                Introducing the teams feature, Users can create different teams
-                and invite writers to each team.
-              </p>
-              <p class="mt-5">
-                Content briefs: Where companies can share topic outlines with
-                writers and writers apply to write. e.g Draft.dev
-              </p>
+              <div class="h-[420px] overflow-y-scroll">
+                <div class="mt-5 px-8">
+                  <p>
+                    Introducing the teams feature, You can create different
+                    teams and invite your writers to each team.
+                  </p>
+                  <p class="mt-5">
+                    Managing your team of writers, editors, etc and numerous
+                    clients just got easier. Save time managing teams and
+                    clients and focus more on getting more clients.
+                  </p>
+                </div>
+
+                <div class="mt-5 px-2">
+                  <div class="px-5">
+                    <p class="mt-4 font-medium text-white">Features</p>
+                  </div>
+                  <div class="flex mt-4">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Advanced Roles: You can create and assign advance roles to
+                      writers, editors, etc and collaborate effectively with
+                      Contentre.
+                    </p>
+                  </div>
+                  <div class="flex mt-4">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Content Briefs: You can create and share content briefs
+                      with writers within your team or share it publicly to
+                      outsource to writers within Contentre.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -743,10 +785,9 @@
               <div class="h-[420px] overflow-y-scroll">
                 <div class="mt-5 px-8">
                   <p class="leading-[28.44px]">
-                    The portfolio feature allows writers to create multiple
-                    portfolios to streamline their content for a particular
-                    client. Writers can create different portfolios depending on
-                    their skillset or different niches they write in.
+                    Stop sending gigantic portfolio to your clients. Streamline
+                    your portfolio to a particular clients needs with our
+                    Multiple Portfolio Feature.
                   </p>
                 </div>
 
@@ -763,8 +804,8 @@
                       />
                     </div>
                     <p class="leading-[28.44px] ml-2">
-                      Sample Portfolio: Users can choose from an array of
-                      customized templates to represent their portfolios.
+                      Default Portfolio: You can use our default template to
+                      create your writing portfolio.
                     </p>
                   </div>
 
@@ -777,8 +818,8 @@
                       />
                     </div>
                     <p class="leading-[28.44px] ml-2">
-                      Sample Portfolio: Users can choose from an array of
-                      customized templates to represent their portfolios.
+                      Sample Portfolio: You can choose from an array of
+                      customized templates to represent your portfolio.
                     </p>
                   </div>
                   <div class="flex mt-5">
@@ -790,8 +831,8 @@
                       />
                     </div>
                     <p class="leading-[28.44px] ml-2">
-                      Sample Portfolio: Users can choose from an array of
-                      customized templates to represent their portfolios.
+                      Customized Portfolio: You can customize your portfolio
+                      with your brand represent your portfolio.
                     </p>
                   </div>
                 </div>
@@ -821,8 +862,8 @@
                 text-[#102A27]
               "
             >
-              What’s new in <br />
-              contentre?
+              What's new in <br />
+              Contentre?
             </h4>
 
             <div class="bg-white px-2 py-2 rounded-lg mt-14 border">
@@ -891,7 +932,7 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Get set up for success with all the writing businesss and
+                      Get set up for success with all the writing business and
                       videos you need to set up your
                     </p>
                   </div>
@@ -954,7 +995,7 @@
             <div class="bg-white p-4 rounded-lg lg:mt-10 border">
               <div class="bg-[#F9FCF1] px-3 py-3 rounded-md">
                 <p class="text-[#232C2B] font-medium text-[20px]">
-                  The contentre community
+                  The Contentre Community for Writers
                 </p>
               </div>
               <div class="p-2">

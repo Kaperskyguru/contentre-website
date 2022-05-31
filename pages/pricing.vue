@@ -5,11 +5,10 @@
         class="pt-20 w-[80%] lg:w-[65%] lg:leading-[82px] mx-auto text-center"
       >
         <h1 class="text-2xl md:text-4xl lg:text-6xl text-[#102A27] font-medium">
-          Get started now, we’ve got awsome price that fits your purse
+          Get started now, we've got awesome price that fits your purse
         </h1>
         <p class="mt-10 lg:mt-16 text-base leading-[24px] text-[#54605F]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod et
-          auctor in eu.
+          Start for free and upgrade whenever you're ready.
         </p>
       </div>
       <div class="flex justify-center">
@@ -77,8 +76,8 @@
                   </h4>
                 </div>
                 <p class="mt-6 text-base">
-                  Get all the basic benefits you need to get started aas a
-                  writer
+                  Get all the basic benefits you need to get started with your
+                  freelance writing business.
                 </p>
               </div>
             </div>
@@ -181,15 +180,15 @@
                       mt-3
                     "
                   >
-                    $70
+                    $19.99
                     <sub class="text-[14px] font-extralight text-gray-300"
                       >per month</sub
                     >
                   </h4>
                 </div>
                 <p class="mt-7 text-base">
-                  Get all the basic benefits you need to get started aas a
-                  writer
+                  Get all the unlimited benefits you need to manage your
+                  freelance writing business.
                 </p>
               </div>
             </div>
@@ -290,15 +289,15 @@
                       mt-3
                     "
                   >
-                    $40
+                    $29.99
                     <sub class="text-[14px] font-extralight text-[#BDBDBD]"
                       >per month</sub
                     >
                   </h4>
                 </div>
                 <p class="mt-6 text-base">
-                  Get all the basic benefits you need to get started aas a
-                  writer
+                  Get all the team benefits you need to get manage your content
+                  writing agency.
                 </p>
               </div>
             </div>

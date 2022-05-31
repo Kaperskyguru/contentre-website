@@ -568,7 +568,7 @@
                       "
                     >
                       <div>
-                        <img src="~/assets/imgs/image 1 (1).png" alt="" />
+                        <img src="~/assets/imgs/image_1_(1).png" alt="" />
                       </div>
                     </div>
                     <div
@@ -586,7 +586,7 @@
                       "
                     >
                       <div>
-                        <img src="~/assets/imgs/image 3.png" alt="" />
+                        <img src="~/assets/imgs/image_3.png" alt="" />
                       </div>
                     </div>
                     <div
@@ -604,7 +604,7 @@
                       "
                     >
                       <div>
-                        <img src="~/assets/imgs/brand-icon 1.png" alt="" />
+                        <img src="~/assets/imgs/brand-icon_1.png" alt="" />
                       </div>
                     </div>
                     <div
@@ -654,17 +654,25 @@
                   md:text-[36px]
                   text-[#102A27]
                   md:leading-[46.8px]
-                  text-center
                   lg:text-start
                 "
               >
                 Connect to our growing ecosystem
               </h3>
-              <div class="lg:w-[450px] mt-4 text-center lg:text-start">
+              <div class="mt-4 w-full lg:text-start">
+                <p class="text-[#888888] mb-3">
+                  We integrate with Quickbooks, WordPress, Hashnode, Devto,
+                  Strapi, Medium, Zapier, Notion, Square, Paypal, video
+                  conferencing apps, email providers, and calendar apps.
+                </p>
+                <p class="text-[#888888] mb-3">
+                  Every integration puts more power in your hands. And for more
+                  of your favorite apps, we integrate with Zapier, an online
+                  automation tool that connects over 1500 of your favorite apps.
+                </p>
+
                 <p class="text-[#888888]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                  dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                  vulputate auctor sed in sem.
+                  Subscribe to all our updates and feature releases here.
                 </p>
               </div>
             </div>
@@ -677,78 +685,7 @@
     <!-- ==============================FORM SECTION============================================================== -->
 
     <section class="mt-20 lg:mt-40 mb-10 bg-white">
-      <div class="max-w-[90%] mx-auto">
-        <div
-          class="
-            bg-[#F7FDFC]
-            grid
-            lg:grid-cols-2
-            rounded-lg
-            overflow-hidden
-            pt-5
-            md:pt-10
-            lg:pt-0
-          "
-        >
-          <div class="md:p-5 lg:p-10">
-            <h4
-              class="
-                font-medium
-                text-[#102A27]
-                md:text-3xl
-                lg:text-[35px] lg:leading-[52px] lg:mt-4
-                text-center
-                md:text-left
-                mt-5
-                md:mt-0
-              "
-            >
-              Ditch spreadsheets. Manage your writing businesss with contentre
-              in minutes.
-            </h4>
-
-            <div class="md:mt-10 mx-7 md:mx-0 mb-16 md:mb-10 lg:mb-0">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[12px]
-                  px-[32px]
-                  text-white
-                  lg:ml-0
-                  rounded-md
-                  text-sm
-                "
-              >
-                Get Started
-              </button>
-              <button
-                class="
-                  border-[#286963]
-                  text-sm
-                  border
-                  py-[12px]
-                  px-[32px]
-                  text-[#286963]
-                  md:ml-3
-                  mt-4
-                  md:mt-0
-                  rounded-md
-                  ml-2
-                "
-              >
-                Contact Us
-              </button>
-            </div>
-          </div>
-          <div class="md:p-0 w-[100%]">
-            <img
-              src="~/assets/imgs/african-american-man-with-headphone-watching-movie-streaming-services-bright-living-room-computer-user-concentrated-office-job-home-entertainment-smiling_1.png"
-              alt=""
-              class="w-full h-auto lg:rounded-none md:rounded-xl"
-            />
-          </div>
-        </div>
-      </div>
+      <SpreadSheet />
     </section>
   </div>
   <!-- ==========================END OF====FORM SECTION============================================================== -->
