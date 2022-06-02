@@ -59,24 +59,26 @@
             >
               Get Started. It's free
             </button>
-            <button
-              class="
-                border-[#286963]
-                text-sm
-                border
-                py-[12px]
-                px-[32px]
-                text-[#286963]
-                md:ml-3
-                mt-4
-                md:mt-0
-                rounded-md
-                ml-0
-                md:ml-2
-              "
-            >
-              Contact Us
-            </button>
+            <a href="/contact">
+              <button
+                class="
+                  border-[#286963]
+                  text-sm
+                  border
+                  py-[12px]
+                  px-[32px]
+                  text-[#286963]
+                  md:ml-3
+                  mt-4
+                  md:mt-0
+                  rounded-md
+                  ml-0
+                  md:ml-2
+                "
+              >
+                Contact Us
+              </button>
+            </a>
           </div>
         </div>
         <div class="md:p-0 w-[100%]">

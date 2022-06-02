@@ -146,7 +146,7 @@
 
             <ul class="flex mt-5">
               <li>
-                <a href="https://linkedin.com/in/solomoneseme"
+                <a href="https://linkedin.com/company/contentre"
                   ><img src="~/assets/imgs/LinkedIN_black.png" alt="" srcset=""
                 /></a>
               </li>
@@ -159,7 +159,7 @@
                 /></a>
               </li>
               <li class="ml-2">
-                <a href="https://linkedin.com/in/solomoneseme"
+                <a href="https://facebook.com/contentreio"
                   ><img
                     src="~/assets/imgs/Combined-Shape_(2).png"
                     alt=""
@@ -246,17 +246,23 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="/enterprises"
                       >For Content Agencies/Enterprises</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="/creators"
                       >For Content Creators</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="/freelancers"
                       >For Freelance Writers</a
                     >
                   </li>

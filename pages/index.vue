@@ -890,18 +890,24 @@
                       inspiration and ideas
                     </p>
                   </div>
-                  <div class="flex items-cente ml-3 md:ml-6">
-                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                      Join Us
-                    </p>
-                    <div class="ml-4">
-                      <img
-                        src="~/assets/imgs/arrow-right-green1.png"
-                        alt=""
-                        class=""
-                      />
+                  <a
+                    href="https://www.youtube.com/channel/UCECTWjjj21fa2bNQ07PKE3A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Join Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                          class=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div class="p-2 mb-2">
@@ -926,22 +932,24 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Get set up for success with all the writing business and
-                      videos you need to set up your
+                      Get set up for success with all the content business with
+                      our help center
                     </p>
                   </div>
-                  <div class="flex items-cente ml-3 md:ml-6">
-                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                      Join Us
-                    </p>
-                    <div class="ml-4">
-                      <img
-                        src="~/assets/imgs/arrow-right-green1.png"
-                        alt=""
-                        class=""
-                      />
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Join Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                          class=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div class="p-2 mb-2">
@@ -970,14 +978,19 @@
                       Contentre account
                     </p>
                   </div>
-                  <div class="flex items-cente ml-3 md:ml-6">
-                    <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                      Join Us
-                    </p>
-                    <div class="ml-4">
-                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Join Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1007,12 +1020,21 @@
                       Community
                     </p>
                   </div>
-                  <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
-                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
-                    <div class="ml-4">
-                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
+                  <a
+                    href="http://facebook.com/contentreio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div class="p-2">
@@ -1029,12 +1051,18 @@
                       Get a behind the scenes look into what makes us.
                     </p>
                   </div>
-                  <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
-                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
-                    <div class="ml-4">
-                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
+
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div class="p-2 mb-5">
@@ -1051,12 +1079,21 @@
                       Explore content for small business owners
                     </p>
                   </div>
-                  <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
-                    <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
-                    <div class="ml-4">
-                      <img src="~/assets/imgs/arrow-right-green1.png" alt="" />
+                  <a
+                    href="https://www.linkedin.com/company/contentre"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

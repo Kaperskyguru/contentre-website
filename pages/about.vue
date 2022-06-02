@@ -140,13 +140,8 @@
                   lg:text-left
                 "
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                vulputate auctor sed in sem et egestas ipsum. Turpis sagittis,
-                libero enim sed odio facilisis. Id ipsum nisi consequat
-                ullamcorper pretium, leo. Aliquam ultricies libero, velit auctor
-                urna urna quis. Vel commodo, diam nibh ut ultricies. Ut sed
-                consectetur quisque tortor.
+                Our vision is to help you manage your freelance writing business
+                and turn your content side hustle into a content business.
               </p>
             </div>
           </div>
