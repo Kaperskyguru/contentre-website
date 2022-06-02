@@ -15,11 +15,105 @@
               <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
             </div>
           </a>
-          <div class="text-text-base hidden lg:block nav-menu ml-8">
+
+          <div class="relative inline-block dropdown">
+            <button
+              class="ml-12 text-[#888888] text-base dropbtn"
+              @click.prevent="onToggle"
+            >
+              Why Contentre
+              <img
+                src="~/assets/imgs/arrow-down.png"
+                alt=""
+                class="inline-block ml-4 dropbtn"
+              />
+            </button>
+            <div
+              v-if="showWhyContentre"
+              id="myDropdown"
+              class="
+                dropdown-content
+                bg-white
+                absolute
+                -left-24
+                lg:left-0
+                w-[360px]
+                lg:min-w-[398px]
+                h-[398px]
+                overflow-auto
+                border-2 border-[#EFF1F1]
+                rounded-lg
+                shadow-[#EFF1F1]
+                py-[12px]
+                pl-[2px]
+                pr-[12px]
+                z-20
+              "
+            >
+              <div
+                class="
+                  hover:bg-[#EFF1F1]
+                  rounded-md
+                  py-[12px]
+                  pl-[32px]
+                  pr-[12px]
+                "
+              >
+                <h6
+                  class="
+                    text-base text-[#333333]
+                    hover:text-[#286963] hover:font-semibold
+                  "
+                >
+                  For enterprise
+                </h6>
+                <p
+                  class="
+                    text-[12px] text-[#6D7070]
+                    leading-[24px]
+                    my-2
+                    hover:text-[#6D7070]
+                  "
+                >
+                  Id viverra mauris amet aliquet convallis lacus lectus.
+                  Scelerisque ac egestas et mattis erat imperdiet mauris.
+                </p>
+              </div>
+              <div
+                class="
+                  hover:bg-[#EFF1F1]
+                  rounded-md
+                  py-[12px]
+                  pl-[32px]
+                  pr-[12px]
+                "
+              >
+                <h6 class="text-base text-[#333333]">For Creators</h6>
+                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                  Id viverra mauris amet aliquet convallis lacus lectus.
+                  Scelerisque ac egestas et mattis erat imperdiet mauris.
+                </p>
+              </div>
+              <div
+                class="
+                  hover:bg-[#EFF1F1]
+                  rounded-md
+                  py-[12px]
+                  pl-[32px]
+                  pr-[12px]
+                "
+              >
+                <h6 class="text-base text-[#333333]">For freelance writers</h6>
+                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                  Id viverra mauris amet aliquet convallis lacus lectus.
+                  Scelerisque ac egestas et mattis erat imperdiet mauris.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-text-base hidden lg:block nav-menu ml-4">
             <ul class="flex text-[#888888]">
-              <li class="ml-12">
-                <a class="text-base">Why Contentre?</a>
-              </li>
               <li class="ml-12">
                 <a class="text-base" href="/about">About</a>
               </li>
@@ -312,6 +406,10 @@
 export default {
   name: 'HomeLayout',
 
+  data: () => ({
+    showWhyContentre: false,
+  }),
+
   computed: {
     APP_URL() {
       return process.env.APP_URL ?? 'https://app.contentre.io'
@@ -323,6 +421,10 @@ export default {
       const dropdown1 = document.getElementById('navDropdown1')
       dropdown.classList.toggle('hidden')
       dropdown1.classList.toggle('hidden')
+    },
+
+    onToggle() {
+      this.showWhyContentre = !this.showWhyContentre
     },
   },
 }
