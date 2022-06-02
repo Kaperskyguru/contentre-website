@@ -411,6 +411,51 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Pricing',
+
+  head() {
+    return {
+      title: 'Pricing',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Get started now, we've got awesome price that fits your purse",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Pricing',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Get started now, we've got awesome price that fits your purse",
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/pricing',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

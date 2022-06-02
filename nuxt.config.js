@@ -125,7 +125,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance writing, content marketing, writing portfolio, freelance content marketers, freelance writers',
+          'content creators, freelance writing, content marketing, content agency, writing portfolio, freelance content marketers, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 

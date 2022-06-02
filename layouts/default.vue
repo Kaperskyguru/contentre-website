@@ -124,7 +124,7 @@
               text-sm
             "
           >
-            Get Started For Free
+            Get Started. It's Free
           </button>
         </div>
       </nav>
@@ -146,12 +146,12 @@
 
             <ul class="flex mt-5">
               <li>
-                <a href="#"
+                <a href="https://linkedin.com/in/solomoneseme"
                   ><img src="~/assets/imgs/LinkedIN_black.png" alt="" srcset=""
                 /></a>
               </li>
               <li class="ml-2">
-                <a href="#"
+                <a href="https://twitter.com/contentreio"
                   ><img
                     src="~/assets/imgs/Combined-Shape_(1).png"
                     alt=""
@@ -159,7 +159,7 @@
                 /></a>
               </li>
               <li class="ml-2">
-                <a href="#"
+                <a href="https://linkedin.com/in/solomoneseme"
                   ><img
                     src="~/assets/imgs/Combined-Shape_(2).png"
                     alt=""
@@ -174,27 +174,27 @@
                 <h5 class="text-white mb-5 text-md font-medium">Company</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/about"
                       >About</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Terms of service</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Privacy policy</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Contentre Academy</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Contentre Agency</a
                     >
                   </li>
@@ -204,32 +204,34 @@
                 <h5 class="text-white mb-5 text-md font-medium">Resources</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="Blog"
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://blog.contentre.io?source=homepage_footer"
                       >Blog</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Ebooks</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Templates</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Webinars</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-sm font-light" href="About"
+                    <a class="text-[#E6E7E9] text-sm font-light" href="#"
                       >Who is a content creator?</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-sm font-light" href="About"
+                    <a class="text-[#E6E7E9] text-sm font-light" href="#"
                       >Who is a freelance writer?</a
                     >
                   </li>
@@ -239,23 +241,23 @@
                 <h5 class="text-white mb-5 text-md font-medium">Product</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/product"
                       >All</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
-                      >For enterprise</a
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                      >For Content Agencies/Enterprises</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
-                      >For content creators</a
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                      >For Content Creators</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
-                      >For freelance writers</a
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                      >For Freelance Writers</a
                     >
                   </li>
                 </ul>
@@ -264,22 +266,22 @@
                 <h5 class="text-white mb-5 text-md font-medium">Contact Us</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
                       >Book a Demo</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
                       >Schedule a call</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
                       >Chat with us</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="About"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
                       >Send an email</a
                     >
                   </li>
@@ -291,7 +293,7 @@
 
         <div class="mt-10 lg:mt-0">
           <small class="text-[#E6E7E9] text-xs font-extralight"
-            >Copyright ® {{ new Date().year }} Contentre All rights
+            >Copyright ® {{ new Date().getFullYear() }} Contentre All rights
             Reserved</small
           >
         </div>

@@ -437,20 +437,7 @@
       <div class="text-center">
         <h1 class="text-3xl md:text-5xl">Why wait any longer?</h1>
         <div class="flex justify-center mt-10">
-          <button
-            class="
-              bg-[#286963]
-              py-[16px]
-              px-[24px]
-              text-white
-              font-medium
-              rounded-md
-              text-sm
-              md:text-base
-            "
-          >
-            Get Started for free now
-          </button>
+          <HomeButton>Get Started. It's Free</HomeButton>
         </div>
       </div>
     </section>
@@ -695,6 +682,49 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Product',
+
+  head() {
+    return {
+      title: 'Products',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Get all these benefits organized in one place.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Products',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Get all these benefits organized in one place.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/product',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

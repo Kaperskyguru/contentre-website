@@ -27,8 +27,8 @@
               font-[600]
             "
           >
-            We provide the best resources and features to help you succeed as a
-            writer.
+            We provide the best resources and tools to help you manage your
+            freelance writing business.
           </h1>
         </div>
 
@@ -732,6 +732,51 @@
 <script>
 export default {
   name: 'AboutPage',
+
+  head() {
+    return {
+      title: 'About us',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'We provide the best resources and tools to help you manage your freelance writing business.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'About us',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'We provide the best resources and tools to help you manage your freelance writing business.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/about',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

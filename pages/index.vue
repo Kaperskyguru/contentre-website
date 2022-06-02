@@ -62,6 +62,7 @@
                       font-medium
                       w-full
                       rounded-md
+                      outline-none
                       text-[16px]
                       bg-transparent
                       placeholder:text-[#286963]
@@ -69,27 +70,20 @@
                   />
                 </div>
                 <div class="w-full">
-                  <button
+                  <HomeButton
                     class="
-                      bg-[#286963]
-                      md:mx-0
                       py-[12px]
                       px-[16px]
-                      md:py-[16px] md:px-[24px]
-                      text-white
-                      md:ml-[16px]
+                      md:py-[16px] md:px-[24px] md:ml-[16px]
                       lg:ml-[10px]
-                      font-medium
-                      rounded-md
                       text-[16px]
                       mt-4
                       md:mt-0
                       w-full
                       md:w-fit
                     "
+                    >Get Started. It's Free</HomeButton
                   >
-                    Get Started. It's Free
-                  </button>
                 </div>
               </div>
             </div>

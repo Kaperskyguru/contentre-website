@@ -29,7 +29,7 @@
                       md:mb-7
                     "
                   >
-                    We’re dedicated to you
+                    We're dedicated to you
                   </h1>
                   <div class="lg:w-[40%]">
                     <p
@@ -44,20 +44,7 @@
                     </p>
                   </div>
                   <div class="mt-10 hidden lg:block">
-                    <button
-                      class="
-                        bg-[#286963]
-                        py-[16px]
-                        px-[24px]
-                        text-white
-                        font-medium
-                        rounded-md
-                        text-sm
-                        md:text-base
-                      "
-                    >
-                      Get Started for free now
-                    </button>
+                    <HomeButton>Get Started. It's Free</HomeButton>
                   </div>
                 </div>
               </div>
@@ -320,7 +307,7 @@
               <div class="flex items-center mb-4">
                 <div>
                   <img
-                    src="~/assets/imgs/Group 1204_(1).png"
+                    src="~/assets/imgs/Group_1204_(1).png"
                     alt=""
                     class="block"
                   />
@@ -341,7 +328,7 @@
               <div class="flex items-center mb-4">
                 <div>
                   <img
-                    src="~/assets/imgs/Group 1204_(1).png"
+                    src="~/assets/imgs/Group_1204_(1).png"
                     alt=""
                     class="block"
                   />
@@ -361,7 +348,7 @@
               <div class="flex items-center mb-4">
                 <div>
                   <img
-                    src="~/assets/imgs/Group 1204_(1).png"
+                    src="~/assets/imgs/Group_1204_(1).png"
                     alt=""
                     class="block"
                   />
@@ -381,7 +368,7 @@
               <div class="flex items-center mb-4">
                 <div>
                   <img
-                    src="~/assets/imgs/Group 1204_(1).png"
+                    src="~/assets/imgs/Group_1204_(1).png"
                     alt=""
                     class="block"
                   />
@@ -798,78 +785,7 @@
     <!-- ==============================FORM SECTION============================================================== -->
 
     <section class="mt-20 mb-10 bg-white">
-      <div class="max-w-[80%] mx-auto">
-        <div
-          class="
-            bg-[#F7FDFC]
-            grid
-            lg:grid-cols-2
-            rounded-lg
-            overflow-hidden
-            pt-5
-            md:pt-10
-            lg:pt-0
-          "
-        >
-          <div class="md:p-5 lg:p-10">
-            <h4
-              class="
-                font-medium
-                text-[#102A27]
-                md:text-3xl
-                lg:text-[35px] lg:leading-[52px] lg:mt-4
-                text-center
-                md:text-left
-                mt-5
-                md:mt-0
-              "
-            >
-              Ditch spreadsheets. Manage your writing businesss with contentre
-              in minutes.
-            </h4>
-
-            <div class="md:mt-10 mx-7 md:mx-0 mb-16 md:mb-10 lg:mb-0">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[12px]
-                  px-[32px]
-                  text-white
-                  lg:ml-0
-                  rounded-md
-                  text-sm
-                "
-              >
-                Get Started
-              </button>
-              <button
-                class="
-                  border-[#286963]
-                  text-sm
-                  border
-                  py-[12px]
-                  px-[32px]
-                  text-[#286963]
-                  md:ml-3
-                  mt-4
-                  md:mt-0
-                  rounded-md
-                  ml-2
-                "
-              >
-                Contact Us
-              </button>
-            </div>
-          </div>
-          <div class="md:p-0 w-[100%]">
-            <img
-              src="~/assets/imgs/african-american-man-with-headphone-watching-movie-streaming-services-bright-living-room-computer-user-concentrated-office-job-home-entertainment-smiling_1.png"
-              alt=""
-              class="w-full h-auto lg:rounded-none md:rounded-xl"
-            />
-          </div>
-        </div>
-      </div>
+      <SpreadSheet />
     </section>
     <!-- ==========================END OF====FORM SECTION============================================================== -->
   </section>
@@ -879,6 +795,49 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Contact',
+
+  head() {
+    return {
+      title: 'Contact us',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "We're dedicated to you",
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Contact',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: "We're dedicated to you",
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/contact',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 
