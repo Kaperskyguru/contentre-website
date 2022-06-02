@@ -20,9 +20,46 @@
                     <img src="/imgs/Logo-contentre.png" alt="Logo-contentre" class="">
                     <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
                 </div>
-                <div class="text-text-base hidden lg:block nav-menu ml-8">
+
+
+
+                <div class="relative inline-block dropdown">
+                    <button onclick="myFunction()" class="ml-12 text-[#888888] text-base dropbtn">Why Contentre <img
+                            src="/imgs/arrow-down.png" alt="" onclick="myFunction()"
+                            class="inline-block ml-4  dropbtn"></button>
+                    <div id="myDropdown"
+                        class="dropdown-content hidden bg-white absolute -left-24 lg:left-0 w-[360px]  lg:min-w-[398px] h-[398px] overflow-auto border-2 border-[#EFF1F1] rounded-lg  shadow-[#EFF1F1] py-[12px] pl-[2px] pr-[12px] z-20">
+                        <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                            <h6 class="text-base text-[#333333] hover:text-[#286963] hover:font-semibold">For enterprise
+                            </h6>
+                            <p class="text-[12px] text-[#6D7070] leading-[24px] my-2 hover:text-[#6D7070]">Id viverra
+                                mauris amet aliquet
+                                convallis lacus lectus.
+                                Scelerisque ac egestas et mattis
+                                erat imperdiet mauris.</p>
+                        </div>
+                        <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                            <h6 class="text-base text-[#333333]">For Creators</h6>
+                            <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">Id viverra mauris amet aliquet
+                                convallis lacus lectus. Scelerisque ac egestas et mattis
+                                erat imperdiet mauris.</p>
+                        </div>
+                        <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                            <h6 class="text-base text-[#333333]">For freelance writers</h6>
+                            <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">Id viverra mauris amet aliquet
+                                convallis lacus lectus. Scelerisque ac egestas et mattis
+                                erat imperdiet mauris.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="text-text-base hidden lg:block nav-menu ml-4">
                     <ul class="flex text-[#888888]">
-                        <li class="ml-12"><a class="text-base" href="./index.html">Why Contentre?</a></li>
                         <li class="ml-12"><a class="text-base" href="about.html">About</a></li>
                         <li class="ml-12"><a class="text-base" href="./pricing.html">Pricing</a></li>
                         <li class="ml-12"><a class="text-base" href="product.html">Product</a></li>
@@ -48,12 +85,44 @@
             <div class="lg:hidden">
                 <div id="menu"
                     class="absolute flex-col items-center self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-10 hidden">
-                    <a href="./index.html" class="text-base text-[#888888]">Why Contentre?</a>
+
+                    <div class="relative inline-block dropdown">
+                        <button onclick="myFunction()" class="ml-12 text-[#888888] text-base dropbtn">Why Contentre <img
+                                src="/imgs/arrow-down.png" alt="" onclick="myFunction()"
+                                class="inline-block ml-4  dropbtn"></button>
+                        <div id="myDropdown"
+                            class="dropdown-content hidden bg-white absolute  min-w-[398px] h-[398px] overflow-auto border-2 border-[#EFF1F1] rounded-lg  shadow-[#EFF1F1] py-[12px] pl-[2px] pr-[12px] z-20">
+                            <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                                <h6 class="text-base text-[#333333] hover:text-[#286963] hover:font-semibold">For
+                                    enterprise
+                                </h6>
+                                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2 hover:text-[#6D7070]">Id
+                                    viverra
+                                    mauris amet aliquet
+                                    convallis lacus lectus.
+                                    Scelerisque ac egestas et mattis
+                                    erat imperdiet mauris.</p>
+                            </div>
+                            <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                                <h6 class="text-base text-[#333333]">For Creators</h6>
+                                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">Id viverra mauris amet aliquet
+                                    convallis lacus lectus. Scelerisque ac egestas et mattis
+                                    erat imperdiet mauris.</p>
+                            </div>
+                            <div class="hover:bg-[#EFF1F1] rounded-md  py-[12px] pl-[32px] pr-[12px]">
+                                <h6 class="text-base text-[#333333]">For freelance writers</h6>
+                                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">Id viverra mauris amet aliquet
+                                    convallis lacus lectus. Scelerisque ac egestas et mattis
+                                    erat imperdiet mauris.</p>
+                            </div>
+
+                        </div>
+                    </div>
                     <a href="About" class="text-base text-[#888888]">About</a>
                     <a href="./pricing.html" class="text-base text-[#888888]">Pricing</a>
                     <a href="Product" class="text-base text-[#888888]">Product</a>
                     <a href="Contact" class="text-base text-[#888888]">Contact</a>
-                    <div class="text-sm  lg:hidden">
+                    <div class="text-sm lg:hidden">
                         <button class="bg-[#286963] py-[12px] px-[32px] text-white rounded-md text-sm inline-block">Log
                             In</button>
                         <button class="bg-[#286963] py-[12px] px-[32px] text-white  rounded-md text-sm">Get
@@ -80,7 +149,7 @@
     <!-- ================END OF HEADER========================= -->
 
     <!-- ----------------------HERO SECTION-------------------------- -->
-    <section class="mt-20 lg:mb-40 ">
+    <section class="mt-20 lg:mb-40 m-0">
         <div class="mx-10 lg:ml-28">
             <div class="grid lg:grid-cols-2 ">
                 <div class="lg:w-[500px]">
@@ -115,19 +184,21 @@
                         </div>
 
                     </div>
-                    <div class="flex justify-end mt-5">
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                            <div>
-                                <img src="/imgs/freelance_img1.png" alt="">
+                    <div class="">
+                        <div class="flex justify-end mt-5 ">
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                                <div>
+                                    <img src="/imgs/freelance_img1.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="/imgs/freelance_img2.png" alt="">
+                                </div>
+                                <div class="hidden md:block">
+                                    <img src="/imgs/freelance_img5.png" alt="">
+                                </div>
                             </div>
-                            <div>
-                                <img src="/imgs/freelance_img2.png" alt="">
-                            </div>
-                            <div class="hidden md:block">
-                                <img src="/imgs/freelance_img5.png" alt="">
-                            </div>
-                        </div>
 
+                        </div>
                     </div>
 
 
@@ -279,14 +350,14 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-40 mt-20">
-                <div class="relative w-[330px] h-[330px] lg:w-[391px] lg:h-[391px]   mt-10 lg:mt-0 md:mx-auto lg:mx-0">
+                <div class="relative w-[330px] h-[330px] lg:w-[391px] lg:h-[391px]   mt-10 lg:mt-0 md:mx-auto lg:mx-0 ">
                     <img src="/imgs/analytics_img.png" alt="" class="">
                     <div
                         class="w-[330px] h-[330px] lg:w-[391px] lg:h-[391px] rounded-full border-4 border-[#4FD1C5] absolute -top-4 left-4 z-10">
 
                     </div>
                 </div>
-                <div class="order-2 lg:order-1">
+                <div class="">
                     <h2 class="text-[36px] font-medium text-[#102A27] text-center lg:text-left ">
                         Analytics Management
                     </h2>
@@ -389,10 +460,10 @@
 
     <!-- ===========================================FAQ SECTION================================= -->
     <section>
-        <div class="pt-32 pb-20">
+        <div class="lg:pt-32 pb-20">
             <h3 class="text-center font-medium text-2xl md:text-5xl leading-[62.4px] text-[#102A27]">Frequently Asked
                 Questions</h3>
-            <div class=" md:w-[70%] lg:w-[65%] mx-auto mt-10">
+            <div class=" md:w-[70%] lg:w-[65%] mx-auto lg:mt-10">
 
                 <div class=" px-8 py-4 rounded-md  ">
                     <div class="flex  justify-between items-center  pb-3 mt-10">
