@@ -82,7 +82,7 @@
                   </p>
                 </div>
               </a>
-              <a href="creators">
+              <a href="/creators">
                 <div
                   class="
                     hover:bg-[#EFF1F1]
@@ -242,7 +242,7 @@
                     </p>
                   </div>
                 </a>
-                <a href="creators">
+                <a href="/creators">
                   <div
                     class="
                       hover:bg-[#EFF1F1]
