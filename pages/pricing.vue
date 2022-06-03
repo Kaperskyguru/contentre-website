@@ -12,36 +12,39 @@
         </p>
       </div>
       <div class="flex justify-center">
-        <div class="bg-[#EBFAF8] rounded-full py-3 px-0.5 mt-10 lg:mt-16">
-          <a
+        <div class="bg-[#EBFAF8] rounded-full py-1 px-0.5 mt-10 lg:mt-16">
+          <button
             class="
               rounded-full
-              bg-white
-              text-[#286963]
-              px-[40px]
-              py-[12px]
-              md:py-3
-              lg:py-3
-              md:px-10
+              bg-[bg-transparent]
+              text-[#666666]
+              px-6
+              py-2
+              md:py-3 md:px-10
+              ml-2
               text-base
             "
-            href="Contact"
-            >Monthly</a
+            :class="{ 'bg-white text-[#286963]': showYear }"
+            @click.prevent="onShowYear"
           >
-
-          <a
-            href="yearly_pricing.html"
+            Yearly (Save 20%)
+          </button>
+          <button
             class="
               rounded-full
               bg-[bg-transparent]
               px-6
               py-2
-              md:py-3 md:px-10
-              ml-2
+              md:py-3
+              lg:py-3
+              md:px-10
               text-base text-[#666666]
             "
-            >Yearly (save 20%)
-          </a>
+            :class="{ 'bg-white text-[#286963]': showMonth }"
+            @click.prevent="onShowMonth"
+          >
+            Monthly
+          </button>
         </div>
       </div>
     </div>
@@ -353,7 +356,7 @@
                       mt-3
                     "
                   >
-                    $19.99
+                    ${{ showYear ? 15.99 : 19.99 }}
                     <sub class="text-[14px] font-extralight text-gray-300"
                       >per month</sub
                     >
@@ -618,7 +621,7 @@
             </div>
           </div>
 
-          <!-- ============STANDAR PLAN============== -->
+          <!-- ============TEAM PLAN============== -->
           <div class="bg-[#FCFCFC] text-[#666666] px-8 py-8 rounded-lg border">
             <div class="border-b-2 border-[#99999966] pb-5">
               <div>
@@ -635,7 +638,7 @@
                       mt-3
                     "
                   >
-                    $29.99
+                    ${{ showYear ? 23.99 : 29.99 }}
                     <sub class="text-[14px] font-extralight text-[#BDBDBD]"
                       >per month</sub
                     >
@@ -931,6 +934,11 @@ export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Pricing',
 
+  data: () => ({
+    showYear: true,
+    showMonth: false,
+  }),
+
   head() {
     return {
       title: 'Pricing',
@@ -974,6 +982,17 @@ export default {
         },
       ],
     }
+  },
+
+  methods: {
+    onShowYear() {
+      this.showYear = true
+      this.showMonth = false
+    },
+    onShowMonth() {
+      this.showYear = false
+      this.showMonth = true
+    },
   },
 }
 </script>

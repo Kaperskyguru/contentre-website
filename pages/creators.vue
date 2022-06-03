@@ -15,12 +15,12 @@
                   lg:mb-0
                 "
               >
-                Contentre for Content creators
+                Contentre for Creators
               </h1>
               <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Bibendum sed sed sit vitae at. Ante quam amet purus aliquam
-                gravida quisque aliquet lobortis.
+                Wether you're a Skit Maker, Tiktoker, Youtuber, content creator,
+                etc. Contentre has the features to help you turn your Creative
+                Passion in a Content Business
               </p>
             </div>
             <div class="mt-10 hidden lg:block">
@@ -36,7 +36,7 @@
                   md:text-base
                 "
               >
-                Get Started for free now
+                Get started. It's free
               </button>
             </div>
           </div>
@@ -86,8 +86,8 @@
               text-[#102A27]
             "
           >
-            Access great features for your business <br />
-            and team
+            Access great features that turns your <br />passion into a content
+            business.
           </h1>
         </div>
 
@@ -140,13 +140,12 @@
 
                 <div class="ml-6">
                   <h6 class="text-[24px] text-[#286963]">
-                    Manage different social media accounts in one place
+                    Manage social media contents in one place
                   </h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Manage all your social media contents from the comfort of
+                      one app. Track views, engagements from one place.
                     </p>
                   </div>
                 </div>
@@ -154,6 +153,7 @@
             </div>
           </div>
         </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40 mt-20">
           <div class="">
             <h2
@@ -178,13 +178,13 @@
 
                 <div class="ml-6">
                   <h6 class="text-[24px] text-[#286963]">
-                    Organize all your contents wherever published
+                    Organize all your contents
                   </h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      No matter where your content is published on your clients
+                      website, you can easily keep track of your content
+                      published anywhere in one place.
                     </p>
                   </div>
                 </div>
@@ -202,9 +202,9 @@
                   <h6 class="text-[24px] text-[#286963]">Manage categories</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, update, delete, and assign categories to your
+                      contents to help organize your content. Gain insightful
+                      analytics of each categories.
                     </p>
                   </div>
                 </div>
@@ -222,9 +222,9 @@
                   <h6 class="text-[24px] text-[#286963]">Manage tags</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, update, delete, and assign tags to your contents
+                      to help organize your content. Gain insightful analytics
+                      of each tags.
                     </p>
                   </div>
                 </div>
@@ -239,12 +239,12 @@
                 </div>
 
                 <div class="ml-6">
-                  <h6 class="text-[24px] text-[#286963]">Manage topics</h6>
+                  <h6 class="text-[24px] text-[#286963]">Manage niches</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, update, delete, and assign niches to your contents
+                      to help organize your content. Gain insightful analytics
+                      of each niches.
                     </p>
                   </div>
                 </div>
@@ -329,14 +329,13 @@
 
                 <div class="ml-6">
                   <h6 class="text-[24px] text-[#286963]">
-                    See real time analytics if your contents across all social
-                    platforms.
+                    See real time analytics.
                   </h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      See real time analytics of all your content published on
+                      Youtube, Tiktok, Twitch, Facebook, Instagram, etc in one
+                      place.
                     </p>
                   </div>
                 </div>
@@ -357,9 +356,9 @@
                   </h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Track Views, engagements and revenue across all social
+                      platforms and draw comprehensive insights into your
+                      content business.
                     </p>
                   </div>
                 </div>
@@ -377,7 +376,7 @@
                 lg:text-left
               "
             >
-              Content creation
+              Content Creation
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
@@ -391,14 +390,37 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Upload your content to all connected social platforms from
-                    one place.
+                    Unified Content Publishing
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, Schedule or publish to Social Platforms such as
+                      Youtube, Tiktok, Twitch, Facebook, Instagram, etc etc
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">
+                    Unified Content Promotion
+                  </p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Reschedule your content for promotions across social media
+                      such as Facebook, Twitter, Linkedin, etc with Automate
+                      Content Re-sharing with reminders.
                     </p>
                   </div>
                 </div>
@@ -445,7 +467,7 @@
           <button
             class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
           >
-            Get started for free now
+            Get started. It's free
           </button>
         </div>
       </div>
@@ -591,6 +613,51 @@
 <script>
 export default {
   name: 'ContentCreators',
+
+  head() {
+    return {
+      title: 'Contentre for content creators',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Access great features that turns your passion into a content business.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Contentre for content creators',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Access great features that turns your passion into a content business.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/creators',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

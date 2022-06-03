@@ -18,9 +18,10 @@
                 Contentre for Freelance writers
               </h1>
               <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Bibendum sed sed sit vitae at. Ante quam amet purus aliquam
-                gravida quisque aliquet lobortis.
+                Wether you're a freelance writer, a technical writer,
+                journalists, copywriters, photographers, illustrator, artist,
+                designers or creative writer. Contentre has great features that
+                will turn your side hustle into a content business.
               </p>
             </div>
             <div class="mt-10 hidden lg:block">
@@ -36,7 +37,7 @@
                   md:text-base
                 "
               >
-                Get Started for free now
+                Get started. It's free
               </button>
             </div>
           </div>
@@ -86,8 +87,8 @@
               text-[#102A27]
             "
           >
-            Access great features for your business <br />
-            and team
+            Access great features that turns your <br />
+            side hustle into a content business.
           </h1>
         </div>
 
@@ -102,7 +103,7 @@
               lg:mx-0
             "
           >
-            <img src="~/assets/imgs/laptop_img.png" alt="" class="" />
+            <img src="~/assets/imgs/portfolio_img.png" alt="" class="" />
             <div
               class="
                 w-[330px]
@@ -126,7 +127,7 @@
                 lg:text-left
               "
             >
-              Client Management
+              Portfolio Management
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
@@ -139,12 +140,14 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Billings</p>
+                  <p class="text-[24px] text-[#286963]">
+                    Manage Multiple Portfolios
+                  </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Stop sending gigantic portfolio to your clients.
+                      Streamline your portfolio to a particular clients needs
+                      with our Multiple Portfolio Feature.
                     </p>
                   </div>
                 </div>
@@ -159,12 +162,11 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Invoices</p>
+                  <p class="text-[24px] text-[#286963]">Use default template</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create your portfolio in less than a minute our default
+                      template to create your writing portfolio.
                     </p>
                   </div>
                 </div>
@@ -179,12 +181,13 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Proposal</p>
+                  <p class="text-[24px] text-[#286963]">
+                    Use Customized Templates
+                  </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Choose from hundreds of customized portfolio crafted to
+                      convert leads to clients.
                     </p>
                   </div>
                 </div>
@@ -199,12 +202,13 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Payment</p>
+                  <p class="text-[24px] text-[#286963]">
+                    Use Drag and Drop Portfolio Creator
+                  </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Customized your portfolio in less than 5 minutes with our
+                      Portfolio Customizer to suit your branding.
                     </p>
                   </div>
                 </div>
@@ -212,6 +216,7 @@
             </div>
           </div>
         </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40 mt-20">
           <div class="">
             <h2
@@ -222,7 +227,7 @@
                 lg:text-left
               "
             >
-              Team Management
+              Content Management
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
@@ -235,12 +240,14 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Manage Writers</p>
+                  <h6 class="text-[24px] text-[#286963]">
+                    Organize all your contents
+                  </h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      No matter where your content is published on your clients
+                      website, you can easily keep track of your content
+                      published anywhere in one place.
                     </p>
                   </div>
                 </div>
@@ -255,12 +262,52 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">Manage Editors</p>
+                  <h6 class="text-[24px] text-[#286963]">Manage categories</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, update, delete, and assign categories to your
+                      contents to help organize your content. Gain insightful
+                      analytics of each categories.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <h6 class="text-[24px] text-[#286963]">Manage tags</h6>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Create, update, delete, and assign tags to your contents
+                      to help organize your content. Gain insightful analytics
+                      of each tags.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <h6 class="text-[24px] text-[#286963]">Manage niches</h6>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Create, update, delete, and assign niches to your contents
+                      to help organize your content. Gain insightful analytics
+                      of each niches.
                     </p>
                   </div>
                 </div>
@@ -277,7 +324,7 @@
               lg:mx-0
             "
           >
-            <img src="~/assets/imgs/team_img.png" alt="" class="" />
+            <img src="~/assets/imgs/content_img-icon.png" alt="" class="" />
             <div
               class="
                 w-[330px]
@@ -333,6 +380,7 @@
             >
               Content Creation
             </h2>
+
             <div class="mt-6">
               <div class="flex mb-4">
                 <div class="pt-2">
@@ -345,17 +393,20 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Create and assign Content Brief to writers and editor
+                    Unified Content Publishing
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create, Schedule or publish to CRM such as Strapi,
+                      HashNode, WordPress directly and Content platforms such as
+                      Medium, Dev.to, etc
                     </p>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div class="mt-6">
               <div class="flex mb-4">
                 <div class="pt-2">
                   <img
@@ -367,13 +418,38 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Track writers progress through a unified calendar
+                    Unified Content Promotion
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Using different plugins, you can promote your content
+                      across social media such as Facebook, Twitter, Linkedin,
+                      etc with Automate Content Re-sharing with reminders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">
+                    Unified Content Repurposing
+                  </p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Auto generate PDF, Docx, etc of your contents. You can
+                      generate 1,2,3, etc articles at once with different PDF
+                      templates
                     </p>
                   </div>
                 </div>
@@ -381,6 +457,7 @@
             </div>
           </div>
         </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-40 mt-20">
           <div class="">
             <h2
@@ -405,14 +482,69 @@
                 </div>
 
                 <div class="ml-6">
-                  <p class="text-[24px] text-[#286963]">
-                    Measure Content Performance/Analytics across Client
-                  </p>
+                  <p class="text-[24px] text-[#286963]">Billings</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Track all your billings and transactions from your
+                      freelance writing business.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">Invoices</p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Generate invoices in less than 5 minutes and get paid with
+                      popular payment platforms such as PayPal, OutVoice, etc
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">Proposal</p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Create content proposals and contracts using customized
+                      and premium templates in less than a minute to land you
+                      new gigs from your clients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">Payment</p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Receive payments using your favorite payment apps such as
+                      PayPal, OutVoice, direct transfer etc.
                     </p>
                   </div>
                 </div>
@@ -453,13 +585,13 @@
     <section class="mt-40 mb-20">
       <div class="text-center">
         <h1 class="text-[#102A27] text-[20px] md:text-[35px] lg:text-[48px]">
-          Get your team onboard now 🚀
+          Turn your side hustle into a business now 🚀
         </h1>
         <div class="flex justify-center mt-4">
           <button
             class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
           >
-            Get started for free now
+            Get started. It's free
           </button>
         </div>
       </div>
@@ -605,7 +737,52 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Freelancer',
+  name: 'Writers',
+
+  head() {
+    return {
+      title: 'Contentre for freelance writers',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Access great features that turns your content side hustle into a content business.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Contentre for freelance writers',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Access great features that turns your content side hustle into a content business.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/writers',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

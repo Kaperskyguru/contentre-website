@@ -16,7 +16,7 @@
             </div>
           </a>
 
-          <div class="relative inline-block dropdown">
+          <div class="relative inline-block dropdown hidden md:block">
             <button
               class="ml-12 text-[#888888] text-base dropbtn"
               @click.prevent="onToggle"
@@ -44,71 +44,81 @@
                 border-2 border-[#EFF1F1]
                 rounded-lg
                 shadow-[#EFF1F1]
-                py-[12px]
+                pt-[12px]
                 pl-[2px]
                 pr-[12px]
                 z-20
               "
             >
-              <div
-                class="
-                  hover:bg-[#EFF1F1]
-                  rounded-md
-                  py-[12px]
-                  pl-[32px]
-                  pr-[12px]
-                "
-              >
-                <h6
+              <a href="/enterprises">
+                <div
                   class="
-                    text-base text-[#333333]
-                    hover:text-[#286963] hover:font-semibold
+                    hover:bg-[#EFF1F1]
+                    rounded-md
+                    py-[12px]
+                    pl-[32px]
+                    pr-[12px]
                   "
                 >
-                  For enterprise
-                </h6>
-                <p
+                  <h6
+                    class="
+                      text-base text-[#333333]
+                      hover:text-[#286963] hover:font-semibold
+                    "
+                  >
+                    For Content Agencies
+                  </h6>
+                  <p
+                    class="
+                      text-[12px] text-[#6D7070]
+                      leading-[24px]
+                      my-2
+                      hover:text-[#6D7070]
+                    "
+                  >
+                    Wether you're a small or large content agency or enterprise,
+                    providing Content as a service to your client. Contentre
+                    provides...
+                  </p>
+                </div>
+              </a>
+              <a href="creators">
+                <div
                   class="
-                    text-[12px] text-[#6D7070]
-                    leading-[24px]
-                    my-2
-                    hover:text-[#6D7070]
+                    hover:bg-[#EFF1F1]
+                    rounded-md
+                    py-[12px]
+                    pl-[32px]
+                    pr-[12px]
                   "
                 >
-                  Id viverra mauris amet aliquet convallis lacus lectus.
-                  Scelerisque ac egestas et mattis erat imperdiet mauris.
-                </p>
-              </div>
-              <div
-                class="
-                  hover:bg-[#EFF1F1]
-                  rounded-md
-                  py-[12px]
-                  pl-[32px]
-                  pr-[12px]
-                "
-              >
-                <h6 class="text-base text-[#333333]">For Creators</h6>
-                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                  Id viverra mauris amet aliquet convallis lacus lectus.
-                  Scelerisque ac egestas et mattis erat imperdiet mauris.
-                </p>
-              </div>
-              <div
-                class="
-                  hover:bg-[#EFF1F1]
-                  rounded-md
-                  py-[12px]
-                  pl-[32px]
-                  pr-[12px]
-                "
-              >
-                <h6 class="text-base text-[#333333]">For freelance writers</h6>
-                <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                  Id viverra mauris amet aliquet convallis lacus lectus.
-                  Scelerisque ac egestas et mattis erat imperdiet mauris.
-                </p>
-              </div>
+                  <h6 class="text-base text-[#333333]">For Content Creators</h6>
+                  <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                    Wether you're a Skit Maker, Tiktoker, Youtuber, content
+                    creator, etc. Contentre has...
+                  </p>
+                </div>
+              </a>
+              <a href="/writers">
+                <div
+                  class="
+                    hover:bg-[#EFF1F1]
+                    rounded-md
+                    py-[12px]
+                    pl-[32px]
+                    pr-[12px]
+                  "
+                >
+                  <h6 class="text-base text-[#333333]">
+                    For Freelance Writers
+                  </h6>
+                  <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                    Wether you're a freelance writer, a technical writer,
+                    journalists, copywriters, photographers, illustrator,
+                    artist, designers or creative writer. Contentre has...
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -130,8 +140,12 @@
           </div>
         </div>
 
+        <!-- ===========Why Contentre Menu===================== -->
+
+        <!-- ===========Why Contentre Menu===================== -->
+
         <!-- ===========Hamburger Icon===================== -->
-        <div class="hamburger-box">
+        <div class="hamburger-box" @click.prevent="onToggleMenu">
           <button
             id="menu-btn"
             class="block hamburger lg:hidden focus:outline-none"
@@ -144,12 +158,12 @@
         <!-- ===========Hamburger Icon===================== -->
 
         <!-- ===============Mobile Menu=================================== -->
-        <div class="lg:hidden">
+        <div v-if="showMenu">
           <div
             id="menu"
             class="
               absolute
-              flex-col
+              flex flex-col
               items-center
               self-end
               py-8
@@ -162,12 +176,113 @@
               right-6
               drop-shadow-md
               z-10
-              hidden
             "
           >
-            <a href="./index.html" class="text-base text-[#888888]"
-              >Why Contentre?</a
+            <button
+              class="ml-12 text-[#888888] text-base dropbtn"
+              @click.prevent="onToggle"
             >
+              Why Contentre
+              <img
+                src="~/assets/imgs/arrow-down.png"
+                alt=""
+                class="inline-block ml-4 dropbtn"
+              />
+              <div
+                v-if="showWhyContentre"
+                id="myDropdown"
+                class="
+                  dropdown-content
+                  bg-white
+                  absolute
+                  left-0
+                  lg:left-0
+                  w-[360px]
+                  lg:min-w-[398px]
+                  h-[398px]
+                  overflow-auto
+                  border-2 border-[#EFF1F1]
+                  rounded-lg
+                  shadow-[#EFF1F1]
+                  py-[12px]
+                  pl-[2px]
+                  pr-[12px]
+                  z-20
+                "
+              >
+                <a href="/enterprises">
+                  <div
+                    class="
+                      hover:bg-[#EFF1F1]
+                      rounded-md
+                      py-[12px]
+                      pl-[32px]
+                      pr-[12px]
+                    "
+                  >
+                    <h6
+                      class="
+                        text-base text-[#333333]
+                        hover:text-[#286963] hover:font-semibold
+                      "
+                    >
+                      For Content Agencies
+                    </h6>
+                    <p
+                      class="
+                        text-[12px] text-[#6D7070]
+                        leading-[24px]
+                        my-2
+                        hover:text-[#6D7070]
+                      "
+                    >
+                      Wether you're a small or large content agency or
+                      enterprise, providing Content as a service to your client.
+                      Contentre provides...
+                    </p>
+                  </div>
+                </a>
+                <a href="creators">
+                  <div
+                    class="
+                      hover:bg-[#EFF1F1]
+                      rounded-md
+                      py-[12px]
+                      pl-[32px]
+                      pr-[12px]
+                    "
+                  >
+                    <h6 class="text-base text-[#333333]">
+                      For Content Creators
+                    </h6>
+                    <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                      Wether you're a Skit Maker, Tiktoker, Youtuber, content
+                      creator, etc. Contentre has...
+                    </p>
+                  </div>
+                </a>
+                <a href="/writers">
+                  <div
+                    class="
+                      hover:bg-[#EFF1F1]
+                      rounded-md
+                      py-[12px]
+                      pl-[32px]
+                      pr-[12px]
+                    "
+                  >
+                    <h6 class="text-base text-[#333333]">
+                      For Freelance Writers
+                    </h6>
+                    <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
+                      Wether you're a freelance writer, a technical writer,
+                      journalists, copywriters, photographers, illustrator,
+                      artist, designers or creative writer. Contentre has...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </button>
             <a href="About" class="text-base text-[#888888]">About</a>
             <a href="./pricing.html" class="text-base text-[#888888]"
               >Pricing</a
@@ -354,9 +469,7 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a
-                      class="text-[#E6E7E9] text-xs font-light"
-                      href="/freelancers"
+                    <a class="text-[#E6E7E9] text-xs font-light" href="/writers"
                       >For Freelance Writers</a
                     >
                   </li>
@@ -408,6 +521,7 @@ export default {
 
   data: () => ({
     showWhyContentre: false,
+    showMenu: false,
   }),
 
   computed: {
@@ -416,15 +530,12 @@ export default {
     },
   },
   methods: {
-    toggleDropdown() {
-      const dropdown = document.getElementById('navDropdown')
-      const dropdown1 = document.getElementById('navDropdown1')
-      dropdown.classList.toggle('hidden')
-      dropdown1.classList.toggle('hidden')
-    },
-
     onToggle() {
       this.showWhyContentre = !this.showWhyContentre
+    },
+
+    onToggleMenu() {
+      this.showMenu = !this.showMenu
     },
   },
 }

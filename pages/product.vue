@@ -104,16 +104,9 @@
                     Content repurposing
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    You can auto generate PDF, Docx, etc of your contents. You
+                    can generate 1,2,3, etc articles at once with different PDF
+                    templates
                   </p>
                 </div>
               </div>
@@ -143,11 +136,21 @@
                   >
                     Cover letter generator
                   </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim s
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    It allows writers to generate writing cover letters to apply
+                    to full-time jobs or acquire more clients.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    It allows users to choose a template and create
+                    industry-standard cover letters by answering questions.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    Then for samples, it will ask users to choose their best
+                    content from already added content in Contentre or add new
+                    ones by creating an account.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    It's a free tool.
                   </p>
                 </div>
               </div>
@@ -178,16 +181,8 @@
                     Portfolio plug-in/widget
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    The plugin feature allows users to display your portfolio on
+                    a page on your website. (customize it to suit your site)
                   </p>
                 </div>
               </div>
@@ -215,19 +210,11 @@
                       mb-5
                     "
                   >
-                    Notetaking
+                    Note-taking
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    A little note taking app to allow users create drafts or
+                    drop content ideas.
                   </p>
                 </div>
               </div>
@@ -258,16 +245,8 @@
                     Hiring Feature
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    Teams can hire writers that best suit their company directly
+                    from Contentre.
                   </p>
                 </div>
               </div>
@@ -300,12 +279,10 @@
                     Content Publishing
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo,
+                    Users can promote Across all Socials and publish to selected
+                    WordPress, Wix, medium, HashNode, Strapi, websites) using
+                    Profaily plugin for socials, Automate Content Re-sharing
+                    with reminders.
                   </p>
                 </div>
               </div>
@@ -325,17 +302,19 @@
                   >
                     Portfolio Management
                   </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    Create multiple portfolios to streamline their content for a
+                    particular client.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    Customizable auto-generated content portfolio. Customize
+                    your portfolio to best suit your brand or choose from
+                    thousands of templates.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    Stop sending gigantic portfolio to your clients. Streamline
+                    your portfolio to a particular clients needs with our
+                    Multiple Portfolio Feature.
                   </p>
                 </div>
               </div>
@@ -353,14 +332,18 @@
                       mb-5
                     "
                   >
-                    Content Calendar/Task boardt
+                    Content Board and Calendar
                   </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    A unified content board to track your writers and editors
+                    progress, monitor content delivery status across your team
+                    and clients.
+                  </p>
+
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mbb-2">
+                    A unified calendar to monitor content delivery across your
+                    clients and team members with reminders integration with
+                    Google Calendar, etc.
                   </p>
                 </div>
               </div>
@@ -381,16 +364,8 @@
                     Time tracking
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    The feature allows writers to track the time used to create
+                    a connect and it will calculate the amount.
                   </p>
                 </div>
               </div>
@@ -408,19 +383,16 @@
                       mb-5
                     "
                   >
-                    Portfolio/PDF Template Marketplace
+                    Broswer Extension
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Urna, dictum nisi mollis arcu at senectus scelerisque
-                    convallis. Id vulputate auctor sed in sem et egestas ipsum.
-                    Turpis sagittis, libero enim sed odio facilisis. Id ipsum
-                    nisi consequat ullamcorper pretium, leo. Aliquam ultricies
-                    libero, velit auctor urna urna quis. Vel commodo, diam nibh
-                    ut ultricies. Ut sed consectetur quisque tortor. vulputate
-                    auctor sed in sem et egestas ipsum. Turpis sagittis, libero
-                    enim sed odio facilisis. Id ipsum nisi consequat
-                    ullamcorper.
+                    The chrome extension allows users to pick their content to
+                    be uploaded, it also allows users to select the content
+                    profile and auto upload all the content in the profile.
+                  </p>
+
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
+                    It also auto Scan Profiles for new content and upload.
                   </p>
                 </div>
               </div>

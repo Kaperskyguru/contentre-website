@@ -14,12 +14,13 @@
                   lg:mb-0
                 "
               >
-                Contentre for Teams and Enterprises
+                Contentre for Content Agencies
               </h1>
               <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Bibendum sed sed sit vitae at. Ante quam amet purus aliquam
-                gravida quisque aliquet lobortis.
+                Wether you're a small or large content agency or enterprise,
+                providing Content as a service to your client. Contentre
+                provides great features that runs your content agency in one
+                place.
               </p>
             </div>
             <div class="mt-10 hidden lg:block">
@@ -35,7 +36,7 @@
                   md:text-base
                 "
               >
-                Get Started for free now
+                Get started. It's free
               </button>
             </div>
           </div>
@@ -104,8 +105,8 @@
               text-[#102A27]
             "
           >
-            Access great features for your business <br />
-            and team
+            Access great features that runs your <br />content agency in one
+            place.
           </h1>
         </div>
 
@@ -161,9 +162,8 @@
                   <p class="text-[24px] text-[#286963]">Billings</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Track all your billings and transactions from your
+                      freelance writing business.
                     </p>
                   </div>
                 </div>
@@ -181,9 +181,8 @@
                   <p class="text-[24px] text-[#286963]">Invoices</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Generate invoices in less than 5 minutes and get paid with
+                      popular payment platforms such as PayPal, OutVoice, etc.
                     </p>
                   </div>
                 </div>
@@ -201,9 +200,9 @@
                   <p class="text-[24px] text-[#286963]">Proposal</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create content proposals and contracts using customized
+                      and premium templates in less than a minute to land you
+                      new gigs from your clients.
                     </p>
                   </div>
                 </div>
@@ -221,9 +220,8 @@
                   <p class="text-[24px] text-[#286963]">Payment</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Receive payments using your favorite payment apps such as
+                      PayPal, OutVoice, direct transfer etc.
                     </p>
                   </div>
                 </div>
@@ -231,6 +229,7 @@
             </div>
           </div>
         </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40 mt-20">
           <div class="">
             <h2
@@ -258,9 +257,9 @@
                   <p class="text-[24px] text-[#286963]">Manage Writers</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create and manage your writers with assigned roles, send
+                      content briefs and track progress using a unified content
+                      board.
                     </p>
                   </div>
                 </div>
@@ -278,9 +277,31 @@
                   <p class="text-[24px] text-[#286963]">Manage Editors</p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create and manage your editors with assigned roles, send
+                      content briefs and track progress using a unified content
+                      board.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">
+                    Manage Roles/Permissions
+                  </p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Create and manage your roles and permissions, assign roles
+                      to members of the team.
                     </p>
                   </div>
                 </div>
@@ -366,13 +387,13 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Create and assign Content Brief to writers and editor
+                    Manage Content Briefs
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Create and manage content briefs, assign and receive
+                      content outlines and track progress of writers and editors
+                      in a unified content board.
                     </p>
                   </div>
                 </div>
@@ -388,13 +409,59 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Track writers progress through a unified calendar
+                    Unified Content Board
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      A unified content board to track your writers and editors
+                      progress, monitor content delivery status across your team
+                      and clients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">
+                    Unified Content Calenders
+                  </p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      A unified calendar to monitor content delivery across your
+                      clients and team members with reminders integration with
+                      Google Calendar, etc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex mb-4">
+                <div class="pt-2">
+                  <img
+                    src="~/assets/imgs/arrow_gray.png"
+                    alt=""
+                    class="w-[45px]"
+                  />
+                </div>
+
+                <div class="ml-6">
+                  <p class="text-[24px] text-[#286963]">
+                    Real time Collaboration
+                  </p>
+                  <div class="mt-1">
+                    <p class="text-[#888888]">
+                      Real time content creation and collaboration, teams
+                      members can collaborate together to produce high quality
+                      content on real time.
                     </p>
                   </div>
                 </div>
@@ -413,7 +480,7 @@
                 text-left
               "
             >
-              Client Measurement
+              Unified Content Analytics
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
@@ -427,13 +494,13 @@
 
                 <div class="ml-6">
                   <p class="text-[24px] text-[#286963]">
-                    Measure Content Performance/Analytics across Client
+                    Unified Content Performances
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, dictum nisi mollis arcu at senectus scelerisque
-                      convallis. Id vulputate auctor sed in sem.
+                      Track the progress of your contents on your across all
+                      your clients website and draw comprehensive and insightful
+                      analytics in one place.
                     </p>
                   </div>
                 </div>
@@ -450,7 +517,7 @@
               lg:mx-0
             "
           >
-            <img src="~/assets/imgs/client_img.png" alt="" class="" />
+            <img src="~/assets/imgs/content_performance.png" alt="" class="" />
             <div
               class="
                 w-[330px]
@@ -480,7 +547,7 @@
           <button
             class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
           >
-            Get started for free now
+            Get started. It's free
           </button>
         </div>
       </div>
@@ -627,6 +694,51 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Enterprise',
+
+  head() {
+    return {
+      title: 'Contentre for content agencies',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Access great features that runs your content agency in one place.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Contentre for content agencies',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Access great features that runs your content agency in one place.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/creators',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 

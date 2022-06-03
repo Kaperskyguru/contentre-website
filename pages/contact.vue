@@ -38,14 +38,14 @@
                         lg:text-[24px] lg:leading-[34.68px]
                       "
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Bibendum sed sed sit vitae at. Ante quam amet purus
-                      aliquam gravida quisque aliquet lobortis.
+                      We take care of our family. Whether you're a Contentre pro
+                      or just starting out, there's no question too small or
+                      problem too big to reach out to us.
                     </p>
                   </div>
-                  <div class="mt-10 hidden lg:block">
+                  <!-- <div class="mt-10 hidden lg:block">
                     <HomeButton>Get Started. It's Free</HomeButton>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -148,9 +148,8 @@
                 Book a demo
               </h5>
               <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                vulputate auctor sed in sem et egestas ipsum.
+                Book a comprehensive walkthrough tailored to your needs, and ask
+                us any questions you might have about Contentre.
               </p>
             </div>
             <div>
@@ -172,7 +171,7 @@
                     text-[#430A39]
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Find out if Contentre is a good fit for your business
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -192,7 +191,7 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  See the full potential of what the system can do
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -212,10 +211,10 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Compare features if you're coming from another platform
                 </p>
               </div>
-              <div class="flex items-center mb-4">
+              <!-- <div class="flex items-center mb-4">
                 <div>
                   <img
                     src="~/assets/imgs/bullet-brown.png"
@@ -234,7 +233,7 @@
                 >
                   Consectetur lectus pulvinar tempor enim, pretium.
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div
@@ -298,9 +297,9 @@
                 Chat with us
               </h5>
               <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                vulputate auctor sed in sem et egestas ipsum.
+                Click on the chat bubble in the bottom right corner to quickly
+                connect with a member on our Customer Success team or visit our
+                Support.
               </p>
             </div>
             <div class="pb-16">
@@ -322,7 +321,7 @@
                     text-[#430A39]
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Ask us any questions you have.
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -342,7 +341,7 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Report a technical issue/error.
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -362,7 +361,7 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Submit a feature request.
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -382,7 +381,7 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Send us a gif (we love them).
                 </p>
               </div>
             </div>
@@ -433,12 +432,11 @@
           <div class="w-full lg:w-[80%] px-10 lg:px-0">
             <div class="text-center lg:text-left">
               <h5 class="text-[25px] md:text-[40px] mb-7 mt-20 lg:mt-0">
-                Book a demo
+                Schedule a call
               </h5>
               <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                dictum nisi mollis arcu at senectus scelerisque convallis. Id
-                vulputate auctor sed in sem et egestas ipsum.
+                If you'd like to speak with someone, fill out the form below and
+                we'll connect you to the right team.
               </p>
             </div>
             <div>
@@ -460,7 +458,7 @@
                     text-[#430A39]
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Get in-depth assistance with a dedicated team member.
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -480,7 +478,7 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Talk via phone or screen share.
                 </p>
               </div>
               <div class="flex items-center mb-4">
@@ -500,10 +498,10 @@
                     lg:ml-5
                   "
                 >
-                  Consectetur lectus pulvinar tempor enim, pretium.
+                  Ask questions about billing, integrations, setup, and more.
                 </p>
               </div>
-              <div class="flex items-center mb-4">
+              <!-- <div class="flex items-center mb-4">
                 <div>
                   <img
                     src="~/assets/imgs/Group_1204.png"
@@ -522,7 +520,7 @@
                 >
                   Consectetur lectus pulvinar tempor enim, pretium.
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div
@@ -590,19 +588,20 @@
         </div>
         <div class="lg:w-[70%] mx-auto">
           <div class="mt-16">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1">
               <div class="w-full">
-                <p class="text-base mb-3">First name</p>
+                <p class="text-base mb-3">Name</p>
                 <input
                   type="text"
-                  class="bg-[#FCFCFC] rounded-md w-full py-5 lg:py-3"
-                />
-              </div>
-              <div class="w-full">
-                <p class="text-base mb-3">Last name</p>
-                <input
-                  type="text"
-                  class="bg-[#FCFCFC] rounded-md w-full py-5 lg:py-3"
+                  class="
+                    bg-[#FCFCFC]
+                    border border-[#286963]
+                    outline-none
+                    rounded-md
+                    w-full
+                    py-5
+                    lg:py-3
+                  "
                 />
               </div>
             </div>
@@ -611,14 +610,30 @@
                 <p class="text-base mb-3">Email</p>
                 <input
                   type="email"
-                  class="bg-[#FCFCFC] rounded-md w-full py-5 lg:py-3"
+                  class="
+                    bg-[#FCFCFC]
+                    border border-[#286963]
+                    outline-none
+                    rounded-md
+                    w-full
+                    py-5
+                    lg:py-3
+                  "
                 />
               </div>
               <div class="w-full mt-6">
-                <p class="text-base mb-3">Last name</p>
+                <p class="text-base mb-3">Phone number</p>
                 <input
-                  type="number"
-                  class="bg-[#FCFCFC] rounded-md w-full py-5 lg:py-3"
+                  type="text"
+                  class="
+                    bg-[#FCFCFC]
+                    border border-[#286963]
+                    outline-none
+                    rounded-md
+                    w-full
+                    py-5
+                    lg:py-3
+                  "
                 />
               </div>
             </div>
@@ -630,9 +645,20 @@
                   name=""
                   cols="30"
                   rows="10"
-                  class="bg-[#FCFCFC] rounded-md w-full py-5 lg:py-3"
+                  class="
+                    bg-[#FCFCFC]
+                    border border-[#286963]
+                    outline-none
+                    rounded-md
+                    w-full
+                    py-5
+                    lg:py-3
+                  "
                 ></textarea>
               </div>
+            </div>
+            <div class="mt-6 text-center">
+              <HomeButton>Contact us</HomeButton>
             </div>
           </div>
         </div>
