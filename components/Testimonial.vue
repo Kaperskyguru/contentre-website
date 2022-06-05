@@ -19,7 +19,7 @@
               <div class="md:flex justify-center md:justify-start mb-6">
                 <div class="w-[48px] h-[48px] rounded-full mx-9 md:mx-0">
                   <img
-                    src="~/assets/imgs/userimg.png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
                     alt=""
                     class="w-[100%] block object-cover"
                   />
@@ -32,12 +32,12 @@
                       font-medium
                     "
                   >
-                    Success Ibekwe
+                    Solomon Eseme
                   </h6>
                   <p
                     class="text-[#888888] text-xs font-medium leading-[15.6px]"
                   >
-                    UX writer @ Google
+                    Senior Technical Writer @ Kinsta
                   </p>
                 </div>
               </div>
@@ -92,13 +92,11 @@
               leading-[24px]
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-            dictum nisi mollis arcu at senectus scelerisque convallis. Id
-            vulputate auctor sed in sem et egestas ipsum. Turpis sagittis,
-            libero enim sed odio facilisis. Id ipsum nisi consequat ullamcorper
-            pretium, leo. Aliquam ultricies libero, velit auctor urna urna quis.
-            Vel commodo, diam nibh ut ultricies. Ut sed consectetur quisque
-            tortor.
+            Contentre is a tool I will recommend to every writer, I use it to
+            generate multiple portfolios with CONTENT RULES set to what my
+            clients want. Additionally, I can generate as many portfolios as
+            needed for different clients without writing any code. It also helps
+            me organized all my written contents in one place.
           </p>
         </div>
         <img src="~/assets/imgs/arrow-left_(2).png" alt="" />

@@ -46,20 +46,23 @@
               lg:mb-0
             "
           >
-            <button
-              class="
-                bg-[#286963]
-                py-[12px]
-                px-[32px]
-                text-white
-                lg:ml-0
-                rounded-md
-                text-sm
-              "
+            <a
+              href="https://app.contentre.io/auth/register?source=home_spreadsheet"
+              ><button
+                class="
+                  bg-[#286963]
+                  py-[12px]
+                  px-[32px]
+                  text-white
+                  lg:ml-0
+                  rounded-md
+                  text-sm
+                "
+              >
+                Get Started. It's Free
+              </button></a
             >
-              Get Started. It's free
-            </button>
-            <a href="/contact">
+            <nuxt-link to="/contact">
               <button
                 class="
                   border-[#286963]
@@ -78,7 +81,7 @@
               >
                 Contact Us
               </button>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <div class="md:p-0 w-[100%]">

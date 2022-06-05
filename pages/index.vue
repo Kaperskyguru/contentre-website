@@ -50,6 +50,7 @@
               >
                 <div class="w-full">
                   <input
+                    v-model="email"
                     type="email"
                     placeholder="Enter your email Address"
                     class="
@@ -70,19 +71,23 @@
                   />
                 </div>
                 <div class="w-full">
-                  <HomeButton
-                    class="
-                      py-[12px]
-                      px-[16px]
-                      md:py-[16px] md:px-[24px] md:ml-[16px]
-                      lg:ml-[10px]
-                      text-[16px]
-                      mt-4
-                      md:mt-0
-                      w-full
-                      md:w-fit
-                    "
-                    >Get Started. It's Free</HomeButton
+                  <a
+                    :href="`https://app.contentre.io/auth/register?source=home_banner&email=${email}`"
+                  >
+                    <HomeButton
+                      class="
+                        py-[12px]
+                        px-[16px]
+                        md:py-[16px] md:px-[24px] md:ml-[16px]
+                        lg:ml-[10px]
+                        text-[16px]
+                        mt-4
+                        md:mt-0
+                        w-full
+                        md:w-fit
+                      "
+                      >Get Started. It's Free</HomeButton
+                    ></a
                   >
                 </div>
               </div>
@@ -113,7 +118,7 @@
               "
             >
               <img
-                src="~/assets/imgs/Default.png"
+                src="~/assets/imgs/total_revenue.png"
                 alt=""
                 class="w-[100px] md:w-[246px]"
               />
@@ -242,7 +247,28 @@
             </p>
             <p class="text-base text-[#859492]">
               You can organize all your contents and tracking progress with our
-              Content Planner and Content Calendar.
+              Content Board(Planner) and Content Calendar.
+            </p>
+          </div>
+          <div
+            class="
+              text-center
+              bg-[#FCFCFC]
+              border border-[#EFF1F1]
+              p-10
+              rounded-md
+            "
+          >
+            <div class="flex justify-center mb-4">
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
+            </div>
+            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
+              Portfolio Management
+            </p>
+            <p class="text-base text-[#859492]">
+              Create multiple portfolios to streamline their content for a
+              particular client using thousands of template or drag and drop to
+              build your brand portfolio.
             </p>
           </div>
           <div
@@ -286,30 +312,11 @@
               attracts hire.
             </p>
           </div>
-          <div
-            class="
-              text-center
-              bg-[#FCFCFC]
-              border border-[#EFF1F1]
-              p-10
-              rounded-md
-            "
-          >
-            <div class="flex justify-center mb-4">
-              <img src="~/assets/imgs/document-text.png" alt="" class="" />
-            </div>
-            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
-              Portfolio Management
-            </p>
-            <p class="text-base text-[#859492]">
-              Create multiple portfolios to streamline their content for a
-              particular client.
-            </p>
-          </div>
         </div>
 
         <div class="flex justify-center mt-12 mb-10">
-          <button
+          <nuxt-link
+            to="/product"
             class="
               bg-[#286963]
               py-[16px]
@@ -321,7 +328,7 @@
             "
           >
             View more features
-          </button>
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -974,14 +981,56 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Hire a Certified Specialist to help you with your
+                      Request a Certified Specialist to help you with your
                       Contentre account
                     </p>
                   </div>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/contact#book_a_demo">
                     <div class="flex items-cente ml-3 md:ml-6">
                       <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                        Join Us
+                        Contact Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-2 mb-2">
+                <small
+                  class="
+                    text-[12px]
+                    leading-[18.96px]
+                    text-[#888888]
+                    ml-8
+                    md:ml-12
+                    lg:ml-7
+                  "
+                  >HIRE A FREELANCE WRITER</small
+                >
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
+                    </div>
+                    <p class="text-[15px] ml-3 text[#102A27]">
+                      Hire a Certified Freelance Writer to help you with your
+                      Content Marketing.
+                    </p>
+                  </div>
+                  <a href="#">
+                    <div class="flex ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Hire Now
                       </p>
                       <div class="ml-4">
                         <img
@@ -1076,11 +1125,43 @@
                       />
                     </div>
                     <p class="ml-4 text[#102A27] text-[15px]">
-                      Explore content for small business owners
+                      Explore content for freelance writing business owners
                     </p>
                   </div>
                   <a
                     href="https://www.linkedin.com/company/contentre"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-2 mb-5">
+                <div>
+                  <div class="flex items-center">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/Twitter_black_(1).png"
+                        alt=""
+                        class="w-8"
+                      />
+                    </div>
+                    <p class="ml-4 text[#102A27] text-[15px]">
+                      Explore content for freelance writing business owners
+                    </p>
+                  </div>
+                  <a
+                    href="https://twitter.com/contentreio"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -1165,6 +1246,9 @@
 export default {
   name: 'HomePage',
 
+  data: () => ({
+    email: '',
+  }),
   head() {
     return {
       title: 'Manage your freelance writing business from one place',

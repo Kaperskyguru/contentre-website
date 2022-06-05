@@ -24,21 +24,24 @@
                 will turn your side hustle into a content business.
               </p>
             </div>
-            <div class="mt-10 hidden lg:block">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[16px]
-                  px-[24px]
-                  text-white
-                  font-medium
-                  rounded-md
-                  text-sm
-                  md:text-base
-                "
+            <div class="mt-10 lg:block">
+              <a
+                href="https://app.contentre.io/auth/register?source=writers_get_started"
+                ><button
+                  class="
+                    bg-[#286963]
+                    py-[16px]
+                    px-[24px]
+                    text-white
+                    font-medium
+                    rounded-md
+                    text-sm
+                    md:text-base
+                  "
+                >
+                  Get Started. It's Free
+                </button></a
               >
-                Get started. It's free
-              </button>
             </div>
           </div>
           <div class="pt-20 lg:pt-0">
@@ -588,11 +591,15 @@
           Turn your side hustle into a business now 🚀
         </h1>
         <div class="flex justify-center mt-4">
-          <button
-            class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
+          <a
+            href="https://app.contentre.io/auth/register?source=writers_side_hustle_to_business"
           >
-            Get started. It's free
-          </button>
+            <button
+              class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
+            >
+              Get Started. It's Free
+            </button></a
+          >
         </div>
       </div>
     </section>

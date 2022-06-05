@@ -1,9 +1,9 @@
 <template>
   <section>
     <section class="mt-20 lg:mb-40">
-      <div class="mx-10 lg:mx-28">
+      <div class="mx-10 lg:ml-28">
         <div class="grid lg:grid-cols-2 gap-4">
-          <div>
+          <div class="lg:w-[500px]">
             <div class="text-center lg:text-left">
               <h1
                 class="
@@ -23,21 +23,53 @@
                 place.
               </p>
             </div>
-            <div class="mt-10 hidden lg:block">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[16px]
-                  px-[24px]
-                  text-white
-                  font-medium
-                  rounded-md
-                  text-sm
-                  md:text-base
-                "
+            <div class="mt-10 lg:block">
+              <form
+                ref="form"
+                class="mt-4 w-full"
+                action="https://contentre.us1.list-manage.com/subscribe/post?u=731fe09da3abfe832f8122f69&amp;id=62eda625eb"
+                method="post"
+                @submit.prevent="register"
               >
-                Get started. It's free
-              </button>
+                <em>{{ errors.name }}</em>
+                <input
+                  v-model="user.email"
+                  name="EMAIL"
+                  class="
+                    font-gilroy
+                    focus:border-body-text-color focus:outline-none
+                    border-solid border border-border-inner
+                    rounded
+                    py-4
+                    pl-5
+                    font-medium
+                    block
+                    mb-5
+                    w-full
+                  "
+                  placeholder="Enter your email"
+                  type="email"
+                />
+                <div hidden="true">
+                  <input type="hidden" name="tags" value="4346013" />
+                </div>
+
+                <button
+                  class="
+                    bg-[#286963]
+                    py-[16px]
+                    px-[24px]
+                    text-white
+                    font-medium
+                    rounded-md
+                    text-sm
+                    md:text-base
+                  "
+                  @click.prevent="onClick"
+                >
+                  Coming Soon (Notify me)
+                </button>
+              </form>
             </div>
           </div>
           <div class="">
@@ -547,7 +579,7 @@
           <button
             class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
           >
-            Get started. It's free
+            Get started. It's free (Coming Soon)
           </button>
         </div>
       </div>
@@ -694,7 +726,7 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Enterprise',
-
+  data: () => ({ user: {}, errors: {} }),
   head() {
     return {
       title: 'Contentre for content agencies',
@@ -738,6 +770,25 @@ export default {
         },
       ],
     }
+  },
+
+  methods: {
+    register() {},
+    onClick() {
+      if (this.validateEmail(this.user.email)) {
+        this.suscribeNewsletter()
+      } else this.errors.email = 'Enter a valid email'
+    },
+    suscribeNewsletter() {
+      this.$refs.form.submit()
+    },
+    validateEmail(email) {
+      if (email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        return re.test(email)
+      }
+      return false
+    },
   },
 }
 </script>

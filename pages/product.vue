@@ -409,7 +409,10 @@
       <div class="text-center">
         <h1 class="text-3xl md:text-5xl">Why wait any longer?</h1>
         <div class="flex justify-center mt-10">
-          <HomeButton>Get Started. It's Free</HomeButton>
+          <a
+            href="https://app.contentre.io/auth/register?source=product_why_wait"
+            ><HomeButton>Get Started. It's Free</HomeButton></a
+          >
         </div>
       </div>
     </section>

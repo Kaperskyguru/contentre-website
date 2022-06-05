@@ -131,6 +131,7 @@
     <section class="mt-[400px] md:mt-60 lg:mt-20 lg:mb-10">
       <div class="lg:max-w-[80%] mx-auto lg:p-10">
         <div
+          id="book_a_demo"
           class="
             lg:w-[813px] lg:h-[540px]
             bg-[#FEF6FC]
@@ -266,15 +267,30 @@
           </div>
 
           <div class="flex justify-center lg:justify-start pb-10 pt-10 lg:py-0">
-            <button
-              class="text-[24px] font-semibold text-[#DF20BF] flex items-center"
+            <a
+              href="https://calendly.com/solomoneseme/contentre-30-min-session"
             >
-              <h6>Book a demo</h6>
-              <img src="~/assets/imgs/arrow-left_(3).png" alt="" class="ml-3" />
-            </button>
+              <button
+                class="
+                  text-[24px]
+                  font-semibold
+                  text-[#DF20BF]
+                  flex
+                  items-center
+                "
+              >
+                <h6>Book a demo</h6>
+                <img
+                  src="~/assets/imgs/arrow-left_(3).png"
+                  alt=""
+                  class="ml-3"
+                />
+              </button>
+            </a>
           </div>
         </div>
         <div
+          id="chat_with_us"
           class="
             lg:w-[813px] lg:h-[540px]
             bg-[#FCFFF5]
@@ -297,9 +313,9 @@
                 Chat with us
               </h5>
               <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-7">
-                Click on the chat bubble in the bottom right corner to quickly
-                connect with a member on our Customer Success team or visit our
-                Support.
+                Click on the feedback bubble in the bottom right corner to
+                quickly connect with a member on our Customer Success team or
+                visit our Support.
               </p>
             </div>
             <div class="pb-16">
@@ -416,6 +432,7 @@
           </div>
         </div>
         <div
+          id="schedule_a_call"
           class="
             lg:w-[813px] lg:h-[540px]
             bg-[#F5FCFF]
@@ -553,16 +570,23 @@
           </div>
 
           <div class="flex justify-center lg:justify-start pb-10 pt-10 lg:py-0">
-            <button
-              class="text-[24px] font-semibold text-[#0CB9F3] flex items-center"
-            >
-              <h6>Schedule a call</h6>
-              <img
-                src="~/assets/imgs/arrow-left-blue.png"
-                alt=""
-                class="ml-3"
-              />
-            </button>
+            <a href="https://calendly.com/solomoneseme/contentre-30-min-session"
+              ><button
+                class="
+                  text-[24px]
+                  font-semibold
+                  text-[#0CB9F3]
+                  flex
+                  items-center
+                "
+              >
+                <h6>Schedule a call</h6>
+                <img
+                  src="~/assets/imgs/arrow-left-blue.png"
+                  alt=""
+                  class="ml-3"
+                /></button
+            ></a>
           </div>
         </div>
       </div>
@@ -573,7 +597,7 @@
 
     <section class="mt-12 mb-10">
       <div class="max-w-[80%] mx-auto">
-        <div class="text-center w-[70%] mx-auto">
+        <div id="send_an_email" class="text-center w-[70%] mx-auto">
           <h1
             class="
               text-[25px]
@@ -583,7 +607,7 @@
               lg:leading-[82px]
             "
           >
-            Send us a message, we don’t snub
+            Send us a message, we don't snub
           </h1>
         </div>
         <div class="lg:w-[70%] mx-auto">

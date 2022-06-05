@@ -203,7 +203,7 @@ export default {
   gtm: {
     id: 'GTM-KFL7V5T',
     pageTracking: true,
-    // pageViewEventName: 'virtualPageview',
+    pageViewEventName: 'virtualPageview',
   },
 
   publicRuntimeConfig: {

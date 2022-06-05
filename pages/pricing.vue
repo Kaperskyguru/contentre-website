@@ -606,6 +606,7 @@
 
             <div class="mt-20 mb-5 flex justify-center items-center">
               <button
+                disabled
                 class="
                   bg-[#fff]
                   border border-[#286963]
@@ -616,7 +617,7 @@
                   rounded-md
                 "
               >
-                Get Premium Plan
+                Get Premium Plan (Coming Soon)
               </button>
             </div>
           </div>
@@ -888,6 +889,7 @@
 
             <div class="mt-20 mb-5 flex justify-center items-center">
               <button
+                disabled
                 class="
                   bg-[bg-transparent]
                   border border-[#286963]
@@ -898,7 +900,7 @@
                   rounded-md
                 "
               >
-                Get Team Plan
+                Get Team Plan (Coming Soon)
               </button>
             </div>
           </div>

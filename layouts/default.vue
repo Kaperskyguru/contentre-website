@@ -3,18 +3,21 @@
     <!-- ================Header================================ -->
     <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
-      <nav class="flex justify-between relative fixed mt-4">
+      <nav
+        v-click-outside="onClickOutside"
+        class="flex justify-between relative fixed mt-4"
+      >
         <div class="flex items-center">
-          <a href="/">
+          <nuxt-link to="/">
             <div class="flex">
               <img
                 src="~/assets/imgs/Logo-contentre.png"
                 alt="Logo-contentre"
                 class=""
               />
-              <h1 class="text-[#102A27] font-bold text-xl">Contentre</h1>
+              <div class="text-[#102A27] font-bold text-xl">Contentre</div>
             </div>
-          </a>
+          </nuxt-link>
 
           <div class="relative inline-block dropdown hidden md:block">
             <button
@@ -50,7 +53,7 @@
                 z-20
               "
             >
-              <a href="/enterprises">
+              <nuxt-link to="/enterprises">
                 <div
                   class="
                     hover:bg-[#EFF1F1]
@@ -81,8 +84,8 @@
                     provides...
                   </p>
                 </div>
-              </a>
-              <a href="/creators">
+              </nuxt-link>
+              <nuxt-link to="/creators">
                 <div
                   class="
                     hover:bg-[#EFF1F1]
@@ -98,8 +101,8 @@
                     creator, etc. Contentre has...
                   </p>
                 </div>
-              </a>
-              <a href="/writers">
+              </nuxt-link>
+              <nuxt-link to="/writers">
                 <div
                   class="
                     hover:bg-[#EFF1F1]
@@ -118,23 +121,104 @@
                     artist, designers or creative writer. Contentre has...
                   </p>
                 </div>
-              </a>
+              </nuxt-link>
             </div>
           </div>
 
           <div class="text-text-base hidden lg:block nav-menu ml-4">
             <ul class="flex text-[#888888]">
               <li class="ml-12">
-                <a class="text-base" href="/about">About</a>
+                <nuxt-link class="text-base" to="/about">About</nuxt-link>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="/pricing">Pricing</a>
+                <nuxt-link class="text-base" to="/pricing">Pricing</nuxt-link>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="/product">Product</a>
+                <nuxt-link class="text-base" to="/product">Product</nuxt-link>
               </li>
               <li class="ml-12">
-                <a class="text-base" href="/contact">Contact</a>
+                <nuxt-link class="text-base" to="/contact">Contact</nuxt-link>
+              </li>
+              <li class="ml-12" @click.prevent="onToggleResources">
+                <a href="#" class="text-base text-[#888888]"
+                  >Resources
+                  <img
+                    src="~/assets/imgs/arrow-down.png"
+                    alt=""
+                    class="inline-block ml-4 dropbtn"
+                  />
+                </a>
+                <div
+                  v-if="showResourceMenu"
+                  id="myDropdown"
+                  class="
+                    dropdown-content
+                    bg-white
+                    absolute
+                    overflow-auto
+                    border-2 border-[#EFF1F1]
+                    rounded-lg
+                    shadow-[#EFF1F1]
+                    pt-[12px]
+                    pl-[2px]
+                    pr-[12px]
+                    z-20
+                  "
+                >
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">Blog</h6></a
+                    >
+                  </div>
+
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">Ebooks</h6></a
+                    >
+                  </div>
+
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">Webinars</h6></a
+                    >
+                  </div>
+
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">Templates</h6></a
+                    >
+                  </div>
+
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">
+                        Example Portfolios
+                      </h6></a
+                    >
+                  </div>
+
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header"
+                      ><h6 class="text-base text-[#333333]">
+                        Who is a freelance writer?
+                      </h6></a
+                    >
+                  </div>
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header">
+                      <h6 class="text-base text-[#333333]">
+                        Who is a content creator?
+                      </h6></a
+                    >
+                  </div>
+                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                    <a href="https://blog.contentre.io?source=home_header">
+                      <h6 class="text-base text-[#333333]">
+                        What is Content Agency?
+                      </h6></a
+                    >
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -210,7 +294,7 @@
                   z-20
                 "
               >
-                <a href="/enterprises">
+                <nuxt-link to="/enterprises">
                   <div
                     class="
                       hover:bg-[#EFF1F1]
@@ -241,8 +325,8 @@
                       Contentre provides...
                     </p>
                   </div>
-                </a>
-                <a href="/creators">
+                </nuxt-link>
+                <nuxt-link to="/creators">
                   <div
                     class="
                       hover:bg-[#EFF1F1]
@@ -260,8 +344,8 @@
                       creator, etc. Contentre has...
                     </p>
                   </div>
-                </a>
-                <a href="/writers">
+                </nuxt-link>
+                <nuxt-link to="/writers">
                   <div
                     class="
                       hover:bg-[#EFF1F1]
@@ -280,61 +364,81 @@
                       artist, designers or creative writer. Contentre has...
                     </p>
                   </div>
-                </a>
+                </nuxt-link>
               </div>
             </button>
-            <a href="About" class="text-base text-[#888888]">About</a>
-            <a href="./pricing.html" class="text-base text-[#888888]"
-              >Pricing</a
+            <nuxt-link to="About" class="text-base text-[#888888]"
+              >About</nuxt-link
             >
-            <a href="Product" class="text-base text-[#888888]">Product</a>
-            <a href="Contact" class="text-base text-[#888888]">Contact</a>
+            <nuxt-link to="./pricing.html" class="text-base text-[#888888]"
+              >Pricing</nuxt-link
+            >
+            <nuxt-link to="Product" class="text-base text-[#888888]"
+              >Product</nuxt-link
+            >
+            <nuxt-link to="Contact" class="text-base text-[#888888]"
+              >Contact</nuxt-link
+            >
+            <a
+              href="https://blog.contentre.io?source=home_resources"
+              class="text-base text-[#888888]"
+              >Resources</a
+            >
             <div class="text-sm lg:hidden">
-              <button
-                class="
-                  bg-[#286963]
-                  py-[12px]
-                  px-[32px]
-                  text-white
-                  rounded-md
-                  text-sm
-                  inline-block
-                "
+              <a href="https://app.contentre.io/"
+                ><button
+                  class="
+                    bg-[#286963]
+                    py-[12px]
+                    px-[32px]
+                    text-white
+                    rounded-md
+                    text-sm
+                    inline-block
+                  "
+                >
+                  Log In
+                </button></a
               >
-                Log In
-              </button>
-              <button
-                class="
-                  bg-[#286963]
-                  py-[12px]
-                  px-[32px]
-                  text-white
-                  rounded-md
-                  text-sm
-                "
+              <a
+                href="https://app.contentre.io/auth/register?source=home_header"
+                ><button
+                  class="
+                    bg-[#286963]
+                    py-[12px]
+                    px-[32px]
+                    text-white
+                    rounded-md
+                    text-sm
+                  "
+                >
+                  Get Started. It's Free
+                </button></a
               >
-                Get Started For Free
-              </button>
             </div>
           </div>
         </div>
 
         <!-- ===============Mobile Menu=================================== -->
         <div class="text-sm hidden lg:block">
-          <button class="text-[#286963] font-bold text-sm">Log In</button>
-          <button
-            class="
-              bg-[#286963]
-              py-[12px]
-              px-[32px]
-              text-white
-              ml-8
-              rounded-md
-              text-sm
-            "
+          <a href="https://app.contentre.io/"
+            ><button class="text-[#286963] font-bold text-sm">Log In</button></a
           >
-            Get Started. It's Free
-          </button>
+          <a href="https://app.contentre.io/auth/register?source=home_header"
+            ><button
+              class="
+                bg-[#286963]
+                py-[12px]
+                px-[32px]
+                text-white
+                ml-8
+                rounded-md
+                text-sm
+              "
+            >
+              Get Started. It's Free
+            </button></a
+          >
         </div>
       </nav>
       <!-- ------------Navbar-------------------- -->
@@ -345,7 +449,16 @@
       <div class="max-w-[80%] mx-auto pt-10 md:pt-16 pb-5">
         <div class="grid lg:grid-cols-3 gap-10 md:gap-16 lg:gap-40">
           <div class="lg:col-span-1">
-            <h5 class="text-white mb-5 text-md font-medium">Contentre</h5>
+            <nuxt-link to="/" class="mb-5 flex">
+              <div class="flex">
+                <img
+                  src="~/assets/imgs/Logo-contentre.png"
+                  alt="Logo-contentre"
+                  class=""
+                />
+                <h5 class="text-white text-md font-medium">Contentre</h5>
+              </div>
+            </nuxt-link>
             <p class="text-[#E6E7E9] text-xs font-light leading-relaxed">
               Access your content, monitor your content analytics in real-time,
               create and customize your writing portfolio across your clients.
@@ -383,18 +496,20 @@
                 <h5 class="text-white mb-5 text-md font-medium">Company</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/about"
-                      >About</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/about"
+                      >About</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
-                      >Terms of service</a
+                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
+                      >Terms of service</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
-                      >Privacy policy</a
+                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
+                      >Privacy policy</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -415,7 +530,7 @@
                   <li class="mb-1 md:mb-2">
                     <a
                       class="text-[#E6E7E9] text-xs font-light"
-                      href="https://blog.contentre.io?source=homepage_footer"
+                      href="https://blog.contentre.io?source=home_footer"
                       >Blog</a
                     >
                   </li>
@@ -450,27 +565,31 @@
                 <h5 class="text-white mb-5 text-md font-medium">Product</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/product"
-                      >All</a
-                    >
-                  </li>
-                  <li class="mb-1 md:mb-2">
-                    <a
+                    <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
-                      href="/enterprises"
-                      >For Content Agencies/Enterprises</a
+                      to="/product"
+                      >All</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a
+                    <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
-                      href="/creators"
-                      >For Content Creators</a
+                      to="/enterprises"
+                      >For Content Agencies</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/writers"
-                      >For Freelance Writers</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/creators"
+                      >For Content Creators</nuxt-link
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/writers"
+                      >For Freelance Writers</nuxt-link
                     >
                   </li>
                 </ul>
@@ -479,23 +598,31 @@
                 <h5 class="text-white mb-5 text-md font-medium">Contact Us</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
-                      >Book a Demo</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/contact#book_a_demo"
+                      >Book a Demo</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
-                      >Schedule a call</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/contact#schedule_a_call"
+                      >Schedule a call</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
-                      >Chat with us</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/contact#chat_with_us"
+                      >Chat with us</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="/contact"
-                      >Send an email</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/contact#send_an_email"
+                      >Send an email</nuxt-link
                     >
                   </li>
                 </ul>
@@ -516,12 +643,18 @@
 </template>
 
 <script>
+import vClickOutside from 'v-click-outside'
 export default {
   name: 'HomeLayout',
+
+  directives: {
+    clickOutside: vClickOutside.directive,
+  },
 
   data: () => ({
     showWhyContentre: false,
     showMenu: false,
+    showResourceMenu: false,
   }),
 
   computed: {
@@ -534,8 +667,28 @@ export default {
       this.showWhyContentre = !this.showWhyContentre
     },
 
+    onToggleResources() {
+      this.showResourceMenu = !this.showResourceMenu
+    },
+
     onToggleMenu() {
       this.showMenu = !this.showMenu
+    },
+
+    onClickOutside() {
+      this.closeDropdown()
+    },
+
+    closeDropdown() {
+      this.showMenu = false
+      this.showResourceMenu = false
+      this.showWhyContentre = false
+      document.removeEventListener('keyup', this.onKeyUp)
+    },
+
+    onKeyUp(event) {
+      const keyCode = event.keyCode || event.which
+      if (keyCode === 27) this.closeDropdown()
     },
   },
 }

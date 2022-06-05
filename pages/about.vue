@@ -215,7 +215,7 @@
                     Solomon Eseme
                   </h4>
                   <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/CTO/Founder
+                    Founder
                   </p>
                   <div class="mb-1">
                     <a href="https://linkedin.com/in/solomoneseme"
@@ -268,7 +268,7 @@
                   "
                 >
                   <img
-                    src="~/assets/imgs/team-img_(1).png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654433104/contentre/Founders/moses_headshot.jpg"
                     alt=""
                     class="w-[100%] h-auto block"
                   />
@@ -283,10 +283,10 @@
                       hover:text-[#102A27]
                     "
                   >
-                    Alan Morounkola
+                    Anumadu Moses
                   </h4>
                   <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
+                    Engineering Lead
                   </p>
                   <div class="mb-1">
                     <button>
@@ -349,10 +349,10 @@
                       hover:text-[#102A27]
                     "
                   >
-                    Alan Morounkola
+                    Success Ibekwe
                   </h4>
                   <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
+                    Frontend Developer
                   </p>
                   <div class="mb-1">
                     <button>
@@ -415,274 +415,10 @@
                       hover:text-[#102A27]
                     "
                   >
-                    Alan Morounkola
+                    Sodiq Jimoh
                   </h4>
                   <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
-                  </p>
-                  <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Facebook_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="
-                  p-3
-                  bg-white
-                  rounded-md
-                  border border-[
-                  #EFF1F1]
-                  border-1
-                "
-              >
-                <div
-                  class="
-                    hover:scale-105
-                    ease-in
-                    duration-300
-                    lg:w-[100%] lg:[h-22.3rem]
-                    rounded-md
-                  "
-                >
-                  <img
-                    src="~/assets/imgs/team-img_(5).png"
-                    alt=""
-                    class="w-[100%] h-auto block"
-                  />
-                </div>
-                <div class="px-4">
-                  <h4
-                    class="
-                      text-2xl
-                      font-medium
-                      tetx-[#333333]
-                      mt-3
-                      hover:text-[#102A27]
-                    "
-                  >
-                    Alan Morounkola
-                  </h4>
-                  <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
-                  </p>
-                  <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Facebook_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="
-                  p-3
-                  bg-white
-                  rounded-md
-                  border border-[
-                  #EFF1F1]
-                  border-1
-                "
-              >
-                <div
-                  class="
-                    hover:scale-105
-                    ease-in
-                    duration-300
-                    lg:w-[100%] lg:[h-22.3rem]
-                    rounded-md
-                  "
-                >
-                  <img
-                    src="~/assets/imgs/team-img_(6).png"
-                    alt=""
-                    class="w-[100%] h-auto block"
-                  />
-                </div>
-                <div class="px-4">
-                  <h4
-                    class="
-                      text-2xl
-                      font-medium
-                      tetx-[#333333]
-                      mt-3
-                      hover:text-[#102A27]
-                    "
-                  >
-                    Alan Morounkola
-                  </h4>
-                  <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
-                  </p>
-                  <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Facebook_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="
-                  p-3
-                  bg-white
-                  rounded-md
-                  border border-[
-                  #EFF1F1]
-                  border-1
-                "
-              >
-                <div
-                  class="
-                    hover:scale-105
-                    ease-in
-                    duration-300
-                    lg:w-[100%] lg:[h-22.3rem]
-                    rounded-md
-                  "
-                >
-                  <img
-                    src="~/assets/imgs/team-img_(7).png"
-                    alt=""
-                    class="w-[100%] h-auto block"
-                  />
-                </div>
-                <div class="px-4">
-                  <h4
-                    class="
-                      text-2xl
-                      font-medium
-                      tetx-[#333333]
-                      mt-3
-                      hover:text-[#102A27]
-                    "
-                  >
-                    Alan Morounkola
-                  </h4>
-                  <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
-                  </p>
-                  <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Facebook_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="
-                  p-3
-                  bg-white
-                  rounded-md
-                  border border-[
-                  #EFF1F1]
-                  border-1
-                "
-              >
-                <div
-                  class="
-                    hover:scale-105
-                    ease-in
-                    duration-300
-                    lg:w-[100%] lg:[h-22.3rem]
-                    rounded-md
-                  "
-                >
-                  <img
-                    src="~/assets/imgs/team-img_(8).png"
-                    alt=""
-                    class="w-[100%] h-auto block"
-                  />
-                </div>
-                <div class="px-4">
-                  <h4
-                    class="
-                      text-2xl
-                      font-medium
-                      tetx-[#333333]
-                      mt-3
-                      hover:text-[#102A27]
-                    "
-                  >
-                    Alan Morounkola
-                  </h4>
-                  <p class="text-[14px] font-medium text-[#54605F] mb-8">
-                    CEO/Co-founder
+                    Senior Frontend Developer
                   </p>
                   <div class="mb-1">
                     <button>
