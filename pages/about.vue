@@ -28,7 +28,7 @@
             "
           >
             We provide the best resources and tools to help you manage your
-            freelance writing business.
+            freelance writing <br />business.
           </h1>
         </div>
 
@@ -289,21 +289,27 @@
                     Engineering Lead
                   </p>
                   <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
+                    <a
+                      href="https://www.linkedin.com/in/anumadu-moses-729551127/"
+                    >
+                      <button>
+                        <img
+                          class="ease-in duration-300"
+                          src="~/assets/imgs/LinkedIN_black_(2).png"
+                          alt=""
+                          srcset=""
+                        />
+                      </button>
+                    </a>
+                    <a href="https://twitter.com/alloyking_1">
+                      <button>
+                        <img
+                          src="~/assets/imgs/Twitter_black_(1).png"
+                          alt=""
+                          srcset=""
+                        />
+                      </button>
+                    </a>
                     <button>
                       <img
                         src="~/assets/imgs/Facebook_black_(1).png"
@@ -334,7 +340,7 @@
                   "
                 >
                   <img
-                    src="~/assets/imgs/team-img_(2).png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654485104/contentre/Founders/successIbekwe.jpg"
                     alt=""
                     class="w-[100%] h-auto block"
                   />
@@ -355,21 +361,24 @@
                     Frontend Developer
                   </p>
                   <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="~/assets/imgs/Twitter_black_(1).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
+                    <a
+                      href="https://www.linkedin.com/in/success-ibekwe-94bb43226/"
+                      ><button>
+                        <img
+                          class="ease-in duration-300"
+                          src="~/assets/imgs/LinkedIN_black_(2).png"
+                          alt=""
+                          srcset=""
+                        /></button
+                    ></a>
+                    <a href="https://twitter.com/SuccessIbekwe1">
+                      <button>
+                        <img
+                          src="~/assets/imgs/Twitter_black_(1).png"
+                          alt=""
+                          srcset=""
+                        /></button
+                    ></a>
                     <button>
                       <img
                         src="~/assets/imgs/Facebook_black_(1).png"
@@ -421,14 +430,17 @@
                     Senior Frontend Developer
                   </p>
                   <div class="mb-1">
-                    <button>
-                      <img
-                        class="ease-in duration-300 hover:bg-red-500"
-                        src="~/assets/imgs/LinkedIN_black_(2).png"
-                        alt=""
-                        srcset=""
-                      />
-                    </button>
+                    <a
+                      href="https://www.linkedin.com/in/jimoh-sodiq-1664951a6/"
+                    >
+                      <button>
+                        <img
+                          class="ease-in duration-300"
+                          src="~/assets/imgs/LinkedIN_black_(2).png"
+                          alt=""
+                          srcset=""
+                        /></button
+                    ></a>
                     <button>
                       <img
                         src="~/assets/imgs/Twitter_black_(1).png"

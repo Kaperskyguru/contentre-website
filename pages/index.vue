@@ -9,7 +9,7 @@
           <div class="mt-14 xl:w-[55%]">
             <h1
               class="
-                text-[20px]
+                text-[23px]
                 md:text-[40px] md:leading-[50px]
                 lg:text-[60px] lg:leading-[80px]
                 text-[#102A27]
@@ -18,7 +18,7 @@
                 lg:text-left
               "
             >
-              Manage your freelance writing business in one place.
+              Manage your freelance writing business in one <br />place.
             </h1>
 
             <p
@@ -33,9 +33,9 @@
                 lg:text-left
               "
             >
-              Contentre helps freelance writers (content creators) organize
-              their content, manage clients, create multiple portfolios,
-              discover new opportunities, and lots more, all in one place.
+              Contentre helps you organize your contents, manage clients, create
+              multiple portfolios, discover new opportunities, and lots more,
+              all in one place.
             </p>
             <div>
               <div
@@ -402,7 +402,7 @@
                   >
                     Add as many clients you're writing for as possible. You can
                     even add your own blog or platforms such as Medium,
-                    Hashnode, Dev.to, etc
+                    HashNode, Dev.to, etc
                   </p>
                 </div>
               </div>
@@ -506,20 +506,13 @@
               No matter where your content is published on your clients website,
               you can easily keep track of your content published anywhere.
             </p>
-            <div class="lg:max-w-[90%] mx-auto bg-white rounded-md mt-8">
-              <div class="mx-8 mt-2 pt-2">
-                <h6 class="mb-6 text-[10.4px] font-extrabold">
-                  Christain Holmes
-                </h6>
-                <div class="relative rounded-md">
-                  <img
-                    src="~/assets/imgs/Rectangle_1084_(1).png"
-                    alt=""
-                    srcset=""
-                    class="w-full"
-                  />
-                </div>
-              </div>
+            <div class="rounded-md mt-10 lg:mt-20">
+              <img
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
+                alt=""
+                srcset=""
+                class="w-full block object-cover"
+              />
             </div>
           </div>
           <div class="bg-[#DCF6F3] px-5 lg:px-10 pt-10 rounded-md">
@@ -568,7 +561,7 @@
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
               Customizable auto-generated content portfolio. Customize your
-              porfolio to best suit your brand or choose from thousands of
+              portfolio to best suit your brand or choose from thousands of
               templates.
             </p>
           </div>

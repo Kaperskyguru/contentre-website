@@ -1,13 +1,10 @@
 <template>
-  <main class="min-h-screen">
+  <main v-click-outside="onClickOutside" class="min-h-screen">
     <!-- ================Header================================ -->
     <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
-      <nav
-        v-click-outside="onClickOutside"
-        class="flex justify-between relative fixed mt-4"
-      >
-        <div class="flex items-center">
+      <nav class="flex justify-between relative fixed mt-4">
+        <div v-click-outside="onClickOutside" class="flex items-center">
           <nuxt-link to="/">
             <div class="flex">
               <img
@@ -444,6 +441,7 @@
       </nav>
       <!-- ------------Navbar-------------------- -->
     </header>
+
     <Nuxt />
 
     <footer class="bg-[#102A27] mt-32">
@@ -668,14 +666,20 @@ export default {
   methods: {
     onToggle() {
       this.showWhyContentre = !this.showWhyContentre
+      this.showMenu = false
+      this.showResourceMenu = false
     },
 
     onToggleResources() {
       this.showResourceMenu = !this.showResourceMenu
+      this.showMenu = false
+      this.showWhyContentre = false
     },
 
     onToggleMenu() {
       this.showMenu = !this.showMenu
+      this.showResourceMenu = false
+      this.showWhyContentre = false
     },
 
     onClickOutside() {
