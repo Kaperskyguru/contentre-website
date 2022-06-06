@@ -7,6 +7,9 @@ export default {
     titleTemplate: '%s | Contentre',
     script: [
       {
+        src: 'https://cdn.tailwindcss.com',
+      },
+      {
         type: 'application/ld+json',
         json: {
           '@context': 'http://schema.org',
@@ -122,7 +125,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance writing, content marketing, writing portfolio, freelance content marketers, freelance writers',
+          'content creators, freelance writing, content marketing, content agency, writing portfolio, freelance content marketers, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
@@ -160,14 +163,14 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~/plugins/toast', '~/plugins/vuelidate', '~/plugins/utils'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
-    dirs: ['~/components'],
+    dirs: ['~/components', '~/components/templates'],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -200,7 +203,7 @@ export default {
   gtm: {
     id: 'GTM-KFL7V5T',
     pageTracking: true,
-    // pageViewEventName: 'virtualPageview',
+    pageViewEventName: 'virtualPageview',
   },
 
   publicRuntimeConfig: {
@@ -216,7 +219,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
+  devServerHandlers: [],
   hooks: {
     render: {
       errorMiddleware(app) {

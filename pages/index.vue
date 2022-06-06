@@ -1,1156 +1,1247 @@
 <template>
-  <main>
-    <div id="hero" class="h-full">
-      <div class="relative bg-teal-100">
+  <span>
+    <section class="px-8 md:px-8">
+      <!-- ----------Hero----------- -->
+      <div class="bg-[#4FD1C50D] px-4 lg:pl-16 lg:pr-6 py-20 mt-9 rounded-md">
         <div
-          class="
-            absolute
-            inset-0
-            bg-brand-section-light
-            rounded-b-3xl
-            lg:rounded-b-6xl
-          "
-        ></div>
-        <div class="relative container px-4 mx-auto">
-          <div class="lg:flex items-center">
-            <section>
-              <div class="text-black">
-                <div
-                  class="
-                    container
-                    mx-auto
-                    flex flex-col
-                    md:flex-row
-                    items-center
-                  "
-                >
-                  <div
-                    class="
-                      flex flex-col
-                      w-full
-                      lg:w-1/2
-                      justify-center
-                      items-start
-                      p-8
-                    "
-                  >
-                    <h1
-                      class="
-                        text-4xl
-                        md:text-5xl
-                        mb-10
-                        text-black
-                        font-bold
-                        tracking-loose
-                      "
-                    >
-                      Manage your freelance writing business from one place
-                    </h1>
-                    <p class="text-sm md:text-base text-black-50 mb-10">
-                      It helps freelance writers (content creators) organize
-                      their content, manage clients, create multiple portfolios,
-                      discover new opportunities, and lots more, all in one
-                      place.
-                    </p>
-                    <a
-                      :href="`${BASE_URL}/auth/register?source=home_banner`"
-                      class="form-btn text-white rounded shadow py-3 px-12"
-                    >
-                      Get Started for free
-                    </a>
-                  </div>
-                  <div
-                    class="
-                      px-8
-                      md:mb-0 md:mt-0
-                      ml-0
-                      md:ml-12
-                      lg:w-1/2
-                      justify-center
-                    "
-                  >
-                    <div
-                      class="
-                        grid grid-flow-col grid-rows-2 grid-cols-3
-                        gap-8
-                        -mb-64
-                        absolute-imgtop
-                      "
-                    >
-                      <div>
-                        <img
-                          class="rounded-full"
-                          src="~/assets/img/img1.svg"
-                          alt="img1"
-                        />
-                      </div>
-                      <div class="col-start-2">
-                        <img
-                          class="rounded-b-full"
-                          src="~/assets/img/img2.svg"
-                          alt="img2"
-                        />
-                      </div>
-                      <div class="-mt-32">
-                        <img
-                          class="rounded-t-full"
-                          src="~/assets/img/img3.svg"
-                          alt="img3"
-                        />
-                      </div>
-                      <div class="-mt-64">
-                        <img
-                          class="rounded-full"
-                          src="~/assets/img/img4.svg"
-                          alt="img4"
-                        />
-                      </div>
-                      <div class="row-start-1 col-start-3 col-span-2 mt-32">
-                        <img
-                          class="rounded-full"
-                          src="~/assets/img/img5.svg"
-                          alt="img5"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- end of first page -->
-
-    <!-- second page -->
-    <section class="">
-      <div class="container px-5 py-16 mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-8">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font text-black">
-            Save Time & Gain Control Over Your Contents <br />
-          </h1>
-          <h2 class="text-gray font-medium title-font">Published. Anywhere.</h2>
-        </div>
-        <div
-          class="
-            flex flex-col
-            items-center
-            mx-auto
-            flex-wrap
-            lg:flex-row lg:items-stretch lg:flex-no-wrap lg:justify-between
-          "
+          class="flex lg:flex-row flex-col-reverse items-center lg:items-start"
         >
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-6
-              lg:mt-8
-              bg-gray-100
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-          >
-            <div class="my-2 font-extrabold tracking-wide mb-10">
-              All your contents across different clients in one place
-            </div>
-            <div class="text-sm">
-              No matter where your content is published on your clients website,
-              you can easily keep track of your content.
-            </div>
-          </div>
+          <div class="mt-14 xl:w-[55%]">
+            <h1
+              class="
+                text-[23px]
+                md:text-[40px] md:leading-[50px]
+                lg:text-[60px] lg:leading-[80px]
+                text-[#102A27]
+                font-bold
+                text-center
+                lg:text-left
+              "
+            >
+              Manage your freelance writing business in one <br />place.
+            </h1>
 
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-8
-              bg-gray-100
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-            style="background: #fef8fd"
-          >
-            <div class="my-2 font-extrabold tracking-wide mb-10">
-              Comprehensive Content Analytics, Insights and Reporting
-            </div>
-            <div class="text-sm">
-              Gain comprehensive and valuable insights of your contents
-              published anywhere. Take charge of your content analytics and
-              reporting across your clients.
-            </div>
-          </div>
-
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-8
-              bg-gray-100
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-            style="background: #fef3e3"
-          >
-            <div class="my-2 font-extrabold tracking-wide mb-10">
-              Manage your Team and Client from one place
-            </div>
-            <div class="text-sm">
-              Managing your team of writers, editors, etc and numerous clients
-              just got easier. Save time managing teams and clients and focus
-              more on getting more clients.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of second page -->
-
-    <!-- third page -->
-
-    <div>
-      <div
-        class="
-          relative
-          mb-12
-          bg-teal-600
-          text-white
-          px-5
-          sm:px-10
-          md:px-20
-          lg:px-10
-          xl:px-20
-          py-8
-        "
-        style="background: #286963"
-      >
-        <div class="relative container px-4 mx-auto">
-          <div class="lg:flex items-center">
-            <div class="max-w-screen-xl mx-auto">
-              <div class="pt-10">
-                <h3 class="font-black text-xl text-center leading-8">
-                  Manage your contents for free in less time
-                </h3>
-              </div>
+            <p
+              class="
+                text-[14px] text-[#54605F]
+                md:text-base
+                font-medium
+                leading-relaxed
+                lg:w-[75%]
+                mt-5
+                text-center
+                lg:text-left
+              "
+            >
+              Contentre helps you organize your contents, manage clients, create
+              multiple portfolios, discover new opportunities, and lots more,
+              all in one place.
+            </p>
+            <div>
               <div
                 class="
-                  flex flex-col
-                  text-gray-300
-                  items-center
-                  flex-wrap
-                  lg:flex-row
-                  lg:items-stretch
-                  lg:flex-no-wrap
-                  lg:justify-between
+                  mt-16
+                  md:mt-8 md:flex md:justify-center
+                  lg:justify-start
+                  w-full
+                  mx-auto
+                  md:flex md:justify-between md:w-full
                 "
               >
-                <div
-                  class="w-full max-w-sm mt-6 text-center pb-12 px-12 space-y-2"
-                >
-                  <div class="mt-4 font-extrabold" style="font-size: 4rem">
-                    1
-                  </div>
-                  <div class="mt-4 text-xl tracking-wide">
-                    Add your writing clients.
-                  </div>
-                  <div class="text-sm">
-                    Add as many clients you're writing for as possible. You can
-                    even add your own blog or platforms such as Medium,
-                    Hashnode, Dev.to, etc
-                  </div>
+                <div class="w-full">
+                  <input
+                    v-model="email"
+                    type="email"
+                    placeholder="Enter your email Address"
+                    class="
+                      border border-[#286963]
+                      text-[#286963]
+                      py-[12px]
+                      w-full
+                      px-[18px]
+                      md:py-[16px] md:px-[24px]
+                      font-medium
+                      w-full
+                      rounded-md
+                      outline-none
+                      text-[16px]
+                      bg-transparent
+                      placeholder:text-[#286963]
+                    "
+                  />
                 </div>
-
-                <div
-                  class="w-full max-w-sm mt-6 text-center pb-12 px-12 space-y-2"
-                >
-                  <div class="mt-4 font-extrabold" style="font-size: 4rem">
-                    2
-                  </div>
-                  <div class="mt-4 text-xl tracking-wide">
-                    Add/Paste link to your contents
-                  </div>
-                  <div class="text-sm">
-                    Copy and paste the link to your content anywhere published
-                    and let us do the magic. Also, you can create the content
-                    right from Contentre.
-                  </div>
-                </div>
-
-                <div
-                  class="w-full max-w-sm mt-6 text-center pb-12 px-12 space-y-2"
-                >
-                  <div class="mt-4 font-extrabold" style="font-size: 4rem">
-                    3
-                  </div>
-                  <div class="mt-4 text-xl tracking-wide">
-                    Enjoy real time analytics and portfolio
-                  </div>
-                  <div class="text-sm">
-                    Whoa! Enjoy real-time analytics from your contents and
-                    customizable auto-generated writing portfolio.
-                  </div>
+                <div class="w-full">
+                  <a
+                    :href="`https://app.contentre.io/auth/register?source=home_banner&email=${email}`"
+                  >
+                    <HomeButton
+                      class="
+                        py-[12px]
+                        px-[16px]
+                        md:py-[16px] md:px-[24px] md:ml-[16px]
+                        lg:ml-[10px]
+                        text-[16px]
+                        mt-4
+                        md:mt-0
+                        w-full
+                        md:w-fit
+                      "
+                      >Get Started. It's Free</HomeButton
+                    ></a
+                  >
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div
+            class="
+              md:w-[500px]
+              mr-16
+              md:mr-24
+              lg:mr-0 lg:mx-0 lg:w-[45%]
+              relative
+            "
+          >
+            <img
+              src="~/assets/imgs/hero-img.png"
+              alt="hero-image"
+              class="w-full"
+            />
+            <div
+              class="
+                top-[100px]
+                md:-left-0
+                absolute
+                md:top-[200px]
+                lg:-left-[50px]
+              "
+            >
+              <img
+                src="~/assets/imgs/total_revenue.png"
+                alt=""
+                class="w-[100px] md:w-[246px]"
+              />
+            </div>
+            <div
+              class="
+                absolute
+                top-[100px]
+                md:top-[320px]
+                -right-[60px]
+                md:-right-[20px]
+                drop-shadow-2xl
+              "
+            >
+              <img
+                src="~/assets/imgs/Overall Performance.png"
+                alt=""
+                class="w-[150px] md:w-[200px] lg:w-[280px]"
+              />
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- end of third page -->
-
-    <!-- fourth page -->
-    <div class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20">
-      <div class="max-w-screen-xl mx-auto">
-        <section class="text-black">
-          <div
-            class="
-              container
-              mx-auto
-              flex
-              px-5
-              pb-20
-              md:flex-row
-              flex-col
-              items-center
-            "
-          >
-            <div
-              class="
-                lg:flex-grow
-                md:w-1/2
-                lg:pr-24
-                md:pr-16
-                flex flex-col
-                md:items-start md:text-left
-                mb-16
-                md:mb-0
-                items-center
-                text-center
-              "
-            >
-              <h1
-                class="
-                  title-font
-                  sm:text-4xl
-                  text-3xl
-                  mb-4
-                  font-medium
-                  text-black
-                "
-              >
-                All your contents across
-                <br class="hidden lg:inline-block text-black" />different
-                clients in one place
-              </h1>
-              <p class="mb-4 leading-8">
-                Copy and paste links to your content any published. Create your
-                content directly from Contentre and published directly to many
-                CRMs such WordPress, Strapi, Hashnode, Medium, etc.
-              </p>
-              <div class="flex justify-center">
-                <ul>
-                  <li>
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Create and publish to CRM such as Strapi, Hashnode,
-                          WordPress directly.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Sort, arrange and filter your contents in order of
-                          importance.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Auto content and periodic distribution across
-                          different social platforms.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-gray-300 py-8 px-8"
-            >
-              <img
-                class="object-cover object-center rounded"
-                alt="hero"
-                src="~/assets/img/content.png"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="max-w-screen-xl mx-auto">
-        <section class="text-black">
-          <div
-            class="
-              container
-              mx-auto
-              flex
-              px-5
-              pb-20
-              md:flex-row
-              flex-col
-              items-center
-            "
-          >
-            <div
-              class="
-                lg:flex-grow
-                md:w-1/2
-                lg:pr-24
-                md:pr-16
-                flex flex-col
-                md:items-start md:text-left
-                mb-16
-                md:mb-0
-                items-center
-                text-center
-              "
-            >
-              <h1
-                class="
-                  title-font
-                  sm:text-4xl
-                  text-3xl
-                  mb-4
-                  font-medium
-                  text-black
-                "
-              >
-                Comprehensive Content
-                <br class="hidden lg:inline-block text-black" />Analytics,
-                Insights and Reporting
-              </h1>
-              <p class="mb-4 leading-8">
-                Calculate the amount of impacts your contents are making on the
-                web. Take control of your content analytics and suggestion to
-                enhance your deliveries
-              </p>
-              <div class="flex justify-center">
-                <ul>
-                  <li>
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Content statistics across your contents published
-                          anywhere.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Show the impacts your contents are making over the
-                          web periodically.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Get your top performing content, client and overall
-                          statistics.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-gray-300 py-8 px-8"
-            >
-              <img
-                class="object-cover object-center rounded"
-                alt="hero"
-                src="~/assets/img/Contentre_Analytics.png"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="max-w-screen-xl mx-auto">
-        <section class="text-black">
-          <div
-            class="
-              container
-              mx-auto
-              flex
-              px-5
-              pb-20
-              md:flex-row
-              flex-col
-              items-center
-            "
-          >
-            <div
-              class="
-                lg:flex-grow
-                md:w-1/2
-                lg:pr-24
-                md:pr-16
-                flex flex-col
-                md:items-start md:text-left
-                mb-16
-                md:mb-0
-                items-center
-                text-center
-              "
-            >
-              <h1
-                class="
-                  title-font
-                  sm:text-4xl
-                  text-3xl
-                  mb-4
-                  font-medium
-                  text-black
-                "
-              >
-                Create and Customize
-                <br class="hidden lg:inline-block text-black" />your portfolio
-                easily.
-              </h1>
-              <p class="mb-4 leading-8">
-                Customizable auto-generated content portfolio. Customize your
-                portfolio to best suit your brand or choose from thousands of
-                templates.
-              </p>
-              <div class="flex justify-center">
-                <ul>
-                  <li>
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Track your portfolio with Google Analytics and gain
-                          more insights.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Receive emails in a private mailbox via a
-                          spam-protected portfolio contact form.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-
-                  <li class="mt-3">
-                    <span
-                      class="flex items-center text-black dark:text-gray-100"
-                    >
-                      <i class="far fa-check-circle"></i>
-                      <div class="bg-gray-200 rounded-lg px-4 py-4 ml-2">
-                        <span class="inline-flex"
-                          >Choose portfolio templates from thousands of
-                          available templates.</span
-                        >
-                      </div>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-gray-300 py-8 px-8"
-            >
-              <img
-                class="object-cover object-center rounded"
-                alt="hero"
-                src="~/assets/img/Contentre_Porfolio.jpg"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- end of fourth -->
-
-    <!-- fifth page -->
-
-    <div
-      class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8"
-      style="background: #dcf6f3"
-    >
-      <!-- <div class="max-w-screen-xl mx-auto">
-        <h3 class="font-black text-3xl text-center pt-8">
-          Data security and privacy are <br />our top priority
-        </h3>
-
-        <section class="pt-20 bg-[#F3F4F6]">
-          <div class="container">
-            <div class="flex flex-wrap -mx-4">
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4">
-                <div
-                  class="bg-white rounded-lg shadow-lg overflow-hidden mb-10"
-                >
-                  <div class="p-8 sm:p-9 md:p-7 xl:p-9 space-y-4">
-                    <h3 class="font-semibold text-dark text-xl mb-4 block">
-                      Top level Security
-                    </h3>
-                    <p class="text-base text-body-color leading-relaxed mb-7">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters, as
-                      opposed to using 'Content here, content here', making it
-                      look like readable English.
-                    </p>
-
-                    <p class="text-base text-body-color leading-relaxed mb-7">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      ha
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4">
-                <div
-                  class="bg-white rounded-lg shadow-lg overflow-hidden mb-10"
-                >
-                  <div class="p-8 sm:p-9 md:p-7 xl:p-9 space-y-4">
-                    <h3 class="font-semibold text-dark text-xl mb-4 block">
-                      Hosted in a great environment
-                    </h3>
-                    <p class="text-base text-body-color leading-relaxed mb-7">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters, as
-                      opposed to using 'Content here, content here', making it
-                      look like readable English.
-                    </p>
-
-                    <p class="text-base text-body-color leading-relaxed mb-7">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      ha
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div> -->
-    </div>
-
-    <!-- end of fifth page -->
-
-    <!-- sixth page -->
-
-    <section class="">
-      <div class="container px-5 py-16 mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-8">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font text-black">
-            Unlock the benefits a of
-          </h1>
-          <h1 class="sm:text-3xl text-2xl font-medium title-font text-black">
-            Modern Writing Portfolio
-          </h1>
-        </div>
-        <div
-          class="
-            flex flex-col
-            items-center
-            flex-wrap
-            mx-auto
-            lg:flex-row lg:items-stretch lg:flex-no-wrap lg:justify-between
-          "
-        >
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-6
-              lg:mt-8
-              bg-white
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-          >
-            <div class="my-2 font-extrabold tracking-wide">
-              Automatic Generated
-            </div>
-            <div class="text-sm">
-              Automatic Generated and Customizable portfolio with no-code
-              needed.
-            </div>
-          </div>
-
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-8
-              bg-white
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-          >
-            <div class="my-2 font-extrabold tracking-wide">
-              Comprehensive Analytics & Messaging
-            </div>
-            <div class="text-sm">
-              Track your traffic real-time with Google Analytic and receive
-              emails in a private mailbox via a spam-protected portfolio contact
-              form
-            </div>
-          </div>
-
-          <div
-            class="
-              w-full
-              max-w-sm
-              mt-8
-              bg-white
-              rounded
-              shadow-lg
-              p-3
-              lg:p-8 lg:mx-4
-            "
-          >
-            <div class="my-2 font-extrabold tracking-widee">
-              Customize/choose from thousands of templates
-            </div>
-            <div class="text-sm">
-              Don't like our sample template? Customize your portfolio to best
-              suit your brand or choose from thousands of templates.
-            </div>
-          </div>
-        </div>
+      <!-- ----------END OF HERO----------------------- -->
+      <div class="w-full md:w-[80%] md:mx-auto">
+        <ul class="flex justify-between items-center mt-5 md:mt-10">
+          <li class="">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/eBay_Logo.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="ml-4">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/FedEx_Logo.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="ml-4">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/Google_Logo.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="ml-4">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/Hulu_Logo.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="ml-4">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/LinkedIn-Logo.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="ml-4">
+            <a href=""
+              ><img
+                class="w-[40px] md:w-[50px] lg:w-[60px]"
+                src="~/assets/imgs/Quizlet_Logo.png"
+                alt=""
+            /></a>
+          </li>
+        </ul>
       </div>
     </section>
-    <!-- end of sixth page -->
+    <!-- --------------------END OF--HERO SECTION-------------------------- -->
 
-    <!-- Seventh page -->
+    <!-- =================================FEATURES SECTION======================================== -->
 
-    <div class="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8">
-      <div class="max-w-screen-xl mx-auto">
-        <section class="rounded-lg shadow" style="background: #f4fbfa">
-          <div class="container px-8 py-16 relative">
-            <img
-              class="absolute top-0 left-0 h-12 xl:h-20 absolute-star"
-              src="~/assets/img/star.svg"
-              alt=""
-            />
-            <div class="flex flex-wrap -mx-4">
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4">
-                <div class="space-y-4">
-                  <h3 class="font-semibold text-dark text-3xl mb-4 block">
-                    Ditch Spreadsheets. Manage your freelance writing business
-                    in minutes.
-                  </h3>
-                </div>
-              </div>
-
-              <div class="w-full md:w-1/2 xl:w-1/2 px-4 pt-5">
-                <div class="flex flex-wrap items-start justify-evenly -mb-3">
-                  <a
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      form-btn
-                      text-white
-                      border
-                      rounded-md
-                      mb-3
-                    "
-                    :href="`${BASE_URL}/auth/register?source=home_spreadsheet`"
-                  >
-                    Get Started
-                  </a>
-                  <a
-                    appearance="primary"
-                    href="#"
-                    class="
-                      inline-flex
-                      px-20
-                      py-3
-                      text-black
-                      bg-transparent
-                      border
-                      btn-outline
-                      rounded-md
-                      md:ml-6
-                      mb-3
-                    "
-                  >
-                    Contact Us
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- end of seventh page -->
-
-    <!-- footer -->
-    <section
-      class="px-5kl sm:px-10 md:px-20 py-8 mt-20"
-      style="background: #102a27"
-    >
-      <footer class="text-gray-600 body-font bg-transparent">
-        <div
+    <section class="mt-20 px-8">
+      <div class="text-center">
+        <h3
           class="
-            container
-            px-5
-            pb-20
-            mx-auto
-            flex
-            md:items-center
-            lg:items-start
-            md:flex-row md:flex-nowrap
-            flex-wrap flex-col
+            font-medium
+            text-2xl
+            md:text-4xl md:leading-snug
+            lg:text-5xl
+            text-[#102A27]
+            lg:leading-[62.4px]
           "
         >
-          <div class="items-start md:w-1/2 mx-auto text-center md:text-left">
-            <div class="md:w-3/4">
-              <a
-                href="/"
-                class="
-                  flex
-                  title-font
-                  font-medium
-                  items-center
-                  md:justify-start
-                  justify-center
-                  text-gray-900
-                  mb-5
-                "
-              >
-                <img
-                  class="icon w-10 h-10 p-2 bg-white rounded-full"
-                  src="~/assets/img/icon.png"
-                  alt="logo"
-                  width="60"
-                />
-                <span class="ml-3 text-xl text-white">Contentre</span>
-              </a>
-              <p class="pt-3 text-sm text-white">
-                Access your content, monitor your content analytics in
-                real-time, create and customize your writing portfolio across
-                your clients. Spend less time and more time focused on your
-                writing and getting more clients.
-              </p>
+          Save time & gain control over your <br />
+          contents and writing business.
+        </h3>
+        <p
+          class="
+            text-[20px]
+            md:text-[28px] md:leading-loose
+            lg:text-[32px]
+            leading-[47px]
+            text-[#859492]
+            font-medium
+          "
+        >
+          Enjoy these features and more
+        </p>
+      </div>
+      <div class="mt-10 w-[80%] md:w-[90%] lg:w-[50%] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-2 gap-5 pt-">
+          <div
+            class="
+              text-center
+              bg-[#FCFCFC]
+              border border-[#EFF1F1]
+              p-10
+              rounded-md
+            "
+          >
+            <div class="flex justify-center mb-4">
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
+            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
+              Content Management
+            </p>
+            <p class="text-base text-[#859492]">
+              You can organize all your contents and tracking progress with our
+              Content Board(Planner) and Content Calendar.
+            </p>
           </div>
           <div
             class="
-              flex flex-wrap
-              md:pl-20
-              -mb-10
-              md:mt-0
-              mt-10
-              md:text-left
               text-center
+              bg-[#FCFCFC]
+              border border-[#EFF1F1]
+              p-10
+              rounded-md
             "
           >
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2
-                class="
-                  title-font
-                  font-bold
-                  text-white
-                  tracking-widest
-                  text-md
-                  mb-3
-                "
-              >
-                Company
-              </h2>
-              <nav class="list-none mb-10">
-                <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    :href="`${BASE_URL}/auth/login?source=home_footer`"
-                    >Login</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >About us</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    href="https://agency.contentre.io?source=contentre"
-                    >Content Agency</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#">Careers</a>
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >Contact us</a
-                  >
-                </li>
-              </nav>
+            <div class="flex justify-center mb-4">
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
-
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2
-                class="
-                  title-font
-                  font-bold
-                  text-white
-                  tracking-widest
-                  text-md
-                  mb-3
-                "
-              >
-                Resources
-              </h2>
-              <nav class="list-none mb-10">
-                <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    href="https://blog.contentre.io?source=home"
-                    >Blog</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-white hover:text-teal-300"
-                    href="https://blog.contentre.io/?source=home"
-                    >EBooks and Templates</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >Privacy policy</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >Terms of service</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >Disclaimer</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white hover:text-teal-300" href="#"
-                    >Contact us</a
-                  >
-                </li>
-              </nav>
-            </div>
-
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2
-                class="
-                  title-font
-                  font-bold
-                  text-white
-                  tracking-widest
-                  text-md
-                  mb-3
-                "
-              >
-                Contact Us
-              </h2>
-              <div class="list-none mb-10">
-                <p class="mt-2 text-sm text-white">Lagos, Nigeria</p>
-
-                <p class="mt-2 text-sm text-white">+234(0)8145655380</p>
-              </div>
-            </div>
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-24">
-              <nav class="list-none mb-10">
-                <li>
-                  <span
-                    class="
-                      inline-flex
-                      sm:ml-auto sm:mt-0
-                      mt-2
-                      justify-center
-                      sm:justify-start
-                    "
-                  >
-                    <a
-                      href="https://facebook.com/contentre"
-                      class="text-gray-200"
-                    >
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                        ></path>
-                      </svg>
-                    </a>
-                    <a
-                      href="https://twitter.com/contentreio"
-                      class="ml-3 text-gray-200"
-                    >
-                      <svg
-                        fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                        ></path>
-                      </svg>
-                    </a>
-                    <a
-                      href="https://instagram.com/contentre"
-                      class="ml-3 text-gray-200"
-                    >
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <rect
-                          width="20"
-                          height="20"
-                          x="2"
-                          y="2"
-                          rx="5"
-                          ry="5"
-                        ></rect>
-                        <path
-                          d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-                        ></path>
-                      </svg>
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/company/contentre"
-                      class="ml-3 text-gray-200"
-                    >
-                      <svg
-                        fill="currentColor"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="0"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          stroke="none"
-                          d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                        ></path>
-                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                      </svg>
-                    </a>
-                  </span>
-                </li>
-              </nav>
-            </div>
+            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
+              Portfolio Management
+            </p>
+            <p class="text-base text-[#859492]">
+              Create multiple portfolios to streamline their content for a
+              particular client using thousands of template or drag and drop to
+              build your brand portfolio.
+            </p>
           </div>
-        </div>
-        <div class="bg-transparent border-t-2">
-          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col">
-            <p class="text-white text-sm text-center">
-              Copyright ® {{ new Date().getFullYear() }} Contentre All rights
-              Reserved
+          <div
+            class="
+              text-center
+              bg-[#FCFCFC]
+              border border-[#EFF1F1]
+              p-10
+              rounded-md
+            "
+          >
+            <div class="flex justify-center mb-4">
+              <img src="~/assets/imgs/send-2.png" alt="" class="" />
+            </div>
+            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
+              Content Publishing
+            </p>
+            <p class="text-base text-[#859492]">
+              Using different plugins, you can promote your content across
+              social media and auto-cross publishing on different platforms such
+              as WordPress, HashNode, Medium, Strapi, etc
+            </p>
+          </div>
+          <div
+            class="
+              text-center
+              bg-[#FCFCFC]
+              border border-[#EFF1F1]
+              p-10
+              rounded-md
+            "
+          >
+            <div class="flex justify-center mb-4">
+              <img src="~/assets/imgs/document-text.png" alt="" class="" />
+            </div>
+            <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
+              Writers' Resume and Cover letter generator
+            </p>
+            <p class="text-base text-[#859492]">
+              Generate industry standard writing resume and cover letter, that
+              attracts hire.
             </p>
           </div>
         </div>
-      </footer>
+
+        <div class="flex justify-center mt-12 mb-10">
+          <nuxt-link
+            to="/product"
+            class="
+              bg-[#286963]
+              py-[16px]
+              px-[24px]
+              text-white
+              rounded-md
+              text-
+              base
+            "
+          >
+            View more features
+          </nuxt-link>
+        </div>
+      </div>
     </section>
-    <!-- end of footer -->
-  </main>
+    <!-- =================================FEATURES SECTION======================================== -->
+
+    <!-- ------------------------------------------TESTIMONIAL------------------------ -->
+    <section class="bg-[#FAFAFA] mt-20">
+      <Testimonial />
+    </section>
+    <!-- -------------------------------END---OF--------TESTIMONIAL------------------------ -->
+
+    <!-- -------------------------------------HOW IT WORKS---------------------------- -->
+
+    <section class="mt-20">
+      <div class="pb-10 lg:pt-20">
+        <div class="lg:ml-36">
+          <div class="lg:flex lg:justify-around">
+            <div class="lg:w-[38%] text-center lg:text-left">
+              <h2
+                class="
+                  text-[#102A27] text-[40px]
+                  lg:text-[64px]
+                  font-medium
+                  leading-[76.5px]
+                "
+              >
+                How it works.
+              </h2>
+              <p
+                class="
+                  text-[#859492] text-[24px]
+                  md:text-[28px]
+                  lg:text-[32px] lg:leading-[46.24px]
+                  mt-2
+                  lg:mt-5
+                "
+              >
+                Manage your content business for <br />
+                free in less time
+              </p>
+            </div>
+            <div class="lg:w-[62%] px-16 md:px-28 lg:mx-0 mt-10 lg:mt-0">
+              <div class="flex justify-center">
+                <div>
+                  <img
+                    src="~/assets/imgs/Frame_1044.png"
+                    alt=""
+                    srcset=""
+                    class="w-[100px]"
+                  />
+                </div>
+                <div class="ml-10">
+                  <p
+                    class="
+                      text-[#102A27] text-xl
+                      md:text-2xl
+                      leading-[26px]
+                      font-medium
+                    "
+                  >
+                    Add your writing clients
+                  </p>
+                  <p
+                    class="
+                      text-[15px]
+                      lg:w-[50%]
+                      text-[#888888]
+                      mt-3
+                      leading-[24px]
+                    "
+                  >
+                    Add as many clients you're writing for as possible. You can
+                    even add your own blog or platforms such as Medium,
+                    HashNode, Dev.to, etc
+                  </p>
+                </div>
+              </div>
+              <div class="flex mt-10">
+                <div>
+                  <img
+                    src="~/assets/imgs/Frame_1043.png"
+                    alt=""
+                    srcset=""
+                    class="w-[100px]"
+                  />
+                </div>
+                <div class="ml-10">
+                  <p
+                    class="
+                      text-[#888888] text-xl
+                      md:text-2xl
+                      leading-[26px]
+                      font-medium
+                    "
+                  >
+                    Add/Paste link to your contents
+                  </p>
+                  <p
+                    class="
+                      text-[15px]
+                      lg:w-[50%]
+                      text-[#888888]
+                      mt-3
+                      leading-[24px]
+                    "
+                  >
+                    Copy and paste the link to your content anywhere published
+                    and let us do the magic. Also, you can create the content
+                    right from Contentre.
+                  </p>
+                </div>
+              </div>
+              <div class="flex mt-10">
+                <div>
+                  <img
+                    src="~/assets/imgs/Frame_1045.png"
+                    alt=""
+                    srcset=""
+                    class="w-[100px]"
+                  />
+                </div>
+                <div class="ml-10">
+                  <p
+                    class="
+                      text-[#888888] text-xl
+                      md:text-[24px]
+                      leading-[26px]
+                      font-medium
+                    "
+                  >
+                    Enjoy modern writing business
+                  </p>
+                  <p
+                    class="
+                      text-[15px]
+                      lg:w-[50%]
+                      w-[90%]
+                      text-[#888888]
+                      mt-3
+                      leading-[24px]
+                    "
+                  >
+                    Contentre gives your freelance writing business a touch of
+                    excellence. Spend less time managing your business and more
+                    time focused on your writing and getting more clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------END OF----HOW IT WORKS---------------------------- -->
+
+    <!-- ----------------------------   CUSTOMIZE PORTFOLIO------------------------------- -->
+
+    <section class="mt-20">
+      <div class="max-w-[80%] mx-auto mb-10">
+        <div class="grid lg:grid-cols-2 gap-10 lg:gap-5">
+          <div class="bg-[#FEF8FD] px-5 lg:px-10 pt-10 rounded-md">
+            <h4
+              class="
+                text-[#102A27]
+                lg:font-medium
+                text-[20px]
+                font-bold
+                lg:text-[32px] lg:leading-[44.8px]
+              "
+            >
+              Organize all your contents <br />
+              in one place.
+            </h4>
+            <p class="text-[18px] leading-[28.44px] mt-5">
+              No matter where your content is published on your clients website,
+              you can easily keep track of your content published anywhere.
+            </p>
+            <div class="rounded-md mt-10 lg:mt-20">
+              <img
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
+                alt=""
+                srcset=""
+                class="w-full block object-cover"
+              />
+            </div>
+          </div>
+          <div class="bg-[#DCF6F3] px-5 lg:px-10 pt-10 rounded-md">
+            <h4
+              class="
+                text-[#102A27]
+                lg:font-medium
+                text-[20px]
+                font-bold
+                lg:text-[32px] lg:leading-[44.8px]
+              "
+            >
+              Comprehensive Content
+              <br />
+              Analytics, Insights and Reporting
+            </h4>
+            <p class="text-[18px] leading-[28.44px] mt-5">
+              Gain comprehensive and valuable insights of your contents
+              published anywhere. Take charge of your content analytics and
+              reporting across your clients.
+            </p>
+            <div class="rounded-md mt-10 lg:mt-16">
+              <img
+                src="~/assets/imgs/Dashboard_1_(1).png"
+                alt=""
+                srcset=""
+                class="w-full block object-cover"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="lg:flex bg-[#EAF9FE] mt-4 rounded-md">
+          <div class="lg:ml-10 mx-4 pt-6 lg:w-[60%]">
+            <h4
+              class="
+                text-[#102A27]
+                lg:font-medium
+                text-[20px]
+                font-bold
+                lg:text-[32px] lg:leading-[44.8px]
+              "
+            >
+              Create and Customize
+              <br />
+              your writing portfolio easily.
+            </h4>
+            <p class="text-[18px] leading-[28.44px] mt-5">
+              Customizable auto-generated content portfolio. Customize your
+              portfolio to best suit your brand or choose from thousands of
+              templates.
+            </p>
+          </div>
+          <div class="lg:w-[75%] mt-10 lg:mt-28">
+            <img
+              src="~/assets/imgs/Dashboard_1_(2).png"
+              alt=""
+              srcset=""
+              class="w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------- END OF CUSTOMIZE PORTFOLIO------------------------------- -->
+
+    <!-- ---------------------------------BENEFITS SECTION----------------------------------------- -->
+    <section class="mt-20 mb-10">
+      <div class="max-w-[80%] mx-auto">
+        <div class="flex justify-center">
+          <div>
+            <div class="flex justify-center">
+              <img
+                src="~/assets/imgs/shield-security@2x.png"
+                alt=""
+                class="w-[80px] lg:w-[110px]"
+              />
+            </div>
+            <h3
+              class="
+                text-3xl
+                lg:text-5xl lg:leading-[62.4px]
+                text-[#102A27] text-center
+                mt-8
+                lg:mt-5
+              "
+            >
+              Unlock the benefits of modern writing
+              <br />
+              business.
+            </h3>
+          </div>
+        </div>
+
+        <!-- ---------------------------CARD GRID------------ -->
+        <div class="mt-16 lg:mt-24 grid lg:grid-cols-3 gap-4">
+          <!-- ==========TEAM=========== -->
+
+          <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
+            <div>
+              <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
+                <div class="flex justify-between">
+                  <div>
+                    <small class="text-lg leading-[23.4px] text-white/70"
+                      >Manage Your</small
+                    >
+                    <h4
+                      class="
+                        text-white
+                        font-medium
+                        text-3xl
+                        lg:text-5xl lg:leading-[62.4px]
+                        mt-1
+                      "
+                    >
+                      Team
+                    </h4>
+                  </div>
+                  <img
+                    src="~/assets/imgs/people.svg"
+                    alt=""
+                    class="w-[50px] lg:w-[60px]"
+                  />
+                </div>
+              </div>
+              <div class="h-[420px] overflow-y-scroll">
+                <div class="mt-5 px-8">
+                  <p>
+                    Introducing the teams feature, You can create different
+                    teams and invite your writers to each team.
+                  </p>
+                  <p class="mt-5">
+                    Managing your team of writers, editors, etc and numerous
+                    clients just got easier. Save time managing teams and
+                    clients and focus more on getting more clients.
+                  </p>
+                </div>
+
+                <div class="mt-5 px-2">
+                  <div class="px-5">
+                    <p class="mt-4 font-medium text-white">Features</p>
+                  </div>
+                  <div class="flex mt-4">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Advanced Roles: You can create and assign advance roles to
+                      writers, editors, etc and collaborate effectively with
+                      Contentre.
+                    </p>
+                  </div>
+                  <div class="flex mt-4">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Content Briefs: You can create and share content briefs
+                      with writers within your team or share it publicly to
+                      outsource to writers within Contentre.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =========CLIENTS================= -->
+          <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
+            <div class="border-b-2 border-[#FFFFFF33] pb-8">
+              <div class="flex justify-between">
+                <div>
+                  <small class="text-lg leading-[23.4px] text-white/70"
+                    >Manage Your</small
+                  >
+                  <h4
+                    class="
+                      text-white
+                      font-medium
+                      text-3xl
+                      lg:text-5xl lg:leading-[62.4px]
+                      mt-1
+                    "
+                  >
+                    Clients
+                  </h4>
+                </div>
+                <img
+                  src="~/assets/imgs/user-octagon.svg"
+                  alt=""
+                  class="w-[50px] lg:w-[60px]"
+                />
+              </div>
+            </div>
+            <div class="mt-5">
+              <p class="leading-[28.44px]">
+                The client feature manages all functionalities of a client
+                including billings, proposals, invoices, payments
+              </p>
+
+              <p class="mt-4 font-medium text-white leading-[28.44px]">
+                Billings
+              </p>
+              <p class="leading-[28.44px]">
+                This shows your transactional information, and all your paid,
+                declined, and pending transactions.
+              </p>
+
+              <p class="mt-4 font-medium text-white leading-[28.44px]">
+                Proposals
+              </p>
+              <p class="leading-[28.44px]">
+                The proposal feature allows freelancers to create writing
+                proposals for their clients and a central place to manage all
+                their writing proposals.
+              </p>
+
+              <p class="mt-4 font-medium text-white leading-[28.44px]">
+                Invoices
+              </p>
+              <p class="leading-[28.44px]">
+                The invoice feature allows writers to generate invoices using
+                custom templates or create them manually using the drag and drop
+                plugin.
+              </p>
+            </div>
+          </div>
+
+          <!-- ============PORTFOLIO================ -->
+          <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
+            <div>
+              <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
+                <div class="flex justify-between">
+                  <div>
+                    <small class="text-lg leading-[23.4px] text-white/70"
+                      >Manage Your</small
+                    >
+                    <h4
+                      class="
+                        text-white
+                        font-medium
+                        text-3xl
+                        lg:text-5xl lg:leading-[62.4px]
+                        mt-1
+                      "
+                    >
+                      Porfolios
+                    </h4>
+                  </div>
+                  <img
+                    src="~/assets/imgs/briefcase.svg"
+                    alt=""
+                    class="w-[50px] lg:w-[60px]"
+                  />
+                </div>
+              </div>
+              <div class="h-[420px] overflow-y-scroll">
+                <div class="mt-5 px-8">
+                  <p class="leading-[28.44px]">
+                    Stop sending gigantic portfolio to your clients. Streamline
+                    your portfolio to a particular clients needs with our
+                    Multiple Portfolio Feature.
+                  </p>
+                </div>
+
+                <div class="mt-5 px-2">
+                  <div class="px-5">
+                    <p class="mt-4 font-medium text-white">Features</p>
+                  </div>
+                  <div class="flex mt-4">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Default Portfolio: You can use our default template to
+                      create your writing portfolio.
+                    </p>
+                  </div>
+
+                  <div class="flex mt-5">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Sample Portfolio: You can choose from an array of
+                      customized templates to represent your portfolio.
+                    </p>
+                  </div>
+                  <div class="flex mt-5">
+                    <div class="mt-2">
+                      <img
+                        src="~/assets/imgs/polygon.png"
+                        alt=""
+                        class="w-[25px] lg:w-[30px]"
+                      />
+                    </div>
+                    <p class="leading-[28.44px] ml-2">
+                      Customized Portfolio: You can customize your portfolio
+                      with your brand represent your portfolio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------CARD GRID------------ -->
+
+      <!-- </div> -->
+    </section>
+    <!-- -------------------------------END OF--BENEFITS SECTION----------------------------------------- -->
+
+    <!-- ====================================NEW FEATURES SECTION================================== -->
+
+    <section class="mt-20 mb-10 bg-[#FDFDFD]">
+      <div class="max-w-[80%] mx-auto pt-4 pb-10">
+        <div class="grid lg:grid-cols-2 gap-5">
+          <div class="lg:pt-10">
+            <h4
+              class="
+                lg:text-5xl
+                text-4xl
+                font-medium
+                lg:leading-[62.4px]
+                text-[#102A27]
+              "
+            >
+              What's new in <br />
+              Contentre?
+            </h4>
+
+            <div class="bg-white px-2 py-2 rounded-lg mt-14 border">
+              <div class="bg-[#F1FCFC] px-3 py-4 rounded-md">
+                <p class="text-[#232C2B] font-medium">Resources</p>
+              </div>
+              <div class="p-2 mb-1 mt-5">
+                <small
+                  class="
+                    text-[12px]
+                    leading-[18.96px]
+                    text-[#888888]
+                    ml-8
+                    md:ml-12
+                    lg:ml-7
+                  "
+                  >WEBINAR</small
+                >
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
+                    </div>
+                    <p class="text-[15px] ml-3 text[#102A27]">
+                      Join our next webinar to learn our system and get
+                      inspiration and ideas
+                    </p>
+                  </div>
+                  <a
+                    href="https://www.youtube.com/channel/UCECTWjjj21fa2bNQ07PKE3A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Join Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                          class=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2 mb-2">
+                <small
+                  class="
+                    text-[12px]
+                    leading-[18.96px]
+                    text-[#888888]
+                    ml-8
+                    md:ml-12
+                    lg:ml-7
+                  "
+                  >HELP CENTER</small
+                >
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
+                    </div>
+                    <p class="text-[15px] ml-3 text[#102A27]">
+                      Get set up for success with all the content business with
+                      our help center
+                    </p>
+                  </div>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Join Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                          class=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2 mb-2">
+                <small
+                  class="
+                    text-[12px]
+                    leading-[18.96px]
+                    text-[#888888]
+                    ml-8
+                    md:ml-12
+                    lg:ml-7
+                  "
+                  >REQUEST A CERTIFIED CONTENTRE SPECIALIST</small
+                >
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
+                    </div>
+                    <p class="text-[15px] ml-3 text[#102A27]">
+                      Request a Certified Specialist to help you with your
+                      Contentre account
+                    </p>
+                  </div>
+                  <a href="/contact#book_a_demo">
+                    <div class="flex items-cente ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Contact Us
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-2 mb-2">
+                <small
+                  class="
+                    text-[12px]
+                    leading-[18.96px]
+                    text-[#888888]
+                    ml-8
+                    md:ml-12
+                    lg:ml-7
+                  "
+                  >HIRE A FREELANCE WRITER</small
+                >
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/polygon2.png"
+                        alt=""
+                        class="w-8 lg:w-4"
+                      />
+                    </div>
+                    <p class="text-[15px] ml-3 text[#102A27]">
+                      Hire a Certified Freelance Writer to help you with your
+                      Content Marketing.
+                    </p>
+                  </div>
+                  <a href="#">
+                    <div class="flex ml-3 md:ml-6">
+                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                        Hire Now
+                      </p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- ---======right-side=============== -->
+
+            <div class="bg-white p-4 rounded-lg lg:mt-10 border">
+              <div class="bg-[#F9FCF1] px-3 py-3 rounded-md">
+                <p class="text-[#232C2B] font-medium text-[20px]">
+                  The Contentre Community for Writers
+                </p>
+              </div>
+              <div class="p-2">
+                <div class="mt-5">
+                  <div class="flex items-center">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/Facebook.png"
+                        alt=""
+                        class="w-14 md:w-8"
+                      />
+                    </div>
+                    <p class="ml-4 text[#102A27] text-[15px]">
+                      Collaborate with others in your industry in our Facebook
+                      Community
+                    </p>
+                  </div>
+                  <a
+                    href="http://facebook.com/contentreio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div>
+                  <div class="flex items-center">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/Instagram.png"
+                        alt=""
+                        class="w-8"
+                      />
+                    </div>
+                    <p class="ml-4 text[#102A27] text-[15px]">
+                      Get a behind the scenes look into what makes us.
+                    </p>
+                  </div>
+
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2 mb-5">
+                <div>
+                  <div class="flex items-center">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/LinkedIN.png"
+                        alt=""
+                        class="w-8"
+                      />
+                    </div>
+                    <p class="ml-4 text[#102A27] text-[15px]">
+                      Explore content for freelance writing business owners
+                    </p>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/company/contentre"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-2 mb-5">
+                <div>
+                  <div class="flex items-center">
+                    <div class="pt-2">
+                      <img
+                        src="~/assets/imgs/Twitter_black_(1).png"
+                        alt=""
+                        class="w-8"
+                      />
+                    </div>
+                    <p class="ml-4 text[#102A27] text-[15px]">
+                      Explore content for freelance writing business owners
+                    </p>
+                  </div>
+                  <a
+                    href="https://twitter.com/contentreio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="flex items-center ml-4 md:ml-6 lg:ml-12">
+                      <p class="text-[#286963] ml-5 lg:ml-0">Join Us</p>
+                      <div class="ml-4">
+                        <img
+                          src="~/assets/imgs/arrow-right-green1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg mt-5 border">
+              <div class="bg-[#FCF1FC] px-3 py-3 rounded-md">
+                <p class="text-[#232C2B] font-medium">New Features & Updates</p>
+              </div>
+              <div class="p-2 mt-4">
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
+                    </div>
+                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 1</p>
+                  </div>
+                  <small class="text-[#888888] ml-7">April 24, 2022</small>
+                </div>
+              </div>
+              <div class="p-2">
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
+                    </div>
+                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 2</p>
+                  </div>
+                  <small class="text-[#888888] ml-7">April 24, 2022</small>
+                </div>
+              </div>
+              <div class="p-2 mb-5">
+                <div>
+                  <div class="flex">
+                    <div class="pt-2">
+                      <img src="~/assets/imgs/polygon2.png" alt="" />
+                    </div>
+                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 3</p>
+                  </div>
+                  <small class="text-[#888888] ml-7">April 24, 2022</small>
+                </div>
+              </div>
+              <div>
+                <a href="" class="flex">
+                  <p class="text-[14px] text-[#286963]">
+                    Subscribe to all our new updates
+                  </p>
+                  <img
+                    src="~/assets/imgs/arrow-right-green1.png"
+                    alt=""
+                    class="ml-5"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================NEW FEATURES SECTION================================== -->
+
+    <!-- ==============================FORM SECTION============================================================== -->
+
+    <SpreadSheet />
+    <!-- ==========================END OF====FORM SECTION============================================================== -->
+  </span>
 </template>
 
 <script>
 export default {
   name: 'HomePage',
 
+  data: () => ({
+    email: '',
+  }),
   head() {
     return {
       title: 'Manage your freelance writing business from one place',
