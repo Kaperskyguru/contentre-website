@@ -14,80 +14,185 @@
     </h3>
     <div class="md:w-[70%] lg:w-[65%] mx-auto mt-10">
       <div class="px-8 py-4 rounded-md">
-        <div class="flex justify-between items-center pb-3 mt-10">
-          <div>
-            <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
-              How do I get started
-            </p>
+        <div>
+          <div class="flex justify-between items-center pb-3 mt-10">
+            <div>
+              <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
+                CAN I CANCEL AT ANYTIME?
+              </p>
+            </div>
+
+            <button>
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
+            </button>
           </div>
 
-          <button>
-            <img src="~/assets/imgs/dashed-line.png" alt="" class="w-[20px]" />
-          </button>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            Yes, you can cancel anytime yourself under "Setting". Or if you
+            prefer just email us at support@contentre.io
+          </p>
         </div>
 
-        <p
-          class="
-            text-[#54605F] text-base
-            leading-[24px]
-            mt-5
-            w-[90%]
-            font-medium
-          "
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, dictum
-          nisi mollis arcu at senectus scelerisque convallis. Id vulputate
-          auctor sed in sem et egestas ipsum. Turpis sagittis, libero enim sed
-          odio facilisis. Id ipsum nisi consequat ullamcorper pretium, leo.
-          Aliquam ultricies libero, velit auctor urna urna quis. Vel commodo,
-          diam nibh ut ultricies. Ut sed consectetur quisque tortor.
-        </p>
-
-        <div class="pt-10">
+        <div>
           <div class="flex justify-between items-center pb-3 mt-10">
             <div>
               <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
-                How do I get started
+                CAN I UPGRADE/DOWNGRADE IF I CHANGE MY MIND?
               </p>
             </div>
 
             <button>
-              <img src="~/assets/imgs/plus-icon.png" alt="" class="w-[20px]" />
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
             </button>
           </div>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            Yes you can upgrade or downgrade between Pro and Team at any time,
+            your next bill will be automatically adjusted.
+          </p>
+        </div>
+        <div>
           <div class="flex justify-between items-center pb-3 mt-10">
             <div>
               <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
-                How do I get started
+                DO I NEED TO ENTER MY CARD TO SIGN UP?
               </p>
             </div>
 
             <button>
-              <img src="~/assets/imgs/plus-icon.png" alt="" class="w-[20px]" />
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
             </button>
           </div>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            No, you can create an account and use the free plan without entering
+            a card.
+          </p>
+        </div>
+        <div>
           <div class="flex justify-between items-center pb-3 mt-10">
             <div>
               <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
-                How do I get started
+                HOW DOES THE TRIAL WORK?
               </p>
             </div>
 
             <button>
-              <img src="~/assets/imgs/plus-icon.png" alt="" class="w-[20px]" />
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
             </button>
           </div>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            When you sign up you will have access to all the features on the Pro
+            plan for the duration of the 7 day trial. After the trial you will
+            automatically switch to the free plan.
+          </p>
+        </div>
+        <div>
           <div class="flex justify-between items-center pb-3 mt-10">
             <div>
               <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
-                How do I get started
+                HOW ARE PAYMENTS PROCESSED?
               </p>
             </div>
 
             <button>
-              <img src="~/assets/imgs/plus-icon.png" alt="" class="w-[20px]" />
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
             </button>
           </div>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            We process all payments securely with Stripe, Paypal, Paystack or
+            through Paddle, our online reseller & Merchant of Record
+          </p>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-center pb-3 mt-10">
+            <div>
+              <p class="text-[#286963] text-2xl leading-[31.2px] font-medium">
+                WHAT IS YOUR REFUND POLICY?
+              </p>
+            </div>
+
+            <button>
+              <img
+                src="~/assets/imgs/dashed-line.png"
+                alt=""
+                class="w-[20px]"
+              />
+            </button>
+          </div>
+          <p
+            class="
+              text-[#54605F] text-base
+              leading-[24px]
+              mt-5
+              w-[50%]
+              font-medium
+            "
+          >
+            If you cancel your subscription within 14 days of upgrading, or
+            within 7 days of a renewal payment you can request a refund for the
+            full payment amount (minus $10 if a domain name has been purchased
+            or renewed for you).
+          </p>
         </div>
       </div>
     </div>
