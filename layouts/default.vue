@@ -502,13 +502,17 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
-                      >Terms of service</nuxt-link
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://www.termsandconditionsgenerator.com/live.php?token=d7qMQzDBX2dtqge1TzZCiVEPMWanz0Pt"
+                      >Terms of service</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
-                      >Privacy policy</nuxt-link
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://www.privacypolicygenerator.info/live.php?token=1qbpaQaOJm4eE4nY1ehmjz3ZK5LKf4GC"
+                      >Privacy policy</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
