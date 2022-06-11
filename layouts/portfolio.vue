@@ -31,7 +31,7 @@
           <div class="py-3">
             <a
               href="https://app.contentre.io/auth/register?source=portfolio"
-              class="p-2 text-white rounded-lg border form-btn"
+              class="p-2 text-white rounded-lg border bg-[#4fd1c5]"
             >
               Create a Portfolio
             </a>
@@ -74,7 +74,7 @@
           <a
             class="pl-2 text-white hover:text-teal-300"
             href="https://app.contentre.io/auth/register?source=portfolio"
-            >Get a Page</a
+            >Get a Portfolio</a
           >
 
           <a
@@ -90,6 +90,28 @@
             Copyright ® {{ new Date().getFullYear() }} All Copyrights Belong to
             Their Respective Owners.
           </p>
+          <button
+            class="termly-cookie-preference-button"
+            type="button"
+            style="
+              background: white;
+              width: 165px;
+              height: 30px;
+              border-radius: 3px;
+              border: 1px solid #5f7d9c;
+              font-family: Roboto, Arial;
+              font-size: 10px;
+              color: #5f7d9c;
+              font-weight: 600;
+              box-sizing: border-box;
+              cursor: pointer;
+              padding: 0;
+              outline: none;
+            "
+            onclick="displayPreferenceModal()"
+          >
+            Manage Cookie Preferences
+          </button>
         </div>
       </div>
     </footer>

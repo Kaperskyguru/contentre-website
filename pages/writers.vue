@@ -472,7 +472,7 @@
                 text-left
               "
             >
-              Client Measurement
+              Client Management
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
