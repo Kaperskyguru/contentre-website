@@ -93,7 +93,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Contents</li>
+                <li class="ml-2">Add up to 12 awesome Contents</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -103,7 +103,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Portfolios</li>
+                <li class="ml-2">Create upto 2 killer Portfolios</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -113,7 +113,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Clients</li>
+                <li class="ml-2">Add Unlimited Number of Clients</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -123,7 +123,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Content Distribution</li>
+                <li class="ml-2">Take Unlimited Number of Notes</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -133,17 +133,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Content Repurposing</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Calendar</li>
+                <li class="ml-2">Unlimited Number of Cover Letters</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -154,7 +144,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Unified Content Board/Planner</li>
+                <li class="ml-2">
+                  Add Unlimited Grouping(Categories, Niches, Tags)
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -165,7 +157,27 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Customizer</li>
+                <li class="ml-2">Content Publishing and Distribution</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Content Repurposing(Docs,PDFs,CSV, etc)</li>
+              </ul>
+              <!-- <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Basic Content Calendar</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -176,7 +188,18 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Cover Letters</li>
+                <li class="ml-2">Basic Content Board</li>
+              </ul> -->
+
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Content Analytics, Insights and Reporting</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -187,7 +210,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Messaging</li>
+                <li class="ml-2">Set your profile for hiring</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -198,7 +221,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Analytics</li>
+                <li class="ml-2">Add upto 5 Number of Plugins</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -209,37 +232,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Time tracking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Note-taking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Create and share content briefs</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Available for hiring</li>
+                <li class="ml-2">Generate Profile Link tree</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -250,73 +243,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Generate PDFs, Docx, etc</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Number of Plugins</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Generate Profile Links</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Browser extension</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Schedule content promotion</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Premium Resume and Cover letter templates</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Premium Portfolio templates</li>
+                <li class="ml-2">Browser Extension</li>
               </ul>
             </div>
 
@@ -377,7 +304,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Contents</li>
+                <li class="ml-2">EVERYTHING IN BASIC, PLUS:</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -387,7 +314,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Portfolios</li>
+                <li class="ml-2">Add Unlimited Number of Contents</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -397,7 +324,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Clients</li>
+                <li class="ml-2">Unlimited Content Backup</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -407,27 +334,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Content Distribution</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Repurposing</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Calendar</li>
+                <li class="ml-2">Add Unlimited Number of Portfolios</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -438,7 +345,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Unified Content Board/Planner</li>
+                <li class="ml-2">
+                  Branded Portfolios with Portfolio Customizer
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -449,7 +358,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Customizer</li>
+                <li class="ml-2">Track Portfolio Messaging</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -460,7 +369,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Cover Letters</li>
+                <li class="ml-2">
+                  Track Portfolio Analytics from Google Analytics
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -471,7 +382,17 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Messaging</li>
+                <li class="ml-2">Add Custom domain to Portfolios</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Advanced Content Calendar</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -482,7 +403,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Analytics</li>
+                <li class="ml-2">Advanced Unified Content Board</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -493,37 +414,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Time tracking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Note-taking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Create and share content briefs</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Available for hiring</li>
+                <li class="ml-2">Add Unlimited Number of Plugins</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -534,62 +425,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Generate PDFs, Docx, etc</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Number of Plugins</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Generate Profile Links</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Browser extension</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Schedule content promotion</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Premium Resume and Cover letter templates</li>
+                <li class="ml-2">Schedule Content for Promotion</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -660,57 +496,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Contents</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Number of Portfolios</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Number of Clients</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Distribution</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Repurposing</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Calendar</li>
+                <li class="ml-2">EVERYTHING IN PREMIUM, PLUS:</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -721,7 +507,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Unified Content Board/Planner</li>
+                <li class="ml-2">
+                  Add up to 10 Team members ($2 per user after)
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -732,7 +520,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Customizer</li>
+                <li class="ml-2">
+                  Create Unlimited Proposals, Contracts, and Invoices
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -743,7 +533,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Cover Letters</li>
+                <li class="ml-2">Create and Manage Roles/Permissions</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -754,7 +544,9 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Messaging</li>
+                <li class="ml-2">
+                  Unified Content Performances from Google Analytics
+                </li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -765,7 +557,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Portfolio Analytics</li>
+                <li class="ml-2">Real time Content Collaboration</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -776,37 +568,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Time tracking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Note-taking</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Create and share content briefs</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Available for hiring</li>
+                <li class="ml-2">Time Tracking for Team Member</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -817,9 +579,8 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Generate PDFs, Docx, etc</li>
+                <li class="ml-2">Create and share Unlimited Content Briefs</li>
               </ul>
-
               <ul class="flex text-[14px] mb-3">
                 <li>
                   <img
@@ -828,62 +589,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Number of Plugins</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Generate Profile Links</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Browser extension</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Schedule content promotion</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Premium Resume and Cover letter templates</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Premium Portfolio templates</li>
+                <li class="ml-2">Hire writers and be hired by companies</li>
               </ul>
             </div>
 

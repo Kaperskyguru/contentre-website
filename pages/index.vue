@@ -766,7 +766,7 @@
                         mt-1
                       "
                     >
-                      Porfolios
+                      Portfolios
                     </h4>
                   </div>
                   <img
@@ -932,11 +932,15 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Get set up for success with all the content business with
-                      our help center
+                      Get set up for success with your content business with our
+                      help center
                     </p>
                   </div>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://blog.contentre.io/category/help?source=home_help_center"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div class="flex items-cente ml-3 md:ml-6">
                       <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
                         Join Us

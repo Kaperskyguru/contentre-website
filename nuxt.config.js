@@ -181,6 +181,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'vue-ssr-carousel/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -201,6 +202,7 @@ export default {
   },
 
   gtm: {
+    enabled: process.env.NODE_ENV === 'production' || false,
     id: 'GTM-KFL7V5T',
     pageTracking: true,
     pageViewEventName: 'virtualPageview',
