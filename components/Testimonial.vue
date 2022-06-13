@@ -4,102 +4,120 @@
       Awesome feedback from users
     </h3>
     <div class="md:w-[70%] lg:w-[60%] mx-auto mt-10">
-      <div class="flex items-center space-x-3 md:space-x-8 px-2 md:px-0">
-        <img src="~/assets/imgs/arrow-left.png" alt="" />
-        <div class="bg-white px-10 pt-6 pb-16 rounded-md border">
+      <div class="items-center space-x-3 md:space-x-8 px-2 md:px-0 w-full">
+        <ssr-carousel
+          show-arrows
+          :autoplay-delay="5"
+          :responsive="[
+            {
+              maxWidth: '100%',
+              slidesPerPage: 1,
+            },
+          ]"
+        >
           <div
-            class="
-              md:flex md:justify-between
-              lg:items-center
-              border-b-[1px] border-[#F2F4F4]
-              pb-3
-            "
+            v-for="(testimonial, i) in testimonials"
+            :key="i"
+            class="slide"
+            :index="i"
           >
-            <div class="flex justify-center">
-              <div class="md:flex justify-center md:justify-start mb-6">
-                <div class="w-[48px] h-[48px] rounded-full mx-9 md:mx-0">
-                  <img
-                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
-                    alt=""
-                    class="w-[100%] block object-cover"
-                  />
+            <div class="bg-white px-10 pt-6 pb-16 rounded-md border">
+              <div
+                class="
+                  md:flex md:justify-between
+                  lg:items-center
+                  border-b-[1px] border-[#F2F4F4]
+                  pb-3
+                "
+              >
+                <div class="flex justify-center">
+                  <div class="md:flex justify-center md:justify-start mb-6">
+                    <div class="w-[48px] h-[48px] rounded-full mx-9 md:mx-0">
+                      <img
+                        :src="testimonial.image"
+                        alt=""
+                        class="w-[100%] block object-cover"
+                      />
+                    </div>
+                    <div class="md:ml-4 mt-5 md:mt-0">
+                      <h6
+                        class="
+                          text-[#286963] text-base
+                          leading-[20.8px]
+                          font-medium
+                        "
+                      >
+                        {{ testimonial.name }}
+                      </h6>
+                      <p
+                        class="
+                          text-[#888888] text-xs
+                          font-medium
+                          leading-[15.6px]
+                        "
+                      >
+                        {{ testimonial.job }}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="md:ml-4 mt-5 md:mt-0">
-                  <h6
-                    class="
-                      text-[#286963] text-base
-                      leading-[20.8px]
-                      font-medium
-                    "
-                  >
-                    Solomon Eseme
-                  </h6>
-                  <p
-                    class="text-[#888888] text-xs font-medium leading-[15.6px]"
-                  >
-                    Senior Technical Writer @ Kinsta
-                  </p>
-                </div>
-              </div>
-            </div>
 
-            <div class="flex justify-center md:justify-start md:mt-2 lg:mt-0">
-              <div class="w-[16px] h-[16px]">
-                <img
-                  src="~/assets/imgs/Star_2.png"
-                  alt=""
-                  class="w-[100%] block object-cover"
-                />
+                <div
+                  class="flex justify-center md:justify-start md:mt-2 lg:mt-0"
+                >
+                  <div class="w-[16px] h-[16px]">
+                    <img
+                      src="~/assets/imgs/Star_2.png"
+                      alt=""
+                      class="w-[100%] block object-cover"
+                    />
+                  </div>
+                  <div class="w-[16px] h-[16px]">
+                    <img
+                      src="~/assets/imgs/Star_2.png"
+                      alt=""
+                      class="w-[100%] block object-cover"
+                    />
+                  </div>
+                  <div class="w-[16px] h-[16px]">
+                    <img
+                      src="~/assets/imgs/Star_2.png"
+                      alt=""
+                      class="w-[100%] block object-cover"
+                    />
+                  </div>
+                  <div class="w-[16px] h-[16px]">
+                    <img
+                      src="~/assets/imgs/Star_2.png"
+                      alt=""
+                      class="w-[100%] block object-cover"
+                    />
+                  </div>
+                  <div class="w-[16px] h-[16px]">
+                    <img
+                      src="~/assets/imgs/Star_2.png"
+                      alt=""
+                      class="w-[100%] block object-cover"
+                    />
+                  </div>
+                </div>
               </div>
-              <div class="w-[16px] h-[16px]">
-                <img
-                  src="~/assets/imgs/Star_2.png"
-                  alt=""
-                  class="w-[100%] block object-cover"
-                />
-              </div>
-              <div class="w-[16px] h-[16px]">
-                <img
-                  src="~/assets/imgs/Star_2.png"
-                  alt=""
-                  class="w-[100%] block object-cover"
-                />
-              </div>
-              <div class="w-[16px] h-[16px]">
-                <img
-                  src="~/assets/imgs/Star_2.png"
-                  alt=""
-                  class="w-[100%] block object-cover"
-                />
-              </div>
-              <div class="w-[16px] h-[16px]">
-                <img
-                  src="~/assets/imgs/Star_2.png"
-                  alt=""
-                  class="w-[100%] block object-cover"
-                />
-              </div>
+
+              <p
+                class="
+                  text-[#54605F] text-[14px] text-center
+                  md:text-left md:text-[16px]
+                  font-medium
+                  mt-5
+                  mb-3
+                  leading-[24px]
+                "
+              >
+                {{ testimonial.testimony }}
+              </p>
             </div>
           </div>
-
-          <p
-            class="
-              text-[#54605F] text-[14px] text-center
-              md:text-left md:text-[16px]
-              font-medium
-              mt-5
-              mb-3
-              leading-[24px]
-            "
-          >
-            Contentre is a tool I will recommend to every writer, I use it to
-            generate multiple portfolios with CONTENT RULES set to what my
-            clients want. Additionally, I can generate as many portfolios as
-            needed for different clients without writing any code. It also helps
-            me organized all my written contents in one place.
-          </p>
-        </div>
-        <img src="~/assets/imgs/arrow-left_(2).png" alt="" />
+        </ssr-carousel>
       </div>
     </div>
   </div>
@@ -109,8 +127,62 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Testimonial',
+
+  data: () => ({
+    testimonials: [
+      {
+        name: 'Solomon Eseme',
+        job: 'Senior Technical Writer @ Kinsta',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg',
+        testimony:
+          'Contentre is a tool I will recommend to every writer, I use it to generate multiple portfolios with CONTENT RULES set to what my clients want. Additionally, I can generate as many portfolios as needed for different clients without writing any code. It also helps me organized all my written contents in one place.',
+      },
+
+      {
+        name: 'Chukwuka Deh',
+        job: 'Freelance Copywriter and Founder @ SliqWriters',
+        image: 'https://via.placeholder.com/150',
+        testimony:
+          'Contentre is going to help me arrange my portfolio better and as well as, having a synchronizable writing platform',
+      },
+
+      {
+        name: 'MacBobby Chibuzor',
+        job: 'Technical Writer',
+        image: 'https://via.placeholder.com/150',
+        testimony:
+          'Contentre holds all my write-ups, making it easier to share my best publications as samples. Moreover, I have access to a customizable portfolio that I can share to improve my brand. Additionally, The fact that I can write new contents on Contentre, as well as publish simultaneously is amazing.',
+      },
+
+      {
+        name: 'Eric Aprioku',
+        job: 'Software Engineer',
+        image: 'https://via.placeholder.com/150',
+        testimony:
+          "By helping me see all the articles I've written in one place and helping me cross-post them across multiple platforms. I've never had the problem personally cause I don't write very often, but I believe it can help me stay organized when I do start writing more aggressively.",
+      },
+
+      {
+        name: 'Alloyking1 ( Moses)',
+        job: 'Technical blog contributor',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1654433104/contentre/Founders/moses_headshot.jpg',
+        testimony:
+          'It Helps me manage all the writing activities from one place.',
+      },
+
+      {
+        name: 'Wendy Ekemezie',
+        job: 'Freelance Writer',
+        image: 'https://via.placeholder.com/150',
+        testimony:
+          'Helping with organizing my business and adding works according to clients.',
+      },
+    ],
+  }),
 }
 </script>
 
-<style>
+<style scoped>
 </style>

@@ -766,7 +766,7 @@
                         mt-1
                       "
                     >
-                      Porfolios
+                      Portfolios
                     </h4>
                   </div>
                   <img
