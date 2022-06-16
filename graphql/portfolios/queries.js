@@ -64,3 +64,34 @@ export const GET_PORTFOLIO_DETAIL = gql`
     }
   }
 `
+
+export const GET_ALL_PORTFOLIOS = gql`
+  query getAllPortfolios(
+    $size: Int
+    $skip: Int
+    $filters: AllPortfolioFiltersInput
+  ) {
+    getAllPortfolios(size: $size, skip: $skip, filters: $filters) {
+      portfolios {
+        id
+        title
+        userId
+        type
+        url
+        description
+        templateId
+        createdAt
+        updatedAt
+        user {
+          name
+          bio
+          username
+          avatarURL
+        }
+      }
+      meta {
+        total
+      }
+    }
+  }
+`

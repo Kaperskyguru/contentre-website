@@ -1,5 +1,5 @@
 <template>
-  <main v-click-outside="onClickOutside" class="min-h-screen">
+  <main v-click-outside="onClickOutside" class="min-h-scree">
     <!-- ================Header================================ -->
     <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
@@ -133,9 +133,7 @@
               <li class="ml-12">
                 <nuxt-link class="text-base" to="/product">Product</nuxt-link>
               </li>
-              <li class="ml-12">
-                <nuxt-link class="text-base" to="/contact">Contact</nuxt-link>
-              </li>
+
               <li class="ml-12" @click.prevent="onToggleResources">
                 <a href="#" class="text-base text-[#888888]"
                   >Resources
@@ -365,18 +363,16 @@
                 </nuxt-link>
               </div>
             </button>
-            <nuxt-link to="About" class="text-base text-[#888888]"
+            <nuxt-link to="/about" class="text-base text-[#888888]"
               >About</nuxt-link
             >
-            <nuxt-link to="./pricing.html" class="text-base text-[#888888]"
+            <nuxt-link to="/pricing" class="text-base text-[#888888]"
               >Pricing</nuxt-link
             >
-            <nuxt-link to="Product" class="text-base text-[#888888]"
+            <nuxt-link to="/product" class="text-base text-[#888888]"
               >Product</nuxt-link
             >
-            <nuxt-link to="Contact" class="text-base text-[#888888]"
-              >Contact</nuxt-link
-            >
+
             <a
               href="https://blog.contentre.io?source=home_resources"
               class="text-base text-[#888888]"

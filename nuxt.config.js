@@ -170,7 +170,7 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
-    dirs: ['~/components', '~/components/templates'],
+    dirs: ['~/components', '~/components/templates', '~/components/covers'],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
