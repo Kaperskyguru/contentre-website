@@ -81,14 +81,24 @@
             <div
               class="
                 grid
-                md:grid-rows-[500px_minmax(450px,_1fr)_500px_500px_500px]
-                lg:grid-rows-5
-                xl:grid-rows-[500px_minmax(250px,_1fr)_500px_500px_500px]
+                md:grid-rows-[500px_minmax(450px,_1fr)_500px]
+                lg:grid-rows-3
+                xl:grid-rows-[500px_minmax(250px,_1fr)_500px]
                 gap-5
               "
             >
-              <div class="bg-[#FFFBF5] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/document-text.png" alt="" />
+              <div
+                class="
+                  bg-[#F8FCFC]
+                  rounded-md
+                  py-8
+                  md:py-12
+                  px-5
+                  md:px-10
+                  row-span-h-[200px]
+                "
+              >
+                <img src="~/assets/imgs/document.png" alt="" />
 
                 <div class="mt-7">
                   <h4
@@ -101,16 +111,52 @@
                       mb-5
                     "
                   >
-                    Content repurposing
+                    Content Hub
                   </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    You can auto generate PDF, Docx, etc of your contents. You
-                    can generate 1,2,3, etc articles at once with different PDF
-                    templates
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    You can organize all your contents and tracking progress
+                    with our Content Board(Planner) and Content Calendar.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    It allows users to choose a template and create
+                    industry-standard cover letters by answering questions.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    Then for samples, it will ask users to choose their best
+                    content from already added content in Contentre or add new
+                    ones by creating an account.
+                  </p>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
+                    It's a free tool.
                   </p>
                 </div>
               </div>
-              <div
+
+              <div class="bg-[#FEF6FC] rounded-md py-8 md:py-12 px-5 md:px-10">
+                <img src="~/assets/imgs/send-2.png" alt="" />
+
+                <div class="mt-7">
+                  <h4
+                    class="
+                      text-[24px]
+                      md:text-[32px]
+                      leading-[37px]
+                      text-[#102A27]
+                      font-medium
+                      mb-5
+                    "
+                  >
+                    Content Publishing
+                  </h4>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
+                    Users can promote Across all Socials and publish to selected
+                    WordPress, Wix, medium, HashNode, Strapi, websites) using
+                    Profaily plugin for socials, Automate Content Re-sharing
+                    with reminders.
+                  </p>
+                </div>
+              </div>
+              <!-- <div
                 class="
                   bg-[#F8FCFC]
                   rounded-md
@@ -153,8 +199,8 @@
                     It's a free tool.
                   </p>
                 </div>
-              </div>
-              <div
+              </div> -->
+              <!-- <div
                 class="
                   bg-[#FEF8F6]
                   rounded-md
@@ -185,7 +231,7 @@
                     a page on your website. (customize it to suit your site)
                   </p>
                 </div>
-              </div>
+              </div> -->
               <div
                 class="
                   bg-[#F7FDFC]
@@ -218,6 +264,18 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="
+                grid
+                md:grid-rows-[400px_minmax(500px,_1fr)_400px]
+                lg:grid-rows-3
+                xl:grid-rows-[430px_minmax(520px,_1fr)_380px]
+                gap-5
+              "
+            >
               <div
                 class="
                   bg-[#FCFFF5]
@@ -247,42 +305,6 @@
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
                     Teams can hire writers that best suit their company directly
                     from Contentre.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="
-                grid
-                md:grid-rows-[400px_minmax(500px,_1fr)_400px_500px_550px]
-                lg:grid-rows-5
-                xl:grid-rows-[430px_minmax(520px,_1fr)_380px_520px_550px]
-                gap-5
-              "
-            >
-              <div class="bg-[#FEF6FC] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/send-2.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Content Publishing
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Users can promote Across all Socials and publish to selected
-                    WordPress, Wix, medium, HashNode, Strapi, websites) using
-                    Profaily plugin for socials, Automate Content Re-sharing
-                    with reminders.
                   </p>
                 </div>
               </div>
@@ -318,7 +340,31 @@
                   </p>
                 </div>
               </div>
-              <div class="bg-[#FEF9F5] rounded-md py-8 md:py-12 px-5 md:px-10">
+              <!-- <div class="bg-[#FFFBF5] rounded-md py-8 md:py-12 px-5 md:px-10">
+                <img src="~/assets/imgs/document-text.png" alt="" />
+
+                <div class="mt-7">
+                  <h4
+                    class="
+                      text-[24px]
+                      md:text-[32px]
+                      leading-[37px]
+                      text-[#102A27]
+                      font-medium
+                      mb-5
+                    "
+                  >
+                    Content repurposing
+                  </h4>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
+                    You can auto generate PDF, Docx, etc of your contents. You
+                    can generate 1,2,3, etc articles at once with different PDF
+                    templates
+                  </p>
+                </div>
+              </div> -->
+
+              <!-- <div class="bg-[#FEF9F5] rounded-md py-8 md:py-12 px-5 md:px-10">
                 <img src="~/assets/imgs/briefcase.png" alt="" />
 
                 <div class="mt-7">
@@ -346,8 +392,8 @@
                     Google Calendar, etc.
                   </p>
                 </div>
-              </div>
-              <div class="bg-[#F5FCFF] rounded-md py-8 md:py-12 px-5 md:px-10">
+              </div> -->
+              <!-- <div class="bg-[#F5FCFF] rounded-md py-8 md:py-12 px-5 md:px-10">
                 <img src="~/assets/imgs/timer.png" alt="" />
 
                 <div class="mt-7">
@@ -368,7 +414,7 @@
                     a connect and it will calculate the amount.
                   </p>
                 </div>
-              </div>
+              </div> -->
               <div class="bg-[#FEF5FE] rounded-md py-8 md:py-12 px-5 md:px-10">
                 <img src="~/assets/imgs/shop.png" alt="" />
 
@@ -623,14 +669,11 @@
               </h3>
               <div class="mt-4 w-full lg:text-start">
                 <p class="text-[#888888] mb-3">
-                  We integrate with Quickbooks, WordPress, Hashnode, Devto,
-                  Strapi, Medium, Zapier, Notion, Square, Paypal, video
-                  conferencing apps, email providers, and calendar apps.
+                  We integrate with WordPress, HashNode, DevTo, Strapi, Medium,
+                  Notion.
                 </p>
                 <p class="text-[#888888] mb-3">
-                  Every integration puts more power in your hands. And for more
-                  of your favorite apps, we integrate with Zapier, an online
-                  automation tool that connects over 1500 of your favorite apps.
+                  Every integration puts more power in your hands.
                 </p>
 
                 <p class="text-[#888888]">

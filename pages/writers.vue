@@ -15,13 +15,11 @@
                   lg:mb-0
                 "
               >
-                Contentre for Freelance writers
+                Contentre for technical writers
               </h1>
               <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Wether you're a freelance writer, a technical writer,
-                journalists, copywriters, photographers, illustrator, artist,
-                designers or creative writer. Contentre has great features that
-                will turn your side hustle into a content business.
+                Contentre has great features that will grow your technical
+                writing career
               </p>
             </div>
             <div class="mt-10 lg:block">
@@ -90,8 +88,8 @@
               text-[#102A27]
             "
           >
-            Access great features that turns your <br />
-            side hustle into a content business.
+            Access great features that helps <br />
+            grow your technical writing career.
           </h1>
         </div>
 
@@ -169,7 +167,7 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Create your portfolio in less than a minute our default
-                      template to create your writing portfolio.
+                      template to create your technical writing portfolio.
                     </p>
                   </div>
                 </div>
@@ -210,8 +208,8 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Customized your portfolio in less than 5 minutes with our
-                      Portfolio Customizer to suit your branding.
+                      Customized a personalized portfolio in less than 5 minutes
+                      with our Portfolio Creator.
                     </p>
                   </div>
                 </div>
@@ -269,7 +267,7 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Create, update, delete, and assign categories to your
-                      contents to help organize your content. Gain insightful
+                      content to help organize your content. Gain insightful
                       analytics of each categories.
                     </p>
                   </div>
@@ -288,9 +286,9 @@
                   <h6 class="text-[24px] text-[#286963]">Manage tags</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, update, delete, and assign tags to your contents
-                      to help organize your content. Gain insightful analytics
-                      of each tags.
+                      Create, update, delete, and assign tags to your content to
+                      help organize your content. Gain insightful analytics of
+                      each tags.
                     </p>
                   </div>
                 </div>
@@ -308,7 +306,7 @@
                   <h6 class="text-[24px] text-[#286963]">Manage niches</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, update, delete, and assign niches to your contents
+                      Create, update, delete, and assign niches to your content
                       to help organize your content. Gain insightful analytics
                       of each niches.
                     </p>
@@ -400,9 +398,8 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, Schedule or publish to CRM such as Strapi,
-                      HashNode, WordPress directly and Content platforms such as
-                      Medium, Dev.to, etc
+                      Create, Schedule or publish to Strapi, HashNode, DevTo and
+                      WordPress with few clicks.
                     </p>
                   </div>
                 </div>
@@ -425,7 +422,7 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Using different plugins, you can promote your content
+                      Using different integrations, you can promote your content
                       across social media such as Facebook, Twitter, Linkedin,
                       etc with Automate Content Re-sharing with reminders.
                     </p>
@@ -461,7 +458,7 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-40 mt-20">
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-40 mt-20">
           <div class="">
             <h2
               class="
@@ -579,7 +576,7 @@
               "
             ></div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- ==========================================FEATURES SECTION================================================== -->
@@ -588,7 +585,7 @@
     <section class="mt-40 mb-20">
       <div class="text-center">
         <h1 class="text-[#102A27] text-[20px] md:text-[35px] lg:text-[48px]">
-          Turn your side hustle into a business now 🚀
+          Grow your technical writing career now 🚀
         </h1>
         <div class="flex justify-center mt-4">
           <a

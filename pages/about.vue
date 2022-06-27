@@ -28,7 +28,8 @@
             "
           >
             We provide the best resources and tools to help you manage your
-            freelance writing <br />business.
+            freelance technical <br />
+            writing.
           </h1>
         </div>
 
@@ -92,11 +93,10 @@
                 lg:text-left
               "
             >
-              We are here to redefine how freelance writers manage their
-              freelance writing business --- from Content Management and real
-              time content insights, Team Management, Portfolio Management to
-              Client Management with Invoicing, Billings, Contracts, Proposals,
-              and Payments in one place.
+              We are here to redefine how freelance technical writers manage
+              their freelance technical writing business --- from Content Hub
+              and real time content insights, Creating multiple Personalized
+              Portfolios to Client Management in one place.
             </p>
           </div>
 
@@ -140,8 +140,8 @@
                   lg:text-left
                 "
               >
-                Our vision is to help you manage your freelance writing business
-                and turn your content side hustle into a content business.
+                Our vision is to help you manage your freelance technical
+                writing business and turn your passion into a content business.
               </p>
             </div>
           </div>

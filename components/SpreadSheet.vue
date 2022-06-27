@@ -26,8 +26,8 @@
               md:mt-0
             "
           >
-            Ditch spreadsheets. Manage your writing business with Contentre in
-            minutes.
+            Ditch Google Drive. Start managing your technical writing with
+            Contentre in minutes.
           </h4>
 
           <div
