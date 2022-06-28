@@ -436,7 +436,7 @@
                       <button>
                         <img
                           class="ease-in duration-300"
-                          src="~/assets/imgs/LinkedIN_black_(2).png"
+                          src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656375933/contentre/Founders/1640408535741.jpg"
                           alt=""
                           srcset=""
                         /></button
