@@ -409,7 +409,7 @@
                   "
                 >
                   <img
-                    src="~/assets/imgs/team-img_(3).png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656375933/contentre/Founders/1640408535741.jpg"
                     alt=""
                     class="w-[100%] h-auto block"
                   />
@@ -436,7 +436,7 @@
                       <button>
                         <img
                           class="ease-in duration-300"
-                          src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656375933/contentre/Founders/1640408535741.jpg"
+                          src="~/assets/imgs/LinkedIN_black_(2).png"
                           alt=""
                           srcset=""
                         /></button
