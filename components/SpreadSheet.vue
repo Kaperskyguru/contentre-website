@@ -72,14 +72,13 @@
                   text-sm
                   border
                   py-[12px]
-                  px-[32px]
+                  px-[60px]
                   text-[#286963]
                   md:ml-3
                   mt-4
                   md:mt-0
                   rounded-md
                   ml-0
-                  md:ml-2
                 "
               >
                 Contact Us
@@ -89,7 +88,7 @@
         </div>
         <div class="md:p-0 rounded-full mt-10 w-[95%]">
           <img
-            src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
+            src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656635751/contentre/assets/contents.gif"
             alt=""
             class="w-full h-auto lg:rounded-none md:rounded-xl"
           />

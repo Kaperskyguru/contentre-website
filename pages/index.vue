@@ -35,9 +35,9 @@
                 lg:text-left
               "
             >
-              Contentre helps you organize your contents, manage clients, create
-              multiple personalized portfolios, discover new opportunities, and
-              lots more, all in one place.
+              Organize your content, manage clients, create multiple
+              personalized portfolios, discover new opportunities, and lots
+              more, all in one place.
             </p>
             <div>
               <div
@@ -97,17 +97,9 @@
             </div>
           </div>
 
-          <div
-            class="
-              md:w-[500px]
-              mr-16
-              md:mr-24
-              lg:mr-0 lg:mx-0 lg:w-[45%]
-              relative
-            "
-          >
+          <div class="md:w-full lg:mr-0 lg:mx-0 lg:w-[45%]">
             <img
-              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656648133/contentre/assets/hero.png"
+              src="http://res.cloudinary.com/kaperskydisk/image/upload/v1656685280/contentre/assets/hero.png"
               alt="hero-image"
               class="w-full"
             />
@@ -124,7 +116,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/eBay_Logo.png"
+                src="~/assets/img/hashnode.png"
                 alt=""
             /></a>
           </li>
@@ -132,7 +124,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/FedEx_Logo.png"
+                src="~/assets/img/kinsta.png"
                 alt=""
             /></a>
           </li>
@@ -140,7 +132,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Google_Logo.png"
+                src="~/assets/img/logrocket-blog-logo.png"
                 alt=""
             /></a>
           </li>
@@ -148,7 +140,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Hulu_Logo.png"
+                src="~/assets/img/Medium-Logo.png"
                 alt=""
             /></a>
           </li>
@@ -164,7 +156,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Quizlet_Logo.png"
+                src="https://super-static-assets.s3.amazonaws.com/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/images/5f6fd5bb-6075-4f30-bd6b-379298cc8447.png"
                 alt=""
             /></a>
           </li>
@@ -672,7 +664,7 @@
                   </h4>
                 </div>
                 <img
-                  src="~/assets/imgs/user-octagon.svg"
+                  src="~/assets/imgs/briefcase.svg"
                   alt=""
                   class="w-[50px] lg:w-[60px]"
                 />
@@ -733,7 +725,7 @@
                     </h4>
                   </div>
                   <img
-                    src="~/assets/imgs/briefcase.svg"
+                    src="~/assets/imgs/user-octagon.svg"
                     alt=""
                     class="w-[50px] lg:w-[60px]"
                   />

@@ -4,7 +4,7 @@
     <section class="mt-20 lg:mb-40">
       <div class="mx-10 lg:ml-28">
         <div class="grid lg:grid-cols-2">
-          <div class="lg:w-[500px]">
+          <div class="lg:w-full">
             <div class="text-center lg:text-left">
               <h1
                 class="
@@ -15,12 +15,13 @@
                   lg:mb-0
                 "
               >
-                Contentre for technical writers
+                Stay Organized.<br />
+                <span class="text-[#102A27] font-bold"
+                  >Personalized Portfolios.</span
+                >
+                <br />
+                Gain more Clients.
               </h1>
-              <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Contentre has great features that will grow your technical
-                writing career
-              </p>
             </div>
             <div class="mt-10 lg:block">
               <a
@@ -42,11 +43,17 @@
               >
             </div>
           </div>
-          <div class="pt-20 lg:pt-0">
-            <div class="flex justify-end">
+          <div class="pt-20 w-2/3 h-4/5 shadow-md lg:pt-0 border-2 rounded-lg">
+            <div class="w-full">
+              <img
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656683600/contentre/assets/full-contentre.gif"
+                alt=""
+              />
+            </div>
+            <!-- <div class="flex justify-end">
               <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div>
-                  <img src="~/assets/imgs/freelance_img1.png" alt="" />
+                  
                 </div>
                 <div>
                   <img src="~/assets/imgs/freelance_img2.png" alt="" />
@@ -68,7 +75,7 @@
                   <img src="~/assets/imgs/freelance_img5.png" alt="" />
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -147,8 +154,8 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Stop sending gigantic portfolio to your clients.
-                      Streamline your portfolio to a particular clients needs
-                      with our Multiple Portfolio Feature.
+                      Personalize your portfolio to a particular client with our
+                      Multiple Portfolio Feature.
                     </p>
                   </div>
                 </div>
@@ -228,7 +235,7 @@
                 lg:text-left
               "
             >
-              Content Management
+              Content Hub
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
