@@ -18,7 +18,9 @@
                 lg:text-left
               "
             >
-              Manage your freelance technical writing in one <br />place.
+              Stay Organized. <br />
+              Gain More Clients.
+              <!-- Never lose a technical <br />writing client. -->
             </h1>
 
             <p
@@ -91,6 +93,7 @@
                   >
                 </div>
               </div>
+              <div class="pt-2 text-[#286963]">* No Credit Card Required</div>
             </div>
           </div>
 
@@ -104,46 +107,18 @@
             "
           >
             <img
-              src="~/assets/imgs/hero-img.png"
+              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656648133/contentre/assets/hero.png"
               alt="hero-image"
               class="w-full"
             />
-            <div
-              class="
-                top-[100px]
-                md:-left-0
-                absolute
-                md:top-[200px]
-                lg:-left-[50px]
-              "
-            >
-              <img
-                src="~/assets/imgs/total_revenue.png"
-                alt=""
-                class="w-[100px] md:w-[246px]"
-              />
-            </div>
-            <div
-              class="
-                absolute
-                top-[100px]
-                md:top-[320px]
-                -right-[60px]
-                md:-right-[20px]
-                drop-shadow-2xl
-              "
-            >
-              <img
-                src="~/assets/imgs/Overall Performance.png"
-                alt=""
-                class="w-[150px] md:w-[200px] lg:w-[280px]"
-              />
-            </div>
           </div>
         </div>
       </div>
       <!-- ----------END OF HERO----------------------- -->
       <div class="w-full md:w-[80%] md:mx-auto">
+        <h3 class="text-center text-2xl text-[#102A27] pt-5">
+          Loved by technical writers at these world-class organizations:
+        </h3>
         <ul class="flex justify-between items-center mt-5 md:mt-10">
           <li class="">
             <a href=""
@@ -512,8 +487,8 @@
             </p>
             <div class="rounded-md mt-10 lg:mt-20">
               <img
-                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
-                alt=""
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656635751/contentre/assets/contents.gif"
+                alt="Organized Content Overview"
                 srcset=""
                 class="w-full block object-cover"
               />
@@ -538,10 +513,10 @@
               published anywhere. Take charge of your content analytics and
               reporting across your clients.
             </p>
-            <div class="rounded-md mt-10 lg:mt-16">
+            <div class="rounded-full mt-10 lg:mt-16">
               <img
-                src="~/assets/imgs/Dashboard_1_(1).png"
-                alt=""
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656636610/contentre/assets/analytics.gif"
+                alt="Analytics Overview"
                 srcset=""
                 class="w-full block object-cover"
               />
@@ -571,8 +546,8 @@
           </div>
           <div class="lg:w-[75%] mt-10 lg:mt-28">
             <img
-              src="~/assets/imgs/Dashboard_1_(2).png"
-              alt=""
+              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656635105/contentre/assets/portfolio.gif"
+              alt="Creating Portfolio"
               srcset=""
               class="w-full"
             />

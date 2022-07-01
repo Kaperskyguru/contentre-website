@@ -26,10 +26,13 @@
               md:mt-0
             "
           >
-            Ditch Google Drive. Start managing your technical writing with
-            Contentre in minutes.
+            Ready to ditch Google Drive?
+            <span class="text-[#102A27] font-bold"> Try Contentre.</span>
           </h4>
-
+          <div>
+            Organize your technical content in one place. Create multiple
+            personalized portfolios.
+          </div>
           <div
             class="
               md:mt-10
@@ -84,9 +87,9 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="md:p-0 w-[100%]">
+        <div class="md:p-0 rounded-full mt-10 w-[95%]">
           <img
-            src="~/assets/imgs/african-american-man-with-headphone-watching-movie-streaming-services-bright-living-room-computer-user-concentrated-office-job-home-entertainment-smiling_1.png"
+            src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
             alt=""
             class="w-full h-auto lg:rounded-none md:rounded-xl"
           />

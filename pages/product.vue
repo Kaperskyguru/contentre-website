@@ -78,15 +78,7 @@
       <div class="max-w-[90%] lg:max-w-[90%] xl:max-w-[80%] mx-auto pt-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div>
-            <div
-              class="
-                grid
-                md:grid-rows-[500px_minmax(450px,_1fr)_500px]
-                lg:grid-rows-3
-                xl:grid-rows-[500px_minmax(250px,_1fr)_500px]
-                gap-5
-              "
-            >
+            <div class="flex flex-col space-y-5">
               <div
                 class="
                   bg-[#F8FCFC]
@@ -94,13 +86,14 @@
                   py-8
                   md:py-12
                   px-5
+                  w-full
                   md:px-10
                   row-span-h-[200px]
                 "
               >
                 <img src="~/assets/imgs/document.png" alt="" />
 
-                <div class="mt-7">
+                <div class="my-7">
                   <h4
                     class="
                       text-[24px]
@@ -114,168 +107,20 @@
                     Content Hub
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    You can organize all your contents and tracking progress
-                    with our Content Board(Planner) and Content Calendar.
+                    Sort, filter and organize all your technical content into
+                    categories, niches, topics and tags and draw insightful
+                    analytics -- published anywhere.
                   </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    It allows users to choose a template and create
-                    industry-standard cover letters by answering questions.
-                  </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    Then for samples, it will ask users to choose their best
-                    content from already added content in Contentre or add new
-                    ones by creating an account.
-                  </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    It's a free tool.
-                  </p>
+                </div>
+                <div class="md:p-0 h-full rounded-full mt-5 w-[95%]">
+                  <img
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
+                    alt="Content hub overview"
+                    class="w-full h-auto lg:rounded-none md:rounded-xl"
+                  />
                 </div>
               </div>
 
-              <div class="bg-[#FEF6FC] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/send-2.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Content Publishing
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    Users can promote Across all Socials and publish to selected
-                    WordPress, Wix, medium, HashNode, Strapi, websites) using
-                    Profaily plugin for socials, Automate Content Re-sharing
-                    with reminders.
-                  </p>
-                </div>
-              </div>
-              <!-- <div
-                class="
-                  bg-[#F8FCFC]
-                  rounded-md
-                  py-8
-                  md:py-12
-                  px-5
-                  md:px-10
-                  row-span-h-[200px]
-                "
-              >
-                <img src="~/assets/imgs/document.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Cover letter generator
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    It allows writers to generate writing cover letters to apply
-                    to full-time jobs or acquire more clients.
-                  </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    It allows users to choose a template and create
-                    industry-standard cover letters by answering questions.
-                  </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    Then for samples, it will ask users to choose their best
-                    content from already added content in Contentre or add new
-                    ones by creating an account.
-                  </p>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    It's a free tool.
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div
-                class="
-                  bg-[#FEF8F6]
-                  rounded-md
-                  py-8
-                  md:py-12
-                  px-5
-                  md:px-10
-                  row-span-h-[200px]
-                "
-              >
-                <img src="~/assets/imgs/link-circle.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Portfolio plug-in/widget
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    The plugin feature allows users to display your portfolio on
-                    a page on your website. (customize it to suit your site)
-                  </p>
-                </div>
-              </div> -->
-              <div
-                class="
-                  bg-[#F7FDFC]
-                  rounded-md
-                  py-8
-                  md:py-12
-                  px-5
-                  md:px-10
-                  row-span-h-[200px]
-                "
-              >
-                <img src="~/assets/imgs/edit.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Note-taking
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    A little note taking app to allow users create drafts or
-                    drop content ideas.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="
-                grid
-                md:grid-rows-[400px_minmax(500px,_1fr)_400px]
-                lg:grid-rows-3
-                xl:grid-rows-[430px_minmax(520px,_1fr)_380px]
-                gap-5
-              "
-            >
               <div
                 class="
                   bg-[#FCFFF5]
@@ -308,6 +153,51 @@
                   </p>
                 </div>
               </div>
+
+              <div
+                class="
+                  bg-[#F7FDFC]
+                  rounded-md
+                  py-8
+                  md:py-12
+                  px-5
+                  md:px-10
+                  row-span-h-[200px]
+                "
+              >
+                <img src="~/assets/imgs/edit.png" alt="" />
+
+                <div class="mt-7">
+                  <h4
+                    class="
+                      text-[24px]
+                      md:text-[32px]
+                      leading-[37px]
+                      text-[#102A27]
+                      font-medium
+                      mb-5
+                    "
+                  >
+                    Note-taking
+                  </h4>
+                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
+                    A little note taking app to allow users create drafts or
+                    drop content ideas.
+                  </p>
+                </div>
+
+                <div class="md:p-0 h-full rounded-full mt-5 w-[95%]">
+                  <img
+                    src=" https://res.cloudinary.com/kaperskydisk/image/upload/v1656641183/contentre/assets/note-contentre.png"
+                    alt="Publishing demo"
+                    class="w-full h-auto lg:rounded-none md:rounded-xl"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-col space-y-5">
               <div class="bg-[#F5FCFF] rounded-md py-8 md:py-12 px-5 md:px-10">
                 <img src="~/assets/imgs/briefcase.png" alt="" />
 
@@ -325,8 +215,8 @@
                     Portfolio Management
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    Create multiple portfolios to streamline their content for a
-                    particular client.
+                    Create multiple personalized portfolios to streamline their
+                    content for a particular client.
                   </p>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
                     Customizable auto-generated content portfolio. Customize
@@ -339,33 +229,27 @@
                     Multiple Portfolio Feature.
                   </p>
                 </div>
-              </div>
-              <!-- <div class="bg-[#FFFBF5] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/document-text.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Content repurposing
-                  </h4>
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    You can auto generate PDF, Docx, etc of your contents. You
-                    can generate 1,2,3, etc articles at once with different PDF
-                    templates
-                  </p>
+                <div class="md:p-0 h-full rounded-full mt-5 w-[95%]">
+                  <img
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656643004/contentre/assets/Porrfolio-dashboard.png"
+                    alt="Portfolio overview"
+                    class="w-full h-auto lg:rounded-none md:rounded-xl"
+                  />
                 </div>
-              </div> -->
+              </div>
 
-              <!-- <div class="bg-[#FEF9F5] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/briefcase.png" alt="" />
+              <div
+                class="
+                  bg-[#FEF6FC]
+                  rounded-md
+                  py-8
+                  md:py-12
+                  px-5
+                  md:px-10
+                  row-span-h-[200px]
+                "
+              >
+                <img src="~/assets/imgs/send-2.png" alt="" />
 
                 <div class="mt-7">
                   <h4
@@ -378,43 +262,19 @@
                       mb-5
                     "
                   >
-                    Content Board and Calendar
+                    Content Publishing
                   </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F] mb-2">
-                    A unified content board to track your writers and editors
-                    progress, monitor content delivery status across your team
-                    and clients.
+                    You publish to directly to WordPress, Medium, HashNode,
+                    Strapi, etc.
                   </p>
-
-                  <p class="text-[18px] leading-[31.86px] text-[#54605F] mbb-2">
-                    A unified calendar to monitor content delivery across your
-                    clients and team members with reminders integration with
-                    Google Calendar, etc.
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div class="bg-[#F5FCFF] rounded-md py-8 md:py-12 px-5 md:px-10">
-                <img src="~/assets/imgs/timer.png" alt="" />
-
-                <div class="mt-7">
-                  <h4
-                    class="
-                      text-[24px]
-                      md:text-[32px]
-                      leading-[37px]
-                      text-[#102A27]
-                      font-medium
-                      mb-5
-                    "
-                  >
-                    Time tracking
-                  </h4>
                   <p class="text-[18px] leading-[31.86px] text-[#54605F]">
-                    The feature allows writers to track the time used to create
-                    a connect and it will calculate the amount.
+                    You can promote you content across all Socials and Automate
+                    Content Re-sharing with reminders.
                   </p>
                 </div>
-              </div> -->
+              </div>
+
               <div class="bg-[#FEF5FE] rounded-md py-8 md:py-12 px-5 md:px-10">
                 <img src="~/assets/imgs/shop.png" alt="" />
 
