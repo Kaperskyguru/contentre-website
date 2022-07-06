@@ -19,6 +19,10 @@
               "
             >
               Stay Organized. <br />
+              <span class="lg:text-5xl text-[23px] md:text-[40px]"
+                >Create Personalized Portfolios.</span
+              >
+              <br />
               Gain More Clients.
               <!-- Never lose a technical <br />writing client. -->
             </h1>
