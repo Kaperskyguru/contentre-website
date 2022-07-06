@@ -113,8 +113,8 @@
                       <div class="md:ml-6">
                         <blockquote
                           class="
-                            font-light font-gilroy
-                            text-sm text-[#54605F]
+                            font-medium font-gilroy
+                            text-lg text-[#54605F]
                             mb-6
                           "
                         >
@@ -133,10 +133,11 @@
                               d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
                             ></path>
                           </svg>
-                          Contentre is a tool I will recommend to every writer,
-                          I use it to generate multiple portfolios with CONTENT
-                          RULES set to what my clients want. It also helps me
-                          organized all my written contents in one place.
+                          I use Contentre to generate multiple samples and
+                          portfolios with content rules set to what my clients
+                          want. It also helps me organize all my technical
+                          writing gigs and publish new stuff across different
+                          platforms from one place.
                         </blockquote>
                         <p class="font-semibold text-xl mb-2 text-[#102A27]">
                           Solomon Eseme
@@ -1232,7 +1233,7 @@ export default {
   }),
   head() {
     return {
-      title: 'Manage your freelance writing business from one place',
+      title: 'Grow your technical writing career from one place.',
     }
   },
 

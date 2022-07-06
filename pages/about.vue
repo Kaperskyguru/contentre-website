@@ -27,9 +27,9 @@
               font-[600]
             "
           >
-            We provide the best resources and tools to help you manage your
+            We provide the best resources and tools to help you grow your
             freelance technical <br />
-            writing.
+            writing career.
           </h1>
         </div>
 
@@ -93,10 +93,10 @@
                 lg:text-left
               "
             >
-              We are here to redefine how freelance technical writers manage
-              their freelance technical writing business --- from Content Hub
-              and real time content insights, Creating multiple Personalized
-              Portfolios to Client Management in one place.
+              We are here to redefine how freelance technical writers grow their
+              freelance technical writing career --- from Content Hub and real
+              time content insights, Creating multiple Personalized Portfolios
+              to Client Management in one place.
             </p>
           </div>
 
@@ -484,7 +484,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'We provide the best resources and tools to help you manage your freelance writing business.',
+            'We provide the best resources and tools to help you grow your freelance writing career.',
         },
         {
           hid: 'og:title',
@@ -495,7 +495,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
-            'We provide the best resources and tools to help you manage your freelance writing business.',
+            'We provide the best resources and tools to help you grow your freelance writing career.',
         },
         {
           hid: 'og:url',

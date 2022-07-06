@@ -79,8 +79,8 @@
                   </h4>
                 </div>
                 <p class="mt-7 text-base">
-                  Get all the unlimited benefits you need to manage your
-                  freelance technical writing business.
+                  Get all the unlimited benefits you need to grow your freelance
+                  technical writing career.
                 </p>
               </div>
             </div>
@@ -264,7 +264,7 @@
                 </div>
                 <p class="mt-6 text-base">
                   Get all the basic benefits you need to get started with your
-                  freelance technical writing business.
+                  freelance technical writing career.
                 </p>
               </div>
             </div>
