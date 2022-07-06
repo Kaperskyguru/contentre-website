@@ -1,5 +1,4 @@
 import dotenv from 'dotenv'
-
 dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head

@@ -10,21 +10,15 @@
             <h1
               class="
                 text-[23px]
-                md:text-[40px] md:leading-[50px]
-                lg:text-[60px] lg:leading-[80px]
+                md:text-[30px] md:leading-[40px]
+                lg:text-[50px] lg:leading-[70px]
                 text-[#102A27]
                 font-bold
                 text-center
                 lg:text-left
               "
             >
-              Stay Organized. <br />
-              <span class="lg:text-5xl text-[23px] md:text-[40px]"
-                >Create Personalized Portfolios.</span
-              >
-              <br />
-              Gain More Clients.
-              <!-- Never lose a technical <br />writing client. -->
+              Grow your technical <br />writing career from one place.
             </h1>
 
             <p
@@ -39,9 +33,10 @@
                 lg:text-left
               "
             >
-              Organize your content, manage clients, create multiple
-              personalized portfolios, discover new opportunities, and lots
-              more, all in one place.
+              Jumping from coding to finding, managing, and completing technical
+              writing gigs is hard. Not anymore. Organize all your content,
+              manage clients, share samples, and publish your work to various
+              places, all on Contentre.
             </p>
             <div>
               <div
@@ -58,7 +53,7 @@
                   <input
                     v-model="email"
                     type="email"
-                    placeholder="Enter your email Address"
+                    placeholder="Enter your email address"
                     class="
                       border border-[#286963]
                       text-[#286963]
@@ -97,8 +92,64 @@
                   >
                 </div>
               </div>
-              <div class="pt-2 text-[#286963]">* No Credit Card Required</div>
+              <div class="flex space-x-3">
+                <div class="pt-2 text-[#286963]">* No Credit Card Required</div>
+                <div class="pt-2 text-[#286963]">* Cancel anytime</div>
+              </div>
             </div>
+
+            <section>
+              <div class="flex justify-start">
+                <div class="max-w-3xl">
+                  <div class="block p-6 rounded-lg shadow-lg bg-white mt-10">
+                    <div class="md:flex md:flex-row">
+                      <Avatar
+                        size="large"
+                        src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
+                        name="Solomon Eseme"
+                      >
+                      </Avatar>
+
+                      <div class="md:ml-6">
+                        <blockquote
+                          class="
+                            font-light font-gilroy
+                            text-sm text-[#54605F]
+                            mb-6
+                          "
+                        >
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="quote-left"
+                            class="w-6 pr-2 inline-block"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                            ></path>
+                          </svg>
+                          Contentre is a tool I will recommend to every writer,
+                          I use it to generate multiple portfolios with CONTENT
+                          RULES set to what my clients want. It also helps me
+                          organized all my written contents in one place.
+                        </blockquote>
+                        <p class="font-semibold text-xl mb-2 text-[#102A27]">
+                          Solomon Eseme
+                        </p>
+                        <p class="font-light text-[#102A27] mb-0">
+                          Senior Technical Writer @ Kinsta
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
 
           <div class="md:w-full lg:mr-0 lg:mx-0 lg:w-[45%]">

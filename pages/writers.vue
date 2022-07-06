@@ -50,32 +50,6 @@
                 alt=""
               />
             </div>
-            <!-- <div class="flex justify-end">
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div>
-                  
-                </div>
-                <div>
-                  <img src="~/assets/imgs/freelance_img2.png" alt="" />
-                </div>
-                <div class="hidden md:block">
-                  <img src="~/assets/imgs/freelance_img3.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flex justify-end mt-5">
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div>
-                  <img src="~/assets/imgs/freelance_img1.png" alt="" />
-                </div>
-                <div>
-                  <img src="~/assets/imgs/freelance_img2.png" alt="" />
-                </div>
-                <div class="hidden md:block">
-                  <img src="~/assets/imgs/freelance_img5.png" alt="" />
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
