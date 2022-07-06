@@ -215,26 +215,6 @@
                   Compare features if you're coming from another platform
                 </p>
               </div>
-              <!-- <div class="flex items-center mb-4">
-                <div>
-                  <img
-                    src="~/assets/imgs/bullet-brown.png"
-                    alt=""
-                    class="block"
-                  />
-                </div>
-                <p
-                  class="
-                    text-[15px]
-                    lg:text-[20px]
-                    leading-[31.6px]
-                    ml-6
-                    lg:ml-5
-                  "
-                >
-                  Consectetur lectus pulvinar tempor enim, pretium.
-                </p>
-              </div> -->
             </div>
           </div>
           <div
@@ -518,26 +498,6 @@
                   Ask questions about billing, integrations, setup, and more.
                 </p>
               </div>
-              <!-- <div class="flex items-center mb-4">
-                <div>
-                  <img
-                    src="~/assets/imgs/Group_1204.png"
-                    alt=""
-                    class="block"
-                  />
-                </div>
-                <p
-                  class="
-                    text-[15px]
-                    lg:text-[20px]
-                    leading-[31.6px]
-                    ml-6
-                    lg:ml-5
-                  "
-                >
-                  Consectetur lectus pulvinar tempor enim, pretium.
-                </p>
-              </div> -->
             </div>
           </div>
           <div

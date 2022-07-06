@@ -1,5 +1,5 @@
 <template>
-  <main v-click-outside="onClickOutside" class="min-h-screen">
+  <main v-click-outside="onClickOutside" class="min-h-scree">
     <!-- ================Header================================ -->
     <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
@@ -16,114 +16,13 @@
             </div>
           </nuxt-link>
 
-          <div class="relative inline-block dropdown hidden md:block">
-            <button
-              class="ml-12 text-[#888888] text-base dropbtn"
-              @click.prevent="onToggle"
-            >
-              Why Contentre
-              <img
-                src="~/assets/imgs/arrow-down.png"
-                alt=""
-                class="inline-block ml-4 dropbtn"
-              />
-            </button>
-            <div
-              v-if="showWhyContentre"
-              id="myDropdown"
-              class="
-                dropdown-content
-                bg-white
-                absolute
-                -left-24
-                lg:left-0
-                w-[360px]
-                lg:min-w-[398px]
-                h-[398px]
-                overflow-auto
-                border-2 border-[#EFF1F1]
-                rounded-lg
-                shadow-[#EFF1F1]
-                pt-[12px]
-                pl-[2px]
-                pr-[12px]
-                z-20
-              "
-            >
-              <nuxt-link to="/enterprises">
-                <div
-                  class="
-                    hover:bg-[#EFF1F1]
-                    rounded-md
-                    py-[12px]
-                    pl-[32px]
-                    pr-[12px]
-                  "
-                >
-                  <h6
-                    class="
-                      text-base text-[#333333]
-                      hover:text-[#286963] hover:font-semibold
-                    "
-                  >
-                    For Content Agencies
-                  </h6>
-                  <p
-                    class="
-                      text-[12px] text-[#6D7070]
-                      leading-[24px]
-                      my-2
-                      hover:text-[#6D7070]
-                    "
-                  >
-                    Wether you're a small or large content agency or enterprise,
-                    providing Content as a service to your client. Contentre
-                    provides...
-                  </p>
-                </div>
-              </nuxt-link>
-              <nuxt-link to="/creators">
-                <div
-                  class="
-                    hover:bg-[#EFF1F1]
-                    rounded-md
-                    py-[12px]
-                    pl-[32px]
-                    pr-[12px]
-                  "
-                >
-                  <h6 class="text-base text-[#333333]">For Content Creators</h6>
-                  <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                    Wether you're a Skit Maker, Tiktoker, Youtuber, content
-                    creator, etc. Contentre has...
-                  </p>
-                </div>
-              </nuxt-link>
-              <nuxt-link to="/writers">
-                <div
-                  class="
-                    hover:bg-[#EFF1F1]
-                    rounded-md
-                    py-[12px]
-                    pl-[32px]
-                    pr-[12px]
-                  "
-                >
-                  <h6 class="text-base text-[#333333]">
-                    For Freelance Writers
-                  </h6>
-                  <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                    Wether you're a freelance writer, a technical writer,
-                    journalists, copywriters, photographers, illustrator,
-                    artist, designers or creative writer. Contentre has...
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-
           <div class="text-text-base hidden lg:block nav-menu ml-4">
             <ul class="flex text-[#888888]">
+              <li class="ml-12">
+                <nuxt-link class="text-base text-[#888888]" to="/writers"
+                  >Why Contentre</nuxt-link
+                >
+              </li>
               <li class="ml-12">
                 <nuxt-link class="text-base" to="/about">About</nuxt-link>
               </li>
@@ -133,18 +32,19 @@
               <li class="ml-12">
                 <nuxt-link class="text-base" to="/product">Product</nuxt-link>
               </li>
+
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/contact">Contact</nuxt-link>
-              </li>
-              <li class="ml-12" @click.prevent="onToggleResources">
-                <a href="#" class="text-base text-[#888888]"
-                  >Resources
+                <button
+                  class="text-base text-[#888888]"
+                  @click.prevent="onToggleResources"
+                >
+                  Resources
                   <img
                     src="~/assets/imgs/arrow-down.png"
                     alt=""
-                    class="inline-block ml-4 dropbtn"
+                    class="inline-block ml-1 dropbtn"
                   />
-                </a>
+                </button>
                 <div
                   v-if="showResourceMenu"
                   id="myDropdown"
@@ -162,11 +62,11 @@
                     z-20
                   "
                 >
-                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header"
-                      ><h6 class="text-base text-[#333333]">Blog</h6></a
-                    >
-                  </div>
+                  <a href="https://blog.contentre.io?source=home_header">
+                    <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                      <h6 class="text-base text-[#333333]">Blog</h6>
+                    </div>
+                  </a>
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
                     <a href="https://blog.contentre.io?source=home_header"
@@ -198,21 +98,7 @@
                     <a
                       href="https://blog.contentre.io/what-is-freelance-writing?source=home_header"
                       ><h6 class="text-base text-[#333333]">
-                        Who is a freelance writer?
-                      </h6></a
-                    >
-                  </div>
-                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header">
-                      <h6 class="text-base text-[#333333]">
-                        Who is a content creator?
-                      </h6></a
-                    >
-                  </div>
-                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header">
-                      <h6 class="text-base text-[#333333]">
-                        What is Content Agency?
+                        Who is a technical writer?
                       </h6></a
                     >
                   </div>
@@ -260,123 +146,19 @@
               z-10
             "
           >
-            <button
-              class="ml-12 text-[#888888] text-base dropbtn"
-              @click.prevent="onToggle"
+            <nuxt-link class="text-base text-[#888888]" to="/writers"
+              >Why Contentre</nuxt-link
             >
-              Why Contentre
-              <img
-                src="~/assets/imgs/arrow-down.png"
-                alt=""
-                class="inline-block ml-4 dropbtn"
-              />
-              <div
-                v-if="showWhyContentre"
-                id="myDropdown"
-                class="
-                  dropdown-content
-                  bg-white
-                  absolute
-                  left-0
-                  lg:left-0
-                  w-[360px]
-                  lg:min-w-[398px]
-                  h-[398px]
-                  overflow-auto
-                  border-2 border-[#EFF1F1]
-                  rounded-lg
-                  shadow-[#EFF1F1]
-                  py-[12px]
-                  pl-[2px]
-                  pr-[12px]
-                  z-20
-                "
-              >
-                <nuxt-link to="/enterprises">
-                  <div
-                    class="
-                      hover:bg-[#EFF1F1]
-                      rounded-md
-                      py-[12px]
-                      pl-[32px]
-                      pr-[12px]
-                    "
-                  >
-                    <h6
-                      class="
-                        text-base text-[#333333]
-                        hover:text-[#286963] hover:font-semibold
-                      "
-                    >
-                      For Content Agencies
-                    </h6>
-                    <p
-                      class="
-                        text-[12px] text-[#6D7070]
-                        leading-[24px]
-                        my-2
-                        hover:text-[#6D7070]
-                      "
-                    >
-                      Wether you're a small or large content agency or
-                      enterprise, providing Content as a service to your client.
-                      Contentre provides...
-                    </p>
-                  </div>
-                </nuxt-link>
-                <nuxt-link to="/creators">
-                  <div
-                    class="
-                      hover:bg-[#EFF1F1]
-                      rounded-md
-                      py-[12px]
-                      pl-[32px]
-                      pr-[12px]
-                    "
-                  >
-                    <h6 class="text-base text-[#333333]">
-                      For Content Creators
-                    </h6>
-                    <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                      Wether you're a Skit Maker, Tiktoker, Youtuber, content
-                      creator, etc. Contentre has...
-                    </p>
-                  </div>
-                </nuxt-link>
-                <nuxt-link to="/writers">
-                  <div
-                    class="
-                      hover:bg-[#EFF1F1]
-                      rounded-md
-                      py-[12px]
-                      pl-[32px]
-                      pr-[12px]
-                    "
-                  >
-                    <h6 class="text-base text-[#333333]">
-                      For Freelance Writers
-                    </h6>
-                    <p class="text-[12px] text-[#6D7070] leading-[24px] my-2">
-                      Wether you're a freelance writer, a technical writer,
-                      journalists, copywriters, photographers, illustrator,
-                      artist, designers or creative writer. Contentre has...
-                    </p>
-                  </div>
-                </nuxt-link>
-              </div>
-            </button>
-            <nuxt-link to="About" class="text-base text-[#888888]"
+            <nuxt-link to="/about" class="text-base text-[#888888]"
               >About</nuxt-link
             >
-            <nuxt-link to="./pricing.html" class="text-base text-[#888888]"
+            <nuxt-link to="/pricing" class="text-base text-[#888888]"
               >Pricing</nuxt-link
             >
-            <nuxt-link to="Product" class="text-base text-[#888888]"
+            <nuxt-link to="/product" class="text-base text-[#888888]"
               >Product</nuxt-link
             >
-            <nuxt-link to="Contact" class="text-base text-[#888888]"
-              >Contact</nuxt-link
-            >
+
             <a
               href="https://blog.contentre.io?source=home_resources"
               class="text-base text-[#888888]"
@@ -459,10 +241,8 @@
               </div>
             </nuxt-link>
             <p class="text-[#E6E7E9] text-xs font-light leading-relaxed">
-              Access your content, monitor your content analytics in real-time,
-              create and customize your writing portfolio across your clients.
-              Spend less time managing your business and more time focused on
-              your writing and getting more clients.
+              Spend less time managing your freelance technical writing career
+              and more time focused on your writing and getting more clients.
             </p>
 
             <ul class="flex mt-5">
@@ -525,19 +305,6 @@
                       >Contentre Agency</a
                     >
                   </li>
-                  <li class="mb-1 md:mb-2">
-                    <button
-                      class="
-                        termly-cookie-preference-button
-                        text-[#E6E7E9] text-xs
-                        font-light
-                      "
-                      type="button"
-                      onclick="displayPreferenceModal()"
-                    >
-                      Manage Cookie Preferences
-                    </button>
-                  </li>
                 </ul>
               </div>
               <div>
@@ -565,16 +332,16 @@
                       >Webinars</a
                     >
                   </li>
-                  <li class="mb-1 md:mb-2">
+                  <!-- <li class="mb-1 md:mb-2">
                     <a class="text-[#E6E7E9] text-sm font-light" href="#"
                       >Who is a content creator?</a
                     >
-                  </li>
+                  </li> -->
                   <li class="mb-1 md:mb-2">
                     <a
                       class="text-[#E6E7E9] text-sm font-light"
                       href="https://blog.contentre.io/what-is-freelance-writing?source=home_header"
-                      >Who is a freelance writer?</a
+                      >Who is a Technical Writer?</a
                     >
                   </li>
                 </ul>
@@ -589,7 +356,7 @@
                       >All</nuxt-link
                     >
                   </li>
-                  <li class="mb-1 md:mb-2">
+                  <!-- <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/enterprises"
@@ -602,24 +369,24 @@
                       to="/creators"
                       >For Content Creators</nuxt-link
                     >
-                  </li>
+                  </li> -->
                   <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/writers"
-                      >For Freelance Writers</nuxt-link
+                      >For Technical Writers</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
                     <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
-                      >Hire Freelance Writers</nuxt-link
+                      >Hire Technical Writers</nuxt-link
                     >
                   </li>
-                  <li class="mb-1 md:mb-2">
+                  <!-- <li class="mb-1 md:mb-2">
                     <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
                       >Hire Content Agencies</nuxt-link
                     >
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div>
@@ -659,11 +426,24 @@
           </div>
         </div>
 
-        <div class="mt-10 lg:mt-0">
+        <div class="mt-10 lg:mt-0 flex space-x-3">
           <small class="text-[#E6E7E9] text-xs font-extralight"
             >Copyright ® {{ new Date().getFullYear() }} Contentre All rights
             Reserved</small
           >
+          <li style="list-style: none">
+            <button
+              class="
+                termly-cookie-preference-button
+                text-[#E6E7E9] text-xs
+                font-light
+              "
+              type="button"
+              onclick="displayPreferenceModal()"
+            >
+              Manage Cookie Preferences
+            </button>
+          </li>
         </div>
       </div>
     </footer>
