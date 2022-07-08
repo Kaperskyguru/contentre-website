@@ -14,14 +14,26 @@
               </div>
 
               <div class="flex flex-row py-6">
-                <div class="container flex m-auto">
-                  <a
-                    href="#"
-                    class="py-3 border-b-4 text-brand border-text-brand"
-                  >
-                    Connect with me →</a
-                  >
-                  <div class="justify-center py-4 ml-5"></div>
+                <div class="container flex flex-col m-auto">
+                  <div class="flex py-3 text-brand">
+                    <span> Connect with me →</span>
+
+                    <div class="flex justify-center ml-5">
+                      <a
+                        v-for="social in portfolio.socials"
+                        :key="social.id"
+                        target="_blank"
+                        class="w-8 h-8"
+                        :href="social.link"
+                      >
+                        <Avatar
+                          :name="social.name"
+                          :src="computeIcon(social.name)"
+                          size="small"
+                        />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -254,7 +266,9 @@ export default {
     deleteFilter(name) {
       return this.remove.includes(name)
     },
-
+    computeIcon(name) {
+      return require(`~/assets/portfolio/${name}.png`)
+    },
     computedImage(image) {
       return image ?? require('~/assets/img/portfolio-pic1.png')
     },

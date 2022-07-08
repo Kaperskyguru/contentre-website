@@ -204,7 +204,7 @@ export default {
     enabled: process.env.NODE_ENV === 'production' || false,
     id: 'GTM-KFL7V5T',
     pageTracking: true,
-    pageViewEventName: 'virtualPageview',
+    pageViewEventName: 'index',
   },
 
   publicRuntimeConfig: {
