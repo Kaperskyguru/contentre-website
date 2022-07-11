@@ -1201,7 +1201,7 @@
                 </div>
               </div>
               <div>
-                <a href="" class="flex">
+                <a href="http://eepurl.com/h3BIMD" class="flex">
                   <p class="text-[14px] text-[#286963]">
                     Subscribe to all our new updates
                   </p>
