@@ -155,7 +155,7 @@
 
           <div class="md:w-full lg:mr-0 lg:mx-0 lg:w-[45%]">
             <img
-              src="http://res.cloudinary.com/kaperskydisk/image/upload/v1656685280/contentre/assets/hero.png"
+              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656685280/contentre/assets/hero.png"
               alt="hero-image"
               class="w-full"
             />
@@ -1011,9 +1011,11 @@
                   </div>
                   <a href="#">
                     <div class="flex ml-3 md:ml-6">
-                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                        Hire Now
-                      </p>
+                      <nuxt-link to="/hiring">
+                        <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                          Hire Now
+                        </p>
+                      </nuxt-link>
                       <div class="ml-4">
                         <img
                           src="~/assets/imgs/arrow-right-green1.png"
