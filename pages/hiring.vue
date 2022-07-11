@@ -9,7 +9,7 @@
           </h1>
           <p class="mt-5 text-[18px] sm:text-[24px]">
             Featured portfolios selected from over
-            {{ formateNumber(portfolios.totalUsers) }} users.
+            {{ formateNumber(70000) }} users.
           </p>
         </div>
       </div>
@@ -260,7 +260,6 @@ export default {
     portfolios: {
       items: [],
       total: 0,
-      totalUsers: 0,
     },
   }),
   head() {
@@ -364,7 +363,6 @@ export default {
         return {
           items: data.getAllPortfolios.portfolios,
           total: data.getAllPortfolios.meta.total,
-          totalUsers: data.getAllPortfolios.meta.totalUsers,
         }
       },
     },
