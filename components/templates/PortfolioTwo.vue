@@ -50,7 +50,9 @@
                     </div>
                     <div class="flex lg:ml-1 w-full">
                       <a
-                        v-for="social in portfolio.socials"
+                        v-for="social in portfolio.socials
+                          ? portfolio.socials
+                          : []"
                         :key="social.id"
                         target="_blank"
                         class="w-9 h-9 mr-2"
@@ -340,7 +342,7 @@
               </div>
               <div class="flex lg:ml-1 w-full">
                 <a
-                  v-for="social in portfolio.socials"
+                  v-for="social in portfolio.socials ? portfolio.socials : []"
                   :key="social.id"
                   target="_blank"
                   class="w-9 h-9 mr-2"

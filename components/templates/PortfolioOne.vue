@@ -199,7 +199,7 @@
 
             <div class="flex mt-6">
               <a
-                v-for="social in portfolio.socials"
+                v-for="social in portfolio.socials ? portfolio.socials : []"
                 :key="social.id"
                 target="_blank"
                 class="mr-4"

@@ -20,7 +20,9 @@
 
                     <div class="flex justify-center ml-5">
                       <a
-                        v-for="social in portfolio.socials"
+                        v-for="social in portfolio.socials
+                          ? portfolio.socials
+                          : []"
                         :key="social.id"
                         target="_blank"
                         class="w-8 h-8"
