@@ -28,6 +28,7 @@
     "nuxt-graphql-request": "^5.0.0",
     "v-click-outside": "^3.2.0",
     "vue": "^2.6.14",
+    "vue-infinite-scroll": "^2.0.2",
     "vue-server-renderer": "^2.6.14",
     "vue-ssr-carousel": "^1.4.0",
     "vue-template-compiler": "^2.6.14",

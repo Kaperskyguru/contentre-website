@@ -51,17 +51,18 @@
     >
       <div class="grid grid-cols-2 p-2">
         <div class="justify-items-start grid-span-1">
-          <a href="/" class="">
-            <img
-              class="p-2 w-10 h-10 bg-white rounded-full icon"
-              src="~/assets/img/icon.png"
-              alt="logo"
-              width="60"
-            />
-            <span class="ml-3 text-xl text-white">Contentre</span>
-          </a>
+          <nuxt-link to="/" class="flex">
+            <div class="flex">
+              <img
+                src="~/assets/imgs/Logo-contentre.png"
+                alt="Logo-contentre"
+                class=""
+              />
+              <h5 class="text-white text-md font-medium">Contentre</h5>
+            </div>
+          </nuxt-link>
           <p class="pt-2 text-sm text-white">
-            Manage all your contents from one place.
+            Grow your technical writing career from one place.
           </p>
         </div>
         <div class="justify-items-end text-right sm:pt-4">

@@ -165,7 +165,12 @@ export default {
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/toast', '~/plugins/vuelidate', '~/plugins/utils'],
+  plugins: [
+    '~/plugins/toast',
+    '~/plugins/vuelidate',
+    '~/plugins/utils',
+    { src: '~/plugins/vue-infinite-scroll', mode: 'client', ssr: false },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -204,7 +209,7 @@ export default {
     enabled: process.env.NODE_ENV === 'production' || false,
     id: 'GTM-KFL7V5T',
     pageTracking: true,
-    pageViewEventName: 'virtualPageview',
+    pageViewEventName: 'index',
   },
 
   publicRuntimeConfig: {
@@ -225,12 +230,12 @@ export default {
     render: {
       errorMiddleware(app) {
         // eslint-disable-next-line node/handle-callback-err
-        app.use((error, req, res, next) => {
-          res.writeHead(307, {
-            Location: '/errors/404',
-          })
-          res.end()
-        })
+        // app.use((error, req, res, next) => {
+        //   res.writeHead(307, {
+        //     Location: '/errors/404',
+        //   })
+        //   res.end()
+        // })
       },
     },
   },
