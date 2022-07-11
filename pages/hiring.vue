@@ -276,7 +276,9 @@ export default {
     },
 
     formatBio(bio) {
-      return bio.length >= 170 ? bio?.substring(0, 170) + '...' ?? '' : bio
+      return bio && bio.length >= 170
+        ? bio?.substring(0, 170) + '...' ?? ''
+        : bio
     },
     onLoadMoreData() {
       console.log('gagagx')
