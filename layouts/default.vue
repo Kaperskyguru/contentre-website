@@ -24,7 +24,7 @@
                 >
               </li>
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/about">About</nuxt-link>
+                <nuxt-link class="text-base" to="/about">Examples</nuxt-link>
               </li>
               <li class="ml-12">
                 <nuxt-link class="text-base" to="/pricing">Pricing</nuxt-link>
