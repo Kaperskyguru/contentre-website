@@ -270,6 +270,7 @@ export default {
   },
   methods: {
     formateNumber(num) {
+      if (!num) return 0
       return new Intl.NumberFormat('en-IN', {
         maximumSignificantDigits: 3,
       }).format(num)
