@@ -8,8 +8,8 @@
             Technical Writers' Directory
           </h1>
           <p class="mt-5 text-[18px] sm:text-[24px]">
-            Featured users selected from over {{ portfolios.total }} portfolios.
-            <!-- Featured portfolios selected from over 70,000 users. -->
+            Featured portfolios selected from over
+            {{ formateNumber(portfolios.totalUsers) }} users.
           </p>
         </div>
       </div>
@@ -212,7 +212,7 @@
                 <article>
                   <p
                     class="text-[#ddd] text-[12px] md:text-[16px]"
-                    v-html="item.user.bio"
+                    v-html="formatBio(item.user.bio)"
                   ></p>
                 </article>
                 <div class="pt-3">
@@ -260,6 +260,7 @@ export default {
     portfolios: {
       items: [],
       total: 0,
+      totalUsers: 0,
     },
   }),
   head() {
@@ -268,6 +269,15 @@ export default {
     }
   },
   methods: {
+    formateNumber(num) {
+      return new Intl.NumberFormat('en-IN', {
+        maximumSignificantDigits: 3,
+      }).format(num)
+    },
+
+    formatBio(bio) {
+      return bio.length >= 170 ? bio?.substring(0, 170) + '...' ?? '' : bio
+    },
     onLoadMoreData() {
       console.log('gagagx')
       if (
@@ -353,6 +363,7 @@ export default {
         return {
           items: data.getAllPortfolios.portfolios,
           total: data.getAllPortfolios.meta.total,
+          totalUsers: data.getAllPortfolios.meta.totalUsers,
         }
       },
     },
