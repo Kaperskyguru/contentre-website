@@ -124,7 +124,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance technical writers, technical writers, freelance writing, writing portfolio, freelance writers',
+          'content creators, freelance technical writers, technical writers, freelance writing, technical writing portfolio, writing portfolio, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
