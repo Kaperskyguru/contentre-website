@@ -230,12 +230,12 @@ export default {
     render: {
       errorMiddleware(app) {
         // eslint-disable-next-line node/handle-callback-err
-        // app.use((error, req, res, next) => {
-        //   res.writeHead(307, {
-        //     Location: '/errors/404',
-        //   })
-        //   res.end()
-        // })
+        app.use((error, req, res, next) => {
+          res.writeHead(307, {
+            Location: '/errors/404',
+          })
+          res.end()
+        })
       },
     },
   },
