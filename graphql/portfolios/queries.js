@@ -90,6 +90,7 @@ export const GET_ALL_PORTFOLIOS = gql`
         }
       }
       meta {
+        totalUsers
         total
       }
     }
