@@ -50,6 +50,10 @@ export const GET_PORTFOLIO_DETAIL = gql`
       templateType
       templateSlug
       about
+      socials {
+        name
+        link
+      }
       coverImage
       job
       css
