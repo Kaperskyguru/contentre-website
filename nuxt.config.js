@@ -1,5 +1,4 @@
 import dotenv from 'dotenv'
-
 dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -23,15 +22,15 @@ export default {
               dateModified: new Date(),
               datePublished: '2022-05-02T10:10:00-07:00',
               description:
-                'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
-              headline: 'Manage your freelance writing business from one place',
+                'All-in-one workspace for top freelance technical writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+              headline: 'Grow your freelance writing career from one place',
               image: {
                 '@type': 'ImageObject',
                 url: '/logo.png',
               },
               inLanguage: 'en-us',
               mainEntityOfPage: 'https://contentre.io/',
-              name: 'Manage your freelance writing business from one place',
+              name: 'Grow your freelance writing career from one place',
               publisher: { '@id': '#creator' },
               url: 'https://contentre.io',
             },
@@ -87,19 +86,19 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+          'All-in-one workspace for top freelance technical writers, organize contents, manage clients, create multiple portfolios, share samples, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:title',
         property: 'og:title',
         content:
-          'Manage your freelance writing business from one place | Contentre',
+          'Grow your freelance technical writing career from one place | Contentre',
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'All-in-one workspace for top freelance writers, organize contents, manage clients, create multiple portfolios, discover new opportunities, and lots more, all in one place.',
+          'All-in-one workspace for top freelance technical writers, organize contents, manage clients, create multiple portfolios, share samples, discover new opportunities, and lots more, all in one place.',
       },
       {
         hid: 'og:site_name',
@@ -125,7 +124,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance writing, content marketing, content agency, writing portfolio, freelance content marketers, freelance writers',
+          'content creators, freelance technical writers, technical writers, freelance writing, technical writing portfolio, writing portfolio, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
@@ -166,11 +165,16 @@ export default {
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/toast', '~/plugins/vuelidate', '~/plugins/utils'],
+  plugins: [
+    '~/plugins/toast',
+    '~/plugins/vuelidate',
+    '~/plugins/utils',
+    { src: '~/plugins/vue-infinite-scroll', mode: 'client', ssr: false },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
-    dirs: ['~/components', '~/components/templates'],
+    dirs: ['~/components', '~/components/templates', '~/components/covers'],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -205,7 +209,7 @@ export default {
     enabled: process.env.NODE_ENV === 'production' || false,
     id: 'GTM-KFL7V5T',
     pageTracking: true,
-    pageViewEventName: 'virtualPageview',
+    pageViewEventName: 'index',
   },
 
   publicRuntimeConfig: {

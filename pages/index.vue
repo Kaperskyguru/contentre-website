@@ -10,15 +10,15 @@
             <h1
               class="
                 text-[23px]
-                md:text-[40px] md:leading-[50px]
-                lg:text-[60px] lg:leading-[80px]
+                md:text-[30px] md:leading-[40px]
+                lg:text-[50px] lg:leading-[70px]
                 text-[#102A27]
                 font-bold
                 text-center
                 lg:text-left
               "
             >
-              Manage your freelance writing business in one <br />place.
+              Grow your technical <br />writing career from one place.
             </h1>
 
             <p
@@ -33,9 +33,10 @@
                 lg:text-left
               "
             >
-              Contentre helps you organize your contents, manage clients, create
-              multiple portfolios, discover new opportunities, and lots more,
-              all in one place.
+              Jumping from coding to finding, managing, and completing technical
+              writing gigs is hard. Not anymore. Organize all your content,
+              manage clients, share samples, and publish your work to various
+              places, all on Contentre.
             </p>
             <div>
               <div
@@ -52,7 +53,7 @@
                   <input
                     v-model="email"
                     type="email"
-                    placeholder="Enter your email Address"
+                    placeholder="Enter your email address"
                     class="
                       border border-[#286963]
                       text-[#286963]
@@ -91,65 +92,87 @@
                   >
                 </div>
               </div>
+              <div class="flex space-x-3">
+                <div class="pt-2 text-[#286963]">* No Credit Card Required</div>
+                <div class="pt-2 text-[#286963]">* Cancel anytime</div>
+              </div>
             </div>
+
+            <section>
+              <div class="flex justify-start">
+                <div class="max-w-3xl">
+                  <div class="block p-6 rounded-lg shadow-lg bg-white mt-10">
+                    <div class="md:flex md:flex-row">
+                      <Avatar
+                        size="large"
+                        src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
+                        name="Solomon Eseme"
+                      >
+                      </Avatar>
+
+                      <div class="md:ml-6">
+                        <blockquote
+                          class="
+                            font-medium font-gilroy
+                            text-lg text-[#54605F]
+                            mb-6
+                          "
+                        >
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="quote-left"
+                            class="w-6 pr-2 inline-block"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                            ></path>
+                          </svg>
+                          I use Contentre to generate multiple samples and
+                          portfolios with content rules set to what my clients
+                          want. It also helps me organize all my technical
+                          writing gigs and publish new stuff across different
+                          platforms from one place.
+                        </blockquote>
+                        <p class="font-semibold text-xl mb-2 text-[#102A27]">
+                          Solomon Eseme
+                        </p>
+                        <p class="font-light text-[#102A27] mb-0">
+                          Senior Technical Writer @ Kinsta
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
 
-          <div
-            class="
-              md:w-[500px]
-              mr-16
-              md:mr-24
-              lg:mr-0 lg:mx-0 lg:w-[45%]
-              relative
-            "
-          >
+          <div class="md:w-full lg:mr-0 lg:mx-0 lg:w-[45%]">
             <img
-              src="~/assets/imgs/hero-img.png"
+              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656685280/contentre/assets/hero.png"
               alt="hero-image"
               class="w-full"
             />
-            <div
-              class="
-                top-[100px]
-                md:-left-0
-                absolute
-                md:top-[200px]
-                lg:-left-[50px]
-              "
-            >
-              <img
-                src="~/assets/imgs/total_revenue.png"
-                alt=""
-                class="w-[100px] md:w-[246px]"
-              />
-            </div>
-            <div
-              class="
-                absolute
-                top-[100px]
-                md:top-[320px]
-                -right-[60px]
-                md:-right-[20px]
-                drop-shadow-2xl
-              "
-            >
-              <img
-                src="~/assets/imgs/Overall Performance.png"
-                alt=""
-                class="w-[150px] md:w-[200px] lg:w-[280px]"
-              />
-            </div>
           </div>
         </div>
       </div>
       <!-- ----------END OF HERO----------------------- -->
       <div class="w-full md:w-[80%] md:mx-auto">
+        <h3 class="text-center text-2xl text-[#102A27] pt-5">
+          Loved by technical writers at these world-class organizations:
+        </h3>
         <ul class="flex justify-between items-center mt-5 md:mt-10">
           <li class="">
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/eBay_Logo.png"
+                src="~/assets/img/hashnode.png"
                 alt=""
             /></a>
           </li>
@@ -157,7 +180,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/FedEx_Logo.png"
+                src="~/assets/img/kinsta.png"
                 alt=""
             /></a>
           </li>
@@ -165,7 +188,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Google_Logo.png"
+                src="~/assets/img/logrocket-blog-logo.png"
                 alt=""
             /></a>
           </li>
@@ -173,7 +196,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Hulu_Logo.png"
+                src="~/assets/img/Medium-Logo.png"
                 alt=""
             /></a>
           </li>
@@ -189,7 +212,7 @@
             <a href=""
               ><img
                 class="w-[40px] md:w-[50px] lg:w-[60px]"
-                src="~/assets/imgs/Quizlet_Logo.png"
+                src="https://super-static-assets.s3.amazonaws.com/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/images/5f6fd5bb-6075-4f30-bd6b-379298cc8447.png"
                 alt=""
             /></a>
           </li>
@@ -213,7 +236,7 @@
           "
         >
           Save time & gain control over your <br />
-          contents and writing business.
+          technical writing career
         </h3>
         <p
           class="
@@ -243,11 +266,12 @@
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
-              Content Management
+              Content Hub
             </p>
             <p class="text-base text-[#859492]">
-              You can organize all your contents and tracking progress with our
-              Content Board(Planner) and Content Calendar.
+              Sort, filter and organize all your content into categories,
+              niches, topics and tags and draw insightful analytics -- published
+              anywhere.
             </p>
           </div>
           <div
@@ -266,9 +290,10 @@
               Portfolio Management
             </p>
             <p class="text-base text-[#859492]">
-              Create multiple portfolios to streamline their content for a
-              particular client using thousands of template or drag and drop to
-              build your brand portfolio.
+              Create multiple personalized portfolios to streamline their
+              content to a particular client, category, niche, topic using
+              thousands of template or drag and drop to build your personalized
+              portfolio.
             </p>
           </div>
           <div
@@ -287,9 +312,9 @@
               Content Publishing
             </p>
             <p class="text-base text-[#859492]">
-              Using different plugins, you can promote your content across
-              social media and auto-cross publishing on different platforms such
-              as WordPress, HashNode, Medium, Strapi, etc
+              You can promote your content across social media and auto-publish
+              on different platforms such as WordPress, HashNode, Medium,
+              Strapi, DevTo with a single click.
             </p>
           </div>
           <div
@@ -305,10 +330,10 @@
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
             </div>
             <p class="text-2xl leading-[37px] mb-4 text-[#102A27]">
-              Writers' Resume and Cover letter generator
+              Proposals and Cover letter generator
             </p>
             <p class="text-base text-[#859492]">
-              Generate industry standard writing resume and cover letter, that
+              Generate industry standard writing proposal and cover letter, that
               attracts hire.
             </p>
           </div>
@@ -366,8 +391,8 @@
                   lg:mt-5
                 "
               >
-                Manage your content business for <br />
-                free in less time
+                Start managing your freelance technical writing for free in less
+                time.
               </p>
             </div>
             <div class="lg:w-[62%] px-16 md:px-28 lg:mx-0 mt-10 lg:mt-0">
@@ -400,9 +425,9 @@
                       leading-[24px]
                     "
                   >
-                    Add as many clients you're writing for as possible. You can
-                    even add your own blog or platforms such as Medium,
-                    HashNode, Dev.to, etc
+                    Add as many writing clients as possible. You can even add
+                    your own blog or platforms such as Medium, HashNode, Dev.to,
+                    etc
                   </p>
                 </div>
               </div>
@@ -459,7 +484,7 @@
                       font-medium
                     "
                   >
-                    Enjoy modern writing business
+                    Enjoy modern technical writing career
                   </p>
                   <p
                     class="
@@ -471,9 +496,10 @@
                       leading-[24px]
                     "
                   >
-                    Contentre gives your freelance writing business a touch of
-                    excellence. Spend less time managing your business and more
-                    time focused on your writing and getting more clients.
+                    Contentre gives your freelance technical writing career a
+                    touch of excellence. Spend less time managing your freelance
+                    technical writing career and more time focused on your
+                    writing and getting more clients.
                   </p>
                 </div>
               </div>
@@ -499,17 +525,18 @@
                 lg:text-[32px] lg:leading-[44.8px]
               "
             >
-              Organize all your contents <br />
+              Organize all your content <br />
               in one place.
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
               No matter where your content is published on your clients website,
-              you can easily keep track of your content published anywhere.
+              you can easily keep track, arrange, sort, filter and gain
+              insightful analytics of your content published anywhere.
             </p>
             <div class="rounded-md mt-10 lg:mt-20">
               <img
-                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654483146/contentre/assets/contentre_content_1.png"
-                alt=""
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656635751/contentre/assets/contents.gif"
+                alt="Organized Content Overview"
                 srcset=""
                 class="w-full block object-cover"
               />
@@ -534,10 +561,10 @@
               published anywhere. Take charge of your content analytics and
               reporting across your clients.
             </p>
-            <div class="rounded-md mt-10 lg:mt-16">
+            <div class="rounded-full mt-10 lg:mt-16">
               <img
-                src="~/assets/imgs/Dashboard_1_(1).png"
-                alt=""
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656636610/contentre/assets/analytics.gif"
+                alt="Analytics Overview"
                 srcset=""
                 class="w-full block object-cover"
               />
@@ -555,9 +582,9 @@
                 lg:text-[32px] lg:leading-[44.8px]
               "
             >
-              Create and Customize
+              Create and Customize your
               <br />
-              your writing portfolio easily.
+              Personalized writing portfolio easily.
             </h4>
             <p class="text-[18px] leading-[28.44px] mt-5">
               Customizable auto-generated content portfolio. Customize your
@@ -567,8 +594,8 @@
           </div>
           <div class="lg:w-[75%] mt-10 lg:mt-28">
             <img
-              src="~/assets/imgs/Dashboard_1_(2).png"
-              alt=""
+              src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656635105/contentre/assets/portfolio.gif"
+              alt="Creating Portfolio"
               srcset=""
               class="w-full"
             />
@@ -599,9 +626,9 @@
                 lg:mt-5
               "
             >
-              Unlock the benefits of modern writing
+              Unlock the benefits of modern technical writing
               <br />
-              business.
+              career.
             </h3>
           </div>
         </div>
@@ -610,13 +637,13 @@
         <div class="mt-16 lg:mt-24 grid lg:grid-cols-3 gap-4">
           <!-- ==========TEAM=========== -->
 
-          <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
+          <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
             <div>
               <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
                 <div class="flex justify-between">
                   <div>
                     <small class="text-lg leading-[23.4px] text-white/70"
-                      >Manage Your</small
+                      >Organize Your</small
                     >
                     <h4
                       class="
@@ -627,7 +654,7 @@
                         mt-1
                       "
                     >
-                      Team
+                      Content
                     </h4>
                   </div>
                   <img
@@ -637,63 +664,48 @@
                   />
                 </div>
               </div>
-              <div class="h-[420px] overflow-y-scroll">
-                <div class="mt-5 px-8">
-                  <p>
-                    Introducing the teams feature, You can create different
-                    teams and invite your writers to each team.
-                  </p>
-                  <p class="mt-5">
-                    Managing your team of writers, editors, etc and numerous
-                    clients just got easier. Save time managing teams and
-                    clients and focus more on getting more clients.
-                  </p>
-                </div>
+              <div class="mt-5">
+                <p>
+                  No matter where your content is published on your clients
+                  website, you can easily keep track of your content published
+                  anywhere in one place.
+                </p>
 
-                <div class="mt-5 px-2">
-                  <div class="px-5">
-                    <p class="mt-4 font-medium text-white">Features</p>
-                  </div>
-                  <div class="flex mt-4">
-                    <div class="mt-2">
-                      <img
-                        src="~/assets/imgs/polygon.png"
-                        alt=""
-                        class="w-[25px] lg:w-[30px]"
-                      />
-                    </div>
-                    <p class="leading-[28.44px] ml-2">
-                      Advanced Roles: You can create and assign advance roles to
-                      writers, editors, etc and collaborate effectively with
-                      Contentre.
-                    </p>
-                  </div>
-                  <div class="flex mt-4">
-                    <div class="mt-2">
-                      <img
-                        src="~/assets/imgs/polygon.png"
-                        alt=""
-                        class="w-[25px] lg:w-[30px]"
-                      />
-                    </div>
-                    <p class="leading-[28.44px] ml-2">
-                      Content Briefs: You can create and share content briefs
-                      with writers within your team or share it publicly to
-                      outsource to writers within Contentre.
-                    </p>
-                  </div>
-                </div>
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Manage categories:
+                </p>
+                <p class="leading-[28.44px]">
+                  Create, update, delete, and assign categories to your content
+                  to help organize them. Gain insightful analytics of each
+                  categories.
+                </p>
+
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Manage niches and topics:
+                </p>
+                <p class="leading-[28.44px]">
+                  Create, update, delete, and assign niches to your content to
+                  help organize them. Gain insightful analytics of each niches.
+                </p>
+
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Manage tags:
+                </p>
+                <p class="leading-[28.44px]">
+                  Create, update, delete, and assign tags to your content to
+                  help organize them. Gain insightful analytics of each tags.
+                </p>
               </div>
             </div>
           </div>
 
-          <!-- =========CLIENTS================= -->
+          <!-- =========PORTFOLIO================= -->
           <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
             <div class="border-b-2 border-[#FFFFFF33] pb-8">
               <div class="flex justify-between">
                 <div>
                   <small class="text-lg leading-[23.4px] text-white/70"
-                    >Manage Your</small
+                    >Manage Multiple Personalized</small
                   >
                   <h4
                     class="
@@ -704,11 +716,11 @@
                       mt-1
                     "
                   >
-                    Clients
+                    Portfolios
                   </h4>
                 </div>
                 <img
-                  src="~/assets/imgs/user-octagon.svg"
+                  src="~/assets/imgs/briefcase.svg"
                   alt=""
                   class="w-[50px] lg:w-[60px]"
                 />
@@ -716,46 +728,45 @@
             </div>
             <div class="mt-5">
               <p class="leading-[28.44px]">
-                The client feature manages all functionalities of a client
-                including billings, proposals, invoices, payments
+                Stop sending gigantic portfolio to your clients. Streamline your
+                portfolio to a particular clients needs with our Multiple and
+                Personalized Portfolio Feature.
               </p>
 
               <p class="mt-4 font-medium text-white leading-[28.44px]">
-                Billings
+                Use default template
               </p>
               <p class="leading-[28.44px]">
-                This shows your transactional information, and all your paid,
-                declined, and pending transactions.
+                Create your portfolio in less than a minute our default template
+                to create your technical writing portfolio.
               </p>
 
               <p class="mt-4 font-medium text-white leading-[28.44px]">
-                Proposals
+                Use Customized Templates
               </p>
               <p class="leading-[28.44px]">
-                The proposal feature allows freelancers to create writing
-                proposals for their clients and a central place to manage all
-                their writing proposals.
+                Choose from hundreds of customized portfolio crafted to convert
+                leads to clients.
               </p>
 
               <p class="mt-4 font-medium text-white leading-[28.44px]">
-                Invoices
+                Use Drag and Drop Portfolio Creator
               </p>
               <p class="leading-[28.44px]">
-                The invoice feature allows writers to generate invoices using
-                custom templates or create them manually using the drag and drop
-                plugin.
+                Customized a personalized portfolio in less than 5 minutes with
+                our Portfolio Customizer.
               </p>
             </div>
           </div>
 
-          <!-- ============PORTFOLIO================ -->
-          <div class="bg-[#286963] text-[#E7EAEA] py-8 rounded-lg">
+          <!-- ============GET HIRED================ -->
+          <div class="bg-[#286963] text-[#E7EAEA] p-8 rounded-lg">
             <div>
               <div class="border-b-2 border-[#FFFFFF33] px-8 pb-8">
                 <div class="flex justify-between">
                   <div>
                     <small class="text-lg leading-[23.4px] text-white/70"
-                      >Manage Your</small
+                      >Get</small
                     >
                     <h4
                       class="
@@ -766,70 +777,44 @@
                         mt-1
                       "
                     >
-                      Portfolios
+                      Hired
                     </h4>
                   </div>
                   <img
-                    src="~/assets/imgs/briefcase.svg"
+                    src="~/assets/imgs/user-octagon.svg"
                     alt=""
                     class="w-[50px] lg:w-[60px]"
                   />
                 </div>
               </div>
-              <div class="h-[420px] overflow-y-scroll">
-                <div class="mt-5 px-8">
-                  <p class="leading-[28.44px]">
-                    Stop sending gigantic portfolio to your clients. Streamline
-                    your portfolio to a particular clients needs with our
-                    Multiple Portfolio Feature.
-                  </p>
-                </div>
+              <div class="mt-5">
+                <p class="leading-[28.44px]">
+                  Your portfolio is listed in our technical writers' directory
+                  and communities where recruiters source and hire technical
+                  writers.
+                </p>
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Technical Writers directory
+                </p>
+                <p class="leading-[28.44px]">
+                  Get your portfolio listed in our technical writers' directory
+                  and let clients reach out to your directly.
+                </p>
 
-                <div class="mt-5 px-2">
-                  <div class="px-5">
-                    <p class="mt-4 font-medium text-white">Features</p>
-                  </div>
-                  <div class="flex mt-4">
-                    <div class="mt-2">
-                      <img
-                        src="~/assets/imgs/polygon.png"
-                        alt=""
-                        class="w-[25px] lg:w-[30px]"
-                      />
-                    </div>
-                    <p class="leading-[28.44px] ml-2">
-                      Default Portfolio: You can use our default template to
-                      create your writing portfolio.
-                    </p>
-                  </div>
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Join Technical Writing Communities
+                </p>
+                <p class="leading-[28.44px]">
+                  Join hundreds of technical writers to learn the latest update
+                  in technical writing and stay upto date.
+                </p>
 
-                  <div class="flex mt-5">
-                    <div class="mt-2">
-                      <img
-                        src="~/assets/imgs/polygon.png"
-                        alt=""
-                        class="w-[25px] lg:w-[30px]"
-                      />
-                    </div>
-                    <p class="leading-[28.44px] ml-2">
-                      Sample Portfolio: You can choose from an array of
-                      customized templates to represent your portfolio.
-                    </p>
-                  </div>
-                  <div class="flex mt-5">
-                    <div class="mt-2">
-                      <img
-                        src="~/assets/imgs/polygon.png"
-                        alt=""
-                        class="w-[25px] lg:w-[30px]"
-                      />
-                    </div>
-                    <p class="leading-[28.44px] ml-2">
-                      Customized Portfolio: You can customize your portfolio
-                      with your brand represent your portfolio.
-                    </p>
-                  </div>
-                </div>
+                <p class="mt-4 font-medium text-white leading-[28.44px]">
+                  Generate Proposals/Cover letter
+                </p>
+                <p class="leading-[28.44px]">
+                  Generate proposals and cover letters that get you hired.
+                </p>
               </div>
             </div>
           </div>
@@ -932,8 +917,8 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Get set up for success with your content business with our
-                      help center
+                      Get set up for success with your technical writing career
+                      with our help center
                     </p>
                   </div>
                   <a
@@ -1020,15 +1005,17 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Hire a Certified Freelance Writer to help you with your
-                      Content Marketing.
+                      Hire a Certified Freelance Technical Writer to help you
+                      with your Technical Content Marketing.
                     </p>
                   </div>
                   <a href="#">
                     <div class="flex ml-3 md:ml-6">
-                      <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
-                        Hire Now
-                      </p>
+                      <nuxt-link to="/hiring">
+                        <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
+                          Hire Now
+                        </p>
+                      </nuxt-link>
                       <div class="ml-4">
                         <img
                           src="~/assets/imgs/arrow-right-green1.png"
@@ -1048,7 +1035,7 @@
             <div class="bg-white p-4 rounded-lg lg:mt-10 border">
               <div class="bg-[#F9FCF1] px-3 py-3 rounded-md">
                 <p class="text-[#232C2B] font-medium text-[20px]">
-                  The Contentre Community for Writers
+                  The Contentre Community of Technical Writers
                 </p>
               </div>
               <div class="p-2">
@@ -1122,7 +1109,7 @@
                       />
                     </div>
                     <p class="ml-4 text[#102A27] text-[15px]">
-                      Explore content for freelance writing business owners
+                      Explore content for freelance technical writers
                     </p>
                   </div>
                   <a
@@ -1154,7 +1141,7 @@
                       />
                     </div>
                     <p class="ml-4 text[#102A27] text-[15px]">
-                      Explore content for freelance writing business owners
+                      Explore freelance technical writing tweets
                     </p>
                   </div>
                   <a
@@ -1214,7 +1201,7 @@
                 </div>
               </div>
               <div>
-                <a href="" class="flex">
+                <a href="http://eepurl.com/h3BIMD" target="_blank" class="flex">
                   <p class="text-[14px] text-[#286963]">
                     Subscribe to all our new updates
                   </p>
@@ -1248,7 +1235,7 @@ export default {
   }),
   head() {
     return {
-      title: 'Manage your freelance writing business from one place',
+      title: 'Grow your technical writing career from one place.',
     }
   },
 

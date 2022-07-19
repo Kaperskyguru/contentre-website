@@ -27,8 +27,9 @@
               font-[600]
             "
           >
-            We provide the best resources and tools to help you manage your
-            freelance writing <br />business.
+            We provide the best resources and tools to help you grow your
+            freelance technical <br />
+            writing career.
           </h1>
         </div>
 
@@ -92,11 +93,10 @@
                 lg:text-left
               "
             >
-              We are here to redefine how freelance writers manage their
-              freelance writing business --- from Content Management and real
-              time content insights, Team Management, Portfolio Management to
-              Client Management with Invoicing, Billings, Contracts, Proposals,
-              and Payments in one place.
+              We are here to redefine how freelance technical writers grow their
+              freelance technical writing career --- from Content Hub and real
+              time content insights, Creating multiple Personalized Portfolios
+              to Client Management in one place.
             </p>
           </div>
 
@@ -140,8 +140,8 @@
                   lg:text-left
                 "
               >
-                Our vision is to help you manage your freelance writing business
-                and turn your content side hustle into a content business.
+                Our vision is to help you manage your freelance technical
+                writing business and turn your passion into a content business.
               </p>
             </div>
           </div>
@@ -409,7 +409,7 @@
                   "
                 >
                   <img
-                    src="~/assets/imgs/team-img_(3).png"
+                    src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656375933/contentre/Founders/1640408535741.jpg"
                     alt=""
                     class="w-[100%] h-auto block"
                   />
@@ -484,7 +484,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'We provide the best resources and tools to help you manage your freelance writing business.',
+            'We provide the best resources and tools to help you grow your freelance writing career.',
         },
         {
           hid: 'og:title',
@@ -495,7 +495,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
-            'We provide the best resources and tools to help you manage your freelance writing business.',
+            'We provide the best resources and tools to help you grow your freelance writing career.',
         },
         {
           hid: 'og:url',

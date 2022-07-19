@@ -52,218 +52,7 @@
     <section class="mt-20 mb-10">
       <div class="max-w-[80%] mx-auto">
         <!-- ---------------------------CARD GRID------------ -->
-        <div class="mt-10 grid lg:grid-cols-3 gap-6 lg:gap-5">
-          <!-- ==========BASIC PLAN=========== -->
-          <div
-            class="bg-[#FCFCFC] text-[#666666] px-8 pt-8 pb-6 rounded-lg border"
-          >
-            <div class="border-b-2 border-[#99999966] pb-5">
-              <div>
-                <div>
-                  <small class="text-[#286963] text-[18px] leading-[18px]"
-                    >Basic plan</small
-                  >
-                  <h4
-                    class="
-                      text-[#102A27]
-                      font-medium
-                      text-[40px]
-                      leading-[40px]
-                      mt-1
-                    "
-                  >
-                    Free
-                    <sub class="text-[14px] font-extralight text-gray-300"
-                      >forever</sub
-                    >
-                  </h4>
-                </div>
-                <p class="mt-6 text-base">
-                  Get all the basic benefits you need to get started with your
-                  freelance writing business.
-                </p>
-              </div>
-            </div>
-            <div class="mt-4">
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Add up to 12 awesome Contents</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Create upto 2 killer Portfolios</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Add Unlimited Number of Clients</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Take Unlimited Number of Notes</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Unlimited Number of Cover Letters</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">
-                  Add Unlimited Grouping(Categories, Niches, Tags)
-                </li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Publishing and Distribution</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Repurposing(Docs,PDFs,CSV, etc)</li>
-              </ul>
-              <!-- <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Basic Content Calendar</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Basic Content Board</li>
-              </ul> -->
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Content Analytics, Insights and Reporting</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Set your profile for hiring</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Add upto 5 Number of Plugins</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Generate Profile Link tree</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Browser Extension</li>
-              </ul>
-            </div>
-
-            <div class="mt-20 mb-5 flex justify-center items-center">
-              <button
-                class="
-                  bg-[bg-transparen]
-                  border border-[#286963]
-                  px-10
-                  md:px-24
-                  py-3
-                  text-[#286963] text-sm
-                  rounded-md
-                "
-              >
-                Get Basic Plan
-              </button>
-            </div>
-          </div>
-
+        <div class="mt-10 grid lg:grid-cols-2 gap-6 lg:gap-5">
           <!-- =========PREMIUM PLAN================= -->
           <div
             class="bg-[#286963] text-gray-300 px-8 pt-8 pb-6 rounded-lg border"
@@ -290,8 +79,8 @@
                   </h4>
                 </div>
                 <p class="mt-7 text-base">
-                  Get all the unlimited benefits you need to manage your
-                  freelance writing business.
+                  Get all the unlimited benefits you need to grow your freelance
+                  technical writing career.
                 </p>
               </div>
             </div>
@@ -314,7 +103,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Add Unlimited Number of Contents</li>
+                <li class="ml-2">Add Unlimited Contents</li>
               </ul>
               <ul class="flex text-[14px] mb-3">
                 <li>
@@ -334,7 +123,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Add Unlimited Number of Portfolios</li>
+                <li class="ml-2">Add Unlimited Portfolios</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -346,7 +135,7 @@
                   />
                 </li>
                 <li class="ml-2">
-                  Branded Portfolios with Portfolio Customizer
+                  Personalized Portfolios with Portfolio Customizer
                 </li>
               </ul>
 
@@ -384,6 +173,7 @@
                 </li>
                 <li class="ml-2">Add Custom domain to Portfolios</li>
               </ul>
+
               <ul class="flex text-[14px] mb-3">
                 <li>
                   <img
@@ -392,7 +182,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Advanced Content Calendar</li>
+                <li class="ml-2">Hiring Feature</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -403,18 +193,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Advanced Unified Content Board</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Add Unlimited Number of Plugins</li>
+                <li class="ml-2">Add Unlimited Integrations</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -458,13 +237,15 @@
             </div>
           </div>
 
-          <!-- ============TEAM PLAN============== -->
-          <div class="bg-[#FCFCFC] text-[#666666] px-8 py-8 rounded-lg border">
+          <!-- ==========BASIC PLAN=========== -->
+          <div
+            class="bg-[#FCFCFC] text-[#666666] px-8 pt-8 pb-6 rounded-lg border"
+          >
             <div class="border-b-2 border-[#99999966] pb-5">
               <div>
                 <div>
                   <small class="text-[#286963] text-[18px] leading-[18px]"
-                    >Standard plan</small
+                    >Basic plan</small
                   >
                   <h4
                     class="
@@ -472,22 +253,22 @@
                       font-medium
                       text-[40px]
                       leading-[40px]
-                      mt-3
+                      mt-1
                     "
                   >
-                    ${{ showYear ? 23.99 : 29.99 }}
-                    <sub class="text-[14px] font-extralight text-[#BDBDBD]"
-                      >per month</sub
+                    Free
+                    <sub class="text-[14px] font-extralight text-gray-300"
+                      >forever</sub
                     >
                   </h4>
                 </div>
                 <p class="mt-6 text-base">
-                  Get all the team benefits you need to get manage your content
-                  writing agency.
+                  Get all the basic benefits you need to get started with your
+                  freelance technical writing career.
                 </p>
               </div>
             </div>
-            <div class="mt-3">
+            <div class="mt-4">
               <ul class="flex text-[14px] mb-3">
                 <li>
                   <img
@@ -496,7 +277,47 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">EVERYTHING IN PREMIUM, PLUS:</li>
+                <li class="ml-2">Add up to 12 awesome Contents</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Create upto 2 killer Portfolios</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Add Unlimited Clients</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Take Unlimited Notes</li>
+              </ul>
+              <ul class="flex text-[14px] mb-3">
+                <li>
+                  <img
+                    src="~/assets/imgs/u_check-circle.png"
+                    alt=""
+                    srcset=""
+                  />
+                </li>
+                <li class="ml-2">Unlimited Proposals</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -508,7 +329,7 @@
                   />
                 </li>
                 <li class="ml-2">
-                  Add up to 10 Team members ($2 per user after)
+                  Add Unlimited Grouping (Categories, Niches, Tags)
                 </li>
               </ul>
 
@@ -520,9 +341,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">
-                  Create Unlimited Proposals, Contracts, and Invoices
-                </li>
+                <li class="ml-2">Content Publishing and Distribution</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -533,7 +352,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Create and Manage Roles/Permissions</li>
+                <li class="ml-2">Content Analytics, Insights and Reporting</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -544,9 +363,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">
-                  Unified Content Performances from Google Analytics
-                </li>
+                <li class="ml-2">Add upto 5 Integrations</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -557,7 +374,7 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Real time Content Collaboration</li>
+                <li class="ml-2">Generate Profile Link tree</li>
               </ul>
 
               <ul class="flex text-[14px] mb-3">
@@ -568,36 +385,14 @@
                     srcset=""
                   />
                 </li>
-                <li class="ml-2">Time Tracking for Team Member</li>
-              </ul>
-
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Create and share Unlimited Content Briefs</li>
-              </ul>
-              <ul class="flex text-[14px] mb-3">
-                <li>
-                  <img
-                    src="~/assets/imgs/u_check-circle.png"
-                    alt=""
-                    srcset=""
-                  />
-                </li>
-                <li class="ml-2">Hire writers and be hired by companies</li>
+                <li class="ml-2">Browser Extension</li>
               </ul>
             </div>
 
             <div class="mt-20 mb-5 flex justify-center items-center">
               <button
-                disabled
                 class="
-                  bg-[bg-transparent]
+                  bg-[bg-transparen]
                   border border-[#286963]
                   px-10
                   md:px-24
@@ -606,7 +401,7 @@
                   rounded-md
                 "
               >
-                Get Team Plan (Coming Soon)
+                Get Basic Plan
               </button>
             </div>
           </div>

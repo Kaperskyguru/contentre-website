@@ -45,17 +45,17 @@ export const objectDeepMerge = (target, ...items) => {
       if (isObject(value)) {
         target = {
           ...target,
-          [key]: objectDeepMerge(target[key] || {}, value)
+          [key]: objectDeepMerge(target[key] || {}, value),
         }
       } else if (isArray(target[key]) && isArray(value)) {
         target = {
           ...target,
-          [key]: [...target[key], ...value]
+          [key]: [...target[key], ...value],
         }
       } else {
         target = {
           ...target,
-          [key]: value
+          [key]: value,
         }
       }
     })
@@ -110,14 +110,6 @@ export const stringGenerateRandom = (length) => {
 }
 
 /**
- * Format IBAN
- * @param string|null value
- * @returns string
- */
-export const formatIBAN = (value) =>
-  value ? `${value.substr(0, 2).toUpperCase()} ...${value.substr(-4, 4)}` : ''
-
-/**
  * Check if a callback is a function
  * if it's a function, then call it and apply params
  * otherwise return the callback value
@@ -156,7 +148,7 @@ export const errors = (type, params) => {
     hasLetter: 'Please provide at least one letter',
     hasNumber: 'Please provide at least one number',
     hasSymbol: 'Please provide at least one special character',
-    hasCapital: 'Please provide at least one capital character'
+    hasCapital: 'Please provide at least one capital character',
   }
 
   return messages[type]
@@ -318,7 +310,7 @@ export default function (_context, inject) {
     checkCallback,
     copyToClipboard,
     errors,
-    formatIBAN,
+
     isArray,
     isFunction,
     isObject,
@@ -331,6 +323,6 @@ export default function (_context, inject) {
     getWindowWidth,
     getWindowHeight,
     getVisibleItems,
-    getFeatureValue
+    getFeatureValue,
   })
 }

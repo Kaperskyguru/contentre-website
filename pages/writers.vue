@@ -4,7 +4,7 @@
     <section class="mt-20 lg:mb-40">
       <div class="mx-10 lg:ml-28">
         <div class="grid lg:grid-cols-2">
-          <div class="lg:w-[500px]">
+          <div class="lg:w-full">
             <div class="text-center lg:text-left">
               <h1
                 class="
@@ -15,14 +15,13 @@
                   lg:mb-0
                 "
               >
-                Contentre for Freelance writers
+                Stay Organized.<br />
+                <span class="text-[#102A27] font-bold"
+                  >Personalized Portfolios.</span
+                >
+                <br />
+                Gain more Clients.
               </h1>
-              <p class="text-[#859492] text-[14px] md:text-[18px]">
-                Wether you're a freelance writer, a technical writer,
-                journalists, copywriters, photographers, illustrator, artist,
-                designers or creative writer. Contentre has great features that
-                will turn your side hustle into a content business.
-              </p>
             </div>
             <div class="mt-10 lg:block">
               <a
@@ -44,32 +43,12 @@
               >
             </div>
           </div>
-          <div class="pt-20 lg:pt-0">
-            <div class="flex justify-end">
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div>
-                  <img src="~/assets/imgs/freelance_img1.png" alt="" />
-                </div>
-                <div>
-                  <img src="~/assets/imgs/freelance_img2.png" alt="" />
-                </div>
-                <div class="hidden md:block">
-                  <img src="~/assets/imgs/freelance_img3.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="flex justify-end mt-5">
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div>
-                  <img src="~/assets/imgs/freelance_img1.png" alt="" />
-                </div>
-                <div>
-                  <img src="~/assets/imgs/freelance_img2.png" alt="" />
-                </div>
-                <div class="hidden md:block">
-                  <img src="~/assets/imgs/freelance_img5.png" alt="" />
-                </div>
-              </div>
+          <div class="pt-20 w-2/3 h-4/5 shadow-md lg:pt-0 border-2 rounded-lg">
+            <div class="w-full">
+              <img
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1656683600/contentre/assets/full-contentre.gif"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -90,8 +69,8 @@
               text-[#102A27]
             "
           >
-            Access great features that turns your <br />
-            side hustle into a content business.
+            Access great features that helps <br />
+            grow your technical writing career.
           </h1>
         </div>
 
@@ -149,8 +128,8 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Stop sending gigantic portfolio to your clients.
-                      Streamline your portfolio to a particular clients needs
-                      with our Multiple Portfolio Feature.
+                      Personalize your portfolio to a particular client with our
+                      Multiple Portfolio Feature.
                     </p>
                   </div>
                 </div>
@@ -169,7 +148,7 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Create your portfolio in less than a minute our default
-                      template to create your writing portfolio.
+                      template to create your technical writing portfolio.
                     </p>
                   </div>
                 </div>
@@ -210,8 +189,8 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Customized your portfolio in less than 5 minutes with our
-                      Portfolio Customizer to suit your branding.
+                      Customized a personalized portfolio in less than 5 minutes
+                      with our Portfolio Creator.
                     </p>
                   </div>
                 </div>
@@ -230,7 +209,7 @@
                 lg:text-left
               "
             >
-              Content Management
+              Content Hub
             </h2>
             <div class="mt-6">
               <div class="flex mb-4">
@@ -269,7 +248,7 @@
                   <div class="mt-1">
                     <p class="text-[#888888]">
                       Create, update, delete, and assign categories to your
-                      contents to help organize your content. Gain insightful
+                      content to help organize your content. Gain insightful
                       analytics of each categories.
                     </p>
                   </div>
@@ -288,9 +267,9 @@
                   <h6 class="text-[24px] text-[#286963]">Manage tags</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, update, delete, and assign tags to your contents
-                      to help organize your content. Gain insightful analytics
-                      of each tags.
+                      Create, update, delete, and assign tags to your content to
+                      help organize your content. Gain insightful analytics of
+                      each tags.
                     </p>
                   </div>
                 </div>
@@ -308,7 +287,7 @@
                   <h6 class="text-[24px] text-[#286963]">Manage niches</h6>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, update, delete, and assign niches to your contents
+                      Create, update, delete, and assign niches to your content
                       to help organize your content. Gain insightful analytics
                       of each niches.
                     </p>
@@ -400,9 +379,8 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Create, Schedule or publish to CRM such as Strapi,
-                      HashNode, WordPress directly and Content platforms such as
-                      Medium, Dev.to, etc
+                      Create, Schedule or publish to Strapi, HashNode, DevTo and
+                      WordPress with few clicks.
                     </p>
                   </div>
                 </div>
@@ -425,7 +403,7 @@
                   </p>
                   <div class="mt-1">
                     <p class="text-[#888888]">
-                      Using different plugins, you can promote your content
+                      Using different integrations, you can promote your content
                       across social media such as Facebook, Twitter, Linkedin,
                       etc with Automate Content Re-sharing with reminders.
                     </p>
@@ -461,7 +439,7 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-40 mt-20">
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-40 mt-20">
           <div class="">
             <h2
               class="
@@ -579,7 +557,7 @@
               "
             ></div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- ==========================================FEATURES SECTION================================================== -->
@@ -588,7 +566,7 @@
     <section class="mt-40 mb-20">
       <div class="text-center">
         <h1 class="text-[#102A27] text-[20px] md:text-[35px] lg:text-[48px]">
-          Turn your side hustle into a business now 🚀
+          Grow your technical writing career now 🚀
         </h1>
         <div class="flex justify-center mt-4">
           <a

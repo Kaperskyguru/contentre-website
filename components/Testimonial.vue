@@ -1,7 +1,7 @@
 <template>
   <div class="py-20">
     <h3 class="text-center text-2xl lg:text-5xl text-[#102A27]">
-      Awesome feedback from users
+      Awesome feedback from technical writers
     </h3>
     <div class="md:w-[70%] lg:w-[60%] mx-auto mt-10">
       <div class="items-center space-x-3 md:space-x-8 px-2 md:px-0 w-full">
@@ -142,7 +142,8 @@ export default {
       {
         name: 'Chukwuka Deh',
         job: 'Freelance Copywriter and Founder @ SliqWriters',
-        image: 'https://via.placeholder.com/150',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1656354941/contentre/testimonial/sliq_writer.jpg',
         testimony:
           'Contentre is going to help me arrange my portfolio better and as well as, having a synchronizable writing platform',
       },
@@ -150,15 +151,17 @@ export default {
       {
         name: 'MacBobby Chibuzor',
         job: 'Technical Writer',
-        image: 'https://via.placeholder.com/150',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1656354822/contentre/testimonial/MacBobby_Chibuzor.png',
         testimony:
           'Contentre holds all my write-ups, making it easier to share my best publications as samples. Moreover, I have access to a customizable portfolio that I can share to improve my brand. Additionally, The fact that I can write new contents on Contentre, as well as publish simultaneously is amazing.',
       },
 
       {
         name: 'Eric Aprioku',
-        job: 'Software Engineer',
-        image: 'https://via.placeholder.com/150',
+        job: 'Software Engineer and Technical writer',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1656355617/contentre/testimonial/HC0vkyK4_400x400.jpg',
         testimony:
           "By helping me see all the articles I've written in one place and helping me cross-post them across multiple platforms. I've never had the problem personally cause I don't write very often, but I believe it can help me stay organized when I do start writing more aggressively.",
       },
@@ -175,7 +178,8 @@ export default {
       {
         name: 'Wendy Ekemezie',
         job: 'Freelance Writer',
-        image: 'https://via.placeholder.com/150',
+        image:
+          'https://res.cloudinary.com/kaperskydisk/image/upload/v1656355207/contentre/testimonial/wendy.jpg',
         testimony:
           'Helping with organizing my business and adding works according to clients.',
       },
