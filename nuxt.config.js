@@ -124,7 +124,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'content creators, freelance technical writers, technical writers, freelance writing, writing portfolio, freelance writers',
+          'content creators, freelance technical writers, technical writers, freelance writing, technical writing portfolio, writing portfolio, freelance writers',
       },
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
@@ -230,12 +230,12 @@ export default {
     render: {
       errorMiddleware(app) {
         // eslint-disable-next-line node/handle-callback-err
-        // app.use((error, req, res, next) => {
-        //   res.writeHead(307, {
-        //     Location: '/errors/404',
-        //   })
-        //   res.end()
-        // })
+        app.use((error, req, res, next) => {
+          res.writeHead(307, {
+            Location: '/errors/404',
+          })
+          res.end()
+        })
       },
     },
   },

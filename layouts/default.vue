@@ -24,7 +24,7 @@
                 >
               </li>
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/about">Examples</nuxt-link>
+                <nuxt-link class="text-base" to="/examples">Examples</nuxt-link>
               </li>
               <li class="ml-12">
                 <nuxt-link class="text-base" to="/pricing">Pricing</nuxt-link>
@@ -81,16 +81,18 @@
                   </div>
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header"
-                      ><h6 class="text-base text-[#333333]">Templates</h6></a
+                    <nuxt-link to="/templates"
+                      ><h6 class="text-base text-[#333333]">
+                        Templates
+                      </h6></nuxt-link
                     >
                   </div>
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header"
+                    <nuxt-link to="/examples"
                       ><h6 class="text-base text-[#333333]">
                         Example Portfolios
-                      </h6></a
+                      </h6></nuxt-link
                     >
                   </div>
 
@@ -149,8 +151,8 @@
             <nuxt-link class="text-base text-[#888888]" to="/writers"
               >Why Contentre</nuxt-link
             >
-            <nuxt-link to="/about" class="text-base text-[#888888]"
-              >About</nuxt-link
+            <nuxt-link to="/examples" class="text-base text-[#888888]"
+              >Examples</nuxt-link
             >
             <nuxt-link to="/pricing" class="text-base text-[#888888]"
               >Pricing</nuxt-link
@@ -226,7 +228,8 @@
 
     <Nuxt />
 
-    <footer class="bg-[#102A27] mt-32">
+    <!-- mt-32 -->
+    <footer class="bg-[#102A27]">
       <div class="max-w-[80%] mx-auto pt-10 md:pt-16 pb-5">
         <div class="grid lg:grid-cols-3 gap-10 md:gap-16 lg:gap-40">
           <div class="lg:col-span-1">
@@ -323,8 +326,10 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
-                      >Templates</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/templates"
+                      >Templates</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -332,11 +337,6 @@
                       >Webinars</a
                     >
                   </li>
-                  <!-- <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-sm font-light" href="#"
-                      >Who is a content creator?</a
-                    >
-                  </li> -->
                   <li class="mb-1 md:mb-2">
                     <a
                       class="text-[#E6E7E9] text-sm font-light"
@@ -356,20 +356,6 @@
                       >All</nuxt-link
                     >
                   </li>
-                  <!-- <li class="mb-1 md:mb-2">
-                    <nuxt-link
-                      class="text-[#E6E7E9] text-xs font-light"
-                      to="/enterprises"
-                      >For Content Agencies</nuxt-link
-                    >
-                  </li>
-                  <li class="mb-1 md:mb-2">
-                    <nuxt-link
-                      class="text-[#E6E7E9] text-xs font-light"
-                      to="/creators"
-                      >For Content Creators</nuxt-link
-                    >
-                  </li> -->
                   <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
@@ -378,15 +364,12 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/hiring"
                       >Hire Technical Writers</nuxt-link
                     >
                   </li>
-                  <!-- <li class="mb-1 md:mb-2">
-                    <nuxt-link class="text-[#E6E7E9] text-xs font-light" to="#"
-                      >Hire Content Agencies</nuxt-link
-                    >
-                  </li> -->
                 </ul>
               </div>
               <div>

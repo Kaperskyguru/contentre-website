@@ -266,6 +266,18 @@ export default {
   head() {
     return {
       title: 'Hire Technical Writers',
+      meta: [
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Hire highly vetted freelance technical writers.',
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire highly vetted freelance technical writers.',
+        },
+      ],
     }
   },
   methods: {
@@ -282,7 +294,6 @@ export default {
         : bio
     },
     onLoadMoreData() {
-      console.log('gagagx')
       if (
         !this.$apollo.queries.portfolios.loading &&
         this.portfolios.items.length !== 0 &&
