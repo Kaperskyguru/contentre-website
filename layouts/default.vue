@@ -1,10 +1,10 @@
 <template>
-  <main class="min-h-scree">
+  <main v-click-outside="onClickOutside" class="min-h-scree">
     <!-- ================Header================================ -->
     <header class="px-5 md:px-8">
       <!-- ------------Navbar-------------------- -->
       <nav class="flex justify-between relative fixed mt-4">
-        <div class="flex items-center">
+        <div v-click-outside="onClickOutside" class="flex items-center">
           <nuxt-link to="/">
             <div class="flex">
               <img
@@ -458,7 +458,6 @@ export default {
   watch: {
     $route: {
       handler() {
-        console.log('heheh')
         this.showMobileMenu = false
         this.closeDropdown()
       },
