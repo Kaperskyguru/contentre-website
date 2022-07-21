@@ -115,7 +115,7 @@
         <!-- ===========Why Contentre Menu===================== -->
 
         <!-- ===========Hamburger Icon===================== -->
-        <div class="hamburger-box" @click.prevent="onToggleMenu">
+        <div class="hamburger-box" @click.prevent="onToggleMobileMenu">
           <button
             id="menu-btn"
             class="block hamburger lg:hidden focus:outline-none"
@@ -128,7 +128,7 @@
         <!-- ===========Hamburger Icon===================== -->
 
         <!-- ===============Mobile Menu=================================== -->
-        <div v-if="showMenu">
+        <div v-if="showMobileMenu">
           <div
             id="menu"
             class="
@@ -446,6 +446,7 @@ export default {
     showWhyContentre: false,
     showMenu: false,
     showResourceMenu: false,
+    showMobileMenu: false,
   }),
 
   computed: {
@@ -453,6 +454,16 @@ export default {
       return process.env.APP_URL ?? 'https://app.contentre.io'
     },
   },
+
+  watch: {
+    $route: {
+      handler() {
+        this.showMobileMenu = false
+        this.closeDropdown()
+      },
+    },
+  },
+
   methods: {
     onToggle() {
       this.showWhyContentre = !this.showWhyContentre
@@ -468,6 +479,12 @@ export default {
 
     onToggleMenu() {
       this.showMenu = !this.showMenu
+      this.showResourceMenu = false
+      this.showWhyContentre = false
+    },
+
+    onToggleMobileMenu() {
+      this.showMobileMenu = !this.showMobileMenu
       this.showResourceMenu = false
       this.showWhyContentre = false
     },
