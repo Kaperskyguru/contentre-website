@@ -98,7 +98,7 @@
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
                     <a
-                      href="https://blog.contentre.io/what-is-freelance-writing?source=home_header"
+                      href="https://blog.contentre.io/who-is-a-technical-writer/?source=home_header"
                       ><h6 class="text-base text-[#333333]">
                         Who is a technical writer?
                       </h6></a
@@ -340,7 +340,7 @@
                   <li class="mb-1 md:mb-2">
                     <a
                       class="text-[#E6E7E9] text-sm font-light"
-                      href="https://blog.contentre.io/what-is-freelance-writing?source=home_header"
+                      href="https://blog.contentre.io/who-is-a-technical-writer/?source=home_header"
                       >Who is a Technical Writer?</a
                     >
                   </li>

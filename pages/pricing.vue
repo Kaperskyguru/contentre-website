@@ -72,7 +72,7 @@
                       mt-3
                     "
                   >
-                    ${{ showYear ? 15.99 : 19.99 }}
+                    ${{ showYear ? 7.99 : 9.99 }}
                     <sub class="text-[14px] font-extralight text-gray-300"
                       >per month</sub
                     >
@@ -220,20 +220,27 @@
             </div>
 
             <div class="mt-20 mb-5 flex justify-center items-center">
-              <button
-                disabled
-                class="
-                  bg-[#fff]
-                  border border-[#286963]
-                  px-10
-                  md:px-20
-                  py-3
-                  text-[#286963] text-sm
-                  rounded-md
+              <a
+                :href="
+                  showYear
+                    ? `https://paystack.com/pay/6fyohyc0xd`
+                    : `https://paystack.com/pay/lfp9ndo7ca`
                 "
               >
-                Get Premium Plan (Coming Soon)
-              </button>
+                <button
+                  class="
+                    bg-[#fff]
+                    border border-[#286963]
+                    px-10
+                    md:px-20
+                    py-3
+                    text-[#286963] text-sm
+                    rounded-md
+                  "
+                >
+                  Get Premium
+                </button>
+              </a>
             </div>
           </div>
 
@@ -390,19 +397,21 @@
             </div>
 
             <div class="mt-20 mb-5 flex justify-center items-center">
-              <button
-                class="
-                  bg-[bg-transparen]
-                  border border-[#286963]
-                  px-10
-                  md:px-24
-                  py-3
-                  text-[#286963] text-sm
-                  rounded-md
-                "
-              >
-                Get Basic Plan
-              </button>
+              <a href="https://app.contentre.io">
+                <button
+                  class="
+                    bg-[bg-transparen]
+                    border border-[#286963]
+                    px-10
+                    md:px-24
+                    py-3
+                    text-[#286963] text-sm
+                    rounded-md
+                  "
+                >
+                  Get Basic
+                </button>
+              </a>
             </div>
           </div>
         </div>
