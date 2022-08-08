@@ -8,7 +8,7 @@
     :label="label"
     :label-class="labelClass"
     :chip-style="chipStyle"
-    :items="items ? items : clients"
+    :items="items ? items : []"
     :allow-creation="allowCreation"
     :hide-pencil-icon="hidePencilIcon"
     :disabled="disabled"

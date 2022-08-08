@@ -1,4 +1,5 @@
 import dotenv from 'dotenv'
+import nuxtI18nConfig from './nuxt.i18n.config'
 dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -196,6 +197,7 @@ export default {
     '@nuxtjs/apollo',
     '@nuxtjs/svg',
     '@nuxtjs/gtm',
+    ['@nuxtjs/i18n', nuxtI18nConfig],
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
