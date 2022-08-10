@@ -983,7 +983,7 @@
                 </div>
               </div>
 
-              <div class="p-2 mb-2">
+              <!-- <div class="p-2 mb-2">
                 <small
                   class="
                     text-[12px]
@@ -1025,7 +1025,7 @@
                     </div>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
 
