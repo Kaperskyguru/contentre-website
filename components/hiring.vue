@@ -245,14 +245,12 @@
 </template>
 
 <script>
-import TextField from '../components/TextField.vue'
 import { GET_ALL_PORTFOLIOS } from '~/graphql'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Hiring',
 
-  components: { TextField },
   data: () => ({
     skills: [],
     filters: {},
