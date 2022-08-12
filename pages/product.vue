@@ -121,7 +121,7 @@
                 </div>
               </div>
 
-              <div
+              <!-- <div
                 class="
                   bg-[#FCFFF5]
                   rounded-md
@@ -152,7 +152,7 @@
                     from Contentre.
                   </p>
                 </div>
-              </div>
+              </div> -->
 
               <div
                 class="

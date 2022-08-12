@@ -174,7 +174,7 @@
                 <li class="ml-2">Add Custom domain to Portfolios</li>
               </ul>
 
-              <ul class="flex text-[14px] mb-3">
+              <!-- <ul class="flex text-[14px] mb-3">
                 <li>
                   <img
                     src="~/assets/imgs/u_check-circle.png"
@@ -183,7 +183,7 @@
                   />
                 </li>
                 <li class="ml-2">Hiring Feature</li>
-              </ul>
+              </ul> -->
 
               <ul class="flex text-[14px] mb-3">
                 <li>
