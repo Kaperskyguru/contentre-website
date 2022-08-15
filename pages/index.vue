@@ -334,7 +334,7 @@
             </p>
             <p class="text-base text-[#859492]">
               Generate industry standard writing proposal and cover letter, that
-              attracts hire.
+              attracts results.
             </p>
           </div>
         </div>
@@ -777,7 +777,7 @@
                         mt-1
                       "
                     >
-                      Hired
+                      Results
                     </h4>
                   </div>
                   <img
@@ -790,15 +790,15 @@
               <div class="mt-5">
                 <p class="leading-[28.44px]">
                   Your portfolio is listed in our technical writers' directory
-                  and communities where recruiters source and hire technical
-                  writers.
+                  and communities.
+                  <!-- where recruiters source and hire technical writers. -->
                 </p>
                 <p class="mt-4 font-medium text-white leading-[28.44px]">
                   Technical Writers directory
                 </p>
                 <p class="leading-[28.44px]">
                   Get your portfolio listed in our technical writers' directory
-                  and let clients reach out to your directly.
+                  <!-- and let clients reach out to your directly. -->
                 </p>
 
                 <p class="mt-4 font-medium text-white leading-[28.44px]">
@@ -813,7 +813,7 @@
                   Generate Proposals/Cover letter
                 </p>
                 <p class="leading-[28.44px]">
-                  Generate proposals and cover letters that get you hired.
+                  Generate proposals and cover letters that get you results.
                 </p>
               </div>
             </div>
