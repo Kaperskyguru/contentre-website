@@ -221,7 +221,9 @@
 
             <div class="mt-20 mb-5 flex justify-center items-center">
               <a
-                href="https://app.contentre.io/auth/register?source=pricing&redirect=/subscriptions&tab=Plan"
+                :href="`https://staging.contentre.io/auth/register?source=pricing&redirect=/subscriptions&tab=Address&plan=${
+                  showYear ? 'yearly' : 'monthly'
+                }`"
               >
                 <button
                   class="
