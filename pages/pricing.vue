@@ -221,11 +221,7 @@
 
             <div class="mt-20 mb-5 flex justify-center items-center">
               <a
-                :href="
-                  showYear
-                    ? `https://paystack.com/pay/6fyohyc0xd`
-                    : `https://paystack.com/pay/lfp9ndo7ca`
-                "
+                href="https://app.contentre.io/auth/register?source=pricing&redirect=/subscriptions&tab=Plan"
               >
                 <button
                   class="
@@ -397,7 +393,7 @@
             </div>
 
             <div class="mt-20 mb-5 flex justify-center items-center">
-              <a href="https://app.contentre.io">
+              <a href="https://app.contentre.io/auth/register?source=pricing">
                 <button
                   class="
                     bg-[bg-transparen]
