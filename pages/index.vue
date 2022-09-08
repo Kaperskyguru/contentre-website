@@ -1005,8 +1005,8 @@
                       />
                     </div>
                     <p class="text-[15px] ml-3 text[#102A27]">
-                      Hire a Certified Freelance Technical Writer to help you
-                      with your Technical Content Marketing.
+                      Hire a Certified Technical Writers to help you with your
+                      Technical Content Marketing.
                     </p>
                   </div>
                   <a href="#">
