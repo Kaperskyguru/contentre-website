@@ -192,20 +192,12 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
     '@dansmaculotte/nuxt-segment',
     '@nuxtjs/apollo',
     '@nuxtjs/svg',
     '@nuxtjs/gtm',
     ['@nuxtjs/i18n', nuxtI18nConfig],
   ],
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en',
-    },
-  },
 
   gtm: {
     enabled: process.env.NODE_ENV === 'production' || false,
