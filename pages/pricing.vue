@@ -72,9 +72,9 @@
                       mt-3
                     "
                   >
-                    ${{ showYear ? 7.99 : 9.99 }}
+                    ${{ showYear ? 99.99 : 9.99 }}
                     <sub class="text-[14px] font-extralight text-gray-300"
-                      >per month</sub
+                      >per {{ showYear ? 'year' : 'month' }}</sub
                     >
                   </h4>
                 </div>
