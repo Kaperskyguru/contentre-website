@@ -33,7 +33,7 @@
               <input
                 id="video_editor"
                 type="checkbox"
-                name="video_editor"
+                name="video_editr"
                 value="Video editor"
                 @change="onSkills"
               />
