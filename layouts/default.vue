@@ -373,13 +373,13 @@
                       >For Technical Writers</nuxt-link
                     >
                   </li>
-                  <li class="mb-1 md:mb-2">
+                  <!-- <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/hiring"
                       >Hire Technical Writers</nuxt-link
                     >
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div>
