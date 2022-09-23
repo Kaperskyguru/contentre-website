@@ -75,7 +75,8 @@
                   </div>
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <a href="https://blog.contentre.io?source=home_header"
+                    <a
+                      href="https://blog.contentre.io/category/webinar/?source=home_header"
                       ><h6 class="text-base text-[#333333]">Webinars</h6></a
                     >
                   </div>
@@ -88,13 +89,13 @@
                     >
                   </div>
 
-                  <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
+                  <!-- <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
                     <nuxt-link to="/examples"
                       ><h6 class="text-base text-[#333333]">
                         Example Portfolios
                       </h6></nuxt-link
                     >
-                  </div>
+                  </div> -->
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
                     <a
@@ -333,7 +334,9 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://blog.contentre.io/category/webinar/"
                       >Webinars</a
                     >
                   </li>
@@ -354,6 +357,13 @@
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/product"
                       >All</nuxt-link
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://trello.com/b/Oz8RNWvY"
+                      >Roadmap</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">

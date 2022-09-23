@@ -17,22 +17,6 @@
             class="
               rounded-full
               bg-[bg-transparent]
-              text-[#666666]
-              px-6
-              py-2
-              md:py-3 md:px-10
-              ml-2
-              text-base
-            "
-            :class="{ 'bg-white text-[#286963]': showYear }"
-            @click.prevent="onShowYear"
-          >
-            Yearly (Save 20%)
-          </button>
-          <button
-            class="
-              rounded-full
-              bg-[bg-transparent]
               px-6
               py-2
               md:py-3
@@ -44,6 +28,23 @@
             @click.prevent="onShowMonth"
           >
             Monthly
+          </button>
+
+          <button
+            class="
+              rounded-full
+              bg-[bg-transparent]
+              text-[#666666]
+              px-6
+              py-2
+              md:py-3 md:px-10
+              ml-2
+              text-base
+            "
+            :class="{ 'bg-white text-[#286963]': showYear }"
+            @click.prevent="onShowYear"
+          >
+            Yearly (Save 20%)
           </button>
         </div>
       </div>
@@ -72,9 +73,9 @@
                       mt-3
                     "
                   >
-                    ${{ showYear ? 7.99 : 9.99 }}
+                    ${{ showYear ? 99.99 : 9.99 }}
                     <sub class="text-[14px] font-extralight text-gray-300"
-                      >per month</sub
+                      >per {{ showYear ? 'year' : 'month' }}</sub
                     >
                   </h4>
                 </div>
@@ -445,8 +446,8 @@ export default {
   name: 'Pricing',
 
   data: () => ({
-    showYear: true,
-    showMonth: false,
+    showYear: false,
+    showMonth: true,
   }),
 
   head() {
