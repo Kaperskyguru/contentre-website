@@ -70,8 +70,8 @@
               font-medium
             "
           >
-            Yes you can upgrade or downgrade between Pro and Team at any time,
-            your next bill will be automatically adjusted.
+            Yes you can upgrade or downgrade between Basic and Premium at any
+            time, your next bill will be automatically adjusted.
           </p>
         </div>
         <div>
@@ -128,9 +128,9 @@
               font-medium
             "
           >
-            When you sign up you will have access to all the features on the Pro
-            plan for the duration of the 7 day trial. After the trial you will
-            automatically switch to the free plan.
+            When you sign up you will have access to all the features on the
+            Premium plan for the duration of the 7 day trial. After the trial
+            you will automatically switch to the free plan.
           </p>
         </div>
         <div>
@@ -158,8 +158,8 @@
               font-medium
             "
           >
-            We process all payments securely with Stripe, Paypal, Paystack or
-            through Paddle, our online reseller & Merchant of Record
+            We process all payments securely with Paypal, Paystack or through
+            Paddle, our online reseller & Merchant of Record
           </p>
         </div>
 
