@@ -530,14 +530,16 @@
               <div class="mt-4 w-full lg:text-start">
                 <p class="text-[#888888] mb-3">
                   We integrate with WordPress, HashNode, DevTo, Strapi, Medium,
-                  Notion.
-                </p>
-                <p class="text-[#888888] mb-3">
-                  Every integration puts more power in your hands.
+                  Notion. Every integration puts more power in your hands.
                 </p>
 
                 <p class="text-[#888888]">
-                  Subscribe to all our updates and feature releases here.
+                  Subscribe to all our updates and feature releases
+                  <a
+                    class="text-red-600"
+                    href="https://blog.contentre.io/category/webinar/?source=home_header"
+                    >here.</a
+                  >
                 </p>
               </div>
             </div>

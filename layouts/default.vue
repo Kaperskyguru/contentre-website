@@ -278,11 +278,21 @@
               <div>
                 <h5 class="text-white mb-5 text-md font-medium">Company</h5>
                 <ul>
-                  <li class="mb-1 md:mb-2">
+                  <!-- <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/about"
                       >About</nuxt-link
+                    >
+                  </li> -->
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                      >Contentre Academy (soon)</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
+                      >Contentre Agency (soon)</a
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -299,14 +309,37 @@
                       >Privacy policy</a
                     >
                   </li>
+                </ul>
+              </div>
+              <div>
+                <h5 class="text-white mb-5 text-md font-medium">Product</h5>
+                <ul>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
-                      >Contentre Academy</a
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/product"
+                      >All</nuxt-link
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <a class="text-[#E6E7E9] text-xs font-light" href="#"
-                      >Contentre Agency</a
+                    <a
+                      class="text-[#E6E7E9] text-xs font-light"
+                      href="https://trello.com/b/Oz8RNWvY"
+                      >Roadmap</a
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/writers"
+                      >For Technical Writers</nuxt-link
+                    >
+                  </li>
+                  <li class="mb-1 md:mb-2">
+                    <nuxt-link
+                      class="text-[#E6E7E9] text-xs font-light"
+                      to="/hiring"
+                      >Hire Technical Writers</nuxt-link
                     >
                   </li>
                 </ul>
@@ -349,39 +382,7 @@
                   </li>
                 </ul>
               </div>
-              <div>
-                <h5 class="text-white mb-5 text-md font-medium">Product</h5>
-                <ul>
-                  <li class="mb-1 md:mb-2">
-                    <nuxt-link
-                      class="text-[#E6E7E9] text-xs font-light"
-                      to="/product"
-                      >All</nuxt-link
-                    >
-                  </li>
-                  <li class="mb-1 md:mb-2">
-                    <a
-                      class="text-[#E6E7E9] text-xs font-light"
-                      href="https://trello.com/b/Oz8RNWvY"
-                      >Roadmap</a
-                    >
-                  </li>
-                  <li class="mb-1 md:mb-2">
-                    <nuxt-link
-                      class="text-[#E6E7E9] text-xs font-light"
-                      to="/writers"
-                      >For Technical Writers</nuxt-link
-                    >
-                  </li>
-                  <!-- <li class="mb-1 md:mb-2">
-                    <nuxt-link
-                      class="text-[#E6E7E9] text-xs font-light"
-                      to="/hiring"
-                      >Hire Technical Writers</nuxt-link
-                    >
-                  </li> -->
-                </ul>
-              </div>
+
               <div>
                 <h5 class="text-white mb-5 text-md font-medium">Contact Us</h5>
                 <ul>

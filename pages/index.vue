@@ -875,9 +875,8 @@
                     </p>
                   </div>
                   <a
-                    href="https://www.youtube.com/channel/UCECTWjjj21fa2bNQ07PKE3A"
+                    href="https://blog.contentre.io/category/webinar/"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     <div class="flex items-cente ml-3 md:ml-6">
                       <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
@@ -982,7 +981,7 @@
                 </div>
               </div>
 
-              <!-- <div class="p-2 mb-2">
+              <div class="p-2 mb-2">
                 <small
                   class="
                     text-[12px]
@@ -992,7 +991,7 @@
                     md:ml-12
                     lg:ml-7
                   "
-                  >HIRE A FREELANCE WRITER</small
+                  >HIRE TECHNICAL WRITERS</small
                 >
                 <div>
                   <div class="flex">
@@ -1024,7 +1023,7 @@
                     </div>
                   </a>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
 
@@ -1167,42 +1166,56 @@
                 <p class="text-[#232C2B] font-medium">New Features & Updates</p>
               </div>
               <div class="p-2 mt-4">
-                <div>
+                <a
+                  href="https://blog.contentre.io/redefining-portfolio-builder/"
+                >
                   <div class="flex">
                     <div class="pt-2">
                       <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
-                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 1</p>
+                    <p class="ml-4 text-[15px] text-[#102A27]">
+                      Redefining Portfolio Builder
+                    </p>
                   </div>
-                  <small class="text-[#888888] ml-7">April 24, 2022</small>
-                </div>
+                  <small class="text-[#888888] ml-7">SEPTEMBER 21, 2022</small>
+                </a>
               </div>
               <div class="p-2">
-                <div>
+                <a href="https://blog.contentre.io/introducing-subscriptions/">
                   <div class="flex">
                     <div class="pt-2">
                       <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
-                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 2</p>
+                    <p class="ml-4 text-[15px] text-[#102A27]">
+                      Introducing Subscriptions
+                    </p>
                   </div>
-                  <small class="text-[#888888] ml-7">April 24, 2022</small>
-                </div>
+                  <small class="text-[#888888] ml-7">SEPTEMBER 21, 2022</small>
+                </a>
               </div>
               <div class="p-2 mb-5">
-                <div>
+                <a
+                  href="https://blog.contentre.io/introducing-portfolio-customizer/"
+                >
                   <div class="flex">
                     <div class="pt-2">
                       <img src="~/assets/imgs/polygon2.png" alt="" />
                     </div>
-                    <p class="ml-4 text-[15px] text-[#102A27]">New feature 3</p>
+                    <p class="ml-4 text-[15px] text-[#102A27]">
+                      Introducing Portfolio Customizer
+                    </p>
                   </div>
-                  <small class="text-[#888888] ml-7">April 24, 2022</small>
-                </div>
+                  <small class="text-[#888888] ml-7">SEPTEMBER 21, 2022</small>
+                </a>
               </div>
               <div>
-                <a href="http://eepurl.com/h3BIMD" target="_blank" class="flex">
+                <a
+                  href="https://blog.contentre.io/category/product-updates/"
+                  target="_blank"
+                  class="flex"
+                >
                   <p class="text-[14px] text-[#286963]">
-                    Subscribe to all our new updates
+                    View all our new updates
                   </p>
                   <img
                     src="~/assets/imgs/arrow-right-green1.png"

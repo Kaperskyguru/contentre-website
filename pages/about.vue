@@ -28,8 +28,7 @@
             "
           >
             We provide the best resources and tools to help you grow your
-            freelance technical <br />
-            writing career.
+            technical <br />writing career.
           </h1>
         </div>
 
