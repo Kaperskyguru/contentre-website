@@ -33,11 +33,9 @@
                 lg:text-left
               "
             >
-              Grow your technical writing career from one place. Jumping from
-              coding to finding, managing, and completing technical writing gigs
-              is hard. Not anymore. Organize all your content, manage clients,
-              share samples, and publish your work to various places, all on
-              Contentre.
+              Grow your technical writing career from one place. Organize all
+              your content, manage clients, share samples, and publish your work
+              to various places, all on Contentre.
             </p>
             <div>
               <div
