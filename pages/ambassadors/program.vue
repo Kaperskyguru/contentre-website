@@ -13,7 +13,7 @@
             </p>
             <div class="my-5">
               <a href="#form" class="scroll-smooth">
-                <Button class="w-full md:w-[30%]">Join the Mission</Button>
+                <HomeButton class="w-full md:w-[30%]">Join the Mission</HomeButton>
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@
             </p>
 
             <div class="my-5">
-              <Button type="link" class="w-full md:w-[30%]" to="/ambassadors">See All Ambassadors</Button>
+              <nuxt-link type="link" class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]" to="/ambassadors">See All Ambassadors</nuxt-link>
             </div>
           </div>
           <div class="mt-10">
@@ -110,13 +110,13 @@ class="
               outcome.
             </p>
             <div class="my-5 w-full">
-              <Button type="link" class="w-full md:w-[30%]" to="/succydcoder">View Portfolio</Button>
+              <nuxt-link  class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]" to="/succydcoder">View Portfolio</nuxt-link>
             </div>
           </div>
         </div>
         <div class="my-5 w-full">
-          <Button type="link" class="w-full md:w-[20%]" to="/ambassadors" appearance="outline">See Previous
-            Winners</Button>
+            <nuxt-link class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]" to="/ambassadors">See Previous
+            Winners</nuxt-link>
         </div>
       </div>
     </section>
@@ -367,7 +367,9 @@ class="
             </div>
           </div>
           <div class="items-center justify-center mt-10 md:mt-0 md:w-[50%]">
-            <Button class="w-full md:w-[100%] py-5" type="link" href="http://bit.ly/ContentreAmbassadorProgram" target="_blank">Apply Here</Button>
+            <a href="http://bit.ly/ContentreAmbassadorProgram"  target="_blank">
+            <HomeButton class="w-full md:w-[100%] py-5 py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white " >Apply Here</HomeButton>
+          </a>
           </div>
         </div>
       </div>
@@ -376,53 +378,53 @@ class="
 </template>
 
 <script>
+import HomeButton from '../../components/templates/HomeButton.vue';
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Program',
-  head() {
-    return {
-      title: 'Contentre Ambassador Program',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?',
-        },
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: 'Contentre Ambassador Program',
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content:
-            'Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?',
-        },
-        {
-          hid: 'og:url',
-          property: 'og:url',
-          content: 'https://contentre.io/ambassador-program',
-        },
-        {
-          hid: 'og:image:width',
-          property: 'og:image:width',
-          content: '800',
-        },
-        {
-          hid: 'og:image:height',
-          property: 'og:image:height',
-          content: '800',
-        },
-        {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-      ],
+    // eslint-disable-next-line vue/multi-word-component-names
+    name: "Program",
+    components: { HomeButton },
+    head() {
+        return {
+            title: "Contentre Ambassador Program",
+            meta: [
+                {
+                    hid: "description",
+                    name: "description",
+                    content: "Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?",
+                },
+                {
+                    hid: "og:title",
+                    property: "og:title",
+                    content: "Contentre Ambassador Program",
+                },
+                {
+                    hid: "og:description",
+                    property: "og:description",
+                    content: "Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?",
+                },
+                {
+                    hid: "og:url",
+                    property: "og:url",
+                    content: "https://contentre.io/ambassador-program",
+                },
+                {
+                    hid: "og:image:width",
+                    property: "og:image:width",
+                    content: "800",
+                },
+                {
+                    hid: "og:image:height",
+                    property: "og:image:height",
+                    content: "800",
+                },
+                {
+                    hid: "twitter:card",
+                    name: "twitter:card",
+                    content: "summary_large_image",
+                },
+            ],
+        };
     }
-  },
 }
 </script>
 
