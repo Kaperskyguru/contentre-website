@@ -278,13 +278,13 @@
               <div>
                 <h5 class="text-white mb-5 text-md font-medium">Company</h5>
                 <ul>
-                  <!-- <li class="mb-1 md:mb-2">
+                  <li class="mb-1 md:mb-2">
                     <nuxt-link
                       class="text-[#E6E7E9] text-xs font-light"
-                      to="/about"
-                      >About</nuxt-link
+                      to="/ambassadors/program"
+                      >Ambassador Program</nuxt-link
                     >
-                  </li> -->
+                  </li>
                   <li class="mb-1 md:mb-2">
                     <a class="text-[#E6E7E9] text-xs font-light" href="#"
                       >Contentre Academy (soon)</a
