@@ -38,17 +38,16 @@
               part of the Ambassador Program
             </p>
 
-            <a
-              class="
-                text-xl
-                decoration-4 decoration-solid decoration-blue-300
-                text-blue-300
-              "
-              href="https://twitter.com/SuccessIbekwe1"
-              target="-blank"
-              text-gray-400
-              >View Portfolio</a
-            >
+            <nuxt-link 
+                class="
+                  text-xl
+                  decoration-solid decoration-blue-300
+                  text-blue-300
+                "
+                to="/succydcoder"
+                target="_blank"
+                text-gray-400
+                >View Portfolio</nuxt-link>
           </div>
 
           <div class="bg-[#EAF9FE] p-10 rounded-3xl min-h-40">
@@ -56,28 +55,27 @@
               <div class="w-20 h-20 rounded-xl">
                 <img
                   class="w-full h-full object-cover rounded-3xl"
-                  src="~/assets/images/amb2.jpeg"
-                  alt=""
+                  src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654025159/contentre/Founders/ge0hlhast4qdsis2jzht.jpg"
+                  alt="Solomon Eseme"
                 />
               </div>
-              <p class="text-2xl text-gray-400">Success Ibekwe</p>
+              <p class="text-2xl text-gray-400">Solomon Eseme</p>
             </div>
 
             <p class="my-5 text-xl text-[#88888]">
               Recognition on Contentre social media accounts
             </p>
             <div class="mt-10">
-              <a
+              <nuxt-link 
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                href="https://twitter.com/SuccessIbekwe1"
-                target="-blank"
+                to="/kaperskyguru"
+                target="_blank"
                 text-gray-400
-                >View Portfolio</a
-              >
+                >View Portfolio</nuxt-link>
             </div>
           </div>
           <div class="bg-[#FEF8FD] p-10 rounded-3xl">
@@ -89,7 +87,7 @@
                   alt=""
                 />
               </div>
-              <p class="text-2xl text-gray-400">Success Ibekwe</p>
+              <p class="text-2xl text-gray-400">Segun Ajibola</p>
             </div>
 
             <p class="my-5 text-xl text-[#88888]">
@@ -97,17 +95,16 @@
             </p>
 
             <div class="mt-10">
-              <a
+              <nuxt-link 
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                href="https://twitter.com/SuccessIbekwe1"
-                target="-blank"
+                to="/succydcoder"
+                target="_blank"
                 text-gray-400
-                >View Portfolio</a
-              >
+                >View Portfolio</nuxt-link>
             </div>
           </div>
           <div class="bg-[#EAF9FE] p-10 rounded-3xl">
@@ -115,11 +112,11 @@
               <div class="w-20 h-20 rounded-xl">
                 <img
                   class="w-full h-full object-cover rounded-3xl"
-                  src="~/assets/images/amb1.jpg"
+                  src="https://res.cloudinary.com/kaperskydisk/image/upload/v1654433104/contentre/Founders/moses_headshot.jpg"
                   alt=""
                 />
               </div>
-              <p class="text-2xl text-gray-400">Success Ibekwe</p>
+              <p class="text-2xl text-gray-400">Moses Anumadu</p>
             </div>
 
             <p class="my-5 text-xl text-[#88888]">
@@ -127,79 +124,19 @@
               Ambassador Program
             </p>
             <div class="mt-10">
-              <a
+              <nuxt-link 
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                href="https://twitter.com/SuccessIbekwe1"
-                target="-blank"
+                to="/Alloyking1"
+                target="_blank"
                 text-gray-400
-                >View Portfolio</a
-              >
+                >View Portfolio</nuxt-link>
             </div>
           </div>
-          <div class="bg-[#FEF3E3] p-10 rounded-3xl min-h-40">
-            <div class="flex items-center space-x-3 mb-5">
-              <div class="w-20 h-20 rounded-xl">
-                <img
-                  class="w-full h-full object-cover rounded-3xl"
-                  src="~/assets/images/amb2.jpeg"
-                  alt=""
-                />
-              </div>
-              <p class="text-2xl text-gray-400">Success Ibekwe</p>
-            </div>
 
-            <p class="my-5 text-xl text-[#88888]">
-              Recognition on Contentre social media accounts
-            </p>
-
-            <div class="mt-10">
-              <a
-                class="
-                  text-xl
-                  decoration-4 decoration-solid decoration-blue-300
-                  text-blue-300
-                "
-                href="https://twitter.com/SuccessIbekwe1"
-                target="-blank"
-                text-gray-400
-                >View Portfolio</a
-              >
-            </div>
-          </div>
-          <div class="bg-[#EAF9FE] p-10 rounded-3xl">
-            <div class="flex items-center space-x-3 mb-5">
-              <div class="w-20 h-20 rounded-xl">
-                <img
-                  class="w-full h-full object-cover rounded-3xl"
-                  src="~/assets/images/amb1.jpg"
-                  alt=""
-                />
-              </div>
-              <p class="text-2xl text-gray-400">Success Ibekwe</p>
-            </div>
-
-            <p class="my-5 text-xl text-[#88888]">
-              Custom Contentre gear that identifies you as part of the
-              Ambassador Program
-            </p>
-            <div class="mt-10">
-              <a
-                class="
-                  text-xl
-                  decoration-solid decoration-blue-300
-                  text-blue-300
-                "
-                href="https://twitter.com/SuccessIbekwe1"
-                target="-blank"
-                text-gray-400
-                >View Portfolio</a
-              >
-            </div>
-          </div>
         </div>
       </div>
     </section>
