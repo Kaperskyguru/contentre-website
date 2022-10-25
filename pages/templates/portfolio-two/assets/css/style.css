@@ -1,0 +1,38 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    scroll-behavior: smooth;
+    color:#000;
+  }
+
+  .text-brand {
+    color: rgba(255,53,101);
+  }
+  .border-text-brand{
+    border-bottom: 4px solid rgba(255,53,101);
+  }
+  .nav-links{
+    color: #000;
+  }
+
+  .nav-links a:hover{
+    color: rgba(255,53,101);
+  }
+
+
+  .bg-800{
+    background-color: rgba(31,41,55, 1);
+  }
+
+  .card-text{
+    margin-left:8rem;
+    margin-right:8rem;
+  }
+
+  .get-intouch{
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+  }
+  
+
