@@ -138,7 +138,7 @@
                 </p>
               </div>
 
-              <button
+              <nuxt-link
                 class="
                   text-white text-md
                   font-semibold
@@ -151,9 +151,10 @@
                   duration-150
                   ease-in-out
                 "
+                to="/portfolio-one"
               >
                 View demo
-              </button>
+              </nuxt-link>
             </div>
           </div>
           <div class="w-[100%] lg:w-[50%] bg-green-600">
@@ -221,7 +222,7 @@
                 </p>
               </div>
 
-              <button
+              <nuxt-link
                 class="
                   text-white text-md
                   font-semibold
@@ -234,9 +235,10 @@
                   duration-150
                   ease-in-out
                 "
+                to="/portfolio-two"
               >
                 View demo
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
