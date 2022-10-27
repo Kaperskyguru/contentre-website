@@ -43,107 +43,34 @@
 
 <script>
 import ImageBG from 'assets/img/cover_image.png'
-import { GET_PORTFOLIO_DETAIL, GET_PORTFOLIO_CONTENT } from '~/graphql'
+import { GET_PORTFOLIO_CONTENT } from '~/graphql'
 
 export default {
   name: 'CodePage',
-  layout: 'portfolio',
 
-  async asyncData(context) {
-    const client = context.app.apolloProvider.defaultClient
-    const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
-    try {
-      const {
-        data: { getPortfolioDetail: portfolioDetail },
-      } = await client.query({
-        query: GET_PORTFOLIO_DETAIL,
-        variables: {
-          filters: {
-            username: context.params.portfolio,
-            code: context.params.code,
-            url: `${url}${context.route.fullPath}`,
-          },
-        },
-        skip() {
-          return !context.params.portfolio && !context.params.code
-        },
-      })
-      return {
-        portfolio: {
-          ...portfolioDetail,
-        },
-      }
-    } catch (e) {
-      return {
-        error: true,
-      }
-    }
+  props: {
+    portfolio: {
+      type: Object,
+      default: () => {},
+    },
+    error: {
+      type: Boolean,
+      default: false,
+    },
   },
+
   data: () => ({
     image: ImageBG,
     username: '',
-    portfolio: {},
+
     contentData: {},
     filters: {},
-    error: false,
+
     total: 0,
     size: 9,
     skip: 0,
   }),
-  head() {
-    if (!this.error) {
-      return {
-        title: `${this.portfolio.name}'s writing portfolio`,
-        meta: [
-          {
-            hid: 'keywords',
-            name: 'keywords',
-            content: `${this.portfolio?.job}`,
-          },
-          {
-            hid: 'description',
-            name: 'description',
-            content: `${this.portfolio?.about}`,
-          },
-          {
-            hid: 'og:title',
-            property: 'og:title',
-            content: `${this.portfolio.name} writing portfolio`,
-          },
-          {
-            hid: 'og:description',
-            property: 'og:description',
-            content: this.portfolio?.about,
-          },
-          {
-            hid: 'og:image',
-            property: 'og:image',
-            content: this.portfolio?.profileImage,
-          },
-          {
-            hid: 'og:url',
-            property: 'og:url',
-            content: this.$route?.fullPath,
-          },
-          {
-            hid: 'og:image:width',
-            property: 'og:image:width',
-            content: '800',
-          },
-          {
-            hid: 'og:image:height',
-            property: 'og:image:height',
-            content: '800',
-          },
-          {
-            hid: 'twitter:card',
-            name: 'twitter:card',
-            content: 'summary_large_image',
-          },
-        ],
-      }
-    }
-  },
+
   apollo: {
     contentData: {
       query: GET_PORTFOLIO_CONTENT,
