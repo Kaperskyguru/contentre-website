@@ -138,7 +138,7 @@
                 </p>
               </div>
 
-              <button
+              <nuxt-link
                 class="
                   text-white text-md
                   font-semibold
@@ -151,9 +151,10 @@
                   duration-150
                   ease-in-out
                 "
+                to="/templates/portfolio-one"
               >
                 View demo
-              </button>
+              </nuxt-link>
             </div>
           </div>
           <div class="w-[100%] lg:w-[50%] bg-green-600">
@@ -221,7 +222,7 @@
                 </p>
               </div>
 
-              <button
+              <nuxt-link
                 class="
                   text-white text-md
                   font-semibold
@@ -234,9 +235,10 @@
                   duration-150
                   ease-in-out
                 "
+                to="/templates/portfolio-two"
               >
                 View demo
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -322,6 +324,51 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Templates',
+
+  head() {
+    return {
+      title: 'Portfolio Templates',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Templates allow you to completely change the look of the your technical writing portfolio.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Portfolio Templates',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Templates allow you to completely change the look of the your technical writing portfolio.',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/templates',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
   

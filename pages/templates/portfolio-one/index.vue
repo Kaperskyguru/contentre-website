@@ -659,6 +659,13 @@
 <script>
 export default {
   name: 'PortfolioTwo',
+
+  head() {
+    return {
+      title: 'Portfolio One',
+
+    }
+  },
 }
 </script>
 
