@@ -12,6 +12,9 @@
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
+  "engines": {
+    "node": ">=14.x.x"
+  },
   "dependencies": {
     "@apollo/client": "^3.5.10",
     "@dansmaculotte/nuxt-segment": "^0.2.11",
