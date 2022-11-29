@@ -222,21 +222,17 @@ export default {
   devServerHandlers: [],
   hooks: {
     render: {
-      route(url, result, context) {
-        // console.log(url)
+      errorMiddleware(app) {
+        // eslint-disable-next-line node/handle-callback-err
+        app.use((error, req, res, next) => {
+          if (error) {
+            res.writeHead(307, {
+              Location: '/errors/404',
+            })
+          }
+          res.end()
+        })
       },
-      // errorMiddleware(app) {
-      // eslint-disable-next-line node/handle-callback-err
-      // app.use((error, req, res, next) => {
-      //   if (error) {
-      //     console.log(error)
-      //     res.writeHead(307, {
-      //       Location: '/errors/404',
-      //     })
-      //   }
-      //   res.end()
-      // })
-      // },
     },
   },
 }
