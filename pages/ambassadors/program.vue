@@ -405,7 +405,7 @@ export default {
                 {
                     hid: "og:url",
                     property: "og:url",
-                    content: "https://contentre.io/ambassador-program",
+                    content: "https://contentre.io/ambassadors/program",
                 },
                 {
                     hid: "og:image:width",

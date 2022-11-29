@@ -38,16 +38,13 @@
               part of the Ambassador Program
             </p>
 
-            <nuxt-link 
-                class="
-                  text-xl
-                  decoration-solid decoration-blue-300
-                  text-blue-300
-                "
-                to="/succydcoder"
-                target="_blank"
-                text-gray-400
-                >View Portfolio</nuxt-link>
+            <nuxt-link
+              class="text-xl decoration-solid decoration-blue-300 text-blue-300"
+              to="/succydcoder"
+              target="_blank"
+              text-gray-400
+              >View Portfolio</nuxt-link
+            >
           </div>
 
           <div class="bg-[#EAF9FE] p-10 rounded-3xl min-h-40">
@@ -66,7 +63,7 @@
               Recognition on Contentre social media accounts
             </p>
             <div class="mt-10">
-              <nuxt-link 
+              <nuxt-link
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
@@ -75,7 +72,8 @@
                 to="/kaperskyguru"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link>
+                >View Portfolio</nuxt-link
+              >
             </div>
           </div>
           <div class="bg-[#FEF8FD] p-10 rounded-3xl">
@@ -95,7 +93,7 @@
             </p>
 
             <div class="mt-10">
-              <nuxt-link 
+              <nuxt-link
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
@@ -104,7 +102,8 @@
                 to="/succydcoder"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link>
+                >View Portfolio</nuxt-link
+              >
             </div>
           </div>
           <div class="bg-[#EAF9FE] p-10 rounded-3xl">
@@ -124,7 +123,7 @@
               Ambassador Program
             </p>
             <div class="mt-10">
-              <nuxt-link 
+              <nuxt-link
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
@@ -133,10 +132,10 @@
                 to="/Alloyking1"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link>
+                >View Portfolio</nuxt-link
+              >
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -147,6 +146,51 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Ambassadors',
+
+  head() {
+    return {
+      title: 'All Contentre Ambassadors',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'All Contentre Ambassadors',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Do you want to serve the developer community, make the internet safer and build your brand while you’re at it?',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://contentre.io/ambassadors',
+        },
+        {
+          hid: 'og:image:width',
+          property: 'og:image:width',
+          content: '800',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '800',
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    }
+  },
 }
 </script>
 
