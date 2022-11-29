@@ -133,6 +133,8 @@ export default {
       })
 
       gtag('event', 'page_view', { page_path: this.$route.fullPath })
+
+      // https://developers.google.com/analytics/devguides/collection/ga4/event-parameters?client_type=gtag
     },
     getDynamicAnalytics() {
       if (process.env.NODE_ENV !== 'production') return {}
