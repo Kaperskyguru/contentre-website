@@ -14,11 +14,14 @@ import { GET_PORTFOLIO_DETAIL } from '../graphql'
 export default {
   name: 'HomePage',
 
-  layout({ store }) {
-    return store.state.isCustomDomain ? 'portfolio' : ''
+  layout({ req }) {
+    const originalDomain = req.headers['x-contentre-origin-domain']
+    if (originalDomain && !originalDomain.includes('contentre')) {
+      return 'portfolio'
+    }
   },
 
-  middleware({ store, redirect, req, isDev }) {
+  middleware({ store, req }) {
     if (process.server) {
       const originalDomain = req.headers['x-contentre-origin-domain']
       if (originalDomain && !originalDomain.includes('contentre')) {
