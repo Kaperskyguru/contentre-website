@@ -214,7 +214,7 @@ export default {
             isCustomDomain: this.isCustomDomain,
             url: this.isCustomDomain
               ? undefined
-              : `${url}/${this.$route.fullPath}`,
+              : `${url}${this.$route.fullPath}`,
             domain: this.isCustomDomain ? this.domain : undefined,
           },
         },
