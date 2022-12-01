@@ -93,7 +93,7 @@ export default {
             isCustomDomain: this.isCustomDomain,
             url: this.isCustomDomain
               ? undefined
-              : `${url}/${this.$route.fullPath}`,
+              : `${url}${this.$route.fullPath}`,
             domain: this.isCustomDomain ? this.domain : undefined,
           },
         }
@@ -121,7 +121,6 @@ export default {
     },
   },
   mounted() {
-    console.log()
     const _self = this
     const btn = document.querySelector('#nextPage')
     if (btn)
@@ -211,9 +210,12 @@ export default {
         variables: {
           ...sizeAndSkip,
           filters: {
-            username: this.username,
+            username: this.username ?? undefined,
             isCustomDomain: this.isCustomDomain,
-            url: `${url}${this.$route.fullPath}`,
+            url: this.isCustomDomain
+              ? undefined
+              : `${url}/${this.$route.fullPath}`,
+            domain: this.isCustomDomain ? this.domain : undefined,
           },
         },
         // Transform the previous result with new data
