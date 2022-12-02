@@ -75,6 +75,43 @@ export default {
     portfolio: {},
     error: false,
   }),
+
+  methods: {
+    initializeAnalytics() {
+      const id = this.portfolio?.googleAnalyticId // ?? 'G-GKN67498E9'
+      if (!id) return
+
+      if (process.env.NODE_ENV !== 'production') return
+
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        // eslint-disable-next-line no-undef
+        dataLayer.push(arguments)
+      }
+
+      gtag('js', new Date())
+
+      gtag('config', id, {
+        send_page_view: false, // Necessary to avoid duplicated page track on first page load
+      })
+
+      gtag('event', 'page_view', { page_path: this.$route.fullPath })
+
+      // https://developers.google.com/analytics/devguides/collection/ga4/event-parameters?client_type=gtag
+    },
+    getDynamicAnalytics() {
+      if (process.env.NODE_ENV !== 'production') return {}
+
+      const id = this.portfolio?.googleAnalyticId // ?? 'G-GKN67498E9'
+      if (!id) return {}
+
+      return {
+        hid: this.$route.params?.portfolio ?? '',
+        src: `https://www.googletagmanager.com/gtag/js?id=${id}`,
+        async: true,
+      }
+    },
+  },
 }
 </script>
 
