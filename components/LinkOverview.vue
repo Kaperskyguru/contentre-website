@@ -23,19 +23,48 @@
           <p class="text-[#EAF9FE]" v-html="profile.bio"></p>
         </div>
 
-        <NoData v-if="!hasData" message="Links not found">
-          <Button
-            type="link"
-            :href="`https://app.contentre.io/auth/register?source=linktree_${$route.params.username}`"
-            class="mt-4"
-            appearance="secondary"
-            size="small"
-          >
-            {{ 'Add Links' }}
-          </Button>
-        </NoData>
-
-        <div v-else class="px-4 mt-10 sm:px-7">
+        <div class="px-4 mt-10 sm:px-7">
+          <a
+            v-for="(portfolio, i) in profile.portfolios"
+            :key="i"
+            class="
+              flex
+              justify-between
+              items-center
+              py-3
+              px-5
+              mb-5
+              text-[#54605F]
+              bg-[#EAF9FE]
+              hover:bg-[#8892b0] hover:bg-opacity-10
+              rounded-full
+              transition
+            "
+            target="_blank"
+            :href="`${portfolio.url}?source=linktree_${$route.params.username}`"
+            ><span>{{ portfolio.title }}</span>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-world"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="12" cy="12" r="9"></circle>
+                <line x1="3.6" y1="9" x2="20.4" y2="9"></line>
+                <line x1="3.6" y1="15" x2="20.4" y2="15"></line>
+                <path d="M11.5 3a17 17 0 0 0 0 18"></path>
+                <path d="M12.5 3a17 17 0 0 1 0 18"></path>
+              </svg>
+            </div>
+          </a>
           <a
             v-for="(client, i) in profile.clients"
             :key="i"
@@ -183,8 +212,8 @@ export default {
   }),
 
   computed: {
-    hasData() {
-      return this.profile?.clients.length && this.profile?.socials.length
+    url() {
+      return `${process.env.FE_URL ?? 'https://contentre.io'}`
     },
   },
   methods: {

@@ -17,6 +17,10 @@ export const GET_LINK_PROFILE = gql`
         link
         icon
       }
+      portfolios {
+        title
+        url
+      }
     }
   }
 `
