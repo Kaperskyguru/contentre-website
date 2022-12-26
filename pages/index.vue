@@ -15,7 +15,7 @@ export default {
   name: 'HomePage',
 
   layout({ req }) {
-    const originalDomain = req.headers['x-contentre-origin-domain']
+    const originalDomain = req && req?.headers['x-contentre-origin-domain']
     if (originalDomain && !originalDomain.includes('contentre')) {
       return 'portfolio'
     }
@@ -23,7 +23,7 @@ export default {
 
   middleware({ store, req }) {
     if (process.server) {
-      const originalDomain = req.headers['x-contentre-origin-domain']
+      const originalDomain = req && req?.headers['x-contentre-origin-domain']
       if (originalDomain && !originalDomain.includes('contentre')) {
         store.state.isCustomDomain = true
         store.state.domain = originalDomain

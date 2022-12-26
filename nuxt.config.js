@@ -159,8 +159,10 @@ export default {
   },
 
   env: {
-    APP_URL: process.env.APP_URL || 'https://test.contentre.io/graphql',
+    APP_URL: process.env.APP_URL, // || 'https://test.contentre.io/graphql',
   },
+
+  target: 'static',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
