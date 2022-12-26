@@ -35,6 +35,7 @@
               px-5
               mb-5
               text-[#54605F]
+              hover:text-white
               bg-[#EAF9FE]
               hover:bg-[#8892b0] hover:bg-opacity-10
               rounded-full
@@ -75,6 +76,7 @@
               py-3
               px-5
               mb-5
+              hover:text-white
               text-[#54605F]
               bg-[#EAF9FE]
               hover:bg-[#8892b0] hover:bg-opacity-10
@@ -102,6 +104,7 @@
               py-3
               px-5
               mb-5
+              hover:text-white
               text-[#54605F]
               bg-[#EAF9FE]
               hover:bg-[#8892b0] hover:bg-opacity-10
