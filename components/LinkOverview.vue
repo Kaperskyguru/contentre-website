@@ -22,7 +22,20 @@
           <!-- eslint-disable-next-line vue/no-v-html -->
           <p class="text-[#EAF9FE]" v-html="profile.bio"></p>
         </div>
-        <div class="px-4 mt-10 sm:px-7">
+
+        <NoData v-if="!hasData" message="Links not found">
+          <Button
+            type="link"
+            :href="`https://app.contentre.io/auth/register?source=linktree_${$route.params.username}`"
+            class="mt-4"
+            appearance="secondary"
+            size="small"
+          >
+            {{ 'Add Links' }}
+          </Button>
+        </NoData>
+
+        <div v-else class="px-4 mt-10 sm:px-7">
           <a
             v-for="(client, i) in profile.clients"
             :key="i"
@@ -168,6 +181,12 @@ export default {
       },
     ],
   }),
+
+  computed: {
+    hasData() {
+      return this.profile?.clients.length && this.profile?.socials.length
+    },
+  },
   methods: {
     computeIcon(name, icon) {
       const social = this.socials.find((i) => i.name === name)
