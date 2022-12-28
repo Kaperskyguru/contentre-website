@@ -106,7 +106,8 @@ export default {
         }
       },
       skip() {
-        return !this.isCustomDomain && !this.username
+        if (this.isCustomDomain) return !this.isCustomDomain
+        return !this.username
       },
     },
   },

@@ -13,7 +13,7 @@ export default (context) => {
   const headerLink = setContext((_, previousContext) => ({
     credentials: 'include',
     headers: {
-      ...previousContext.headers,
+      ...previousContext?.headers,
       'x-from-path': process.client
         ? window.location.href
         : context.env.APP_URL,

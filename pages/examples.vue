@@ -108,8 +108,8 @@
           "
         >
           <img
-            src="https://res.cloudinary.com/kaperskydisk/image/upload/v1657545474/contentre/portfolio_examples/adeniyi_portfolio_example.png"
-            alt="Adeniyi Stephen Portfolio"
+            src="https://res.cloudinary.com/kaperskydisk/image/upload/v1672185067/contentre/portfolio_examples/nikita_1.png"
+            alt="Nikita Verma Portfolio"
           />
           <div
             class="
@@ -132,8 +132,8 @@
           >
             <div class="w-[120%] sm:w-full md:w-[60%] lg:w-[50%] h-full">
               <img
-                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1651751268/contentre/profiles/dbd36cc4-4ed0-4a41-809d-c57bdd0125c9/g6cebg9mpxypwj1mfuld.jpg"
-                alt="Adeniyi Stephen"
+                src="https://res.cloudinary.com/kaperskydisk/image/upload/v1670860022/contentre/profiles/fca64809-474f-4974-91ae-e42e7ab5458a/tq7s2epodgcwrpoqrbcp.jpg"
+                alt="Nikita Verma"
                 class="w-full object-cover block h-full"
               />
             </div>
@@ -141,15 +141,15 @@
               <a
                 href="#"
                 class="text-white font-bold text-[16px] md:text-[18px]"
-                >Odukoya Adeniyi Stephen</a
+                >Nikita Verma</a
               >
               <p class="text-[#ddd] text-sm">
-                Odukoya Adeniyi is a Freelance Technica| Blockchain Writer. He
-                has worked with several international organizations, increasing
-                sales and generating leads via content marketing.
+                Nikita Verma is a professional Web3 Writer who has work
+                experience with prestigious projects such as Axon Park,
+                MetaPastry and DailyCoin.
               </p>
               <div class="pt-3">
-                <a href="https://contentre.io/AdeniyiSteph">
+                <a href="https://contentre.io/nikitaeth">
                   <button
                     class="
                       text-white text-sm

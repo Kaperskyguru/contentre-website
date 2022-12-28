@@ -38,12 +38,12 @@
               part of the Ambassador Program
             </p>
 
-            <nuxt-link
+            <a
               class="text-xl decoration-solid decoration-blue-300 text-blue-300"
-              to="/succydcoder"
+              href="https://contentre.io/succydcoder"
               target="_blank"
               text-gray-400
-              >View Portfolio</nuxt-link
+              >View Portfolio</a
             >
           </div>
 
@@ -63,16 +63,16 @@
               Recognition on Contentre social media accounts
             </p>
             <div class="mt-10">
-              <nuxt-link
+              <a
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                to="/kaperskyguru"
+                href="https://contentre.io/kaperskyguru"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link
+                >View Portfolio</a
               >
             </div>
           </div>
@@ -93,16 +93,16 @@
             </p>
 
             <div class="mt-10">
-              <nuxt-link
+              <a
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                to="/succydcoder"
+                href="https://contentre.io/succydcoder"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link
+                >View Portfolio</a
               >
             </div>
           </div>
@@ -123,16 +123,16 @@
               Ambassador Program
             </p>
             <div class="mt-10">
-              <nuxt-link
+              <a
                 class="
                   text-xl
                   decoration-solid decoration-blue-300
                   text-blue-300
                 "
-                to="/Alloyking1"
+                href="https://contentre.io/Alloyking1"
                 target="_blank"
                 text-gray-400
-                >View Portfolio</nuxt-link
+                >View Portfolio</a
               >
             </div>
           </div>

@@ -121,7 +121,7 @@
 
 <script>
 export default {
-  name: 'PortfolioL',
+  name: 'PortfolioLayout',
 
   data: () => ({
     toggle: false,
