@@ -24,48 +24,65 @@
         </div>
 
         <div class="px-4 mt-10 sm:px-7">
-          <a
-            v-for="(portfolio, i) in profile.portfolios"
-            :key="i"
-            class="
-              flex
-              justify-between
-              items-center
-              py-3
-              px-5
-              mb-5
-              text-[#54605F]
-              hover:text-white
-              bg-[#EAF9FE]
-              hover:bg-[#8892b0] hover:bg-opacity-10
-              rounded-full
-              transition
-            "
-            target="_blank"
-            :href="`${portfolio.url}?source=linktree_${$route.params.username}`"
-            ><span>{{ portfolio.title }}</span>
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-world"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <circle cx="12" cy="12" r="9"></circle>
-                <line x1="3.6" y1="9" x2="20.4" y2="9"></line>
-                <line x1="3.6" y1="15" x2="20.4" y2="15"></line>
-                <path d="M11.5 3a17 17 0 0 0 0 18"></path>
-                <path d="M12.5 3a17 17 0 0 1 0 18"></path>
-              </svg>
+          <!-- Portfolio -->
+          <div>
+            <div class="w-full flex justify-between items-center mb-4">
+              <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
+              <h3 class="text-center text-[#DCF6F3] font-semibold">
+                Portfolio
+              </h3>
+              <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
             </div>
-          </a>
+            <a
+              v-for="(portfolio, i) in profile.portfolios"
+              :key="i"
+              class="
+                flex
+                justify-between
+                items-center
+                py-3
+                px-5
+                mb-5
+                text-[#54605F]
+                hover:text-white
+                bg-[#EAF9FE]
+                hover:bg-[#8892b0] hover:bg-opacity-10
+                rounded-full
+                transition
+              "
+              target="_blank"
+              :href="`${portfolio.url}?source=linktree_${$route.params.username}`"
+              ><span>{{ portfolio.title }}</span>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-world"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <line x1="3.6" y1="9" x2="20.4" y2="9"></line>
+                  <line x1="3.6" y1="15" x2="20.4" y2="15"></line>
+                  <path d="M11.5 3a17 17 0 0 0 0 18"></path>
+                  <path d="M12.5 3a17 17 0 0 1 0 18"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <!-- Profile -->
+
+          <div class="w-full flex justify-between items-center mb-4">
+            <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
+            <h3 class="text-center text-[#DCF6F3] font-semibold">Profile</h3>
+            <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
+          </div>
           <a
             v-for="(client, i) in profile.clients"
             :key="i"
@@ -94,6 +111,13 @@
               />
             </div>
           </a>
+
+          <!-- Social Media -->
+          <div class="w-full flex justify-between items-center mb-4">
+            <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
+            <h3 class="text-center text-[#DCF6F3] font-semibold">Socials</h3>
+            <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
+          </div>
           <a
             v-for="(social, i) in profile.socials"
             :key="i"
