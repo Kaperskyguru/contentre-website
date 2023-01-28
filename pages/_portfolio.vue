@@ -102,7 +102,7 @@ export default {
           },
         ],
 
-        script: [this.getDynamicAnalytics()],
+        script: [this.getDynamicAnalytics(), this.setUmamiAnalytics()],
       }
     }
   },
@@ -136,6 +136,42 @@ export default {
 
       // https://developers.google.com/analytics/devguides/collection/ga4/event-parameters?client_type=gtag
     },
+
+    setUmamiAnalytics() {
+      const id = this.portfolio?.analyticsId
+
+      if (!id) return {}
+
+      if (process.env.NODE_ENV === 'production') {
+        return {
+          hid: this.$route.params?.portfolio ?? '',
+          'data-website-id': id,
+          'data-host-url': 'stats.contentre.io',
+          src: `https://stats.contentre.io/umami.js`,
+          async: true,
+          defer: true,
+        }
+      }
+
+      if (process.env.NODE_ENV === 'development')
+        return {
+          hid: this.$route.params?.portfolio ?? '',
+          'data-website-id': id,
+          src: `http://localhost:3000/umami.js`,
+          async: true,
+          defer: true,
+        }
+
+      return {
+        hid: this.$route.params?.portfolio ?? '',
+        'data-website-id': id,
+        'data-host-url': 'stats-staging.contentre.io',
+        src: `https://stats-staging.contentre.io/umami.js`,
+        async: true,
+        defer: true,
+      }
+    },
+
     getDynamicAnalytics() {
       if (process.env.NODE_ENV !== 'production') return {}
 
