@@ -146,7 +146,7 @@ export default {
         return {
           hid: this.$route.params?.portfolio ?? '',
           'data-website-id': id,
-          'data-host-url': 'stats.contentre.io',
+          'data-host-url': 'https://stats.contentre.io',
           src: `https://stats.contentre.io/umami.js`,
           async: true,
           defer: true,
@@ -165,7 +165,7 @@ export default {
       return {
         hid: this.$route.params?.portfolio ?? '',
         'data-website-id': id,
-        'data-host-url': 'stats-staging.contentre.io',
+        'data-host-url': 'https://stats-staging.contentre.io',
         src: `https://stats-staging.contentre.io/umami.js`,
         async: true,
         defer: true,
