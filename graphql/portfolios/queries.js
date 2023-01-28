@@ -60,6 +60,7 @@ export const GET_PORTFOLIO_DETAIL = gql`
       }
       coverImage
       job
+      analyticsId
       css
       html
       profileImage

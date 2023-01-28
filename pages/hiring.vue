@@ -182,21 +182,9 @@
             <div
               v-for="(item, index) in portfolios.items"
               :key="index"
-              class="
-                h-[160px]
-                sm:h-[155px]
-                md:h-[170px]
-                lg:h-[170px]
-                xl:h-[150px]
-                bg-gray-800
-                flex
-                z-10
-                mt-2
-                md:mt-0
-                mb-5
-              "
+              class="bg-gray-800 md:flex z-10 mt-2 md:mt-0 mb-5"
             >
-              <div class="w-[120%] sm:w-[100%] md:w-[60%] lg:w-[20%] h-full">
+              <div class="w-[100%] sm:w-[100%] md:w-[60%] lg:w-[25%] h-[150px]">
                 <img
                   :src="computedImage(item.user)"
                   :alt="item.user.name"
@@ -312,7 +300,7 @@ export default {
       )
     },
     computedImage(user) {
-      return user?.avatarURL ?? require('~/assets/img/icon.png')
+      return user?.avatarURL ?? require('~/assets/images/amb4.png')
     },
 
     onSkills(e) {
