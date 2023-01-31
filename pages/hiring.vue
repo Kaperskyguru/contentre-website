@@ -195,8 +195,8 @@
             >
               <div class="md:w-[20%] w-full">
                 <img
-                  v-if="!hasImage(item.user)"
-                  src="~/assets/images/amb4.png"
+                  v-if="hasImage(item.user)"
+                  :src="item.user.avatarURL"
                   :alt="item.user.name"
                   class="w-[100%] object-cover block h-[100%]"
                 />
