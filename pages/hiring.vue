@@ -193,7 +193,7 @@
                 mb-5
               "
             >
-              <div class="md:w-[20%] w-full">
+              <div class="md:w-[20%] w-full h-[150px]">
                 <img
                   v-if="hasImage(item.user)"
                   :src="item.user.avatarURL"
