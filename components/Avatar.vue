@@ -4,6 +4,7 @@
       flex
       overflow-hidden
       grow-0
+      w-full
       shrink-0
       justify-center
       items-center
@@ -30,7 +31,8 @@
 
 <script>
 export default {
-  name: 'AvataR',
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: 'Avatar',
 
   props: {
     src: {

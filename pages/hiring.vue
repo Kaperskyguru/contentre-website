@@ -175,23 +175,51 @@
           <div
             ref="infiniteScrollContainer"
             v-infinite-scroll="onLoadMoreData"
-            class="overflow-auto w-full h-100 max-h-full text-sm"
+            class="overflow-y-auto w-full h-100 max-h-full text-sm"
             infinite-scroll-distance="300"
             :infinite-scroll-disabled="disableInfiniteScroll"
           >
             <div
               v-for="(item, index) in portfolios.items"
               :key="index"
-              class="bg-gray-800 md:flex z-10 mt-2 md:mt-0 mb-5"
+              class="
+                bg-gray-800
+                flex flex-col
+                md:flex-row
+                z-10
+                mt-2
+                p-3
+                md:mt-0
+                mb-5
+              "
             >
-              <div class="w-[100%] sm:w-[100%] md:w-[60%] lg:w-[25%] h-[150px]">
+              <div class="md:w-[20%] w-full">
                 <img
-                  :src="computedImage(item.user)"
+                  v-if="!hasImage(item.user)"
+                  src="~/assets/images/amb4.png"
                   :alt="item.user.name"
                   class="w-[100%] object-cover block h-[100%]"
                 />
+                <div
+                  v-else
+                  class="
+                    flex
+                    overflow-hidden
+                    grow-0
+                    w-full
+                    shrink-0
+                    justify-center
+                    tracking-wider
+                    h-full
+                    items-center
+                    text-darkblue
+                    bg-lavander
+                  "
+                >
+                  <span>{{ initials(item.user.name) }}</span>
+                </div>
               </div>
-              <div class="px-5 pt-3">
+              <div class="px-5 w-full flex-1 pt-3">
                 <a
                   href="#"
                   class="text-white font-bold text-[16px] md:text-[18px]"
@@ -299,8 +327,17 @@ export default {
         this.portfolios.items.length >= this.total
       )
     },
-    computedImage(user) {
-      return user?.avatarURL ?? require('~/assets/images/amb4.png')
+    hasImage(user) {
+      return !!user?.avatarURL
+    },
+
+    initials(name) {
+      if (!name) return '?'
+      const names = name.toUpperCase().split(' ')
+      const firstName = names.shift() || ''
+      const lastName = names.pop() || ''
+      if (!firstName && !lastName) return '?'
+      return `${firstName.substr(0, 1)}${lastName.substr(0, 1)}`
     },
 
     onSkills(e) {
