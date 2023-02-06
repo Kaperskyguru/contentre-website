@@ -83,13 +83,12 @@ export default {
       fetchPolicy: 'cache-and-network',
       variables() {
         const url = `${process.env.FE_URL ?? 'https://contentre.io'}`
-
         return {
           size: 9,
           skip: 0,
           filters: {
             ...this.filters,
-            username: this.username ?? undefined,
+            username: this.$route?.params?.portfolio ?? undefined,
             isCustomDomain: this.isCustomDomain,
             url: this.isCustomDomain
               ? undefined
@@ -107,7 +106,7 @@ export default {
       },
       skip() {
         if (this.isCustomDomain) return !this.isCustomDomain
-        return !this.username
+        return !this.$route?.params?.portfolio
       },
     },
   },
@@ -117,7 +116,6 @@ export default {
       immediate: true,
       handler(params) {
         this.username = params.portfolio
-        this.code = params.code
       },
     },
   },
@@ -211,7 +209,7 @@ export default {
         variables: {
           ...sizeAndSkip,
           filters: {
-            username: this.username ?? undefined,
+            username: this.$route?.params?.username ?? undefined,
             isCustomDomain: this.isCustomDomain,
             url: this.isCustomDomain
               ? undefined
