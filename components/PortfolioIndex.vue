@@ -105,6 +105,7 @@ export default {
         }
       },
       skip() {
+        if (this.contentData.total > 0) return false
         if (this.isCustomDomain) return !this.isCustomDomain
         return !this.$route?.params?.portfolio
       },
