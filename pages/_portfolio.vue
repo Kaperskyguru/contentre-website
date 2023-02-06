@@ -1,5 +1,7 @@
 <template>
-  <nuxt-child :portfolio="portfolio" :error="error" />
+  <client-only>
+    <nuxt-child :portfolio="portfolio" :error="error" />
+  </client-only>
 </template>
 
 <script>
