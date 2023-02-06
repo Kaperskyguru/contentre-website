@@ -82,8 +82,8 @@ export default {
           skip: 0,
           filters: {
             ...this.filters,
-            username: this.username,
-            code: this.code,
+            username: this.$route?.params?.portfolio,
+            code: this.$route?.params?.code,
             url: `${url}${this.$route.fullPath}`,
           },
         }
@@ -96,7 +96,7 @@ export default {
         }
       },
       skip() {
-        return !this.username && !this.code
+        return !this.$route?.params?.portfolio && !this.$route?.params?.code
       },
     },
   },
