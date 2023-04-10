@@ -156,6 +156,13 @@ export default {
         href: '/favicon-32x32.png',
       },
     ],
+    
+        script: [
+      {
+        src: 'https://cdn.paddle.com/paddle/paddle.js',
+        hid: 'Paddle'
+      }
+         ]
   },
 
   env: {
