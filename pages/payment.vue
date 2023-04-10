@@ -14,7 +14,7 @@ layout:"techpad",
   },
   methods: {
     async openPayment() {
-      await Paddle.Checkout.open({ product: 822998 })
+      await Paddle.Checkout.open({ product: Number(822998) })
     }
   }
 }
