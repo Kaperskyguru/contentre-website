@@ -12,7 +12,7 @@ layout:"techpad",
     Paddle.Setup({ vendor: 153088 })
     // Paddle.Checkout.open({ product: 822998 })
   },
-  method: {
+  methods: {
     openPayment() {
       Paddle.Checkout.open({ product: 822998 })
     }
