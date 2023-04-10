@@ -10,7 +10,7 @@ export default {
 layout:"techpad",
   mounted() {
     Paddle.Setup({ vendor: 153088 })
-    // Paddle.Checkout.open({ product: 822998 })
+    Paddle.Checkout.open({ product: 822998 })
   },
   methods: {
     async openPayment() {
