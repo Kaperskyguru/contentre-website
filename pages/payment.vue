@@ -13,8 +13,8 @@ layout:"techpad",
     // Paddle.Checkout.open({ product: 822998 })
   },
   methods: {
-    openPayment() {
-      Paddle.Checkout.open({ product: 822998 })
+    async openPayment() {
+      await Paddle.Checkout.open({ product: 822998 })
     }
   }
 }
