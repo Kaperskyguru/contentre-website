@@ -1,6 +1,8 @@
 <template>
+  <LinkOverview v-if="$store.state.isCustomDomain && !isPortfolio" />
+
   <PortfolioOverview
-    v-if="$store.state.isCustomDomain"
+    v-else-if="$store.state.isCustomDomain && isPortfolio"
     :portfolio="portfolio"
     :is-custom-domain="$store.state.isCustomDomain"
     :domain="$store.state.domain"
@@ -10,12 +12,17 @@
 </template>
 
 <script>
-import { GET_PORTFOLIO_DETAIL } from '../graphql'
+import { GET_PORTFOLIO_DETAIL, GET_LINK_PROFILE } from '../graphql'
 export default {
   name: 'HomePage',
 
   layout({ req }) {
     const originalDomain = req && req?.headers['x-contentre-origin-domain']
+
+    if (originalDomain && originalDomain.includes('kap.codes')) {
+      return 'Link'
+    }
+
     if (originalDomain && !originalDomain.includes('contentre')) {
       return 'portfolio'
     }
@@ -26,6 +33,9 @@ export default {
       const originalDomain = req && req?.headers['x-contentre-origin-domain']
       if (originalDomain && !originalDomain.includes('contentre')) {
         store.state.isCustomDomain = true
+        store.state.type = originalDomain.includes('kap.codes')
+          ? 'link'
+          : 'portfolio'
         store.state.domain = originalDomain
       }
     }
@@ -36,12 +46,40 @@ export default {
 
     const client = context.app.apolloProvider.defaultClient
     const domain = context.store.state.domain
+    const type = context.store.state.type
     const filter = {}
     const skip = !context.store.state.domain
     // if (context.params.code) {
     //   filter.code = context.params.code
     //   skip = !context.params.portfolio && !context.params.code
     // }
+
+    if (type === 'link') {
+      try {
+        const {
+          data: { getLinkProfile: linkProfile },
+        } = await client.query({
+          query: GET_LINK_PROFILE,
+          variables: {
+            filters: {
+              username: context.params.username,
+            },
+          },
+          skip() {
+            return skip
+          },
+        })
+        return {
+          profile: {
+            ...linkProfile,
+          },
+        }
+      } catch (e) {
+        return {
+          error: true,
+        }
+      }
+    }
 
     try {
       const {
@@ -71,6 +109,13 @@ export default {
       }
     }
   },
+
+  computed: {
+    isPortfolio() {
+      return this.$store.state.type === 'portfolio'
+    },
+  },
+
   data: () => ({
     portfolio: {},
     error: false,

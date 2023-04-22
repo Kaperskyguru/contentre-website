@@ -10,3 +10,8 @@ export default {
 }
 </script>
 
+<style>
+body {
+  @apply !bg-[#EAF9FE];
+}
+</style>

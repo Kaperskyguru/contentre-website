@@ -1,16 +1,6 @@
 <template>
   <section class="w-full h-full">
     <LinkOverview :profile="profile" />
-    <div class="w-full py-10 md:pb-0 md:pt-10">
-      <div class="flex justify-center">
-        <a
-          target="_blank"
-          :href="`https://contentre.io/?source=linktree_${$route.params.username}`"
-          class="font-bold text-2xl cursor-pointer"
-          >Contentre</a
-        >
-      </div>
-    </div>
   </section>
 </template>
   
@@ -62,10 +52,5 @@ export default {
   },
 }
 </script>
-  
-<style>
-body {
-  @apply !bg-[#EAF9FE];
-}
-</style>
+
   
