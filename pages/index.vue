@@ -79,6 +79,7 @@ export default {
             return skip
           },
         })
+        console.log(linkProfile)
         return {
           profile: {
             ...linkProfile,
@@ -122,6 +123,7 @@ export default {
 
   computed: {
     isPortfolio() {
+      console.log(this.$store.state.type, 'isPortfolio')
       return this.$store.state.type === 'portfolio'
     },
   },
