@@ -1,5 +1,8 @@
 <template>
-  <LinkOverview v-if="$store.state.isCustomDomain && !isPortfolio" />
+  <LinkOverview
+    v-if="$store.state.isCustomDomain && !isPortfolio"
+    :profile="profile"
+  />
 
   <PortfolioOverview
     v-else-if="$store.state.isCustomDomain && isPortfolio"
