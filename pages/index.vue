@@ -19,6 +19,8 @@ export default {
   layout({ req }) {
     const originalDomain = req && req?.headers['x-contentre-origin-domain']
 
+    console.log(originalDomain, 'layout')
+
     if (originalDomain && originalDomain.includes('kap.codes')) {
       return 'Link'
     }
@@ -31,7 +33,10 @@ export default {
   middleware({ store, req }) {
     if (process.server) {
       const originalDomain = req && req?.headers['x-contentre-origin-domain']
-      if (originalDomain && !originalDomain.includes('contentre')) {
+      if (
+        (originalDomain && !originalDomain.includes('contentre')) ||
+        (originalDomain && originalDomain.includes('kap.codes'))
+      ) {
         store.state.isCustomDomain = true
         store.state.type = originalDomain.includes('kap.codes')
           ? 'link'
@@ -43,6 +48,8 @@ export default {
 
   async asyncData(context) {
     if (!context.store.state.isCustomDomain) return
+
+    console.log(context.store.state.type, 'layout')
 
     const client = context.app.apolloProvider.defaultClient
     const domain = context.store.state.domain
