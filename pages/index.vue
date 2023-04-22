@@ -72,7 +72,7 @@ export default {
           query: GET_LINK_PROFILE,
           variables: {
             filters: {
-              username: context.params.username,
+              username: context?.params?.username ?? 'kaperskyguru',
             },
           },
           skip() {
