@@ -22,8 +22,6 @@ export default {
   layout({ req }) {
     const originalDomain = req && req?.headers['x-contentre-origin-domain']
 
-    console.log(originalDomain, 'layout')
-
     if (originalDomain && originalDomain.includes('kap.codes')) {
       return 'Link'
     }
@@ -52,8 +50,6 @@ export default {
   async asyncData(context) {
     if (!context.store.state.isCustomDomain) return
 
-    console.log(context.store.state.type, 'layout')
-
     const client = context.app.apolloProvider.defaultClient
     const domain = context.store.state.domain
     const type = context.store.state.type
@@ -79,7 +75,6 @@ export default {
             return skip
           },
         })
-        console.log(linkProfile)
         return {
           profile: {
             ...linkProfile,
