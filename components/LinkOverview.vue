@@ -7,8 +7,8 @@
           <div class="flex justify-center w-full">
             <div>
               <Avatar
-                :src="profile.avatar"
-                :name="profile.name"
+                :src="avatar"
+                :name="name"
                 size="auto"
                 class="w-32 h-32"
               />
@@ -16,12 +16,12 @@
           </div>
           <div class="w-full text-center text-[#54605F] px-2">
             <h1 class="px-4 mt-6 mb-7 text-5xl text-[#DCF6F3]">
-              {{ profile.name }}
+              {{ name }}
             </h1>
 
-            <p class="text-[#EAF9FE]">{{ profile.jobTitle }}</p>
+            <p class="text-[#EAF9FE]">{{ jobTitle }}</p>
             <!-- eslint-disable-next-line vue/no-v-html -->
-            <p class="text-[#EAF9FE]" v-html="profile.bio"></p>
+            <p class="text-[#EAF9FE]" v-html="bio"></p>
           </div>
 
           <div class="px-4 mt-10 sm:px-7">
@@ -35,7 +35,7 @@
                 <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
               </div>
               <a
-                v-for="(portfolio, i) in profile.portfolios"
+                v-for="(portfolio, i) in portfolios"
                 :key="i"
                 class="flex justify-between items-center py-3 px-5 mb-5 text-[#54605F] hover:text-white bg-[#EAF9FE] hover:bg-[#8892b0] hover:bg-opacity-10 rounded-full transition"
                 target="_blank"
@@ -72,7 +72,7 @@
               <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
             </div>
             <a
-              v-for="(client, i) in profile.clients"
+              v-for="(client, i) in clients"
               :key="i"
               class="flex justify-between items-center py-3 px-5 mb-5 hover:text-white text-[#54605F] bg-[#EAF9FE] hover:bg-[#8892b0] hover:bg-opacity-10 rounded-full transition"
               target="_blank"
@@ -94,7 +94,7 @@
               <div class="w-[40%] h-[10px] border-b bg--red-500"></div>
             </div>
             <a
-              v-for="(social, i) in profile.socials"
+              v-for="(social, i) in allSocials"
               :key="i"
               class="flex justify-between items-center py-3 px-5 mb-5 hover:text-white text-[#54605F] bg-[#EAF9FE] hover:bg-[#8892b0] hover:bg-opacity-10 rounded-full transition"
               target="_blank"
@@ -110,53 +110,6 @@
             </a>
           </div>
         </div>
-        <!-- <div class="pt-5 pb-8 w-full bg-[#54605F]">
-          <div
-            class="py-4 mx-auto w-[90%] text-center text-[#54605F] md:w-[80%]"
-          >
-            <h2 class="mb-7 text-3xl">Contact Me</h2>
-            <div class="bg-white rounded-md">
-              <form class="flex flex-col gap-4 py-5 mx-auto w-[80%]">
-                <input
-                  type="text"
-                  class="p-2 w-full text-black rounded-lg border"
-                  placeholder="Name"
-                />
-                <input
-                  type="Email"
-                  class="p-2 w-full text-black rounded-lg border outline-none"
-                  placeholder="Email"
-                />
-
-                <textarea
-                  id=""
-                  name=""
-                  cols="30"
-                  rows="5"
-                  placeholder="Message"
-                  class="p-2 w-full text-black rounded-lg border"
-                ></textarea>
-
-                <button
-                  class="
-                    py-3
-                    px-6
-                    w-full
-                    text-lg
-                    font-medium
-                    text-white
-                    rounded-lg
-                    hover:opacity-90
-                    sm:col-span-6
-                    bg-[#102A27]
-                  "
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
     <div class="w-full py-10 md:pb-0 md:pt-10">
@@ -183,7 +136,7 @@ export default {
   },
 
   data: () => ({
-    socials: [
+    social: [
       {
         name: 'Facebook',
         icon: '~/assets/portfolio/Facebook.png',
@@ -214,6 +167,34 @@ export default {
   computed: {
     url() {
       return `${process.env.FE_URL ?? 'https://contentre.io'}`
+    },
+
+    avatar() {
+      return this.profile?.avatar
+    },
+
+    name() {
+      return this.profile?.name
+    },
+
+    jobTitle() {
+      return this.profile?.jobTitle
+    },
+
+    bio() {
+      return this.profile?.bio
+    },
+
+    portfolios() {
+      return this.profile?.portfolios
+    },
+
+    clients() {
+      return this.profile?.clients
+    },
+
+    allSocials() {
+      return this.profile?.socials
     },
   },
   methods: {

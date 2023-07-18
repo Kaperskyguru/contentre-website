@@ -156,13 +156,13 @@ export default {
         href: '/favicon-32x32.png',
       },
     ],
-    
-        script: [
+
+    script: [
       {
         src: 'https://cdn.paddle.com/paddle/paddle.js',
-        hid: 'Paddle'
-      }
-         ]
+        hid: 'Paddle',
+      },
+    ],
   },
 
   env: {
@@ -231,17 +231,17 @@ export default {
   devServerHandlers: [],
   hooks: {
     render: {
-      errorMiddleware(app) {
-        // eslint-disable-next-line node/handle-callback-err
-        app.use((error, req, res, next) => {
-          if (error) {
-            res.writeHead(307, {
-              Location: '/errors/404',
-            })
-          }
-          res.end()
-        })
-      },
+      // errorMiddleware(app) {
+      //   // eslint-disable-next-line node/handle-callback-err
+      //   app.use((error, req, res, next) => {
+      //     if (error) {
+      //       res.writeHead(307, {
+      //         Location: '/errors/404',
+      //       })
+      //     }
+      //     res.end()
+      //   })
+      // },
     },
   },
 }
