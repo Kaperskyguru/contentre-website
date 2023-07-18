@@ -136,7 +136,7 @@ export default {
   },
 
   data: () => ({
-    social: [
+    socials: [
       {
         name: 'Facebook',
         icon: '~/assets/portfolio/Facebook.png',
