@@ -218,7 +218,7 @@ export default {
   segment: {
     writeKey: process.env.SEGMENT_WRITE_KEY,
     disabled: false,
-    useRouter: rocess.env.SEGMENT_USE_ROUTER || true,
+    useRouter: process.env.SEGMENT_USE_ROUTER || true,
   },
 
   publicRuntimeConfig: {
