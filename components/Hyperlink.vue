@@ -1,7 +1,7 @@
 <template>
-  <nuxt-link v-bind="$attrs" :class="extraClasses" v-on="$listeners">
+  <NuxtLink v-bind="$attrs" :class="extraClasses" v-on="$listeners">
     <slot />
-  </nuxt-link>
+  </NuxtLink>
 </template>
 
 <script>

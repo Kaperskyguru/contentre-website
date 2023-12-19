@@ -71,19 +71,11 @@
             </p>
 
             <div class="my-5">
-              <nuxt-link
+              <NuxtLink
                 type="link"
-                class="
-                  py-[16px]
-                  px-[24px]
-                  bg-[#276862]
-                  rounded-[5px]
-                  text-white
-                  w-full
-                  md:w-[30%]
-                "
+                class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]"
                 to="/ambassadors"
-                >See All Ambassadors</nuxt-link
+                >See All Ambassadors</NuxtLink
               >
             </div>
           </div>
@@ -111,15 +103,7 @@
         </p>
 
         <div
-          class="
-            bg-gray-300
-            md:flex
-            justify-between
-            p-6
-            md:p-16
-            rounded-3xl
-            mt-16
-          "
+          class="bg-gray-300 md:flex justify-between p-6 md:p-16 rounded-3xl mt-16"
         >
           <div class="md:w-[50%]">
             <div class="md:w-[450px] md:h-[450px] rounded-3xl">
@@ -140,15 +124,7 @@
             </p>
             <div class="my-5 w-full">
               <a
-                class="
-                  py-[16px]
-                  px-[24px]
-                  bg-[#276862]
-                  rounded-[5px]
-                  text-white
-                  w-full
-                  md:w-[30%]
-                "
+                class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]"
                 href="https://contentre.io/succydcoder"
                 >View Portfolio</a
               >
@@ -156,18 +132,10 @@
           </div>
         </div>
         <div class="my-5 w-full">
-          <nuxt-link
-            class="
-              py-[16px]
-              px-[24px]
-              bg-[#276862]
-              rounded-[5px]
-              text-white
-              w-full
-              md:w-[30%]
-            "
+          <NuxtLink
+            class="py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white w-full md:w-[30%]"
             to="/ambassadors"
-            >See Previous Winners</nuxt-link
+            >See Previous Winners</NuxtLink
           >
         </div>
       </div>
@@ -364,17 +332,7 @@
 
     <section id="form" class="mt-10 mb-20 p-4">
       <div
-        class="
-          container
-          max-w-screen-xl
-          mx-auto
-          bg-gray-300
-          p-10
-          md:px-24 md:py-12
-          mt-10
-          md:mt-28
-          rounded-3xl
-        "
+        class="container max-w-screen-xl mx-auto bg-gray-300 p-10 md:px-24 md:py-12 mt-10 md:mt-28 rounded-3xl"
       >
         <div class="flex flex-col md:flex-row items-center">
           <div class="md:w-[80%] md:px-10">
@@ -440,18 +398,7 @@
 
               <div class="">
                 <TextField
-                  class="
-                    block
-                    w-full
-                    md:w-96
-                    py-3
-                    px-4
-                    rounded-lg
-                    focus:outline-none focus:ring focus:ring-[#286963]
-                    resize-none
-                    mb-10
-                    text-lg
-                  "
+                  class="block w-full md:w-96 py-3 px-4 rounded-lg focus:outline-none focus:ring focus:ring-[#286963] resize-none mb-10 text-lg"
                   placeholder="In your own words, tell us why you will be a good fit for the ambassador program. Please include links and/or profiles"
                   name=""
                   cols="30"
@@ -469,15 +416,7 @@
           <div class="items-center justify-center mt-10 md:mt-0 md:w-[50%]">
             <a href="http://bit.ly/ContentreAmbassadorProgram" target="_blank">
               <HomeButton
-                class="
-                  w-full
-                  md:w-[100%]
-                  py-5 py-[16px]
-                  px-[24px]
-                  bg-[#276862]
-                  rounded-[5px]
-                  text-white
-                "
+                class="w-full md:w-[100%] py-5 py-[16px] px-[24px] bg-[#276862] rounded-[5px] text-white"
                 >Apply Here</HomeButton
               >
             </a>

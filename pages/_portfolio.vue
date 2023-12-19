@@ -149,7 +149,7 @@ export default {
           hid: this.$route.params?.portfolio ?? '',
           'data-website-id': id,
           'data-host-url': 'https://stats.contentre.io',
-          src: `https://stats.contentre.io/umami.js`,
+          src: `https://stats.contentre.io/script.js`,
           async: true,
           defer: true,
         }
@@ -159,7 +159,7 @@ export default {
         return {
           hid: this.$route.params?.portfolio ?? '',
           'data-website-id': id,
-          src: `http://localhost:3000/umami.js`,
+          src: `http://localhost:3000/script.js`,
           async: true,
           defer: true,
         }
@@ -168,7 +168,7 @@ export default {
         hid: this.$route.params?.portfolio ?? '',
         'data-website-id': id,
         'data-host-url': 'https://stats-staging.contentre.io',
-        src: `https://stats-staging.contentre.io/umami.js`,
+        src: `https://stats-staging.contentre.io/script.js`,
         async: true,
         defer: true,
       }

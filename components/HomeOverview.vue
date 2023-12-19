@@ -8,30 +8,13 @@
         >
           <div class="mt-14 xl:w-[55%]">
             <h1
-              class="
-                text-[23px]
-                md:text-[30px] md:leading-[40px]
-                lg:text-[50px] lg:leading-[70px]
-                text-[#102A27]
-                font-bold
-                text-center
-                lg:text-left
-              "
+              class="text-[23px] md:text-[30px] md:leading-[40px] lg:text-[50px] lg:leading-[70px] text-[#102A27] font-bold text-center lg:text-left"
             >
               Portfolio Builder <br />for Tech Writers.
             </h1>
 
             <p
-              class="
-                text-[14px] text-[#54605F]
-                md:text-base
-                font-medium
-                leading-relaxed
-                lg:w-[75%]
-                mt-5
-                text-center
-                lg:text-left
-              "
+              class="text-[14px] text-[#54605F] md:text-base font-medium leading-relaxed lg:w-[75%] mt-5 text-center lg:text-left"
             >
               Grow your technical writing career from one place. Organize all
               your content, manage clients, share samples, and publish your work
@@ -39,35 +22,14 @@
             </p>
             <div>
               <div
-                class="
-                  mt-16
-                  md:mt-8 md:flex md:justify-center
-                  lg:justify-start
-                  w-full
-                  mx-auto
-                  md:flex md:justify-between md:w-full
-                "
+                class="mt-16 md:mt-8 md:flex md:justify-center lg:justify-start w-full mx-auto md:flex md:justify-between md:w-full"
               >
                 <div class="w-full">
                   <input
                     v-model="email"
                     type="email"
                     placeholder="Enter your email address"
-                    class="
-                      border border-[#286963]
-                      text-[#286963]
-                      py-[12px]
-                      w-full
-                      px-[18px]
-                      md:py-[16px] md:px-[24px]
-                      font-medium
-                      w-full
-                      rounded-md
-                      outline-none
-                      text-[16px]
-                      bg-transparent
-                      placeholder:text-[#286963]
-                    "
+                    class="border border-[#286963] text-[#286963] py-[12px] w-full px-[18px] md:py-[16px] md:px-[24px] font-medium w-full rounded-md outline-none text-[16px] bg-transparent placeholder:text-[#286963]"
                   />
                 </div>
                 <div class="w-full">
@@ -75,17 +37,7 @@
                     :href="`https://app.contentre.io/auth/register?source=home_banner&email=${email}`"
                   >
                     <HomeButton
-                      class="
-                        py-[12px]
-                        px-[16px]
-                        md:py-[16px] md:px-[24px] md:ml-[16px]
-                        lg:ml-[10px]
-                        text-[16px]
-                        mt-4
-                        md:mt-0
-                        w-full
-                        md:w-fit
-                      "
+                      class="py-[12px] px-[16px] md:py-[16px] md:px-[24px] md:ml-[16px] lg:ml-[10px] text-[16px] mt-4 md:mt-0 w-full md:w-fit"
                       >Get Started. It's Free</HomeButton
                     ></a
                   >
@@ -111,11 +63,7 @@
 
                       <div class="md:ml-6">
                         <blockquote
-                          class="
-                            font-medium font-gilroy
-                            text-lg text-[#54605F]
-                            mb-6
-                          "
+                          class="font-medium font-gilroy text-lg text-[#54605F] mb-6"
                         >
                           <svg
                             aria-hidden="true"
@@ -225,27 +173,13 @@
     <section class="mt-20 px-8">
       <div class="text-center">
         <h3
-          class="
-            font-medium
-            text-2xl
-            md:text-4xl md:leading-snug
-            lg:text-5xl
-            text-[#102A27]
-            lg:leading-[62.4px]
-          "
+          class="font-medium text-2xl md:text-4xl md:leading-snug lg:text-5xl text-[#102A27] lg:leading-[62.4px]"
         >
           Save time & gain control over your <br />
           technical writing career
         </h3>
         <p
-          class="
-            text-[20px]
-            md:text-[28px] md:leading-loose
-            lg:text-[32px]
-            leading-[47px]
-            text-[#859492]
-            font-medium
-          "
+          class="text-[20px] md:text-[28px] md:leading-loose lg:text-[32px] leading-[47px] text-[#859492] font-medium"
         >
           Enjoy these features and more
         </p>
@@ -253,13 +187,7 @@
       <div class="mt-10 w-[80%] md:w-[90%] lg:w-[50%] mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 mt-2 gap-5 pt-">
           <div
-            class="
-              text-center
-              bg-[#FCFCFC]
-              border border-[#EFF1F1]
-              p-10
-              rounded-md
-            "
+            class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md"
           >
             <div class="flex justify-center mb-4">
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
@@ -274,13 +202,7 @@
             </p>
           </div>
           <div
-            class="
-              text-center
-              bg-[#FCFCFC]
-              border border-[#EFF1F1]
-              p-10
-              rounded-md
-            "
+            class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md"
           >
             <div class="flex justify-center mb-4">
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
@@ -296,13 +218,7 @@
             </p>
           </div>
           <div
-            class="
-              text-center
-              bg-[#FCFCFC]
-              border border-[#EFF1F1]
-              p-10
-              rounded-md
-            "
+            class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md"
           >
             <div class="flex justify-center mb-4">
               <img src="~/assets/imgs/send-2.png" alt="" class="" />
@@ -317,13 +233,7 @@
             </p>
           </div>
           <div
-            class="
-              text-center
-              bg-[#FCFCFC]
-              border border-[#EFF1F1]
-              p-10
-              rounded-md
-            "
+            class="text-center bg-[#FCFCFC] border border-[#EFF1F1] p-10 rounded-md"
           >
             <div class="flex justify-center mb-4">
               <img src="~/assets/imgs/document-text.png" alt="" class="" />
@@ -339,20 +249,12 @@
         </div>
 
         <div class="flex justify-center mt-12 mb-10">
-          <nuxt-link
+          <NuxtLink
             to="/product"
-            class="
-              bg-[#286963]
-              py-[16px]
-              px-[24px]
-              text-white
-              rounded-md
-              text-
-              base
-            "
+            class="bg-[#286963] py-[16px] px-[24px] text-white rounded-md text- base"
           >
             View more features
-          </nuxt-link>
+          </NuxtLink>
         </div>
       </div>
     </section>
@@ -372,23 +274,12 @@
           <div class="lg:flex lg:justify-around">
             <div class="lg:w-[38%] text-center lg:text-left">
               <h2
-                class="
-                  text-[#102A27] text-[40px]
-                  lg:text-[64px]
-                  font-medium
-                  leading-[76.5px]
-                "
+                class="text-[#102A27] text-[40px] lg:text-[64px] font-medium leading-[76.5px]"
               >
                 How it works.
               </h2>
               <p
-                class="
-                  text-[#859492] text-[24px]
-                  md:text-[28px]
-                  lg:text-[32px] lg:leading-[46.24px]
-                  mt-2
-                  lg:mt-5
-                "
+                class="text-[#859492] text-[24px] md:text-[28px] lg:text-[32px] lg:leading-[46.24px] mt-2 lg:mt-5"
               >
                 Start managing your freelance technical writing for free in less
                 time.
@@ -406,23 +297,12 @@
                 </div>
                 <div class="ml-10">
                   <p
-                    class="
-                      text-[#102A27] text-xl
-                      md:text-2xl
-                      leading-[26px]
-                      font-medium
-                    "
+                    class="text-[#102A27] text-xl md:text-2xl leading-[26px] font-medium"
                   >
                     Add your writing clients
                   </p>
                   <p
-                    class="
-                      text-[15px]
-                      lg:w-[50%]
-                      text-[#888888]
-                      mt-3
-                      leading-[24px]
-                    "
+                    class="text-[15px] lg:w-[50%] text-[#888888] mt-3 leading-[24px]"
                   >
                     Add as many writing clients as possible. You can even add
                     your own blog or platforms such as Medium, HashNode, Dev.to,
@@ -441,23 +321,12 @@
                 </div>
                 <div class="ml-10">
                   <p
-                    class="
-                      text-[#888888] text-xl
-                      md:text-2xl
-                      leading-[26px]
-                      font-medium
-                    "
+                    class="text-[#888888] text-xl md:text-2xl leading-[26px] font-medium"
                   >
                     Add/Paste link to your contents
                   </p>
                   <p
-                    class="
-                      text-[15px]
-                      lg:w-[50%]
-                      text-[#888888]
-                      mt-3
-                      leading-[24px]
-                    "
+                    class="text-[15px] lg:w-[50%] text-[#888888] mt-3 leading-[24px]"
                   >
                     Copy and paste the link to your content anywhere published
                     and let us do the magic. Also, you can create the content
@@ -476,24 +345,12 @@
                 </div>
                 <div class="ml-10">
                   <p
-                    class="
-                      text-[#888888] text-xl
-                      md:text-[24px]
-                      leading-[26px]
-                      font-medium
-                    "
+                    class="text-[#888888] text-xl md:text-[24px] leading-[26px] font-medium"
                   >
                     Enjoy modern technical writing career
                   </p>
                   <p
-                    class="
-                      text-[15px]
-                      lg:w-[50%]
-                      w-[90%]
-                      text-[#888888]
-                      mt-3
-                      leading-[24px]
-                    "
+                    class="text-[15px] lg:w-[50%] w-[90%] text-[#888888] mt-3 leading-[24px]"
                   >
                     Contentre gives your freelance technical writing career a
                     touch of excellence. Spend less time managing your freelance
@@ -516,13 +373,7 @@
         <div class="grid lg:grid-cols-2 gap-10 lg:gap-5">
           <div class="bg-[#FEF8FD] px-5 lg:px-10 pt-10 rounded-md">
             <h4
-              class="
-                text-[#102A27]
-                lg:font-medium
-                text-[20px]
-                font-bold
-                lg:text-[32px] lg:leading-[44.8px]
-              "
+              class="text-[#102A27] lg:font-medium text-[20px] font-bold lg:text-[32px] lg:leading-[44.8px]"
             >
               Organize all your content <br />
               in one place.
@@ -543,13 +394,7 @@
           </div>
           <div class="bg-[#DCF6F3] px-5 lg:px-10 pt-10 rounded-md">
             <h4
-              class="
-                text-[#102A27]
-                lg:font-medium
-                text-[20px]
-                font-bold
-                lg:text-[32px] lg:leading-[44.8px]
-              "
+              class="text-[#102A27] lg:font-medium text-[20px] font-bold lg:text-[32px] lg:leading-[44.8px]"
             >
               Comprehensive Content
               <br />
@@ -573,13 +418,7 @@
         <div class="lg:flex bg-[#EAF9FE] mt-4 rounded-md">
           <div class="lg:ml-10 mx-4 pt-6 lg:w-[60%]">
             <h4
-              class="
-                text-[#102A27]
-                lg:font-medium
-                text-[20px]
-                font-bold
-                lg:text-[32px] lg:leading-[44.8px]
-              "
+              class="text-[#102A27] lg:font-medium text-[20px] font-bold lg:text-[32px] lg:leading-[44.8px]"
             >
               Create and Customize your
               <br />
@@ -617,13 +456,7 @@
               />
             </div>
             <h3
-              class="
-                text-3xl
-                lg:text-5xl lg:leading-[62.4px]
-                text-[#102A27] text-center
-                mt-8
-                lg:mt-5
-              "
+              class="text-3xl lg:text-5xl lg:leading-[62.4px] text-[#102A27] text-center mt-8 lg:mt-5"
             >
               Unlock the benefits of modern technical writing
               <br />
@@ -645,13 +478,7 @@
                       >Organize Your</small
                     >
                     <h4
-                      class="
-                        text-white
-                        font-medium
-                        text-3xl
-                        lg:text-5xl lg:leading-[62.4px]
-                        mt-1
-                      "
+                      class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1"
                     >
                       Content
                     </h4>
@@ -707,13 +534,7 @@
                     >Manage Multiple Personalized</small
                   >
                   <h4
-                    class="
-                      text-white
-                      font-medium
-                      text-3xl
-                      lg:text-5xl lg:leading-[62.4px]
-                      mt-1
-                    "
+                    class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1"
                   >
                     Portfolios
                   </h4>
@@ -768,13 +589,7 @@
                       >Get</small
                     >
                     <h4
-                      class="
-                        text-white
-                        font-medium
-                        text-3xl
-                        lg:text-5xl lg:leading-[62.4px]
-                        mt-1
-                      "
+                      class="text-white font-medium text-3xl lg:text-5xl lg:leading-[62.4px] mt-1"
                     >
                       Results
                     </h4>
@@ -832,13 +647,7 @@
         <div class="grid lg:grid-cols-2 gap-5">
           <div class="lg:pt-10">
             <h4
-              class="
-                lg:text-5xl
-                text-4xl
-                font-medium
-                lg:leading-[62.4px]
-                text-[#102A27]
-              "
+              class="lg:text-5xl text-4xl font-medium lg:leading-[62.4px] text-[#102A27]"
             >
               What's new in <br />
               Contentre?
@@ -850,14 +659,7 @@
               </div>
               <div class="p-2 mb-1 mt-5">
                 <small
-                  class="
-                    text-[12px]
-                    leading-[18.96px]
-                    text-[#888888]
-                    ml-8
-                    md:ml-12
-                    lg:ml-7
-                  "
+                  class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7"
                   >WEBINAR</small
                 >
                 <div>
@@ -895,14 +697,7 @@
               </div>
               <div class="p-2 mb-2">
                 <small
-                  class="
-                    text-[12px]
-                    leading-[18.96px]
-                    text-[#888888]
-                    ml-8
-                    md:ml-12
-                    lg:ml-7
-                  "
+                  class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7"
                   >HELP CENTER</small
                 >
                 <div>
@@ -941,14 +736,7 @@
               </div>
               <div class="p-2 mb-2">
                 <small
-                  class="
-                    text-[12px]
-                    leading-[18.96px]
-                    text-[#888888]
-                    ml-8
-                    md:ml-12
-                    lg:ml-7
-                  "
+                  class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7"
                   >REQUEST A CERTIFIED CONTENTRE SPECIALIST</small
                 >
                 <div>
@@ -983,14 +771,7 @@
 
               <div class="p-2 mb-2">
                 <small
-                  class="
-                    text-[12px]
-                    leading-[18.96px]
-                    text-[#888888]
-                    ml-8
-                    md:ml-12
-                    lg:ml-7
-                  "
+                  class="text-[12px] leading-[18.96px] text-[#888888] ml-8 md:ml-12 lg:ml-7"
                   >HIRE TECHNICAL WRITERS</small
                 >
                 <div>
@@ -1009,11 +790,11 @@
                   </div>
                   <a href="#">
                     <div class="flex ml-3 md:ml-6">
-                      <nuxt-link to="/hiring">
+                      <NuxtLink to="/hiring">
                         <p class="text-[15px] text-[#286963] ml-5 lg:ml-0">
                           Hire Now
                         </p>
-                      </nuxt-link>
+                      </NuxtLink>
                       <div class="ml-4">
                         <img
                           src="~/assets/imgs/arrow-right-green1.png"

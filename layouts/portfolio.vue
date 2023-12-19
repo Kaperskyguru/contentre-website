@@ -3,16 +3,7 @@
     <div id="hero" class="sticky top-0 z-10 px-2 pt-2 w-full bg-white">
       <header class="container px-2 mx-auto" style="max-width: 1300px">
         <nav
-          class="
-            flex
-            z-30
-            flex-wrap
-            justify-between
-            items-center
-            py-4
-            w-full
-            md:py-0
-          "
+          class="flex z-30 flex-wrap justify-between items-center py-4 w-full md:py-0"
         >
           <div>
             <a href="/" class="inline-flex justify-center items-center">
@@ -51,7 +42,7 @@
     >
       <div class="grid grid-cols-2 p-2">
         <div class="justify-items-start grid-span-1">
-          <nuxt-link to="/" class="flex">
+          <NuxtLink to="/" class="flex">
             <div class="flex">
               <img
                 src="~/assets/imgs/Logo-contentre.png"
@@ -60,7 +51,7 @@
               />
               <h5 class="text-white text-md font-medium">Contentre</h5>
             </div>
-          </nuxt-link>
+          </NuxtLink>
           <p class="pt-2 text-sm text-white">
             Portfolio Builder for Tech Writers.
           </p>

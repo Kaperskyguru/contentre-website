@@ -5,7 +5,7 @@
       <!-- ------------Navbar-------------------- -->
       <nav class="flex justify-between relative fixed mt-4">
         <div v-click-outside="onClickOutside" class="flex items-center">
-          <nuxt-link to="/">
+          <NuxtLink to="/">
             <div class="flex">
               <img
                 src="~/assets/imgs/Logo-contentre.png"
@@ -14,23 +14,23 @@
               />
               <div class="text-[#102A27] font-bold text-xl">Contentre</div>
             </div>
-          </nuxt-link>
+          </NuxtLink>
 
           <div class="text-text-base hidden lg:block nav-menu ml-4">
             <ul class="flex text-[#888888]">
               <li class="ml-12">
-                <nuxt-link class="text-base text-[#888888]" to="/writers"
-                  >Why Contentre</nuxt-link
+                <NuxtLink class="text-base text-[#888888]" to="/writers"
+                  >Why Contentre</NuxtLink
                 >
               </li>
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/examples">Examples</nuxt-link>
+                <NuxtLink class="text-base" to="/examples">Examples</NuxtLink>
               </li>
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/pricing">Pricing</nuxt-link>
+                <NuxtLink class="text-base" to="/pricing">Pricing</NuxtLink>
               </li>
               <li class="ml-12">
-                <nuxt-link class="text-base" to="/product">Product</nuxt-link>
+                <NuxtLink class="text-base" to="/product">Product</NuxtLink>
               </li>
 
               <li class="ml-12">
@@ -48,19 +48,7 @@
                 <div
                   v-if="showResourceMenu"
                   id="myDropdown"
-                  class="
-                    dropdown-content
-                    bg-white
-                    absolute
-                    overflow-auto
-                    border-2 border-[#EFF1F1]
-                    rounded-lg
-                    shadow-[#EFF1F1]
-                    pt-[12px]
-                    pl-[2px]
-                    pr-[12px]
-                    z-20
-                  "
+                  class="dropdown-content bg-white absolute overflow-auto border-2 border-[#EFF1F1] rounded-lg shadow-[#EFF1F1] pt-[12px] pl-[2px] pr-[12px] z-20"
                 >
                   <a href="https://blog.contentre.io?source=home_header">
                     <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
@@ -82,18 +70,18 @@
                   </div>
 
                   <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <nuxt-link to="/templates"
+                    <NuxtLink to="/templates"
                       ><h6 class="text-base text-[#333333]">
                         Templates
-                      </h6></nuxt-link
+                      </h6></NuxtLink
                     >
                   </div>
 
                   <!-- <div class="hover:bg-[#EFF1F1] rounded-md py-[12px] px-3">
-                    <nuxt-link to="/examples"
+                    <NuxtLink to="/examples"
                       ><h6 class="text-base text-[#333333]">
                         Example Portfolios
-                      </h6></nuxt-link
+                      </h6></NuxtLink
                     >
                   </div> -->
 
@@ -132,34 +120,19 @@
         <div v-if="showMobileMenu">
           <div
             id="menu"
-            class="
-              absolute
-              flex flex-col
-              items-center
-              self-end
-              py-8
-              mt-10
-              space-y-6
-              font-bold
-              bg-white
-              sm:w-auto sm:self-center
-              left-6
-              right-6
-              drop-shadow-md
-              z-10
-            "
+            class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-10"
           >
-            <nuxt-link class="text-base text-[#888888]" to="/writers"
-              >Why Contentre</nuxt-link
+            <NuxtLink class="text-base text-[#888888]" to="/writers"
+              >Why Contentre</NuxtLink
             >
-            <nuxt-link to="/examples" class="text-base text-[#888888]"
-              >Examples</nuxt-link
+            <NuxtLink to="/examples" class="text-base text-[#888888]"
+              >Examples</NuxtLink
             >
-            <nuxt-link to="/pricing" class="text-base text-[#888888]"
-              >Pricing</nuxt-link
+            <NuxtLink to="/pricing" class="text-base text-[#888888]"
+              >Pricing</NuxtLink
             >
-            <nuxt-link to="/product" class="text-base text-[#888888]"
-              >Product</nuxt-link
+            <NuxtLink to="/product" class="text-base text-[#888888]"
+              >Product</NuxtLink
             >
 
             <a
@@ -170,15 +143,7 @@
             <div class="text-sm lg:hidden">
               <a href="https://app.contentre.io/"
                 ><button
-                  class="
-                    bg-[#286963]
-                    py-[12px]
-                    px-[32px]
-                    text-white
-                    rounded-md
-                    text-sm
-                    inline-block
-                  "
+                  class="bg-[#286963] py-[12px] px-[32px] text-white rounded-md text-sm inline-block"
                 >
                   Log In
                 </button></a
@@ -186,14 +151,7 @@
               <a
                 href="https://app.contentre.io/auth/register?source=home_header"
                 ><button
-                  class="
-                    bg-[#286963]
-                    py-[12px]
-                    px-[32px]
-                    text-white
-                    rounded-md
-                    text-sm
-                  "
+                  class="bg-[#286963] py-[12px] px-[32px] text-white rounded-md text-sm"
                 >
                   Get Started. It's Free
                 </button></a
@@ -209,15 +167,7 @@
           >
           <a href="https://app.contentre.io/auth/register?source=home_header"
             ><button
-              class="
-                bg-[#286963]
-                py-[12px]
-                px-[32px]
-                text-white
-                ml-8
-                rounded-md
-                text-sm
-              "
+              class="bg-[#286963] py-[12px] px-[32px] text-white ml-8 rounded-md text-sm"
             >
               Get Started. It's Free
             </button></a
@@ -234,7 +184,7 @@
       <div class="max-w-[80%] mx-auto pt-10 md:pt-16 pb-5">
         <div class="grid lg:grid-cols-3 gap-10 md:gap-16 lg:gap-40">
           <div class="lg:col-span-1">
-            <nuxt-link to="/" class="mb-5 flex">
+            <NuxtLink to="/" class="mb-5 flex">
               <div class="flex">
                 <img
                   src="~/assets/imgs/Logo-contentre.png"
@@ -243,7 +193,7 @@
                 />
                 <h5 class="text-white text-md font-medium">Contentre</h5>
               </div>
-            </nuxt-link>
+            </NuxtLink>
             <p class="text-[#E6E7E9] text-xs font-light leading-relaxed">
               Spend less time managing your freelance technical writing career
               and more time focused on your writing and getting more clients.
@@ -279,10 +229,10 @@
                 <h5 class="text-white mb-5 text-md font-medium">Company</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/ambassadors/program"
-                      >Ambassador Program</nuxt-link
+                      >Ambassador Program</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -315,10 +265,10 @@
                 <h5 class="text-white mb-5 text-md font-medium">Product</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/product"
-                      >All</nuxt-link
+                      >All</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -329,17 +279,17 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/writers"
-                      >For Technical Writers</nuxt-link
+                      >For Technical Writers</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/hiring"
-                      >Hire Technical Writers</nuxt-link
+                      >Hire Technical Writers</NuxtLink
                     >
                   </li>
                 </ul>
@@ -360,10 +310,10 @@
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/templates"
-                      >Templates</nuxt-link
+                      >Templates</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
@@ -387,31 +337,31 @@
                 <h5 class="text-white mb-5 text-md font-medium">Contact Us</h5>
                 <ul>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/contact#book_a_demo"
-                      >Book a Demo</nuxt-link
+                      >Book a Demo</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/contact#schedule_a_call"
-                      >Schedule a call</nuxt-link
+                      >Schedule a call</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/contact#chat_with_us"
-                      >Chat with us</nuxt-link
+                      >Chat with us</NuxtLink
                     >
                   </li>
                   <li class="mb-1 md:mb-2">
-                    <nuxt-link
+                    <NuxtLink
                       class="text-[#E6E7E9] text-xs font-light"
                       to="/contact#send_an_email"
-                      >Send an email</nuxt-link
+                      >Send an email</NuxtLink
                     >
                   </li>
                 </ul>
@@ -427,11 +377,7 @@
           >
           <li style="list-style: none">
             <button
-              class="
-                termly-cookie-preference-button
-                text-[#E6E7E9] text-xs
-                font-light
-              "
+              class="termly-cookie-preference-button text-[#E6E7E9] text-xs font-light"
               type="button"
               onclick="displayPreferenceModal()"
             >

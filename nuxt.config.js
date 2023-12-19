@@ -215,6 +215,12 @@ export default {
     pageViewEventName: 'index',
   },
 
+  segment: {
+    writeKey: process.env.SEGMENT_WRITE_KEY,
+    disabled: false,
+    useRouter: rocess.env.SEGMENT_USE_ROUTER || true,
+  },
+
   publicRuntimeConfig: {
     SEGMENT_WRITE_KEY: process.env.SEGMENT_WRITE_KEY,
     SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
